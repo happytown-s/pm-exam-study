@@ -1,0 +1,2752 @@
+[
+  {
+    "category": "Project Planning",
+    "question": "What is the primary purpose of a Work Breakdown Structure (WBS)?",
+    "options": [
+      {"text": "To decompose the project scope into manageable deliverables", "correct": true},
+      {"text": "To estimate project costs", "correct": false},
+      {"text": "To assign resources to tasks", "correct": false},
+      {"text": "To create a project schedule", "correct": false}
+    ],
+    "explanation": "A WBS decomposes the total project scope into smaller, more manageable components called work packages. It is a deliverable-oriented hierarchy that defines the total scope of the project."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which document formally authorizes the existence of a project and provides the project manager with authority to apply organizational resources?",
+    "options": [
+      {"text": "Project Charter", "correct": true},
+      {"text": "Scope Statement", "correct": false},
+      {"text": "Business Case", "correct": false},
+      {"text": "Project Management Plan", "correct": false}
+    ],
+    "explanation": "The Project Charter is the document that formally authorizes a project, gives the PM authority, and links the project to business needs and strategic objectives."
+  },
+  {
+    "category": "Project Planning",
+    "question": "In scope management, what is the difference between product scope and project scope?",
+    "options": [
+      {"text": "Product scope defines features/functions; project scope defines the work to deliver them", "correct": true},
+      {"text": "They are the same thing", "correct": false},
+      {"text": "Product scope is for manufacturing; project scope is for IT", "correct": false},
+      {"text": "Project scope includes only the schedule, not deliverables", "correct": false}
+    ],
+    "explanation": "Product scope measures the features and functions that characterize the product, service, or result. Project scope measures the work needed to deliver the product, service, or result."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is a milestone in project scheduling?",
+    "options": [
+      {"text": "A significant point or event in a project with zero duration", "correct": true},
+      {"text": "A task that takes exactly one week", "correct": false},
+      {"text": "The final deliverable of the project", "correct": false},
+      {"text": "A resource allocation unit", "correct": false}
+    ],
+    "explanation": "A milestone is a significant point or event in a project schedule. It has zero duration and is used to track progress and signal the completion of major phases or deliverables."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which planning technique involves determining the minimum number of resources needed to complete project activities within their time constraints?",
+    "options": [
+      {"text": "Resource leveling", "correct": true},
+      {"text": "Crashing", "correct": false},
+      {"text": "Fast-tracking", "correct": false},
+      {"text": "Critical chain method", "correct": false}
+    ],
+    "explanation": "Resource leveling adjusts the project schedule to keep resource usage at a constant level by resolving resource overallocations, often extending the project timeline."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is a stakeholder register used for?",
+    "options": [
+      {"text": "To identify and document all project stakeholders and their characteristics", "correct": true},
+      {"text": "To track project budget", "correct": false},
+      {"text": "To document project risks", "correct": false},
+      {"text": "To schedule meetings with team members", "correct": false}
+    ],
+    "explanation": "The stakeholder register identifies all project stakeholders and records their interests, involvement, interdependencies, influence, and potential impact on project success."
+  },
+  {
+    "category": "Project Planning",
+    "question": "In the planning phase, what does 'rolling wave planning' refer to?",
+    "options": [
+      {"text": "Planning near-term work in detail while leaving future work at a higher level", "correct": true},
+      {"text": "Creating multiple project schedules simultaneously", "correct": false},
+      {"text": "Re-planning the entire project after each milestone", "correct": false},
+      {"text": "Using agile sprints in a waterfall project", "correct": false}
+    ],
+    "explanation": "Rolling wave planning is an iterative planning technique where near-term work is planned in detail while future work is planned at a higher level, providing flexibility as more information becomes available."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the purpose of a Responsibility Assignment Matrix (RAM)?",
+    "options": [
+      {"text": "To show the relationship between work packages and team members", "correct": true},
+      {"text": "To estimate the duration of project activities", "correct": false},
+      {"text": "To define the project budget", "correct": false},
+      {"text": "To identify project risks", "correct": false}
+    ],
+    "explanation": "A RAM (such as a RACI chart) shows the relationship between project deliverables (or activities) and team members, clarifying who is Responsible, Accountable, Consulted, and Informed."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which process group does 'Develop Project Management Plan' belong to?",
+    "options": [
+      {"text": "Planning", "correct": true},
+      {"text": "Initiating", "correct": false},
+      {"text": "Executing", "correct": false},
+      {"text": "Monitoring and Controlling", "correct": false}
+    ],
+    "explanation": "Develop Project Management Plan is part of the Planning process group. It integrates all subsidiary plans and baselines into a comprehensive project management plan."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is a 'scope baseline' composed of?",
+    "options": [
+      {"text": "Scope statement, WBS, and WBS dictionary", "correct": true},
+      {"text": "Project charter and requirements documentation", "correct": false},
+      {"text": "Schedule baseline and cost baseline", "correct": false},
+      {"text": "Risk register and stakeholder register", "correct": false}
+    ],
+    "explanation": "The scope baseline consists of the project scope statement, the WBS, and the WBS dictionary. It is the approved version of the scope statement, WBS, and associated WBS dictionary."
+  },
+  {
+    "category": "Project Planning",
+    "question": "When performing stakeholder analysis, which technique classifies stakeholders based on their power, urgency, and legitimacy?",
+    "options": [
+      {"text": "Salience model", "correct": true},
+      {"text": "Power/Interest grid", "correct": false},
+      {"text": "Influence/Impact matrix", "correct": false},
+      {"text": "SWOT analysis", "correct": false}
+    ],
+    "explanation": "The salience model classifies stakeholders based on power (authority), urgency (time sensitivity), and legitimacy (appropriateness of involvement). Stakeholders with all three attributes have the highest salience."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is 'analogous estimation' also known as?",
+    "options": [
+      {"text": "Top-down estimation", "correct": true},
+      {"text": "Bottom-up estimation", "correct": false},
+      {"text": "Parametric estimation", "correct": false},
+      {"text": "Three-point estimation", "correct": false}
+    ],
+    "explanation": "Analogous estimation uses historical data from similar projects to estimate the current project. It is also called top-down estimation because it typically starts at the project level and drills down."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What does 'gold plating' mean in project scope management?",
+    "options": [
+      {"text": "Adding extra features or functionality beyond the agreed-upon requirements", "correct": true},
+      {"text": "Making the project plan look professional", "correct": false},
+      {"text": "Allocating additional budget for quality", "correct": false},
+      {"text": "Adding contingency reserves", "correct": false}
+    ],
+    "explanation": "Gold plating is the practice of adding extra features or functionality beyond what was agreed upon in the project requirements. It is generally considered a waste and increases risk of scope creep."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which type of dependency is inherent in the nature of the work being performed?",
+    "options": [
+      {"text": "Mandatory dependency", "correct": true},
+      {"text": "Discretionary dependency", "correct": false},
+      {"text": "External dependency", "correct": false},
+      {"text": "Internal dependency", "correct": false}
+    ],
+    "explanation": "Mandatory dependencies (also called hard logic) are inherent in the nature of the work. For example, you cannot test code until it has been written. They cannot be avoided or changed."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the lowest level of a WBS called?",
+    "options": [
+      {"text": "Work package", "correct": true},
+      {"text": "Activity", "correct": false},
+      {"text": "Task", "correct": false},
+      {"text": "Deliverable", "correct": false}
+    ],
+    "explanation": "The work package is the lowest level of a WBS. It is the point at which cost and duration can be reliably estimated and managed. Activities are derived from work packages."
+  },
+  {
+    "category": "Project Planning",
+    "question": "In project planning, what is a 'baseline'?",
+    "options": [
+      {"text": "An approved plan used as a comparison point for measuring performance", "correct": true},
+      {"text": "The initial budget estimate", "correct": false},
+      {"text": "The project schedule before any changes", "correct": false},
+      {"text": "A risk assessment template", "correct": false}
+    ],
+    "explanation": "A baseline is an approved version of a plan (scope, schedule, or cost) against which deviations are measured and controlled. It serves as the reference point for project performance evaluation."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What tool is used to visually represent project schedule information showing start and end dates of activities?",
+    "options": [
+      {"text": "Gantt chart", "correct": true},
+      {"text": "Fishbone diagram", "correct": false},
+      {"text": "Pareto chart", "correct": false},
+      {"text": "Control chart", "correct": false}
+    ],
+    "explanation": "A Gantt chart is a bar chart that shows project schedule information, with horizontal bars representing the start and end dates of activities. It is one of the most common project scheduling tools."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the 'define scope' process primarily concerned with?",
+    "options": [
+      {"text": "Developing a detailed description of the project and product", "correct": true},
+      {"text": "Creating the project charter", "correct": false},
+      {"text": "Estimating project costs", "correct": false},
+      {"text": "Identifying project stakeholders", "correct": false}
+    ],
+    "explanation": "The Define Scope process develops a detailed written description of the project and product scope, including project deliverables, acceptance criteria, and exclusions."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which planning element describes how requirements will be analyzed, documented, and managed?",
+    "options": [
+      {"text": "Requirements Management Plan", "correct": true},
+      {"text": "Scope Management Plan", "correct": false},
+      {"text": "Communications Management Plan", "correct": false},
+      {"text": "Quality Management Plan", "correct": false}
+    ],
+    "explanation": "The Requirements Management Plan describes how requirements activities will be planned, tracked, and reported, including configuration management, requirements prioritization, and traceability."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the primary output of the 'Collect Requirements' process?",
+    "options": [
+      {"text": "Requirements documentation", "correct": true},
+      {"text": "Project scope statement", "correct": false},
+      {"text": "WBS", "correct": false},
+      {"text": "Project charter", "correct": false}
+    ],
+    "explanation": "The primary output of Collect Requirements is the requirements documentation, which describes how individual requirements meet the business need for the project."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is a 'discretionary dependency' in project scheduling?",
+    "options": [
+      {"text": "A dependency based on best practices or preferences, not inherent requirements", "correct": true},
+      {"text": "A dependency required by the nature of the work", "correct": false},
+      {"text": "A dependency imposed by an external party", "correct": false},
+      {"text": "A dependency between internal team members", "correct": false}
+    ],
+    "explanation": "Discretionary dependencies (soft logic) are based on best practices, preferred sequences, or team preferences. They can be changed if needed and are not inherent to the work."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which document defines how the project scope will be verified and controlled?",
+    "options": [
+      {"text": "Scope Management Plan", "correct": true},
+      {"text": "Quality Management Plan", "correct": false},
+      {"text": "Change Management Plan", "correct": false},
+      {"text": "Risk Management Plan", "correct": false}
+    ],
+    "explanation": "The Scope Management Plan defines how the project scope will be defined, validated, and controlled. It includes processes for scope verification and managing scope changes."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the purpose of the 'plan procurement management' process?",
+    "options": [
+      {"text": "To document purchasing decisions and specify the approach for selecting sellers", "correct": true},
+      {"text": "To negotiate contracts with vendors", "correct": false},
+      {"text": "To evaluate seller proposals", "correct": false},
+      {"text": "To manage contract changes", "correct": false}
+    ],
+    "explanation": "Plan Procurement Management documents project procurement decisions, specifies the approach, and identifies potential sellers. It produces the procurement management plan and procurement statement of work."
+  },
+  {
+    "category": "Project Planning",
+    "question": "In a WBS dictionary, what information is typically included?",
+    "options": [
+      {"text": "Description of work, responsible party, acceptance criteria, and schedule information", "correct": true},
+      {"text": "Only the name of each work package", "correct": false},
+      {"text": "Budget and cost information only", "correct": false},
+      {"text": "Risk assessments for each deliverable", "correct": false}
+    ],
+    "explanation": "A WBS dictionary provides detailed information for each WBS component, including a description of the work, the responsible organization, schedule milestones, resource requirements, cost estimates, and acceptance criteria."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the 'critical chain method' of project scheduling?",
+    "options": [
+      {"text": "A method that modifies the schedule to account for limited resources and task dependencies", "correct": true},
+      {"text": "A method that identifies the longest path through a network diagram", "correct": false},
+      {"text": "A method that uses optimistic estimates for all tasks", "correct": false},
+      {"text": "A method that eliminates all buffers from the schedule", "correct": false}
+    ],
+    "explanation": "The critical chain method is a schedule network analysis technique that modifies the project schedule to account for limited resources and adds buffers to protect the project end date."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What does the 'planning process group' primarily produce?",
+    "options": [
+      {"text": "Project management plan and project documents", "correct": true},
+      {"text": "Project charter and stakeholder register", "correct": false},
+      {"text": "Deliverables and work performance data", "correct": false},
+      {"text": "Change requests and corrective actions", "correct": false}
+    ],
+    "explanation": "The Planning process group produces the project management plan and project documents. These include all subsidiary plans, baselines, and supporting documentation needed to execute and control the project."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which technique uses statistical relationships between historical data and other variables to estimate project parameters?",
+    "options": [
+      {"text": "Parametric estimation", "correct": true},
+      {"text": "Analogous estimation", "correct": false},
+      {"text": "Bottom-up estimation", "correct": false},
+      {"text": "Expert judgment", "correct": false}
+    ],
+    "explanation": "Parametric estimation uses an algorithm or statistical relationship between historical data and other project variables (e.g., cost per square foot, lines of code per hour) to calculate estimates."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the '8/80 rule' used for in WBS development?",
+    "options": [
+      {"text": "To guide the granularity of work packages (8 to 80 hours of effort)", "correct": true},
+      {"text": "To determine project budget limits", "correct": false},
+      {"text": "To define team size requirements", "correct": false},
+      {"text": "To set quality thresholds", "correct": false}
+    ],
+    "explanation": "The 8/80 rule suggests that no work package should take less than 8 hours or more than 80 hours of effort. This guideline helps ensure work packages are at an appropriate level of granularity for management."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the main difference between a Gantt chart and a network diagram?",
+    "options": [
+      {"text": "A Gantt chart shows time-based scheduling; a network diagram shows task dependencies", "correct": true},
+      {"text": "They show the same information in different formats", "correct": false},
+      {"text": "A network diagram shows costs; a Gantt chart shows resources", "correct": false},
+      {"text": "A Gantt chart is for agile; a network diagram is for waterfall", "correct": false}
+    ],
+    "explanation": "A Gantt chart displays activities as horizontal bars on a time axis, focusing on the schedule. A network diagram shows the logical relationships (dependencies) between activities, which is essential for critical path analysis."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What should be done when a project manager receives a change request from a stakeholder?",
+    "options": [
+      {"text": "Document the request and submit it through the integrated change control process", "correct": true},
+      {"text": "Implement the change immediately if the stakeholder is senior", "correct": false},
+      {"text": "Reject all changes to maintain the baseline", "correct": false},
+      {"text": "Forward it to the project sponsor for direct approval", "correct": false}
+    ],
+    "explanation": "All change requests should be documented and processed through the integrated change control process, which evaluates the impact and decides on approval or rejection by the Change Control Board (CCB)."
+  },
+  {
+    "category": "Project Planning",
+    "question": "Which scheduling tool shows the earliest and latest start and finish times for each activity?",
+    "options": [
+      {"text": "Schedule network diagram with forward and backward pass", "correct": true},
+      {"text": "Gantt chart", "correct": false},
+      {"text": "Milestone chart", "correct": false},
+      {"text": "Resource histogram", "correct": false}
+    ],
+    "explanation": "A schedule network diagram with forward and backward pass calculations shows the earliest and latest start/finish times for each activity, as well as the critical path and float values."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is 'scope creep'?",
+    "options": [
+      {"text": "Uncontrolled expansion of project scope without proper change management", "correct": true},
+      {"text": "Gradual improvement of project quality", "correct": false},
+      {"text": "Slow progress on project deliverables", "correct": false},
+      {"text": "Incremental delivery of project phases", "correct": false}
+    ],
+    "explanation": "Scope creep is the uncontrolled expansion of product or project scope without adjustments to time, cost, and resources. It typically occurs when changes are introduced without going through proper change control."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What does a 'project management information system (PMIS)' provide?",
+    "options": [
+      {"text": "Automated tools for project planning, scheduling, and tracking", "correct": true},
+      {"text": "Email communication for team members", "correct": false},
+      {"text": "Financial accounting software", "correct": false},
+      {"text": "Human resource management tools", "correct": false}
+    ],
+    "explanation": "A PMIS is an automated system (often software-based) that supports the project team in planning, scheduling, executing, and controlling the project, including features like Gantt charts, resource management, and reporting."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the hierarchical structure that organizes project risks by category?",
+    "options": [
+      {"text": "Risk Breakdown Structure (RBS)", "correct": true},
+      {"text": "Work Breakdown Structure (WBS)", "correct": false},
+      {"text": "Organizational Breakdown Structure (OBS)", "correct": false},
+      {"text": "Resource Breakdown Structure", "correct": false}
+    ],
+    "explanation": "A Risk Breakdown Structure (RBS) is a hierarchical representation of risks organized by category. It helps ensure comprehensive risk identification by covering all risk areas relevant to the project."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the 'achievement of the milestone' used to indicate?",
+    "options": [
+      {"text": "Completion of a major deliverable or phase", "correct": true},
+      {"text": "Budget expenditure threshold", "correct": false},
+      {"text": "Resource allocation completion", "correct": false},
+      {"text": "Risk mitigation success", "correct": false}
+    ],
+    "explanation": "Milestones are used to indicate the completion of major deliverables, project phases, or significant events. They serve as checkpoints to monitor project progress and communicate status to stakeholders."
+  },
+  {
+    "category": "Project Planning",
+    "question": "In stakeholder management, what does 'manage expectations' involve?",
+    "options": [
+      {"text": "Communicating and working with stakeholders to meet their needs and address issues", "correct": true},
+      {"text": "Lowering stakeholder expectations to match project reality", "correct": false},
+      {"text": "Avoiding communication with difficult stakeholders", "correct": false},
+      {"text": "Prioritizing only the most powerful stakeholders", "correct": false}
+    ],
+    "explanation": "Managing expectations involves actively communicating with stakeholders, understanding their needs and concerns, addressing issues as they arise, and fostering engagement throughout the project lifecycle."
+  },
+  {
+    "category": "Project Planning",
+    "question": "What is the purpose of the 'identify risks' process?",
+    "options": [
+      {"text": "To determine which risks may affect the project and document their characteristics", "correct": true},
+      {"text": "To eliminate all project risks", "correct": false},
+      {"text": "To calculate the financial impact of risks", "correct": false},
+      {"text": "To assign risk owners to team members", "correct": false}
+    ],
+    "explanation": "The Identify Risks process determines which individual project risks may affect the project and documents their characteristics. It produces the risk register as its primary output."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "If PV = 100, AC = 120, and EV = 80, what is the Schedule Performance Index (SPI)?",
+    "options": [
+      {"text": "0.80", "correct": true},
+      {"text": "1.20", "correct": false},
+      {"text": "0.67", "correct": false},
+      {"text": "1.25", "correct": false}
+    ],
+    "explanation": "SPI = EV / PV = 80 / 100 = 0.80. SPI < 1 means the project is behind schedule. Only 80% of the planned work has been earned."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "If PV = 100, AC = 120, and EV = 80, what is the Cost Performance Index (CPI)?",
+    "options": [
+      {"text": "0.67", "correct": true},
+      {"text": "0.80", "correct": false},
+      {"text": "1.20", "correct": false},
+      {"text": "1.50", "correct": false}
+    ],
+    "explanation": "CPI = EV / AC = 80 / 120 = 0.67. CPI < 1 means the project is over budget. For every $1 spent, only $0.67 worth of value has been earned."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does a Schedule Variance (SV) of -20 indicate?",
+    "options": [
+      {"text": "The project is behind schedule by 20 units of value", "correct": true},
+      {"text": "The project is ahead of schedule by 20 units", "correct": false},
+      {"text": "The project is over budget by $20", "correct": false},
+      {"text": "The project is under budget by $20", "correct": false}
+    ],
+    "explanation": "SV = EV - PV. A negative SV means the project is behind schedule. If SV = -20, the project has earned 20 units less value than was planned at this point."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does EAC (Estimate at Completion) represent in EVM?",
+    "options": [
+      {"text": "The projected total cost of the project at completion", "correct": true},
+      {"text": "The current actual cost", "correct": false},
+      {"text": "The planned budget at completion", "correct": false},
+      {"text": "The remaining cost to finish the project", "correct": false}
+    ],
+    "explanation": "EAC is the expected total cost of a project when the work is completed. It is a forecast based on current performance and remaining work. Formula depends on assumptions about future performance."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the most common EAC formula when cost performance is expected to continue at the current CPI rate?",
+    "options": [
+      {"text": "EAC = BAC / CPI", "correct": true},
+      {"text": "EAC = AC + ETC", "correct": false},
+      {"text": "EAC = AC + (BAC - EV)", "correct": false},
+      {"text": "EAC = AC + (BAC - EV) / CPI", "correct": false}
+    ],
+    "explanation": "When current CPI is expected to continue for the remainder of the project: EAC = BAC / CPI. This assumes the cost efficiency (or inefficiency) will persist throughout."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is TCPI (To-Complete Performance Index)?",
+    "options": [
+      {"text": "The cost performance needed to achieve a management goal with remaining resources", "correct": true},
+      {"text": "The total cost performance to date", "correct": false},
+      {"text": "The time performance index for remaining work", "correct": false},
+      {"text": "The target completion percentage", "correct": false}
+    ],
+    "explanation": "TCPI = (BAC - EV) / (BAC - AC) represents the cost performance that must be achieved on remaining work to meet the original BAC target. If TCPI > 1, the project needs to improve efficiency."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "In EVM, what does a CV (Cost Variance) of +15 indicate?",
+    "options": [
+      {"text": "The project is under budget by 15 units", "correct": true},
+      {"text": "The project is over budget by 15 units", "correct": false},
+      {"text": "The project is ahead of schedule by 15 units", "correct": false},
+      {"text": "The project is behind schedule by 15 units", "correct": false}
+    ],
+    "explanation": "CV = EV - AC = +15 means EV > AC. The project has earned more value than it has spent, indicating it is under budget."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is 'work performance information'?",
+    "options": [
+      {"text": "The analyzed performance data compared against baselines", "correct": true},
+      {"text": "Raw data collected during project execution", "correct": false},
+      {"text": "The project management plan updates", "correct": false},
+      {"text": "Change requests from stakeholders", "correct": false}
+    ],
+    "explanation": "Work performance information is the result of analyzing work performance data against project parameters (scope, schedule, cost). It is used for decision-making and project reporting."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the purpose of 'perform integrated change control'?",
+    "options": [
+      {"text": "To review all change requests, approve changes, and manage changes to deliverables", "correct": true},
+      {"text": "To implement changes directly without review", "correct": false},
+      {"text": "To create the change management plan", "correct": false},
+      {"text": "To communicate changes to all stakeholders", "correct": false}
+    ],
+    "explanation": "Perform Integrated Change Control is the process of reviewing all change requests, approving changes, and managing changes to deliverables, organizational process assets, project documents, and the project management plan."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does a CPI of 1.25 indicate about project performance?",
+    "options": [
+      {"text": "The project is under budget; earning $1.25 for every $1 spent", "correct": true},
+      {"text": "The project is over budget by 25%", "correct": false},
+      {"text": "The project is behind schedule", "correct": false},
+      {"text": "The project is using resources at 125% capacity", "correct": false}
+    ],
+    "explanation": "CPI = EV / AC = 1.25 means the project is under budget. For every $1 spent, $1.25 worth of value has been earned. CPI > 1 is favorable for cost efficiency."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the difference between corrective action and preventive action?",
+    "options": [
+      {"text": "Corrective reduces impact of past issues; preventive reduces probability of future issues", "correct": true},
+      {"text": "They are the same thing", "correct": false},
+      {"text": "Corrective is for schedule; preventive is for cost", "correct": false},
+      {"text": "Preventive actions are taken only in the planning phase", "correct": false}
+    ],
+    "explanation": "A corrective action is an intentional activity to realign the performance of the project work with the project management plan. A preventive action is an intentional activity to ensure the future performance of the project meets the plan."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is a 'change control board (CCB)'?",
+    "options": [
+      {"text": "A formally designated group responsible for reviewing and approving change requests", "correct": true},
+      {"text": "A team that implements approved changes", "correct": false},
+      {"text": "A group that identifies potential project changes", "correct": false},
+      {"text": "A steering committee for executive decisions only", "correct": false}
+    ],
+    "explanation": "A CCB is a formal group of stakeholders responsible for reviewing, evaluating, approving, delaying, or rejecting changes to the project, with documented roles and responsibilities."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is 'variance analysis' in project monitoring?",
+    "options": [
+      {"text": "Comparing actual performance against planned performance to identify deviations", "correct": true},
+      {"text": "Analyzing the budget variance only", "correct": false},
+      {"text": "Identifying new risks based on performance data", "correct": false},
+      {"text": "Calculating the standard deviation of task durations", "correct": false}
+    ],
+    "explanation": "Variance analysis involves comparing planned (baseline) vs. actual performance to determine the cause and degree of variance. It helps identify corrective actions needed to bring the project back on track."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does 'monitor and control project work' involve?",
+    "options": [
+      {"text": "Tracking, reviewing, and reporting progress to meet performance objectives", "correct": true},
+      {"text": "Executing the project management plan", "correct": false},
+      {"text": "Creating new project baselines", "correct": false},
+      {"text": "Managing the project team", "correct": false}
+    ],
+    "explanation": "Monitor and Control Project Work is the process of tracking, reviewing, and reporting the progress of the project to meet the performance objectives defined in the project management plan."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the formula for Estimate to Complete (ETC) when using the EAC-based approach?",
+    "options": [
+      {"text": "ETC = EAC - AC", "correct": true},
+      {"text": "ETC = BAC - EV", "correct": false},
+      {"text": "ETC = (BAC - EV) / CPI", "correct": false},
+      {"text": "ETC = AC + BAC", "correct": false}
+    ],
+    "explanation": "ETC = EAC - AC gives the expected cost to complete the remaining work based on the total EAC estimate minus the actual cost already incurred. It represents the remaining budget needed."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "In issue management, what is the difference between an issue and a risk?",
+    "options": [
+      {"text": "An issue has already occurred; a risk is a potential future event", "correct": true},
+      {"text": "Issues are always negative; risks can be positive", "correct": false},
+      {"text": "Issues are documented in the risk register", "correct": false},
+      {"text": "There is no difference; they are interchangeable terms", "correct": false}
+    ],
+    "explanation": "An issue is a problem or concern that has already occurred and needs to be addressed. A risk is an uncertain event that may or may not occur in the future. Issues are tracked in an issue log; risks in a risk register."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does 'work performance data' refer to?",
+    "options": [
+      {"text": "Raw observations and measurements collected during project execution", "correct": true},
+      {"text": "Analyzed and formatted performance reports", "correct": false},
+      {"text": "The project management plan", "correct": false},
+      {"text": "Stakeholder feedback", "correct": false}
+    ],
+    "explanation": "Work performance data is the raw data and observations collected during project execution (e.g., actual start/end dates, percent complete, actual costs). It is the input to monitoring and controlling processes."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "When should a project manager recommend a project cancellation?",
+    "options": [
+      {"text": "When the project no longer aligns with business objectives or BAC significantly exceeds benefits", "correct": true},
+      {"text": "When the project is 10% over budget", "correct": false},
+      {"text": "When team members request cancellation", "correct": false},
+      {"text": "When the schedule slips by one week", "correct": false}
+    ],
+    "explanation": "A PM should recommend cancellation when the project's business case is no longer valid, when continued investment cannot be justified, or when the cost to complete significantly exceeds the expected benefits."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is 'configuration management' in project execution?",
+    "options": [
+      {"text": "A systematic approach to managing changes to project deliverables and documentation", "correct": true},
+      {"text": "Managing server configurations", "correct": false},
+      {"text": "Setting up development environments", "correct": false},
+      {"text": "Managing team organization structure", "correct": false}
+    ],
+    "explanation": "Configuration management is a systematic process for managing changes to project deliverables and documentation, ensuring version control, and maintaining the integrity of project artifacts throughout the lifecycle."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is VAC (Variance at Completion)?",
+    "options": [
+      {"text": "The difference between the budget at completion and the estimate at completion", "correct": true},
+      {"text": "The variance between planned and actual cost at project end", "correct": false},
+      {"text": "The total cost variance over all project phases", "correct": false},
+      {"text": "The variance in schedule at completion", "correct": false}
+    ],
+    "explanation": "VAC = BAC - EAC. VAC is positive when the project is under budget and negative when over budget. It represents the projected cost overrun or underrun at the project's completion."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the primary purpose of 'direct and manage project work'?",
+    "options": [
+      {"text": "To lead and perform the work defined in the project management plan", "correct": true},
+      {"text": "To monitor project performance against baselines", "correct": false},
+      {"text": "To create the project schedule", "correct": false},
+      {"text": "To manage stakeholder expectations", "correct": false}
+    ],
+    "explanation": "Direct and Manage Project Work is the process of leading and performing the work defined in the project management plan and implementing approved changes to deliver project deliverables."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is a 'defect repair'?",
+    "options": [
+      {"text": "An intentionally performed activity to modify a nonconforming product or component", "correct": true},
+      {"text": "A preventive action to avoid future defects", "correct": false},
+      {"text": "A quality assurance activity", "correct": false},
+      {"text": "A change to the project scope", "correct": false}
+    ],
+    "explanation": "A defect repair is an intentionally performed activity to modify a nonconforming product or product component. It is documented as a change request and processed through integrated change control."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is 'lessons learned' documentation primarily used for?",
+    "options": [
+      {"text": "To capture knowledge for future projects and improve organizational processes", "correct": true},
+      {"text": "To assign blame for project failures", "correct": false},
+      {"text": "To evaluate team member performance", "correct": false},
+      {"text": "To create project reports for management", "correct": false}
+    ],
+    "explanation": "Lessons learned documentation captures knowledge gained during a project, including what went well and what could be improved. It is stored in organizational process assets for use in future projects."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "In EVM, if SPI = 0.85 and CPI = 0.90, what is the project's overall status?",
+    "options": [
+      {"text": "Behind schedule and over budget", "correct": true},
+      {"text": "Ahead of schedule and under budget", "correct": false},
+      {"text": "Behind schedule but under budget", "correct": false},
+      {"text": "On schedule but over budget", "correct": false}
+    ],
+    "explanation": "SPI = 0.85 < 1 means behind schedule. CPI = 0.90 < 1 means over budget. Both indices below 1 indicate the project needs corrective action in both schedule and cost areas."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What is the 'management reserve' in project cost management?",
+    "options": [
+      {"text": "Budget withheld for unforeseen work that is within the project scope", "correct": true},
+      {"text": "Budget for known risks identified in risk management", "correct": false},
+      {"text": "The total project budget", "correct": false},
+      {"text": "The contingency budget for scope changes", "correct": false}
+    ],
+    "explanation": "Management reserve is a specified amount of budget withheld for unforeseen work within project scope. It is not part of the cost baseline but is part of the total project budget. It requires management approval to use."
+  },
+  {
+    "category": "Project Execution & Control",
+    "question": "What does a 'status report' typically include?",
+    "options": [
+      {"text": "Progress against baselines, issues, risks, and upcoming milestones", "correct": true},
+      {"text": "Only cost and schedule data", "correct": false},
+      {"text": "Only team member activities", "correct": false},
+      {"text": "Only stakeholder feedback", "correct": false}
+    ],
+    "explanation": "A status report typically includes current progress against scope, schedule, and cost baselines, a summary of issues and risks, accomplishments, upcoming activities, and any decisions requiring stakeholder input."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the first step in the risk management process?",
+    "options": [
+      {"text": "Plan Risk Management", "correct": true},
+      {"text": "Identify Risks", "correct": false},
+      {"text": "Perform Qualitative Risk Analysis", "correct": false},
+      {"text": "Monitor Risks", "correct": false}
+    ],
+    "explanation": "Plan Risk Management is the first step, defining how risk activities will be structured and performed. It establishes the methodology, roles, budget, and timing for risk management activities."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the formula for Expected Monetary Value (EMV)?",
+    "options": [
+      {"text": "EMV = Probability x Impact", "correct": true},
+      {"text": "EMV = Probability + Impact", "correct": false},
+      {"text": "EMV = Probability / Impact", "correct": false},
+      {"text": "EMV = Impact - Probability", "correct": false}
+    ],
+    "explanation": "EMV = Probability x Impact. For example, a risk with a 30% probability of causing $10,000 in damage has an EMV of $3,000. EMV is used in decision trees and quantitative risk analysis."
+  },
+  {
+    "category": "Risk Management",
+    "question": "Which risk response strategy involves transferring the risk to a third party?",
+    "options": [
+      {"text": "Transfer", "correct": true},
+      {"text": "Mitigate", "correct": false},
+      {"text": "Accept", "correct": false},
+      {"text": "Avoid", "correct": false}
+    ],
+    "explanation": "Transfer shifts the impact of a threat to a third party, often through insurance, warranties, guarantees, or contracts. The risk is not eliminated but the financial impact is shared with another party."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is a 'risk trigger' (also called a warning sign)?",
+    "options": [
+      {"text": "An indicator that a risk event is about to occur", "correct": true},
+      {"text": "The root cause of a risk", "correct": false},
+      {"text": "The impact of a risk on project objectives", "correct": false},
+      {"text": "A mitigation strategy for a risk", "correct": false}
+    ],
+    "explanation": "A risk trigger is an indicator or condition that signals a risk event is about to occur or has occurred. Identifying triggers helps the team respond quickly and implement planned risk responses."
+  },
+  {
+    "category": "Risk Management",
+    "question": "In qualitative risk analysis, what does a probability-impact matrix help with?",
+    "options": [
+      {"text": "Prioritizing risks based on their probability and impact scores", "correct": true},
+      {"text": "Calculating the exact financial impact of risks", "correct": false},
+      {"text": "Eliminating all high-priority risks", "correct": false},
+      {"text": "Creating a project schedule", "correct": false}
+    ],
+    "explanation": "A probability-impact matrix is a grid that maps each risk based on its assessed probability and impact. It helps prioritize risks by showing which ones fall into high, medium, or low priority zones."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the 'avoid' risk response strategy?",
+    "options": [
+      {"text": "Changing the project plan to eliminate the threat entirely", "correct": true},
+      {"text": "Reducing the probability or impact of the risk", "correct": false},
+      {"text": "Doing nothing and accepting the consequences", "correct": false},
+      {"text": "Shifting the risk to a third party", "correct": false}
+    ],
+    "explanation": "Avoid involves changing the project management plan to eliminate the threat or to protect the project from its impact. It may involve changing scope, schedule, or strategy to avoid the risk entirely."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is Monte Carlo simulation used for in risk management?",
+    "options": [
+      {"text": "To model the probability of different project outcomes using random sampling", "correct": true},
+      {"text": "To identify the root cause of project risks", "correct": false},
+      {"text": "To create a detailed project schedule", "correct": false},
+      {"text": "To estimate the cost of individual activities", "correct": false}
+    ],
+    "explanation": "Monte Carlo simulation uses computer models to simulate thousands of possible project outcomes based on probability distributions of task durations and costs, producing a probability distribution of results (e.g., finish dates, total costs)."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is 'active acceptance' of a risk?",
+    "options": [
+      {"text": "Establishing a contingency plan and reserve to deal with the risk if it occurs", "correct": true},
+      {"text": "Ignoring the risk entirely", "correct": false},
+      {"text": "Transferring the risk to another party", "correct": false},
+      {"text": "Eliminating the risk from the project", "correct": false}
+    ],
+    "explanation": "Active acceptance involves establishing a contingency plan (including fallback plans and contingency reserves) to address the risk if it occurs. This is different from passive acceptance, which takes no action."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is a 'secondary risk'?",
+    "options": [
+      {"text": "A risk that arises as a direct result of implementing a risk response", "correct": true},
+      {"text": "A risk that occurs after the project is completed", "correct": false},
+      {"text": "A risk with low probability and high impact", "correct": false},
+      {"text": "A risk identified during project closure", "correct": false}
+    ],
+    "explanation": "A secondary risk is a risk that arises as a direct outcome of implementing a risk response strategy. For example, if you outsource a task to mitigate a risk, the vendor's performance becomes a new (secondary) risk."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What does a 'residual risk' refer to?",
+    "options": [
+      {"text": "The remaining risk after risk responses have been implemented", "correct": true},
+      {"text": "A risk that has been completely eliminated", "correct": false},
+      {"text": "A risk that was not identified during planning", "correct": false},
+      {"text": "A risk from a previous project phase", "correct": false}
+    ],
+    "explanation": "A residual risk is the risk that remains after risk response strategies have been implemented. These are the leftover risks that the project must live with and monitor throughout execution."
+  },
+  {
+    "category": "Risk Management",
+    "question": "Which technique uses a structured interview with risk experts to assess probability and impact?",
+    "options": [
+      {"text": "Probability distributions", "correct": true},
+      {"text": "SWOT analysis", "correct": false},
+      {"text": "Brainstorming", "correct": false},
+      {"text": "Checklist analysis", "correct": false}
+    ],
+    "explanation": "Probability distributions involve interviewing experts to define the probability distribution for a specific risk (e.g., optimistic, most likely, pessimistic estimates). This is used in quantitative risk analysis."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the purpose of a 'risk register'?",
+    "options": [
+      {"text": "To document all identified risks, their analysis, and planned responses", "correct": true},
+      {"text": "To track project schedule only", "correct": false},
+      {"text": "To manage stakeholder communications", "correct": false},
+      {"text": "To record project budget changes", "correct": false}
+    ],
+    "explanation": "The risk register is a comprehensive document that records all identified risks, their characteristics, root causes, potential responses, risk owners, and current status. It is the primary output of risk identification."
+  },
+  {
+    "category": "Risk Management",
+    "question": "In a decision tree analysis, what does each branch represent?",
+    "options": [
+      {"text": "A possible outcome with its probability and impact", "correct": true},
+      {"text": "A project milestone", "correct": false},
+      {"text": "A team member's responsibility", "correct": false},
+      {"text": "A project phase", "correct": false}
+    ],
+    "explanation": "In decision tree analysis, each branch represents a possible decision or outcome. Each outcome has an associated probability and monetary value (EMV), allowing comparison of different decision paths."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is 'risk appetite'?",
+    "options": [
+      {"text": "The degree of uncertainty an organization is willing to accept", "correct": true},
+      {"text": "The total budget allocated for risk management", "correct": false},
+      {"text": "The number of risks a project can handle", "correct": false},
+      {"text": "The maximum impact any single risk can have", "correct": false}
+    ],
+    "explanation": "Risk appetite is the degree of uncertainty an organization or individual is willing to accept in anticipation of a reward. It defines the level of risk an organization considers acceptable in pursuit of its objectives."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What technique uses the 'delphi method' for risk identification?",
+    "options": [
+      {"text": "Anonymous expert consensus through iterative questionnaires", "correct": true},
+      {"text": "Group brainstorming sessions", "correct": false},
+      {"text": "Statistical analysis of historical data", "correct": false},
+      {"text": "Interviews with project stakeholders", "correct": false}
+    ],
+    "explanation": "The Delphi method is a technique where anonymous experts provide risk inputs through iterative questionnaires. Responses are aggregated and shared, and experts revise their opinions until consensus is reached."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is 'risk urgency assessment'?",
+    "options": [
+      {"text": "Evaluating risks based on how soon they might occur and time to implement responses", "correct": true},
+      {"text": "Assessing the financial urgency of risk mitigation", "correct": false},
+      {"text": "Determining which risks require immediate budget allocation", "correct": false},
+      {"text": "Prioritizing risks based solely on their financial impact", "correct": false}
+    ],
+    "explanation": "Risk urgency assessment evaluates the urgency of addressing specific risks by considering indicators such as: how soon the risk may occur, the time needed to implement a response, and warning signs that the risk is approaching."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the difference between a 'threat' and an 'opportunity' in risk management?",
+    "options": [
+      {"text": "A threat has negative impact; an opportunity has positive impact", "correct": true},
+      {"text": "They are the same thing with different names", "correct": false},
+      {"text": "A threat is a schedule risk; an opportunity is a cost risk", "correct": false},
+      {"text": "Threats are identified; opportunities are created", "correct": false}
+    ],
+    "explanation": "A threat is a risk with a potential negative impact on project objectives (e.g., cost overrun, schedule delay). An opportunity is a risk with a potential positive impact (e.g., cost savings, schedule acceleration)."
+  },
+  {
+    "category": "Risk Management",
+    "question": "Which risk response strategy for opportunities involves ensuring the opportunity is realized?",
+    "options": [
+      {"text": "Exploit", "correct": true},
+      {"text": "Enhance", "correct": false},
+      {"text": "Share", "correct": false},
+      {"text": "Accept", "correct": false}
+    ],
+    "explanation": "Exploit is a positive risk response strategy that ensures the opportunity is realized. It involves allocating the best resources to the opportunity to make it definitely happen."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is a 'contingency reserve'?",
+    "options": [
+      {"text": "Budget set aside for identified risks (known unknowns)", "correct": true},
+      {"text": "Budget for unforeseeable risks (unknown unknowns)", "correct": false},
+      {"text": "The total project contingency budget", "correct": false},
+      {"text": "Reserve for scope changes", "correct": false}
+    ],
+    "explanation": "A contingency reserve is budget set aside to address identified risks (known unknowns). It is part of the cost baseline and the PM can use it without formal approval. Management reserve is for unknown unknowns."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is 'sensitivity analysis' used for in quantitative risk analysis?",
+    "options": [
+      {"text": "To determine which risks have the greatest potential impact on project objectives", "correct": true},
+      {"text": "To calculate the exact probability of each risk", "correct": false},
+      {"text": "To eliminate all risks from the project", "correct": false},
+      {"text": "To create a risk response plan", "correct": false}
+    ],
+    "explanation": "Sensitivity analysis (often displayed as a tornado diagram) helps determine which individual risks have the greatest potential impact on project objectives. It shows how variation in each risk factor affects the outcome."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What does 'escalate' mean as a risk response?",
+    "options": [
+      {"text": "Transferring the risk management responsibility to a higher authority", "correct": true},
+      {"text": "Increasing the priority of the risk", "correct": false},
+      {"text": "Assigning more budget to the risk", "correct": false},
+      {"text": "Reporting the risk to stakeholders", "correct": false}
+    ],
+    "explanation": "Escalation is used when a risk is outside the project's scope or authority. The risk is escalated to the appropriate level (sponsor, portfolio manager) who can better address it. The project retains the risk on its watch list."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the 'risk breakdown structure (RBS)' hierarchy based on?",
+    "options": [
+      {"text": "Risk categories such as technical, external, organizational, and project management", "correct": true},
+      {"text": "Project deliverables", "correct": false},
+      {"text": "Team members and their responsibilities", "correct": false},
+      {"text": "Budget categories", "correct": false}
+    ],
+    "explanation": "The RBS organizes risks by source category, typically including technical, external, organizational, and project management categories. It ensures comprehensive risk identification across all risk areas."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the purpose of 'risk reassessment' during project execution?",
+    "options": [
+      {"text": "To review the status of existing risks and identify new risks", "correct": true},
+      {"text": "To update the project schedule", "correct": false},
+      {"text": "To calculate the final project cost", "correct": false},
+      {"text": "To evaluate team performance", "correct": false}
+    ],
+    "explanation": "Risk reassessment involves regularly reviewing existing risks (to check if their probability, impact, or priority has changed) and identifying new risks that may have emerged as the project progresses."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is the key output of the 'perform qualitative risk analysis' process?",
+    "options": [
+      {"text": "Prioritized list of risks with qualitative ratings", "correct": true},
+      {"text": "Numerical probability and impact values for each risk", "correct": false},
+      {"text": "Risk response strategies", "correct": false},
+      {"text": "Updated project schedule", "correct": false}
+    ],
+    "explanation": "Perform Qualitative Risk Analysis prioritizes risks based on their probability and impact using a subjective approach. The output is a prioritized list of risks with urgency, categories, and watch list assignments."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What is 'enhance' as a positive risk response strategy?",
+    "options": [
+      {"text": "Increasing the probability and/or impact of a positive risk", "correct": true},
+      {"text": "Ensuring the opportunity definitely occurs", "correct": false},
+      {"text": "Sharing the opportunity with a third party", "correct": false},
+      {"text": "Accepting the opportunity without action", "correct": false}
+    ],
+    "explanation": "Enhance is a positive risk response that aims to increase the probability and/or impact of an opportunity. Unlike exploit, it does not guarantee the opportunity will occur but improves the chances."
+  },
+  {
+    "category": "Risk Management",
+    "question": "What tool identifies project risks by examining project assumptions for validity?",
+    "options": [
+      {"text": "Assumption and constraint analysis", "correct": true},
+      {"text": "SWOT analysis", "correct": false},
+      {"text": "Root cause analysis", "correct": false},
+      {"text": "Variance analysis", "correct": false}
+    ],
+    "explanation": "Assumption and constraint analysis examines the validity of project assumptions (if assumptions are invalid, risks may arise) and constraints (constraints may create risks). It is a systematic technique for risk identification."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is the difference between Quality Assurance (QA) and Quality Control (QC)?",
+    "options": [
+      {"text": "QA focuses on process improvement; QC focuses on product inspection", "correct": true},
+      {"text": "QA is for software; QC is for manufacturing", "correct": false},
+      {"text": "QA and QC are the same thing", "correct": false},
+      {"text": "QA tests the product; QC manages the process", "correct": false}
+    ],
+    "explanation": "QA is a process-focused approach to ensure quality in the processes used to create deliverables (prevention). QC is a product-focused approach that involves inspecting and testing deliverables to find defects (detection)."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does a Pareto chart help identify?",
+    "options": [
+      {"text": "The vital few causes that account for the majority of problems (80/20 rule)", "correct": true},
+      {"text": "The sequence of project activities", "correct": false},
+      {"text": "The cost breakdown of project components", "correct": false},
+      {"text": "The resource allocation across tasks", "correct": false}
+    ],
+    "explanation": "A Pareto chart is a bar chart ordered by frequency that applies the 80/20 rule: approximately 80% of problems are caused by 20% of the causes. It helps prioritize which quality issues to address first."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'cost of quality' (COQ)?",
+    "options": [
+      {"text": "The total cost of conformance + non-conformance to quality requirements", "correct": true},
+      {"text": "The cost of testing only", "correct": false},
+      {"text": "The cost of raw materials", "correct": false},
+      {"text": "The cost of rework only", "correct": false}
+    ],
+    "explanation": "Cost of Quality includes all costs incurred over the life of the product: Cost of Conformance (prevention costs + appraisal costs) + Cost of Non-Conformance (internal failure costs + external failure costs)."
+  },
+  {
+    "category": "Quality Management",
+    "question": "In quality management, what is a 'control chart' used for?",
+    "options": [
+      {"text": "To determine whether a process is stable and within control limits", "correct": true},
+      {"text": "To assign quality tasks to team members", "correct": false},
+      {"text": "To calculate the project budget", "correct": false},
+      {"text": "To schedule testing activities", "correct": false}
+    ],
+    "explanation": "A control chart graphs data points over time with upper and lower control limits. It helps determine whether a process is in statistical control (stable) or needs corrective action due to assignable causes."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'seven basic quality tools' include?",
+    "options": [
+      {"text": "Cause-and-effect diagram, control chart, flowchart, histogram, Pareto chart, scatter diagram, check sheet", "correct": true},
+      {"text": "Gantt chart, network diagram, WBS, RACI, risk register, milestone chart", "correct": false},
+      {"text": "Brainstorming, Delphi, SWOT, root cause analysis, decision tree", "correct": false},
+      {"text": "EVM, variance analysis, trend analysis, forecasting", "correct": false}
+    ],
+    "explanation": "The seven basic quality tools (also called 7QC tools) are: Cause-and-effect (Ishikawa) diagram, Control chart, Flowchart, Histogram, Pareto chart, Scatter diagram, and Check sheet. They are used for quality planning and control."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'defect density'?",
+    "options": [
+      {"text": "The number of defects per unit size (e.g., per 1,000 lines of code)", "correct": true},
+      {"text": "The severity of defects in a product", "correct": false},
+      {"text": "The total number of defects found", "correct": false},
+      {"text": "The rate at which defects are fixed", "correct": false}
+    ],
+    "explanation": "Defect density measures the number of defects per unit of size, such as per 1,000 lines of code (KLOC) or per function point. It is a quality metric used to compare quality across modules or projects."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is a 'fishbone diagram' also known as?",
+    "options": [
+      {"text": "Ishikawa diagram", "correct": true},
+      {"text": "Pareto diagram", "correct": false},
+      {"text": "Gantt chart", "correct": false},
+      {"text": "Flowchart", "correct": false}
+    ],
+    "explanation": "A fishbone diagram (Ishikawa diagram or cause-and-effect diagram) visually represents the potential causes of a specific problem. The spine represents the problem, and branches represent categories of causes."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'benchmarking' in quality management?",
+    "options": [
+      {"text": "Comparing project practices to similar projects or industry standards to identify best practices", "correct": true},
+      {"text": "Testing software against performance criteria", "correct": false},
+      {"text": "Setting quality thresholds for the project", "correct": false},
+      {"text": "Creating quality control checklists", "correct": false}
+    ],
+    "explanation": "Benchmarking involves comparing actual or planned practices to those of comparable projects or organizations to identify best practices, generate ideas for improvement, and provide a basis for measuring performance."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'statistical sampling' involve?",
+    "options": [
+      {"text": "Inspecting a representative sample rather than the entire population", "correct": true},
+      {"text": "Testing every unit produced", "correct": false},
+      {"text": "Using statistics to predict project outcomes", "correct": false},
+      {"text": "Analyzing historical data for patterns", "correct": false}
+    ],
+    "explanation": "Statistical sampling involves selecting a representative subset of a population for inspection rather than examining every item. It is cost-effective and can provide statistically valid results about overall quality."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'prevention cost' in COQ refer to?",
+    "options": [
+      {"text": "Costs incurred to prevent defects from occurring (e.g., training, quality planning)", "correct": true},
+      {"text": "Costs of inspecting and testing deliverables", "correct": false},
+      {"text": "Costs of reworking defective items", "correct": false},
+      {"text": "Costs of warranty claims", "correct": false}
+    ],
+    "explanation": "Prevention costs are invested to prevent defects from occurring in the first place. Examples include quality training, process documentation, quality planning, design reviews, and preventive maintenance."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'total quality management (TQM)'?",
+    "options": [
+      {"text": "An organizational approach to long-term success through customer satisfaction and continuous improvement", "correct": true},
+      {"text": "A project-level quality control technique", "correct": false},
+      {"text": "A testing methodology for software", "correct": false},
+      {"text": "A government regulation for quality standards", "correct": false}
+    ],
+    "explanation": "TQM is a comprehensive organizational approach focused on long-term success through customer satisfaction. It involves all members of an organization in improving processes, products, services, and culture."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'appraisal cost' include?",
+    "options": [
+      {"text": "Costs of testing, inspection, and audits to ensure conformance", "correct": true},
+      {"text": "Costs of training team members", "correct": false},
+      {"text": "Costs of fixing defects found in production", "correct": false},
+      {"text": "Costs of customer support", "correct": false}
+    ],
+    "explanation": "Appraisal costs are the costs of activities to ensure conformance to quality requirements. Examples include testing, inspections, audits, peer reviews, and quality verification activities."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is the purpose of 'quality audit'?",
+    "options": [
+      {"text": "To identify ineffective processes and identify best practices for improvement", "correct": true},
+      {"text": "To test individual deliverables", "correct": false},
+      {"text": "To evaluate team member performance", "correct": false},
+      {"text": "To verify project scope", "correct": false}
+    ],
+    "explanation": "A quality audit is a structured, independent review to determine whether project activities comply with organizational and project policies, processes, and procedures. It identifies best practices and areas for improvement."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is a 'scatter diagram' used for?",
+    "options": [
+      {"text": "To show the relationship between two variables and identify correlations", "correct": true},
+      {"text": "To display the frequency distribution of data", "correct": false},
+      {"text": "To track project milestones over time", "correct": false},
+      {"text": "To identify the most common defects", "correct": false}
+    ],
+    "explanation": "A scatter diagram plots pairs of numerical data on a graph to look for relationships between two variables. A positive correlation shows that as one variable increases, the other tends to increase as well."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'continuous improvement' in quality management?",
+    "options": [
+      {"text": "Ongoing effort to improve products, services, or processes incrementally", "correct": true},
+      {"text": "A one-time quality improvement initiative", "correct": false},
+      {"text": "A requirement for ISO certification only", "correct": false},
+      {"text": "A technique used only in manufacturing", "correct": false}
+    ],
+    "explanation": "Continuous improvement (Kaizen) is an ongoing effort to improve products, services, or processes through incremental enhancements. It involves regularly evaluating and refining processes based on feedback and performance data."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'MTBF' (Mean Time Between Failures)?",
+    "options": [
+      {"text": "The average time between system failures, measuring reliability", "correct": true},
+      {"text": "The average time to repair a system", "correct": false},
+      {"text": "The total system uptime", "correct": false},
+      {"text": "The maximum time a system can operate", "correct": false}
+    ],
+    "explanation": "MTBF measures the average time a system operates between failures. It is a key reliability metric: higher MTBF means better reliability. MTBF = Total Operating Time / Number of Failures."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'grade' mean in quality management, as opposed to 'quality'?",
+    "options": [
+      {"text": "Grade refers to features/characteristics; quality refers to fitness for use", "correct": true},
+      {"text": "Grade and quality are the same concept", "correct": false},
+      {"text": "Grade is a measure of quality", "correct": false},
+      {"text": "Quality is the grade assigned by the customer", "correct": false}
+    ],
+    "explanation": "Grade is a category or rank given to products/services with different features but not differing in quality. A low-grade product can still be high quality if it meets its intended requirements. Quality is fitness for use."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'failure mode and effect analysis (FMEA)'?",
+    "options": [
+      {"text": "A systematic technique to identify potential failure modes and their effects", "correct": true},
+      {"text": "A method to test software after failure", "correct": false},
+      {"text": "A quality control inspection technique", "correct": false},
+      {"text": "A post-incident analysis procedure", "correct": false}
+    ],
+    "explanation": "FMEA is a proactive technique that identifies potential failure modes of each component, assesses their effects, and prioritizes them based on severity, occurrence probability, and detectability (Risk Priority Number)."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What does 'process analysis' involve in quality management?",
+    "options": [
+      {"text": "Examining processes to identify non-value-added activities and improvement opportunities", "correct": true},
+      {"text": "Analyzing the quality of final deliverables", "correct": false},
+      {"text": "Reviewing project schedules for efficiency", "correct": false},
+      {"text": "Evaluating vendor performance", "correct": false}
+    ],
+    "explanation": "Process analysis follows process improvement steps (e.g., plan-do-check-act) to identify non-value-added activities, bottlenecks, and improvement opportunities in the processes used to create project deliverables."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is 'internal failure cost'?",
+    "options": [
+      {"text": "Costs incurred when defects are found before the product reaches the customer", "correct": true},
+      {"text": "Costs of training to prevent defects", "correct": false},
+      {"text": "Costs of customer complaints and returns", "correct": false},
+      {"text": "Costs of quality audits", "correct": false}
+    ],
+    "explanation": "Internal failure costs are incurred when defects are found before the product reaches the customer. Examples include rework, scrap, testing after rework, and downtime due to quality issues."
+  },
+  {
+    "category": "Quality Management",
+    "question": "What is the 'plan-do-check-act (PDCA) cycle' also known as?",
+    "options": [
+      {"text": "Deming Cycle", "correct": true},
+      {"text": "Six Sigma", "correct": false},
+      {"text": "Lean Manufacturing", "correct": false},
+      {"text": "Agile Manifesto", "correct": false}
+    ],
+    "explanation": "The PDCA cycle (also called the Deming Cycle) is a four-step model for continuous improvement: Plan (identify opportunity), Do (implement change), Check (review results), Act (standardize or repeat)."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'bottom-up estimation'?",
+    "options": [
+      {"text": "Estimating individual work packages or activities and aggregating them for the total", "correct": true},
+      {"text": "Using historical data from similar projects", "correct": false},
+      {"text": "Estimating at the project level and distributing downward", "correct": false},
+      {"text": "Using a formula based on project parameters", "correct": false}
+    ],
+    "explanation": "Bottom-up estimation estimates cost or duration at the individual activity or work package level and then rolls them up to higher levels. It is more accurate but also more time-consuming than top-down approaches."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What does 'parametric estimation' use to calculate cost estimates?",
+    "options": [
+      {"text": "Statistical relationships between historical data and project variables", "correct": true},
+      {"text": "Expert judgment from team members", "correct": false},
+      {"text": "Vendor quotes for all activities", "correct": false},
+      {"text": "A fixed percentage of the total budget", "correct": false}
+    ],
+    "explanation": "Parametric estimation uses statistical relationships between historical data and project variables (e.g., cost per square meter, cost per function point). It can produce higher accuracy when reliable data is available."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is the 'cost baseline'?",
+    "options": [
+      {"text": "The approved version of the project budget excluding management reserve", "correct": true},
+      {"text": "The total amount of money available for the project", "correct": false},
+      {"text": "The initial cost estimate before any analysis", "correct": false},
+      {"text": "The actual costs incurred to date", "correct": false}
+    ],
+    "explanation": "The cost baseline is the approved version of the time-phased project budget, excluding management reserve. It includes contingency reserves and is used as a reference to compare actual costs against planned costs."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'analogous cost estimation' best suited for?",
+    "options": [
+      {"text": "Early phases when detailed information is limited", "correct": true},
+      {"text": "Final budget approval when accuracy is critical", "correct": false},
+      {"text": "Fixed-price contracts", "correct": false},
+      {"text": "Projects with no historical data", "correct": false}
+    ],
+    "explanation": "Analogous estimation is most useful in the early phases of a project when detailed information is not yet available. It provides a rough order of magnitude estimate (-25% to +75%) based on similar past projects."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'earned value (EV)'?",
+    "options": [
+      {"text": "The value of work actually completed expressed in terms of the approved budget", "correct": true},
+      {"text": "The total budget allocated to the project", "correct": false},
+      {"text": "The actual cost incurred for work performed", "correct": false},
+      {"text": "The planned value of work scheduled", "correct": false}
+    ],
+    "explanation": "EV (Earned Value) represents the value of work actually completed. It is measured in terms of the budget authorized for that work. If you planned $100 worth of work and completed 80%, EV = $80."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What does 'planned value (PV)' represent?",
+    "options": [
+      {"text": "The authorized budget assigned to scheduled work", "correct": true},
+      {"text": "The actual cost of completed work", "correct": false},
+      {"text": "The estimated cost at project completion", "correct": false},
+      {"text": "The remaining budget for the project", "correct": false}
+    ],
+    "explanation": "PV (Planned Value) is the authorized budget assigned to the work scheduled to be accomplished. It represents how much work should have been done at a given point in time."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'actual cost (AC)' in EVM?",
+    "options": [
+      {"text": "The total cost incurred for the work actually performed", "correct": true},
+      {"text": "The budgeted cost of work scheduled", "correct": false},
+      {"text": "The estimated value of work completed", "correct": false},
+      {"text": "The forecasted cost at completion", "correct": false}
+    ],
+    "explanation": "AC (Actual Cost) is the total cost actually incurred and recorded for the work performed. It represents the real money spent on completing the work during a given period."
+  },
+  {
+    "category": "Cost Management",
+    "question": "In a cost-plus contract, what does the seller receive?",
+    "options": [
+      {"text": "Actual costs plus a profit margin (fee)", "correct": true},
+      {"text": "A fixed price regardless of actual costs", "correct": false},
+      {"text": "An hourly rate with no additional fees", "correct": false},
+      {"text": "A percentage of the project savings", "correct": false}
+    ],
+    "explanation": "In a cost-plus contract, the buyer reimburses the seller for actual costs plus an additional fee (profit margin). This transfers cost risk to the buyer. Types include cost-plus-fixed-fee (CPFF) and cost-plus-incentive-fee (CPIF)."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'learning curve' cost estimation based on?",
+    "options": [
+      {"text": "The principle that costs decrease as workers become more efficient with repetition", "correct": true},
+      {"text": "The cost of training new team members", "correct": false},
+      {"text": "The cost of learning new technology", "correct": false},
+      {"text": "The cost of historical research", "correct": false}
+    ],
+    "explanation": "The learning curve effect predicts that as production quantity doubles, the time (and cost) per unit decreases by a consistent percentage. For example, an 80% learning curve means each doubling reduces cost to 80% of previous."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'budget at completion (BAC)'?",
+    "options": [
+      {"text": "The total planned value for the project", "correct": true},
+      {"text": "The actual cost incurred to date", "correct": false},
+      {"text": "The estimated cost to complete the project", "correct": false},
+      {"text": "The contingency budget", "correct": false}
+    ],
+    "explanation": "BAC is the sum of all budget values established for the work to be performed on a project. It represents the total planned value of the project and is used as a reference for EVM calculations."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'three-point estimation' in cost management?",
+    "options": [
+      {"text": "Using optimistic, most likely, and pessimistic estimates to calculate an expected value", "correct": true},
+      {"text": "Getting three independent expert estimates", "correct": false},
+      {"text": "Estimating costs at three different project phases", "correct": false},
+      {"text": "Using three different estimation methods", "correct": false}
+    ],
+    "explanation": "Three-point estimation uses Optimistic (O), Most Likely (M), and Pessimistic (P) estimates. Expected cost = (O + 4M + P) / 6 (PERT weighting). This accounts for uncertainty and provides a more realistic estimate."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What does 'reserve analysis' determine?",
+    "options": [
+      {"text": "The amount of contingency and management reserves needed", "correct": true},
+      {"text": "The total project budget", "correct": false},
+      {"text": "The risk probability distribution", "correct": false},
+      {"text": "The schedule float for all activities", "correct": false}
+    ],
+    "explanation": "Reserve analysis determines how much contingency reserve (for known-unknowns) and management reserve (for unknown-unknowns) should be set aside to address project risks and uncertainties."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is a 'fixed-price contract' also known as?",
+    "options": [
+      {"text": "Lump sum contract", "correct": true},
+      {"text": "Cost-reimbursable contract", "correct": false},
+      {"text": "Time and materials contract", "correct": false},
+      {"text": "Unit price contract", "correct": false}
+    ],
+    "explanation": "A fixed-price (lump sum) contract sets a total price for the defined scope of work. The seller bears the cost risk. If actual costs exceed the agreed price, the seller absorbs the overrun (unless scope changes)."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is the relationship between management reserve and cost baseline?",
+    "options": [
+      {"text": "Management reserve is NOT part of the cost baseline", "correct": true},
+      {"text": "Management reserve is included in the cost baseline", "correct": false},
+      {"text": "Management reserve equals the cost baseline", "correct": false},
+      {"text": "Management reserve replaces the cost baseline", "correct": false}
+    ],
+    "explanation": "Management reserve is NOT part of the cost baseline. It is part of the total project budget but held separately. The PM cannot use management reserve without sponsor approval. Contingency reserve IS part of the cost baseline."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'life cycle costing'?",
+    "options": [
+      {"text": "Considering all costs over the entire life of the product, not just project costs", "correct": true},
+      {"text": "Estimating costs for each phase of the project", "correct": false},
+      {"text": "The total cost of a project from start to finish", "correct": false},
+      {"text": "The recurring operational costs after deployment", "correct": false}
+    ],
+    "explanation": "Life cycle costing considers all costs from initial concept through disposal, including acquisition, operation, maintenance, and disposal costs. It helps make decisions where the cheapest initial option may have higher long-term costs."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'value engineering' in cost management?",
+    "options": [
+      {"text": "Optimizing project costs while maintaining or improving quality and function", "correct": true},
+      {"text": "Engineering a product at the lowest possible cost", "correct": false},
+      {"text": "Estimating the value of project deliverables", "correct": false},
+      {"text": "Negotiating lower prices with vendors", "correct": false}
+    ],
+    "explanation": "Value engineering is a systematic approach to improving the value of a project by examining functions and eliminating unnecessary costs while maintaining or improving quality, reliability, and performance."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'procurement cost' analysis used for?",
+    "options": [
+      {"text": "To evaluate the total cost of acquiring goods/services, including hidden costs", "correct": true},
+      {"text": "To negotiate the lowest purchase price", "correct": false},
+      {"text": "To calculate the profit margin of a vendor", "correct": false},
+      {"text": "To determine the break-even point of a project", "correct": false}
+    ],
+    "explanation": "Procurement cost analysis evaluates the total cost of ownership, including purchase price, transportation, storage, maintenance, training, disposal, and other hidden costs, not just the initial purchase price."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is the difference between 'contingency reserve' and 'management reserve'?",
+    "options": [
+      {"text": "Contingency is for known risks; management reserve is for unknown risks", "correct": true},
+      {"text": "They are the same thing", "correct": false},
+      {"text": "Contingency is for unknown risks; management reserve is for known risks", "correct": false},
+      {"text": "Management reserve is for schedule; contingency is for cost", "correct": false}
+    ],
+    "explanation": "Contingency reserve addresses known-unknowns (identified risks) and is part of the cost baseline. Management reserve addresses unknown-unknowns (unidentified risks) and is separate from the cost baseline."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'cost aggregation' in project budgeting?",
+    "options": [
+      {"text": "Combining individual activity or work package costs to create total project cost", "correct": true},
+      {"text": "Reducing project costs through negotiation", "correct": false},
+      {"text": "Allocating budget across project phases", "correct": false},
+      {"text": "Comparing actual costs to planned costs", "correct": false}
+    ],
+    "explanation": "Cost aggregation sums the estimated costs of individual activities or work packages to establish an authorized cost baseline. Costs are typically aggregated by work package, control account, and project level."
+  },
+  {
+    "category": "Cost Management",
+    "question": "What is 'funding limit reconciliation'?",
+    "options": [
+      {"text": "Adjusting the project schedule to match available funding limits", "correct": true},
+      {"text": "Negotiating for additional project funding", "correct": false},
+      {"text": "Reducing the project scope to fit the budget", "correct": false},
+      {"text": "Reconciling vendor invoices with contract amounts", "correct": false}
+    ],
+    "explanation": "Funding limit reconciliation adjusts the project schedule or work plan to ensure that planned expenditures do not exceed the authorized funding limits at any point during the project."
+  },
+  {
+    "category": "Cost Management",
+    "question": "In a time-and-materials (T&M) contract, what determines the total cost?",
+    "options": [
+      {"text": "The actual time spent and materials used multiplied by agreed rates", "correct": true},
+      {"text": "A fixed price agreed upon in advance", "correct": false},
+      {"text": "Actual costs plus a fixed fee", "correct": false},
+      {"text": "The seller's cost structure", "correct": false}
+    ],
+    "explanation": "In a T&M contract, the buyer pays the seller based on actual time spent and materials used at pre-agreed unit rates. The total cost is uncertain as it depends on the actual effort required. A not-to-exceed amount is often included."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the 'critical path' in a project schedule?",
+    "options": [
+      {"text": "The longest path through the network diagram that determines the minimum project duration", "correct": true},
+      {"text": "The shortest path through the project schedule", "correct": false},
+      {"text": "The path with the most activities", "correct": false},
+      {"text": "The path with the highest total cost", "correct": false}
+    ],
+    "explanation": "The critical path is the longest sequence of dependent activities in a network diagram. It determines the shortest possible project duration. Any delay on the critical path directly delays the project end date."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'total float' (or total slack)?",
+    "options": [
+      {"text": "The amount of time an activity can be delayed without delaying the project end date", "correct": true},
+      {"text": "The total time allocated to an activity", "correct": false},
+      {"text": "The time an activity is ahead of schedule", "correct": false},
+      {"text": "The buffer time at the end of the project", "correct": false}
+    ],
+    "explanation": "Total float = LS - ES = LF - EF. It is the amount of time an activity can be delayed from its early start without affecting the project end date. Activities on the critical path have zero float."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "In PERT, what is the expected duration formula?",
+    "options": [
+      {"text": "(Optimistic + 4 x Most Likely + Pessimistic) / 6", "correct": true},
+      {"text": "(Optimistic + Most Likely + Pessimistic) / 3", "correct": false},
+      {"text": "Most Likely + (Pessimistic - Optimistic) / 6", "correct": false},
+      {"text": "2 x Most Likely - (Optimistic + Pessimistic) / 2", "correct": false}
+    ],
+    "explanation": "The PERT (Program Evaluation and Review Technique) expected duration formula is (O + 4M + P) / 6. This weighted average gives the most influence to the most likely estimate while considering the optimistic and pessimistic extremes."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'free float'?",
+    "options": [
+      {"text": "The amount of time an activity can be delayed without delaying the early start of its successor", "correct": true},
+      {"text": "The same as total float", "correct": false},
+      {"text": "The time between two consecutive activities", "correct": false},
+      {"text": "The buffer at the start of the project", "correct": false}
+    ],
+    "explanation": "Free float = ES(successor) - EF(current activity). It is the time an activity can be delayed without affecting the early start of the immediately following activity. Free float is always less than or equal to total float."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'crashing' a project schedule?",
+    "options": [
+      {"text": "Adding resources to critical path activities to compress the schedule at additional cost", "correct": true},
+      {"text": "Removing non-essential activities to shorten the schedule", "correct": false},
+      {"text": "Working overtime without additional resources", "correct": false},
+      {"text": "Reducing the quality of deliverables to save time", "correct": false}
+    ],
+    "explanation": "Crashing involves adding resources (e.g., more workers, overtime, additional equipment) to critical path activities to shorten the schedule. It always increases cost. The goal is to achieve the maximum compression for the minimum additional cost."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'fast-tracking' in schedule compression?",
+    "options": [
+      {"text": "Performing activities in parallel that were originally planned sequentially", "correct": true},
+      {"text": "Adding more resources to the project", "correct": false},
+      {"text": "Reducing the scope of the project", "correct": false},
+      {"text": "Extending work hours", "correct": false}
+    ],
+    "explanation": "Fast-tracking involves performing activities in parallel that were originally planned to be sequential. It increases risk and may cause rework because activities overlap, but it does not necessarily increase cost."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "In a network diagram, what does 'finish-to-start (FS)' mean?",
+    "options": [
+      {"text": "The successor activity cannot start until the predecessor finishes", "correct": true},
+      {"text": "Both activities finish at the same time", "correct": false},
+      {"text": "The predecessor starts after the successor starts", "correct": false},
+      {"text": "Both activities start at the same time", "correct": false}
+    ],
+    "explanation": "Finish-to-Start (FS) is the most common dependency type. The successor activity cannot begin until the predecessor activity has been completed. For example, you cannot start testing until coding is finished."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What does a 'lead' represent in schedule management?",
+    "options": [
+      {"text": "The amount of time a successor activity can be advanced before the predecessor finishes", "correct": true},
+      {"text": "The delay between two activities", "correct": false},
+      {"text": "The total project lead time", "correct": false},
+      {"text": "The duration of the first activity", "correct": false}
+    ],
+    "explanation": "A lead allows an acceleration of the successor activity. For example, with a FS+3 lead, the successor can start 3 days before the predecessor finishes. Leads can reduce the overall project schedule."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What does a 'lag' represent between activities?",
+    "options": [
+      {"text": "A waiting time or delay between the finish of one activity and the start of its successor", "correct": true},
+      {"text": "The duration of an activity", "correct": false},
+      {"text": "The buffer at the end of the project", "correct": false},
+      {"text": "The time saved by crashing", "correct": false}
+    ],
+    "explanation": "A lag is a delay between activities. For example, with FS+2 lag, the successor starts 2 days after the predecessor finishes. Lags can be used to model waiting periods, curing time, or other required delays."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'resource leveling' primarily used to address?",
+    "options": [
+      {"text": "Resource overallocations by adjusting the schedule", "correct": true},
+      {"text": "Critical path analysis", "correct": false},
+      {"text": "Cost estimation", "correct": false},
+      {"text": "Quality assurance", "correct": false}
+    ],
+    "explanation": "Resource leveling resolves resource overallocations by adjusting the schedule. It may extend the project timeline but ensures resources are not assigned to more work than they can handle simultaneously."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the 'forward pass' used for in schedule analysis?",
+    "options": [
+      {"text": "To calculate the earliest start and finish times for all activities", "correct": true},
+      {"text": "To calculate the latest start and finish times", "correct": false},
+      {"text": "To identify the critical path", "correct": false},
+      {"text": "To calculate total float", "correct": false}
+    ],
+    "explanation": "The forward pass starts from the beginning of the network and moves forward, calculating the Early Start (ES) and Early Finish (EF) for each activity. ES = max(EF of predecessors), EF = ES + duration."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the 'backward pass' used for?",
+    "options": [
+      {"text": "To calculate the latest start and finish times for all activities", "correct": true},
+      {"text": "To calculate earliest start and finish times", "correct": false},
+      {"text": "To determine project duration", "correct": false},
+      {"text": "To assign resources to activities", "correct": false}
+    ],
+    "explanation": "The backward pass starts from the project end date and moves backward, calculating the Late Finish (LF) and Late Start (LS) for each activity. LS = LF - duration, LF = min(LS of successors)."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is a 'start-to-start (SS)' dependency with a lag?",
+    "options": [
+      {"text": "The successor starts a specified time after the predecessor starts", "correct": true},
+      {"text": "Both activities start simultaneously", "correct": false},
+      {"text": "The predecessor starts after the successor starts", "correct": false},
+      {"text": "The successor starts before the predecessor starts", "correct": false}
+    ],
+    "explanation": "Start-to-Start (SS) with a lag means the successor starts a specified time after the predecessor begins. For example, SS+5 means the successor starts 5 days after the predecessor starts."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "How is the critical path determined?",
+    "options": [
+      {"text": "Activities with zero total float", "correct": true},
+      {"text": "Activities with the longest individual duration", "correct": false},
+      {"text": "Activities with the highest cost", "correct": false},
+      {"text": "Activities with the most dependencies", "correct": false}
+    ],
+    "explanation": "The critical path consists of activities with zero total float. These activities cannot be delayed without affecting the project end date. Multiple critical paths may exist, and the critical path can change as the project progresses."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the standard deviation in PERT analysis?",
+    "options": [
+      {"text": "(Pessimistic - Optimistic) / 6", "correct": true},
+      {"text": "(Pessimistic - Optimistic) / 3", "correct": false},
+      {"text": "(Most Likely - Optimistic) / 6", "correct": false},
+      {"text": "(Pessimistic - Most Likely) / 6", "correct": false}
+    ],
+    "explanation": "In PERT analysis, the standard deviation of an activity duration = (P - O) / 6. The project standard deviation = square root of sum of variances of critical path activities."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'schedule compression'?",
+    "options": [
+      {"text": "Techniques to shorten the project schedule without changing the project scope", "correct": true},
+      {"text": "Reducing the project scope to meet deadlines", "correct": false},
+      {"text": "Extending the project schedule to reduce costs", "correct": false},
+      {"text": "Reallocating budget to schedule-critical activities", "correct": false}
+    ],
+    "explanation": "Schedule compression techniques (crashing and fast-tracking) shorten the project schedule without changing the project scope. Both trade cost or risk for schedule reduction."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What does a 'Gantt chart with progress indicators' show?",
+    "options": [
+      {"text": "Planned vs. actual progress for each activity on a timeline", "correct": true},
+      {"text": "Only the planned schedule", "correct": false},
+      {"text": "Resource assignments only", "correct": false},
+      {"text": "Budget information for each task", "correct": false}
+    ],
+    "explanation": "A Gantt chart with progress indicators shows each activity's planned timeline alongside its actual progress. Completed portions are typically shown as filled bars, and variances from the plan are visually apparent."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the 'predecessor-successor relationship' in a network diagram?",
+    "options": [
+      {"text": "The logical dependency between an earlier activity and a later one", "correct": true},
+      {"text": "The reporting relationship between team members", "correct": false},
+      {"text": "The physical sequence of construction activities", "correct": false},
+      {"text": "The chronological order of project phases", "correct": false}
+    ],
+    "explanation": "A predecessor-successor relationship defines the logical dependency between activities. The predecessor must occur (fully or partially) before the successor can begin. These relationships are the foundation of the network diagram."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'resource smoothing'?",
+    "options": [
+      {"text": "Adjusting activities within their float to avoid resource overallocation without extending the project", "correct": true},
+      {"text": "Adding more resources to critical path activities", "correct": false},
+      {"text": "Reducing the project scope to match available resources", "correct": false},
+      {"text": "Allocating the same resources across all activities", "correct": false}
+    ],
+    "explanation": "Resource smoothing adjusts activities within their available float to avoid resource overallocations. Unlike resource leveling, it does not extend the project duration because it only uses available float."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What does 'finish-to-finish (FF)' dependency mean?",
+    "options": [
+      {"text": "The successor activity cannot finish until the predecessor activity finishes", "correct": true},
+      {"text": "Both activities finish at the same time", "correct": false},
+      {"text": "The successor starts when the predecessor finishes", "correct": false},
+      {"text": "Both activities must start before either can finish", "correct": false}
+    ],
+    "explanation": "Finish-to-Finish (FF) means the successor activity cannot complete until the predecessor activity is complete. For example, documentation cannot be finalized until development is fully complete."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is the 'start-to-finish (SF)' dependency?",
+    "options": [
+      {"text": "The successor cannot finish until the predecessor starts", "correct": true},
+      {"text": "The successor starts when the predecessor finishes", "correct": false},
+      {"text": "The predecessor starts after the successor finishes", "correct": false},
+      {"text": "Both activities start and finish simultaneously", "correct": false}
+    ],
+    "explanation": "Start-to-Finish (SF) is the rarest dependency type. The successor activity cannot finish until the predecessor activity starts. It is uncommon but may be used in shift transitions or similar scenarios."
+  },
+  {
+    "category": "Schedule Management",
+    "question": "What is 'critical chain project management (CCPM)'?",
+    "options": [
+      {"text": "A method that focuses on resource constraints and uses buffers instead of individual activity padding", "correct": true},
+      {"text": "A method that identifies the critical path in a Gantt chart", "correct": false},
+      {"text": "A method that eliminates all project buffers", "correct": false},
+      {"text": "A method for managing supply chain projects only", "correct": false}
+    ],
+    "explanation": "CCPM focuses on resource-constrained scheduling. It removes individual activity safety margins and adds a project buffer at the end and feeding buffers where non-critical paths merge with the critical chain."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the formula for calculating the number of communication channels in a project?",
+    "options": [
+      {"text": "n(n-1) / 2", "correct": true},
+      {"text": "n x n", "correct": false},
+      {"text": "2n", "correct": false},
+      {"text": "n!", "correct": false}
+    ],
+    "explanation": "Communication channels = n(n-1) / 2, where n is the number of stakeholders. For example, with 6 stakeholders: 6(5)/2 = 15 channels. Adding one person to 6 people adds 6 new channels (from 15 to 21)."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the 'power/interest grid' used for?",
+    "options": [
+      {"text": "Classifying stakeholders based on their power and interest to determine engagement strategy", "correct": true},
+      {"text": "Evaluating project risks", "correct": false},
+      {"text": "Creating the project schedule", "correct": false},
+      {"text": "Calculating project costs", "correct": false}
+    ],
+    "explanation": "The power/interest grid classifies stakeholders into four quadrants: Manage Closely (high power, high interest), Keep Satisfied (high power, low interest), Keep Informed (low power, high interest), and Monitor (low power, low interest)."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What should a communication management plan include?",
+    "options": [
+      {"text": "Stakeholder communication needs, methods, frequency, and responsible parties", "correct": true},
+      {"text": "Project budget details", "correct": false},
+      {"text": "Risk register contents", "correct": false},
+      {"text": "Quality metrics and thresholds", "correct": false}
+    ],
+    "explanation": "A communication management plan includes: who needs what information, when they need it, how it will be delivered, and who is responsible. It ensures efficient and effective communication with all stakeholders."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "In conflict resolution, what does 'collaborating' (problem-solving) involve?",
+    "options": [
+      {"text": "Working together to find a solution that satisfies all parties", "correct": true},
+      {"text": "One party gives in to the other", "correct": false},
+      {"text": "Finding a middle-ground compromise", "correct": false},
+      {"text": "Avoiding the conflict entirely", "correct": false}
+    ],
+    "explanation": "Collaborating (also called problem-solving or confronting) involves incorporating multiple viewpoints and working together to find a win-win solution. It is the most effective conflict resolution technique but may be time-consuming."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is 'active listening' in stakeholder management?",
+    "options": [
+      {"text": "Fully concentrating on, understanding, and responding to what is being communicated", "correct": true},
+      {"text": "Preparing your response while the other person is speaking", "correct": false},
+      {"text": "Taking notes during meetings", "correct": false},
+      {"text": "Asking questions to verify understanding", "correct": false}
+    ],
+    "explanation": "Active listening involves fully concentrating on what is being said, understanding the message, responding thoughtfully, and remembering the information. It includes nonverbal cues, paraphrasing, and asking clarifying questions."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the 'manage stakeholder engagement' process?",
+    "options": [
+      {"text": "Communicating and working with stakeholders to meet their needs and address issues", "correct": true},
+      {"text": "Identifying all project stakeholders", "correct": false},
+      {"text": "Creating the stakeholder register", "correct": false},
+      {"text": "Documenting stakeholder requirements", "correct": false}
+    ],
+    "explanation": "Manage Stakeholder Engagement involves communicating and working with stakeholders throughout the project to meet their needs, address issues, and foster engagement. It is an executing process."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "Which conflict resolution technique has the highest long-term effectiveness?",
+    "options": [
+      {"text": "Collaborate/Problem-solve", "correct": true},
+      {"text": "Compromise", "correct": false},
+      {"text": "Smooth/Accommodate", "correct": false},
+      {"text": "Force/Direct", "correct": false}
+    ],
+    "explanation": "Collaboration (problem-solving) is the most effective conflict resolution technique for long-term relationships. It addresses the root cause and finds a solution acceptable to all parties, though it requires the most time and effort."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the primary purpose of the 'identify stakeholders' process?",
+    "options": [
+      {"text": "To identify all people or organizations impacted by the project and document their interests", "correct": true},
+      {"text": "To negotiate project requirements with clients", "correct": false},
+      {"text": "To create the project budget", "correct": false},
+      {"text": "To develop the project schedule", "correct": false}
+    ],
+    "explanation": "Identify Stakeholders identifies all people, groups, or organizations that could impact or be impacted by the project, and documents relevant information about their interests, involvement, and potential impact."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is 'smoothing' (accommodating) in conflict resolution?",
+    "options": [
+      {"text": "Emphasizing areas of agreement to reduce tension while leaving the issue unresolved", "correct": true},
+      {"text": "Finding a middle-ground solution", "correct": false},
+      {"text": "Imposing one party's solution on the other", "correct": false},
+      {"text": "Withdrawing from the conflict", "correct": false}
+    ],
+    "explanation": "Smoothing (accommodating) emphasizes common ground and areas of agreement while downplaying differences. It reduces tension temporarily but does not resolve the root cause. Best for minor issues or when preserving relationships is paramount."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What percentage of a project manager's time is typically spent communicating?",
+    "options": [
+      {"text": "70-90%", "correct": true},
+      {"text": "10-20%", "correct": false},
+      {"text": "30-40%", "correct": false},
+      {"text": "50-60%", "correct": false}
+    ],
+    "explanation": "Project managers typically spend 70-90% of their time communicating. This includes meetings, emails, reports, presentations, and informal conversations. Effective communication is critical to project success."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the 'RACI chart' used for?",
+    "options": [
+      {"text": "To clarify roles and responsibilities for project activities", "correct": true},
+      {"text": "To track project risks", "correct": false},
+      {"text": "To manage project costs", "correct": false},
+      {"text": "To schedule project meetings", "correct": false}
+    ],
+    "explanation": "RACI chart defines Responsible (does the work), Accountable (approves and is ultimately answerable), Consulted (provides input), and Informed (kept updated) for each task. It prevents confusion about roles."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is a 'kickoff meeting'?",
+    "options": [
+      {"text": "The first meeting with the project team and stakeholders to establish common expectations", "correct": true},
+      {"text": "The final meeting before project closure", "correct": false},
+      {"text": "A meeting to discuss project risks", "correct": false},
+      {"text": "A vendor selection meeting", "correct": false}
+    ],
+    "explanation": "The kickoff meeting is held at the beginning of the project (or phase) to align stakeholders on project objectives, scope, schedule, roles, communication plans, and expectations. It sets the tone for the project."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the 'withdrawal' conflict resolution technique?",
+    "options": [
+      {"text": "Retreating or postponing the conflict without addressing it", "correct": true},
+      {"text": "Forcing your position on others", "correct": false},
+      {"text": "Finding a compromise solution", "correct": false},
+      {"text": "Working together to solve the problem", "correct": false}
+    ],
+    "explanation": "Withdrawal (avoiding) involves retreating from the conflict or postponing discussion. It is appropriate when the issue is minor, emotions are high, or more information is needed, but it does not resolve the conflict."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What should be included in a 'stakeholder engagement assessment matrix'?",
+    "options": [
+      {"text": "Current and desired engagement levels for each stakeholder (unaware, resistant, neutral, supportive, leading)", "correct": true},
+      {"text": "Stakeholder contact information only", "correct": false},
+      {"text": "Budget allocation per stakeholder", "correct": false},
+      {"text": "Communication frequency per stakeholder", "correct": false}
+    ],
+    "explanation": "The stakeholder engagement assessment matrix maps the current engagement level (C) vs. desired engagement level (D) for each stakeholder. Categories include unaware, resistant, neutral, supportive, and leading."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the most appropriate communication method for complex or sensitive information?",
+    "options": [
+      {"text": "Interactive communication (meetings, phone calls)", "correct": true},
+      {"text": "Push communication (emails, reports)", "correct": false},
+      {"text": "Pull communication (websites, knowledge bases)", "correct": false},
+      {"text": "Informal communication (hallway conversations)", "correct": false}
+    ],
+    "explanation": "Interactive communication (meetings, phone calls, video conferences) is best for complex or sensitive information because it allows real-time dialogue, clarification, and immediate feedback."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is 'force' (directing) as a conflict resolution technique?",
+    "options": [
+      {"text": "Imposing one's solution at the expense of others", "correct": true},
+      {"text": "Working together to find a mutual solution", "correct": false},
+      {"text": "Giving in to the other party's demands", "correct": false},
+      {"text": "Postponing the conflict for later", "correct": false}
+    ],
+    "explanation": "Force (directing) involves pushing one's viewpoint at the expense of others. It is a win-lose approach that is effective in emergencies when quick decisions are needed, but can damage relationships."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the difference between 'push' and 'pull' communication?",
+    "options": [
+      {"text": "Push sends info to recipients; pull makes info available for recipients to access", "correct": true},
+      {"text": "Push is for urgent info; pull is for non-urgent info", "correct": false},
+      {"text": "Push is email; pull is meetings", "correct": false},
+      {"text": "They are the same thing", "correct": false}
+    ],
+    "explanation": "Push communication (emails, reports, memos) is sent by the sender to specific recipients. Pull communication (websites, knowledge bases, portals) is placed where recipients can access it at their convenience."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is 'compromise' in conflict resolution?",
+    "options": [
+      {"text": "Finding a middle-ground solution where both parties give up something", "correct": true},
+      {"text": "One party wins and the other loses", "correct": false},
+      {"text": "Both parties get everything they want", "correct": false},
+      {"text": "Postponing the decision", "correct": false}
+    ],
+    "explanation": "Compromise involves both parties giving up something to reach a middle-ground solution. It is a lose-lose approach but can be useful when time is limited or when the issue is moderate in importance."
+  },
+  {
+    "category": "Stakeholder & Communication",
+    "question": "What is the primary risk of poor stakeholder communication?",
+    "options": [
+      {"text": "Misunderstandings leading to scope creep, rework, and project failure", "correct": true},
+      {"text": "Increased project budget", "correct": false},
+      {"text": "Team member turnover", "correct": false},
+      {"text": "Vendor contract disputes", "correct": false}
+    ],
+    "explanation": "Poor communication is one of the leading causes of project failure. It can lead to misunderstandings about requirements, missed expectations, scope creep, rework, delays, and ultimately project failure."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "Which contract type places the most cost risk on the buyer?",
+    "options": [
+      {"text": "Cost-plus contract", "correct": true},
+      {"text": "Fixed-price contract", "correct": false},
+      {"text": "Fixed-price with economic price adjustment", "correct": false},
+      {"text": "Firm-fixed-price contract", "correct": false}
+    ],
+    "explanation": "In a cost-plus contract, the buyer pays all actual costs plus a fee, so the buyer bears most of the cost risk. The seller is reimbursed for all legitimate costs regardless of the total amount."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'firm-fixed-price (FFP) contract'?",
+    "options": [
+      {"text": "A contract with a fixed total price that does not change regardless of seller costs", "correct": true},
+      {"text": "A contract where the price adjusts based on actual costs", "correct": false},
+      {"text": "A contract with a fixed fee plus actual costs", "correct": false},
+      {"text": "A contract with hourly billing rates", "correct": false}
+    ],
+    "explanation": "An FFP contract sets a fixed total price for a well-defined scope. The seller bears the cost risk. If actual costs exceed the agreed price, the seller absorbs the overrun. This is the simplest and most common contract type."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is an 'SLA' (Service Level Agreement)?",
+    "options": [
+      {"text": "A formal agreement defining the level of service expected from a vendor", "correct": true},
+      {"text": "A schedule listing all project activities", "correct": false},
+      {"text": "A budget allocation for services", "correct": false},
+      {"text": "A staffing plan for the project", "correct": false}
+    ],
+    "explanation": "An SLA defines the service levels expected from a vendor, including metrics like uptime percentage, response time, resolution time, and penalties for non-compliance. It is a key part of service contracts."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'procurement statement of work (SOW)'?",
+    "options": [
+      {"text": "A document describing the work to be performed by the seller in sufficient detail", "correct": true},
+      {"text": "The buyer's project management plan", "correct": false},
+      {"text": "A list of all vendors and their qualifications", "correct": false},
+      {"text": "The contract terms and conditions", "correct": false}
+    ],
+    "explanation": "A procurement SOW describes the products, services, or results to be provided by the seller in enough detail for prospective sellers to determine if they can provide the required work and at what cost."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is the purpose of 'source selection'?",
+    "options": [
+      {"text": "To evaluate seller proposals and choose the best seller for the project", "correct": true},
+      {"text": "To identify potential sellers in the market", "correct": false},
+      {"text": "To negotiate contract terms", "correct": false},
+      {"text": "To manage the seller relationship", "correct": false}
+    ],
+    "explanation": "Source selection involves evaluating proposals from prospective sellers using criteria such as cost, technical capability, past performance, and management approach, then selecting the seller who provides the best value."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is 'make-or-buy analysis'?",
+    "options": [
+      {"text": "Determining whether a product or service should be produced internally or purchased externally", "correct": true},
+      {"text": "Deciding whether to start or cancel a project", "correct": false},
+      {"text": "Evaluating vendor financial stability", "correct": false},
+      {"text": "Calculating the cost of producing deliverables", "correct": false}
+    ],
+    "explanation": "Make-or-buy analysis compares the cost and benefits of producing internally (make) versus purchasing from an external vendor (buy). It considers factors like available capacity, expertise, cost, control, and strategic alignment."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'fixed-price incentive fee (FPIF) contract'?",
+    "options": [
+      {"text": "A fixed-price contract with an incentive for the seller to meet or exceed performance targets", "correct": true},
+      {"text": "A cost-plus contract with a fixed fee", "correct": false},
+      {"text": "A time and materials contract with a cap", "correct": false},
+      {"text": "A contract where the seller gets paid only if the project succeeds", "correct": false}
+    ],
+    "explanation": "An FPIF contract has a fixed price plus an incentive for exceeding performance targets (e.g., completing early or under budget). It shares cost risk between buyer and seller while motivating the seller to perform well."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'bidder conference'?",
+    "options": [
+      {"text": "A meeting with prospective sellers to clarify the procurement requirements", "correct": true},
+      {"text": "A meeting between the project team and the sponsor", "correct": false},
+      {"text": "A vendor performance review meeting", "correct": false},
+      {"text": "A contract negotiation session", "correct": false}
+    ],
+    "explanation": "A bidder conference (also called vendor conference or pre-bid meeting) allows prospective sellers to ask questions about the procurement documents. All sellers receive the same information to ensure fair competition."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is the 'conduct procurements' process?",
+    "options": [
+      {"text": "Obtaining seller responses, selecting a seller, and awarding a contract", "correct": true},
+      {"text": "Planning the procurement approach", "correct": false},
+      {"text": "Managing the contract after award", "correct": false},
+      {"text": "Closing the contract at project end", "correct": false}
+    ],
+    "explanation": "Conduct Procurements involves obtaining seller responses (bids, proposals, quotes), evaluating them using selection criteria, selecting a seller, and awarding the contract. It is part of the executing process group."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is 'contract closure'?",
+    "options": [
+      {"text": "Completing and settling each contract including resolution of open items", "correct": true},
+      {"text": "Terminating a contract due to performance issues", "correct": false},
+      {"text": "Renegotiating contract terms", "correct": false},
+      {"text": "Extending a contract beyond its original end date", "correct": false}
+    ],
+    "explanation": "Contract closure is the process of completing and settling each contract, including resolving any open items, finalizing deliverable acceptance, and updating organizational process assets. Each contract must be formally closed."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What does 'privity' mean in contract management?",
+    "options": [
+      {"text": "A contractual relationship between the parties who agreed to the contract", "correct": true},
+      {"text": "The confidentiality of contract terms", "correct": false},
+      {"text": "The price of the contract", "correct": false},
+      {"text": "The duration of the contract", "correct": false}
+    ],
+    "explanation": "Privity refers to the legal relationship between parties who have entered into a contract. Only parties with privity can enforce the contract terms. Subcontractors may not have privity with the buyer."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'cost-plus-incentive-fee (CPIF) contract'?",
+    "options": [
+      {"text": "Cost reimbursement plus a fee that varies based on performance", "correct": true},
+      {"text": "A fixed-price contract with performance bonuses", "correct": false},
+      {"text": "A cost-plus contract with a fixed fee", "correct": false},
+      {"text": "A time-and-materials contract with incentives", "correct": false}
+    ],
+    "explanation": "A CPIF contract reimburses the seller for actual costs plus a fee that adjusts based on agreed performance criteria (e.g., cost, schedule, quality). It shares risk and incentivizes the seller to control costs."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What should be included in a 'non-disclosure agreement (NDA)'?",
+    "options": [
+      {"text": "Terms defining confidential information, obligations, and penalties for breach", "correct": true},
+      {"text": "Project schedule and milestones", "correct": false},
+      {"text": "Payment terms and pricing", "correct": false},
+      {"text": "Technical specifications", "correct": false}
+    ],
+    "explanation": "An NDA defines what information is considered confidential, how it must be handled, the duration of confidentiality, and the consequences of unauthorized disclosure. It protects proprietary information shared between parties."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is 'claims administration' in contract management?",
+    "options": [
+      {"text": "Managing and resolving disputes, claims, and appeals between buyer and seller", "correct": true},
+      {"text": "Processing payment requests from the seller", "correct": false},
+      {"text": "Evaluating seller performance", "correct": false},
+      {"text": "Negotiating new contract terms", "correct": false}
+    ],
+    "explanation": "Claims administration involves managing contested changes, claims, and appeals. When the buyer and seller cannot agree on compensation for changes, the claim is processed according to the contract's dispute resolution procedures."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is 'advertising' as a procurement tool?",
+    "options": [
+      {"text": "Publicly announcing the need for goods or services to attract potential sellers", "correct": true},
+      {"text": "Marketing the project to stakeholders", "correct": false},
+      {"text": "Promoting the project deliverables", "correct": false},
+      {"text": "Advertising the project to end users", "correct": false}
+    ],
+    "explanation": "Advertising involves placing procurement notices in public media to expand the list of potential sellers. It is commonly required for government or public sector procurement to ensure open competition."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is a 'letter of intent (LOI)' in procurement?",
+    "options": [
+      {"text": "A preliminary document indicating the buyer's intent to contract, before final agreement", "correct": true},
+      {"text": "A formal contract with full terms and conditions", "correct": false},
+      {"text": "A vendor's proposal for the project", "correct": false},
+      {"text": "A rejection notice to unsuccessful bidders", "correct": false}
+    ],
+    "explanation": "An LOI is a preliminary document expressing the buyer's intention to enter into a contract. It may authorize the seller to begin preliminary work before the final contract is signed. It is typically not legally binding except for specific clauses."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is 'centralized contracting'?",
+    "options": [
+      {"text": "A procurement department handles all contracts for the organization", "correct": true},
+      {"text": "Each project manager manages their own contracts", "correct": false},
+      {"text": "Contracts are managed by the finance department", "correct": false},
+      {"text": "Vendors manage all contract documentation", "correct": false}
+    ],
+    "explanation": "Centralized contracting means a dedicated procurement or contracts department manages all organizational contracts. This provides consistency, specialized expertise, and better terms through economies of scale."
+  },
+  {
+    "category": "Contract & Procurement",
+    "question": "What is the primary advantage of a 'fixed-price contract' for the buyer?",
+    "options": [
+      {"text": "Cost certainty - the buyer knows the total price in advance", "correct": true},
+      {"text": "Flexibility to change scope without additional cost", "correct": false},
+      {"text": "Lower overall cost compared to other contract types", "correct": false},
+      {"text": "Better quality deliverables", "correct": false}
+    ],
+    "explanation": "For the buyer, a fixed-price contract provides cost certainty since the total price is known in advance. The seller bears the cost risk. However, the scope must be well-defined for this contract type to work effectively."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is COBIT primarily used for?",
+    "options": [
+      {"text": "IT governance framework to align IT with business objectives", "correct": true},
+      {"text": "IT service management framework", "correct": false},
+      {"text": "Software development methodology", "correct": false},
+      {"text": "Project management methodology", "correct": false}
+    ],
+    "explanation": "COBIT (Control Objectives for Information and Related Technologies) is an IT governance framework that helps organizations bridge the gap between business objectives and IT goals. It provides a framework for IT management and control."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is the primary objective of a system audit?",
+    "options": [
+      {"text": "To evaluate the effectiveness and efficiency of IT systems and controls", "correct": true},
+      {"text": "To test software functionality", "correct": false},
+      {"text": "To assess employee performance", "correct": false},
+      {"text": "To verify project deliverables", "correct": false}
+    ],
+    "explanation": "A system audit evaluates the effectiveness, efficiency, and compliance of IT systems, controls, and processes. It ensures that IT systems adequately support business objectives and comply with regulations and standards."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'IT governance'?",
+    "options": [
+      {"text": "The framework for directing and controlling IT resources to support business objectives", "correct": true},
+      {"text": "The management of IT projects", "correct": false},
+      {"text": "The technical maintenance of IT systems", "correct": false},
+      {"text": "The procurement of IT equipment", "correct": false}
+    ],
+    "explanation": "IT governance is the system by which an organization directs and controls its current and future use of IT. It ensures IT supports business objectives, manages risks appropriately, and delivers value."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'segregation of duties (SoD)' in internal control?",
+    "options": [
+      {"text": "Dividing responsibilities among multiple people to prevent fraud and errors", "correct": true},
+      {"text": "Separating IT and business departments", "correct": false},
+      {"text": "Assigning each task to a dedicated specialist", "correct": false},
+      {"text": "Creating backup positions for all roles", "correct": false}
+    ],
+    "explanation": "Segregation of Duties divides critical functions among different individuals to prevent fraud and errors. For example, the person who approves purchases should not be the same person who processes payments."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is the 'J-SOX Act' (Japan's Financial Instruments and Exchange Act)?",
+    "options": [
+      {"text": "Japanese legislation requiring companies to implement internal controls over financial reporting", "correct": true},
+      {"text": "A Japanese IT security standard", "correct": false},
+      {"text": "A project management standard for Japanese companies", "correct": false},
+      {"text": "A software development framework", "correct": false}
+    ],
+    "explanation": "J-SOX (Japan's version of SOX) requires Japanese companies and their subsidiaries to implement and report on internal controls over financial reporting. It significantly impacts IT governance and system audit requirements."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'compliance' in IT governance?",
+    "options": [
+      {"text": "Ensuring IT systems and processes adhere to laws, regulations, and standards", "correct": true},
+      {"text": "Making IT systems faster", "correct": false},
+      {"text": "Reducing IT costs", "correct": false},
+      {"text": "Improving user satisfaction", "correct": false}
+    ],
+    "explanation": "Compliance means conforming to laws, regulations, standards, and policies that govern IT operations. It includes data protection laws, industry standards (PCI-DSS, HIPAA), and internal policies."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'IT balanced scorecard'?",
+    "options": [
+      {"text": "A framework to measure IT performance from multiple perspectives (financial, customer, process, learning)", "correct": true},
+      {"text": "A financial audit technique", "correct": false},
+      {"text": "A risk management tool", "correct": false},
+      {"text": "A project scheduling technique", "correct": false}
+    ],
+    "explanation": "The IT balanced scorecard adapts the balanced scorecard framework for IT governance. It measures IT performance from four perspectives: business value, user perspective, operational excellence, and future orientation."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'access control' in the context of IT security and audit?",
+    "options": [
+      {"text": "Managing who can access IT resources and what actions they can perform", "correct": true},
+      {"text": "Controlling physical access to data centers", "correct": false},
+      {"text": "Managing internet connectivity", "correct": false},
+      {"text": "Controlling software licenses", "correct": false}
+    ],
+    "explanation": "Access control determines who (users, processes, systems) can access which IT resources and what operations they can perform. It includes authentication, authorization, and accounting (AAA) mechanisms."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is the purpose of 'change management' in IT governance?",
+    "options": [
+      {"text": "To ensure IT changes are evaluated, approved, and implemented with minimal disruption", "correct": true},
+      {"text": "To manage organizational change and employee resistance", "correct": false},
+      {"text": "To replace outdated IT systems", "correct": false},
+      {"text": "To track software version updates", "correct": false}
+    ],
+    "explanation": "IT change management ensures that changes to IT systems are assessed, approved, implemented, and reviewed in a controlled manner. It minimizes the risk of disruption to services and maintains system integrity."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is an 'IT general control (ITGC)'?",
+    "options": [
+      {"text": "Controls that support the reliability of IT systems and the accuracy of processed data", "correct": true},
+      {"text": "Controls specific to individual applications", "correct": false},
+      {"text": "Controls for network security only", "correct": false},
+      {"text": "Controls for hardware maintenance", "correct": false}
+    ],
+    "explanation": "ITGCs are foundational controls that ensure the proper operation of IT systems. They include access controls, program change management, computer operations, and program development controls."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is a 'findings report' in a system audit?",
+    "options": [
+      {"text": "A document describing audit results including issues, risks, and recommendations", "correct": true},
+      {"text": "A project status report", "correct": false},
+      {"text": "A budget report", "correct": false},
+      {"text": "A vendor evaluation report", "correct": false}
+    ],
+    "explanation": "A findings report documents the results of a system audit, including observations, issues identified, their risk level, root causes, recommendations for improvement, and management responses."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'business continuity planning (BCP)'?",
+    "options": [
+      {"text": "Planning to ensure critical business functions continue during and after a disaster", "correct": true},
+      {"text": "Planning for business growth and expansion", "correct": false},
+      {"text": "Planning for product development", "correct": false},
+      {"text": "Planning for staff recruitment", "correct": false}
+    ],
+    "explanation": "BCP identifies critical business functions and creates strategies to maintain them during and after a disaster or major disruption. It includes business impact analysis, recovery strategies, and plan testing."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'disaster recovery planning (DRP)' in IT?",
+    "options": [
+      {"text": "Planning for the recovery of IT systems and infrastructure after a disaster", "correct": true},
+      {"text": "Planning for data backup procedures", "correct": false},
+      {"text": "Planning for system upgrades", "correct": false},
+      {"text": "Planning for server room design", "correct": false}
+    ],
+    "explanation": "DRP focuses specifically on IT infrastructure recovery after a disaster. It defines recovery objectives (RTO, RPO), recovery sites (hot/warm/cold), and procedures to restore IT systems to operational status."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'RTO' (Recovery Time Objective)?",
+    "options": [
+      {"text": "The maximum acceptable time to restore a system after a disruption", "correct": true},
+      {"text": "The time needed to install a new system", "correct": false},
+      {"text": "The time between system backups", "correct": false},
+      {"text": "The total system uptime target", "correct": false}
+    ],
+    "explanation": "RTO defines the maximum acceptable duration of time that a system can be offline after a failure or disaster. It drives the selection of recovery strategies and the investment needed for disaster recovery."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'RPO' (Recovery Point Objective)?",
+    "options": [
+      {"text": "The maximum acceptable data loss measured in time", "correct": true},
+      {"text": "The time to restore a backup", "correct": false},
+      {"text": "The frequency of system updates", "correct": false},
+      {"text": "The total data storage capacity", "correct": false}
+    ],
+    "explanation": "RPO defines the maximum acceptable amount of data loss measured in time. For example, if RPO is 4 hours, backups must be at least every 4 hours. RPO drives the backup strategy and frequency."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'information security management' (ISM)?",
+    "options": [
+      {"text": "Managing the confidentiality, integrity, and availability of information assets", "correct": true},
+      {"text": "Managing software development projects", "correct": false},
+      {"text": "Managing IT infrastructure", "correct": false},
+      {"text": "Managing database administration", "correct": false}
+    ],
+    "explanation": "ISM ensures the confidentiality (protecting from unauthorized access), integrity (protecting from unauthorized modification), and availability (ensuring accessible when needed) of information assets - the CIA triad."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is the 'CIA triad' in information security?",
+    "options": [
+      {"text": "Confidentiality, Integrity, and Availability", "correct": true},
+      {"text": "Control, Inspection, and Audit", "correct": false},
+      {"text": "Compliance, Integrity, and Assurance", "correct": false},
+      {"text": "Continuity, Investigation, and Analysis", "correct": false}
+    ],
+    "explanation": "The CIA triad is the core principle of information security: Confidentiality (protecting data from unauthorized access), Integrity (ensuring data accuracy and completeness), and Availability (ensuring data is accessible when needed)."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'IT portfolio management'?",
+    "options": [
+      {"text": "Managing a collection of IT investments as a portfolio to maximize business value", "correct": true},
+      {"text": "Managing software licenses", "correct": false},
+      {"text": "Managing project schedules", "correct": false},
+      {"text": "Managing hardware inventory", "correct": false}
+    ],
+    "explanation": "IT portfolio management treats IT investments (projects, applications, infrastructure) as a portfolio, similar to financial investments. It balances risk and return, and ensures IT spending aligns with business strategy."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is an 'audit trail'?",
+    "options": [
+      {"text": "A chronological record of system activities showing the sequence of events", "correct": true},
+      {"text": "The path an auditor follows during a system audit", "correct": false},
+      {"text": "A record of all financial transactions", "correct": false},
+      {"text": "A log of user login attempts", "correct": false}
+    ],
+    "explanation": "An audit trail is a chronological record that provides documentary evidence of the sequence of activities in a system. It enables reconstruction and examination of events, supporting accountability, investigation, and compliance."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What does 'ITIL' stand for?",
+    "options": [
+      {"text": "Information Technology Infrastructure Library", "correct": true},
+      {"text": "IT Integration and Logistics", "correct": false},
+      {"text": "IT Implementation and Lifecycle", "correct": false},
+      {"text": "IT Investment and Liability", "correct": false}
+    ],
+    "explanation": "ITIL stands for Information Technology Infrastructure Library. It is a framework of best practices for IT service management (ITSM) that provides guidance on how to manage IT services effectively."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'IT risk management'?",
+    "options": [
+      {"text": "Identifying, assessing, and mitigating risks related to IT systems and data", "correct": true},
+      {"text": "Managing risks in IT projects only", "correct": false},
+      {"text": "Managing financial risks related to IT spending", "correct": false},
+      {"text": "Managing risks in software development", "correct": false}
+    ],
+    "explanation": "IT risk management identifies, assesses, and manages risks related to IT systems, data, and processes. It includes cybersecurity risks, data breaches, system failures, compliance violations, and technology obsolescence."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'configuration management' in IT governance?",
+    "options": [
+      {"text": "Managing and controlling changes to IT system configurations", "correct": true},
+      {"text": "Setting up hardware components", "correct": false},
+      {"text": "Installing software", "correct": false},
+      {"text": "Managing network cables", "correct": false}
+    ],
+    "explanation": "IT configuration management identifies, controls, and tracks IT system configurations (hardware, software, network) throughout their lifecycle. It includes a Configuration Management Database (CMDB) to maintain accurate configuration information."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is a 'CMDB' (Configuration Management Database)?",
+    "options": [
+      {"text": "A database containing information about all IT assets and their relationships", "correct": true},
+      {"text": "A database of customer information", "correct": false},
+      {"text": "A database of project schedules", "correct": false},
+      {"text": "A database of financial records", "correct": false}
+    ],
+    "explanation": "A CMDB stores information about IT assets (configuration items) and the relationships between them. It is a key component of IT service management, supporting change management, incident management, and impact analysis."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'policy compliance monitoring'?",
+    "options": [
+      {"text": "Regularly checking that IT operations comply with organizational policies and regulations", "correct": true},
+      {"text": "Monitoring network traffic for security threats", "correct": false},
+      {"text": "Tracking employee attendance", "correct": false},
+      {"text": "Monitoring system performance", "correct": false}
+    ],
+    "explanation": "Policy compliance monitoring involves regularly reviewing and verifying that IT operations, systems, and processes comply with internal policies, external regulations, industry standards, and contractual obligations."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'privilege management'?",
+    "options": [
+      {"text": "Controlling and managing elevated access rights to IT systems and data", "correct": true},
+      {"text": "Managing employee benefits", "correct": false},
+      {"text": "Managing vendor relationships", "correct": false},
+      {"text": "Managing project budgets", "correct": false}
+    ],
+    "explanation": "Privilege management controls who has elevated (administrative) access to IT systems and data. It includes the principle of least privilege (giving minimum necessary access) and periodic review of access rights."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What does 'ISMS' stand for in IT governance?",
+    "options": [
+      {"text": "Information Security Management System", "correct": true},
+      {"text": "IT Service Management System", "correct": false},
+      {"text": "Integrated System Management Standard", "correct": false},
+      {"text": "Information Storage Management System", "correct": false}
+    ],
+    "explanation": "ISMS (Information Security Management System) is a systematic approach to managing sensitive company information, based on a risk management process. It is defined by the ISO/IEC 27000 family of standards."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is the 'three lines model' in IT governance?",
+    "options": [
+      {"text": "Management controls, risk/compliance functions, and independent assurance (internal audit)", "correct": true},
+      {"text": "Three levels of management hierarchy", "correct": false},
+      {"text": "Three phases of project execution", "correct": false},
+      {"text": "Three types of IT controls", "correct": false}
+    ],
+    "explanation": "The three lines model: (1) Business management - controls and owns risks, (2) Risk management and compliance functions - oversee and advise, (3) Internal audit - independent assurance. It ensures effective governance and risk management."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What is 'reengineering' in the context of IT governance?",
+    "options": [
+      {"text": "Fundamental redesign of business processes to achieve dramatic improvements", "correct": true},
+      {"text": "Rewriting legacy software code", "correct": false},
+      {"text": "Replacing hardware infrastructure", "correct": false},
+      {"text": "Restructuring the IT department", "correct": false}
+    ],
+    "explanation": "Business process reengineering (BPR) involves the fundamental rethinking and radical redesign of business processes to achieve dramatic improvements in cost, quality, service, and speed."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'incident management' in ITIL?",
+    "options": [
+      {"text": "Restoring normal service operation as quickly as possible after a disruption", "correct": true},
+      {"text": "Identifying the root cause of incidents", "correct": false},
+      {"text": "Preventing incidents from occurring", "correct": false},
+      {"text": "Managing changes to IT services", "correct": false}
+    ],
+    "explanation": "Incident management focuses on restoring normal service as quickly as possible after a disruption, minimizing the adverse impact on business operations. It is reactive and does not investigate root causes (that is problem management)."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the difference between an 'incident' and a 'problem' in ITIL?",
+    "options": [
+      {"text": "An incident is an unplanned disruption; a problem is the underlying cause of one or more incidents", "correct": true},
+      {"text": "They are the same thing", "correct": false},
+      {"text": "A problem is more severe than an incident", "correct": false},
+      {"text": "Incidents are for hardware; problems are for software", "correct": false}
+    ],
+    "explanation": "An incident is an unplanned interruption or reduction in quality of an IT service. A problem is the root cause of one or more incidents. Managing the incident restores service; managing the problem prevents recurrence."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the goal of 'problem management'?",
+    "options": [
+      {"text": "To identify the root cause of incidents and prevent them from recurring", "correct": true},
+      {"text": "To restore service quickly after a disruption", "correct": false},
+      {"text": "To manage changes to IT infrastructure", "correct": false},
+      {"text": "To track user complaints", "correct": false}
+    ],
+    "explanation": "Problem management investigates the root cause of incidents and determines permanent solutions to prevent recurrence. While incident management restores service quickly, problem management eliminates the underlying cause."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is a 'service level agreement (SLA)'?",
+    "options": [
+      {"text": "An agreement between a service provider and customer defining expected service levels", "correct": true},
+      {"text": "An internal team agreement", "correct": false},
+      {"text": "A project schedule agreement", "correct": false},
+      {"text": "A budget allocation agreement", "correct": false}
+    ],
+    "explanation": "An SLA is a formal agreement between a service provider and customer that defines the service, service targets (e.g., 99.9% uptime), responsibilities, escalation procedures, and penalties for non-compliance."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'change management' in ITIL v4?",
+    "options": [
+      {"text": "Ensuring changes are assessed, authorized, and implemented safely", "correct": true},
+      {"text": "Managing organizational change and employee resistance", "correct": false},
+      {"text": "Replacing outdated IT systems", "correct": false},
+      {"text": "Updating software versions", "correct": false}
+    ],
+    "explanation": "ITIL change management ensures that changes to IT services and infrastructure are assessed, authorized, planned, tested, implemented, and reviewed in a controlled manner to minimize risk of service disruption."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the 'service desk' function in ITIL?",
+    "options": [
+      {"text": "The single point of contact between the service provider and users", "correct": true},
+      {"text": "The team that develops IT services", "correct": false},
+      {"text": "The team that manages vendor relationships", "correct": false},
+      {"text": "The team that manages the IT budget", "correct": false}
+    ],
+    "explanation": "The service desk is the single point of contact (SPOC) between the service provider and users. It handles incident reporting, service requests, questions, and provides communication about service availability."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is a 'known error' in ITIL?",
+    "options": [
+      {"text": "A problem that has been analyzed and has a documented workaround", "correct": true},
+      {"text": "An incident that has been resolved", "correct": false},
+      {"text": "A change that has been approved", "correct": false},
+      {"text": "A bug in the system software", "correct": false}
+    ],
+    "explanation": "A known error is a problem that has been diagnosed and for which a workaround has been documented. Known errors are stored in the Known Error Database (KEDB) to help resolve future incidents more quickly."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'service level management'?",
+    "options": [
+      {"text": "Negotiating, monitoring, and reporting on service level agreements", "correct": true},
+      {"text": "Setting the technical level of IT services", "correct": false},
+      {"text": "Managing the hierarchy of service personnel", "correct": false},
+      {"text": "Determining the pricing of IT services", "correct": false}
+    ],
+    "explanation": "Service level management negotiates SLAs with customers, monitors actual service performance against agreed targets, reports on SLA compliance, and drives improvements when service levels are not met."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'configuration management' in ITIL?",
+    "options": [
+      {"text": "Maintaining information about IT assets and their relationships in a CMDB", "correct": true},
+      {"text": "Configuring new IT systems", "correct": false},
+      {"text": "Managing system settings", "correct": false},
+      {"text": "Setting up network devices", "correct": false}
+    ],
+    "explanation": "ITIL configuration management maintains accurate records of all IT assets (configuration items/CIs) and their relationships in a CMDB. It supports other ITSM processes by providing information needed for impact assessment and change management."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'release management'?",
+    "options": [
+      {"text": "Planning, scheduling, and controlling the movement of releases to production", "correct": true},
+      {"text": "Writing software release notes", "correct": false},
+      {"text": "Distributing software to users", "correct": false},
+      {"text": "Managing version control of source code", "correct": false}
+    ],
+    "explanation": "Release management plans, schedules, and controls the movement of releases (software, hardware, documentation) to the production environment. It ensures releases are tested, documented, and deployed with minimal risk."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'capacity management' in IT service management?",
+    "options": [
+      {"text": "Ensuring IT resources meet current and future business demands cost-effectively", "correct": true},
+      {"text": "Managing the size of the IT team", "correct": false},
+      {"text": "Managing the number of projects", "correct": false},
+      {"text": "Managing storage capacity only", "correct": false}
+    ],
+    "explanation": "Capacity management ensures that IT has sufficient capacity to meet current and future business requirements in a cost-effective manner. It covers business, service, and component capacity at all levels."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'availability management'?",
+    "options": [
+      {"text": "Ensuring IT services are available when needed to meet business requirements", "correct": true},
+      {"text": "Managing IT staff work schedules", "correct": false},
+      {"text": "Managing software availability licenses", "correct": false},
+      {"text": "Managing backup systems", "correct": false}
+    ],
+    "explanation": "Availability management ensures IT services deliver agreed levels of availability to meet business needs. It defines availability requirements, designs for high availability, and monitors actual performance against targets."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the 'CAB' in change management?",
+    "options": [
+      {"text": "Change Advisory Board - a group that reviews and approves change requests", "correct": true},
+      {"text": "Corrective Action Board", "correct": false},
+      {"text": "Configuration Advisory Board", "correct": false},
+      {"text": "Customer Advisory Board", "correct": false}
+    ],
+    "explanation": "The Change Advisory Board (CAB) is a group of stakeholders who review, assess, and authorize changes. The CAB evaluates the impact, risk, and benefit of proposed changes before approval."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is a 'workaround' in ITIL?",
+    "options": [
+      {"text": "A temporary solution that reduces or eliminates the impact of an incident or problem", "correct": true},
+      {"text": "A permanent fix for a problem", "correct": false},
+      {"text": "An alternative procedure for routine tasks", "correct": false},
+      {"text": "A method to avoid following standard procedures", "correct": false}
+    ],
+    "explanation": "A workaround is a temporary solution that reduces or eliminates the impact of an incident or problem when a full resolution is not yet available. It allows service to be restored quickly while a permanent fix is developed."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'ITIL v4's service value system (SVS)'?",
+    "options": [
+      {"text": "A model showing how all components and activities of the organization work together for value co-creation", "correct": true},
+      {"text": "A service catalog system", "correct": false},
+      {"text": "A version control system for IT services", "correct": false},
+      {"text": "A service reporting framework", "correct": false}
+    ],
+    "explanation": "ITIL v4's SVS is a flexible operating model for the governance and management of IT-enabled services. It shows how inputs (opportunity/demand) are transformed into outputs (value) through various components working together."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'financial management' in ITIL?",
+    "options": [
+      {"text": "Managing the budget, accounting, and charging for IT services", "correct": true},
+      {"text": "Managing financial investments", "correct": false},
+      {"text": "Managing procurement costs", "correct": false},
+      {"text": "Managing employee payroll", "correct": false}
+    ],
+    "explanation": "Financial management for IT services covers budgeting (predicting costs), accounting (tracking costs), and charging (billing for services). It ensures IT services are cost-effective and provide value for money."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'service transition' in ITIL?",
+    "options": [
+      {"text": "Building, testing, and deploying new or changed IT services into the live environment", "correct": true},
+      {"text": "Designing new IT services", "correct": false},
+      {"text": "Operating IT services on a daily basis", "correct": false},
+      {"text": "Retiring old IT services", "correct": false}
+    ],
+    "explanation": "Service transition ensures that new or changed services are built, tested, and deployed into the live environment smoothly. It includes change management, release management, service validation, and knowledge management."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'continual service improvement (CSI)' in ITIL?",
+    "options": [
+      {"text": "Ongoing improvement of IT services and processes based on measurement and feedback", "correct": true},
+      {"text": "Initial implementation of IT services", "correct": false},
+      {"text": "Emergency response for service failures", "correct": false},
+      {"text": "Budget reduction for IT services", "correct": false}
+    ],
+    "explanation": "CSI is the ongoing process of identifying and implementing improvements to IT services and management processes. It uses the Deming Cycle (plan-do-check-act) and measurement to drive incremental improvements."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is an 'OLA' (Operational Level Agreement)?",
+    "options": [
+      {"text": "An agreement between internal departments that supports the delivery of SLAs", "correct": true},
+      {"text": "An agreement with external vendors", "correct": false},
+      {"text": "An agreement with customers", "correct": false},
+      {"text": "A legal contract", "correct": false}
+    ],
+    "explanation": "An OLA is an agreement between internal IT departments or teams that defines how they support each other in delivering services that meet SLA targets. For example, the network team agrees to resolve network issues within 2 hours."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'asset management' in ITIL?",
+    "options": [
+      {"text": "Managing IT assets throughout their lifecycle to maximize value and control costs", "correct": true},
+      {"text": "Managing financial assets", "correct": false},
+      {"text": "Managing human resources", "correct": false},
+      {"text": "Managing physical office assets", "correct": false}
+    ],
+    "explanation": "IT asset management manages IT assets (hardware, software, licenses) throughout their lifecycle from procurement through disposal. It ensures optimal utilization, compliance with licenses, and cost control."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'request fulfillment' in ITIL?",
+    "options": [
+      {"text": "Handling standard service requests from users (e.g., password reset, new account)", "correct": true},
+      {"text": "Fulfilling project requirements", "correct": false},
+      {"text": "Processing purchase orders", "correct": false},
+      {"text": "Handling change requests", "correct": false}
+    ],
+    "explanation": "Request fulfillment handles standard, pre-approved service requests from users, such as password resets, software installations, information requests, and access requests. It uses predefined processes for efficiency."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'service design' in ITIL?",
+    "options": [
+      {"text": "Designing new IT services and changes to ensure they meet business requirements", "correct": true},
+      {"text": "Designing the physical layout of data centers", "correct": false},
+      {"text": "Designing user interfaces for applications", "correct": false},
+      {"text": "Designing network topologies", "correct": false}
+    ],
+    "explanation": "Service design ensures new or changed services are designed to meet business requirements and are fit for use. It covers service level management, availability management, capacity management, IT service continuity, and security management."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'service operation' in ITIL?",
+    "options": [
+      {"text": "Managing the day-to-day delivery of IT services to users", "correct": true},
+      {"text": "Planning new IT services", "correct": false},
+      {"text": "Designing service architectures", "correct": false},
+      {"text": "Retiring decommissioned services", "correct": false}
+    ],
+    "explanation": "Service operation manages the day-to-day delivery of IT services. It includes event management, incident management, request fulfillment, problem management, and access management, ensuring services are delivered effectively."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'event management' in ITIL?",
+    "options": [
+      {"text": "Monitoring IT systems for events and generating alerts for significant occurrences", "correct": true},
+      {"text": "Organizing IT events and conferences", "correct": false},
+      {"text": "Managing calendar events for the IT team", "correct": false},
+      {"text": "Tracking project milestones", "correct": false}
+    ],
+    "explanation": "Event management monitors IT systems through alerts and notifications. It categorizes events into informational, warning, and exception events, triggering appropriate responses to maintain service quality."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'knowledge management' in ITIL?",
+    "options": [
+      {"text": "Maintaining and sharing knowledge and information across the organization", "correct": true},
+      {"text": "Managing database systems", "correct": false},
+      {"text": "Managing training programs", "correct": false},
+      {"text": "Managing technical documentation", "correct": false}
+    ],
+    "explanation": "Knowledge management maintains a knowledge management system (SKMS) that stores and makes available knowledge about IT services, problems, workarounds, and best practices, enabling informed decision-making and efficient problem resolution."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is 'access management' in ITIL?",
+    "options": [
+      {"text": "Granting authorized users the right to use specific IT services", "correct": true},
+      {"text": "Managing physical access to buildings", "correct": false},
+      {"text": "Managing internet access policies", "correct": false},
+      {"text": "Managing database query access", "correct": false}
+    ],
+    "explanation": "Access management grants authorized users the right to use a service while preventing unauthorized access. It handles requests, verification, granting rights, monitoring identity status, and logging/revoking access."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the 'ITIL service lifecycle'?",
+    "options": [
+      {"text": "Strategy, Design, Transition, Operation, Continual Improvement", "correct": true},
+      {"text": "Plan, Do, Check, Act", "correct": false},
+      {"text": "Initiating, Planning, Executing, Monitoring, Closing", "correct": false},
+      {"text": "Analyze, Design, Develop, Test, Deploy", "correct": false}
+    ],
+    "explanation": "The ITIL service lifecycle (v3) consists of five stages: Service Strategy, Service Design, Service Transition, Service Operation, and Continual Service Improvement. ITIL v4 replaced this with the Service Value System."
+  },
+  {
+    "category": "Service Management",
+    "question": "What does 'utility' mean in ITIL service value?",
+    "options": [
+      {"text": "What the service does (its functionality) to support business outcomes", "correct": true},
+      {"text": "How reliable the service is", "correct": false},
+      {"text": "How much the service costs", "correct": false},
+      {"text": "How fast the service operates", "correct": false}
+    ],
+    "explanation": "Utility is 'what the service does' - the functionality provided by the service that supports business outcomes (fitness for purpose). Combined with warranty (fitness for use), it determines the total value of a service."
+  },
+  {
+    "category": "Service Management",
+    "question": "What does 'warranty' mean in ITIL service value?",
+    "options": [
+      {"text": "How well the service performs (availability, capacity, security, continuity)", "correct": true},
+      {"text": "The guarantee period after service deployment", "correct": false},
+      {"text": "The insurance policy for IT services", "correct": false},
+      {"text": "The vendor's promise about service quality", "correct": false}
+    ],
+    "explanation": "Warranty is 'how the service performs' - the assurance that the service will meet agreed requirements. It includes availability, capacity, continuity, and security. A service needs both utility AND warranty to deliver value."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is a 'major incident' in ITIL?",
+    "options": [
+      {"text": "An incident with significant impact requiring a coordinated response beyond normal procedures", "correct": true},
+      {"text": "Any incident reported by a senior executive", "correct": false},
+      {"text": "An incident affecting more than 100 users", "correct": false},
+      {"text": "An incident that takes more than 24 hours to resolve", "correct": false}
+    ],
+    "explanation": "A major incident is defined by its significant impact on business operations, requiring a different, more coordinated response. It typically triggers a dedicated major incident team, separate communication channels, and higher-level escalation."
+  },
+  {
+    "category": "Service Management",
+    "question": "What is the 'service portfolio' in ITIL?",
+    "options": [
+      {"text": "A complete list of services managed by a service provider across all lifecycle stages", "correct": true},
+      {"text": "A catalog of services available to customers", "correct": false},
+      {"text": "A list of retired services", "correct": false},
+      {"text": "A pricing document for all services", "correct": false}
+    ],
+    "explanation": "The service portfolio contains all services managed by a service provider, including those in the pipeline, catalog, and retired. It represents the service provider's complete investment in service management."
+  },
+  {
+    "category": "IT Governance & Audit",
+    "question": "What does 'IT value chain' in COBIT refer to?",
+    "options": [
+      {"text": "An operating model for IT governance that shows how enterprise objectives are achieved through IT", "correct": true},
+      {"text": "The supply chain for IT hardware procurement", "correct": false},
+      {"text": "The sequence of IT project phases", "correct": false},
+      {"text": "The network of IT service providers", "correct": false}
+    ],
+    "explanation": "In COBIT 2019, the IT value chain is an operating model that shows how IT-related activities contribute to the achievement of enterprise objectives. It includes governance and management activities organized into components."
+  }
+]

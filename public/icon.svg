@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="64" fill="#1a1a3e"/>
+  <rect x="60" y="120" width="392" height="32" rx="6" fill="#27ae60"/>
+  <rect x="60" y="188" width="260" height="32" rx="6" fill="#2ecc71"/>
+  <rect x="60" y="256" width="320" height="32" rx="6" fill="#2ecc71"/>
+  <rect x="60" y="324" width="180" height="32" rx="6" fill="#27ae60"/>
+  <rect x="260" y="188" width="24" height="32" rx="4" fill="#e74c3c"/>
+  <rect x="320" y="256" width="24" height="32" rx="4" fill="#e74c3c"/>
+  <rect x="60" y="120" width="4" height="236" fill="#fff" opacity="0.5"/>
+  <rect x="60" y="188" width="200" height="4" fill="#fff" opacity="0.3"/>
+  <rect x="60" y="256" width="260" height="4" fill="#fff" opacity="0.3"/>
+  <text x="256" y="440" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="bold" fill="#27ae60">PM</text>
+</svg>

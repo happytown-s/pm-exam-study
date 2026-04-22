@@ -1,0 +1,1202 @@
+[
+  {
+    "category": "Project Initiation",
+    "scenario": "Your company is considering developing a new inventory management system. The estimated development cost is $2,000,000. Expected annual savings are $500,000. The system has a 5-year operational life. The required rate of return is 10%.",
+    "question": "What is the payback period for this project?",
+    "options": [
+      {"text": "4 years", "correct": true},
+      {"text": "5 years", "correct": false},
+      {"text": "3 years", "correct": false},
+      {"text": "2.5 years", "correct": false}
+    ],
+    "explanation": "Payback period = Investment / Annual savings = $2,000,000 / $500,000 = 4 years. The project recovers its investment in 4 years out of the 5-year life, leaving 1 year of net benefit."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A company is evaluating three project proposals. Project A: NPV = $500k, IRR = 15%. Project B: NPV = $800k, IRR = 12%. Project C: NPV = $300k, IRR = 20%. Budget allows only one project.",
+    "question": "Which project should be selected based on NPV?",
+    "options": [
+      {"text": "Project B (highest NPV of $800k)", "correct": true},
+      {"text": "Project C (highest IRR of 20%)", "correct": false},
+      {"text": "Project A (balanced NPV and IRR)", "correct": false},
+      {"text": "Any project since all are positive NPV", "correct": false}
+    ],
+    "explanation": "When projects are mutually exclusive and budget-constrained, NPV is generally preferred because it measures total value creation. Project B creates the most total value ($800k) despite having a lower IRR than Project C."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A feasibility study reveals that a proposed e-commerce platform project has significant technical risk due to unproven technology, moderate market risk, and high regulatory compliance requirements. The estimated ROI is 25% over 3 years.",
+    "question": "What should be the recommended next step?",
+    "options": [
+      {"text": "Conduct a detailed risk assessment and proof-of-concept before proceeding", "correct": true},
+      {"text": "Proceed immediately since ROI exceeds the threshold", "correct": false},
+      {"text": "Reject the project due to high risks", "correct": false},
+      {"text": "Reduce the project scope to minimize risks", "correct": false}
+    ],
+    "explanation": "A proof-of-concept or detailed risk assessment is the appropriate next step. The ROI is attractive but the significant technical risk needs to be addressed before committing full resources. This is risk-informed decision making."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "You are appointed as project manager for a new project. The sponsor provides a brief email describing the desired outcome but no formal document. The finance department requires a signed project charter before releasing funds.",
+    "question": "What should you do first?",
+    "options": [
+      {"text": "Work with the sponsor to develop a formal project charter", "correct": true},
+      {"text": "Start planning immediately since you have the sponsor's intent", "correct": false},
+      {"text": "Ask the finance department to waive the requirement", "correct": false},
+      {"text": "Create a project charter yourself and ask the sponsor to sign it", "correct": false}
+    ],
+    "explanation": "The project charter should be developed collaboratively with the sponsor. It formalizes the authorization, defines high-level requirements, and assigns the PM authority. Creating it yourself without sponsor involvement misses the collaborative essence."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A project to upgrade the company's ERP system is estimated at $5M with a 12-month timeline. The current system has 2 more years of vendor support. The business case projects $3M in efficiency gains over 5 years.",
+    "question": "What is the main concern about this project's business case?",
+    "options": [
+      {"text": "The project cost ($5M) exceeds the total projected benefit ($3M)", "correct": true},
+      {"text": "The timeline of 12 months is too long", "correct": false},
+      {"text": "The current system still has 2 years of support", "correct": false},
+      {"text": "The benefit period is only 5 years", "correct": false}
+    ],
+    "explanation": "The cost ($5M) exceeds the total benefit ($3M), resulting in a net loss of $2M. This project has a negative NPV and should be reconsidered or redesigned to achieve positive returns."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "Two departments are competing for project funding. Department A proposes a cost-saving project with a 3-year payback. Department B proposes a revenue-generating project with a 2-year payback. Both require $1M. The company can fund only one.",
+    "question": "What additional information is most important for the decision?",
+    "options": [
+      {"text": "NPV of both projects and strategic alignment with company goals", "correct": true},
+      {"text": "Payback period (already provided)", "correct": false},
+      {"text": "Internal rate of return alone", "correct": false},
+      {"text": "Department head's recommendation", "correct": false}
+    ],
+    "explanation": "While payback is useful, NPV considers the time value of money and total value created. Strategic alignment ensures the selected project supports the organization's long-term goals. Both factors together provide the best decision basis."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "During project initiation, the sponsor asks you to commit to a completion date before requirements are gathered. The date is 6 months from now. Similar past projects have taken 8-12 months.",
+    "question": "How should you respond?",
+    "options": [
+      {"text": "Explain that a reliable estimate requires requirements analysis and offer a rough range with caveats", "correct": true},
+      {"text": "Agree to the 6-month date to satisfy the sponsor", "correct": false},
+      {"text": "Refuse the date and insist on 10 months", "correct": false},
+      {"text": "Start work immediately and adjust the date later", "correct": false}
+    ],
+    "explanation": "Committing to unrealistic dates creates accountability for failure. A rough order of magnitude estimate (-25% to +75%) is appropriate at initiation. Share historical data (8-12 months) and explain that detailed planning will refine the estimate."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A project charter has been created and signed. During the first planning meeting, you discover that two key stakeholders were not consulted and strongly disagree with the project's scope.",
+    "question": "What is the best course of action?",
+    "options": [
+      {"text": "Pause planning, engage the stakeholders, and update the charter if needed", "correct": true},
+      {"text": "Proceed with planning since the charter is signed", "correct": false},
+      {"text": "Escalate to the sponsor to force compliance", "correct": false},
+      {"text": "Exclude the dissenting stakeholders from the project", "correct": false}
+    ],
+    "explanation": "Ignoring key stakeholders risks scope disputes, delays, and project failure. Engaging them early may require charter updates but saves significant rework later. The charter is a living document in early stages."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "Your organization uses a project selection committee. A new AI project has a high strategic value but unknown technical feasibility. The estimated budget is $3M. The committee asks for your recommendation.",
+    "question": "What project structure would you recommend?",
+    "options": [
+      {"text": "Phase-gate approach: fund a feasibility study first, then decide on full funding", "correct": true},
+      {"text": "Full waterfall funding since the strategic value is high", "correct": false},
+      {"text": "Agile with unlimited budget", "correct": false},
+      {"text": "Reject the project until technology is proven", "correct": false}
+    ],
+    "explanation": "A phase-gate approach allows staged investment. Fund a feasibility/proof-of-concept phase first ($200-500K), evaluate results, then decide whether to commit the full $3M. This limits downside while preserving upside."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A company's strategic plan includes becoming carbon neutral by 2030. A proposed project would install solar panels at a cost of $2M, saving $300K annually. The panels last 20 years.",
+    "question": "What is the primary justification for this project?",
+    "options": [
+      {"text": "Strategic alignment with corporate sustainability goals and long-term cost savings", "correct": true},
+      {"text": "Only the financial payback period of 6.67 years", "correct": false},
+      {"text": "Only the environmental benefit", "correct": false},
+      {"text": "The technology is new and innovative", "correct": false}
+    ],
+    "explanation": "While the financial case is solid (6.67-year payback with 13+ years of savings), the primary justification is strategic alignment. The project supports the company's stated goal of carbon neutrality, making it strategically imperative beyond pure financial metrics."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "During initiation, you identify that the project requires resources from three different departments, each with their own priorities. One department head has verbally agreed to provide resources but has not committed in writing.",
+    "question": "What should you do to secure resource commitment?",
+    "options": [
+      {"text": "Get written resource commitments in the project charter signed by all department heads", "correct": true},
+      {"text": "Proceed based on the verbal agreement", "correct": false},
+      {"text": "Ask the project sponsor to mandate resource allocation", "correct": false},
+      {"text": "Hire external contractors instead", "correct": false}
+    ],
+    "explanation": "Written commitments in the charter ensure accountability. Verbal agreements are easily forgotten or deprioritized when departmental pressures arise. Having all department heads sign the charter creates shared ownership."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A project to develop a mobile app has been approved with a BAC of $800K. The sponsor mentions that 'customer satisfaction must be above 90%.' There are no other defined quality metrics.",
+    "question": "What is the gap in the project charter?",
+    "options": [
+      {"text": "Quality criteria are vague and not measurable beyond one metric", "correct": true},
+      {"text": "The BAC is insufficient for a mobile app", "correct": false},
+      {"text": "Customer satisfaction is not a valid metric", "correct": false},
+      {"text": "The charter should not include quality criteria", "correct": false}
+    ],
+    "explanation": "The charter should include specific, measurable acceptance criteria. 'Customer satisfaction above 90%' is one metric but insufficient alone. Additional metrics like response time, error rates, and performance benchmarks are needed."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "The project sponsor asks you to include a 'bonus clause' in the charter: if the project is completed 1 month early, the team gets a $50K bonus. The normal schedule is 10 months.",
+    "question": "What concern should you raise about this incentive?",
+    "options": [
+      {"text": "It may encourage cutting corners on quality to meet the early deadline", "correct": true},
+      {"text": "It is too small to motivate the team", "correct": false},
+      {"text": "Bonuses should be individual, not team-based", "correct": false},
+      {"text": "The sponsor should not be involved in team incentives", "correct": false}
+    ],
+    "explanation": "Schedule-based bonuses without quality safeguards risk encouraging teams to rush work, skip testing, or compromise quality. The bonus should be tied to meeting quality and scope requirements as well as schedule."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "A government project requires compliance with accessibility regulations. The project charter does not mention this requirement. The project team is unaware of the regulation.",
+    "question": "What is the risk of proceeding without addressing this?",
+    "options": [
+      {"text": "The project deliverable may be non-compliant, requiring costly rework or legal penalties", "correct": true},
+      {"text": "No risk since the team will discover it during testing", "correct": false},
+      {"text": "Accessibility can be added later as an enhancement", "correct": false},
+      {"text": "The charter is correct as-is since the team will handle it", "correct": false}
+    ],
+    "explanation": "Regulatory requirements must be identified during initiation and included in the project scope. Discovering compliance gaps late in the project causes significant rework, delays, and potential legal consequences."
+  },
+  {
+    "category": "Project Initiation",
+    "scenario": "Your company evaluates projects using a scoring model with criteria: Strategic Fit (40%), Financial Return (30%), Risk (20%), Innovation (10%). Project X scores: Strategic=8, Financial=6, Risk=4, Innovation=7 (out of 10).",
+    "question": "What is Project X's weighted score?",
+    "options": [
+      {"text": "6.5", "correct": true},
+      {"text": "6.25", "correct": false},
+      {"text": "7.0", "correct": false},
+      {"text": "5.5", "correct": false}
+    ],
+    "explanation": "Weighted score = (8x0.40) + (6x0.30) + (4x0.20) + (7x0.10) = 3.2 + 1.8 + 0.8 + 0.7 = 6.5. The low risk score (4) pulls down the overall result despite strong strategic fit."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A stakeholder requests that the new system 'must be fast.' The development team needs specific requirements. The stakeholder cannot provide more detailed specifications.",
+    "question": "What is the best approach to handle this vague requirement?",
+    "options": [
+      {"text": "Propose measurable performance criteria (e.g., response time under 2 seconds) for stakeholder confirmation", "correct": true},
+      {"text": "Add it to requirements as-is and let developers decide", "correct": false},
+      {"text": "Reject the requirement as too vague", "correct": false},
+      {"text": "Define 'fast' as industry standard benchmarks", "correct": false}
+    ],
+    "explanation": "Converting vague requirements into measurable criteria is the PM's responsibility. Proposing specific metrics (response time, throughput, page load time) allows the stakeholder to validate that their intent is captured."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "During requirements analysis, the marketing department wants real-time analytics, while the finance department wants daily batch reports. Both are stakeholders for the same reporting system.",
+    "question": "How should you handle these conflicting requirements?",
+    "options": [
+      {"text": "Analyze the cost and feasibility of each option and facilitate stakeholder negotiation", "correct": true},
+      {"text": "Implement both since both departments are important", "correct": false},
+      {"text": "Choose the less expensive option", "correct": false},
+      {"text": "Let the project sponsor decide without analysis", "correct": false}
+    ],
+    "explanation": "Conflicting requirements should be analyzed for cost and feasibility, then presented to stakeholders for negotiation. The PM facilitates resolution but should not unilaterally choose. Understanding the business justification helps find the best compromise."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A project has 150 requirements. During development, the client adds 30 new requirements. The team has already implemented 80 requirements.",
+    "question": "What is the impact of these changes on the project?",
+    "options": [
+      {"text": "Scope increase requires re-baselining, schedule/cost re-estimation, and change control approval", "correct": true},
+      {"text": "Just add the 30 requirements to the existing schedule", "correct": false},
+      {"text": "Reject all new requirements", "correct": false},
+      {"text": "Replace existing requirements with the new ones", "correct": false}
+    ],
+    "explanation": "A 20% scope increase significantly impacts the project. All change requests must go through integrated change control: analyze impact on schedule, cost, quality, and resources, then present to the CCB for approval with a revised baseline."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A requirements traceability matrix (RTM) links each requirement to its source, test case, and design element. Requirement R-045 has no linked test case.",
+    "question": "What does this gap indicate?",
+    "options": [
+      {"text": "There is no way to verify that R-045 is implemented correctly", "correct": true},
+      {"text": "R-045 is not needed", "correct": false},
+      {"text": "R-045 has already been tested", "correct": false},
+      {"text": "The test case exists but is not linked", "correct": false}
+    ],
+    "explanation": "Every requirement must be traceable to a test case for verification. An unlinked requirement means there is no planned way to verify it meets the stakeholder's needs. This is a requirements management gap that must be addressed."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A non-functional requirement states 'the system shall handle 10,000 concurrent users.' During testing, the system handles only 7,000 concurrent users before performance degrades.",
+    "question": "What is the correct classification of this situation?",
+    "options": [
+      {"text": "Requirement not met - performance defect that must be resolved before acceptance", "correct": true},
+      {"text": "This is expected and acceptable since 7,000 is close to 10,000", "correct": false},
+      {"text": "This is a scope change request", "correct": false},
+      {"text": "This is only relevant during peak usage periods", "correct": false}
+    ],
+    "explanation": "The system fails to meet its stated non-functional requirement. This is a performance defect that must be addressed before the deliverable can be accepted. Options include: fix the performance, negotiate a reduced requirement, or both."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "The client says 'I need the same functionality as our competitor's app.' You ask for specific features and the client says 'Just make it like theirs.'",
+    "question": "What is the best approach to define requirements in this situation?",
+    "options": [
+      {"text": "Analyze the competitor's app to extract specific functional requirements for client confirmation", "correct": true},
+      {"text": "Clone the competitor's app exactly", "correct": false},
+      {"text": "Tell the client to provide detailed specifications", "correct": false},
+      {"text": "Proceed with a general interpretation", "correct": false}
+    ],
+    "explanation": "Analyze the competitor's app and create a specific feature list for the client to review. This converts a vague reference into actionable, specific requirements. Note: be careful about IP/legal issues when analyzing competitor products."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A functional requirement is 'The system shall generate monthly reports.' A stakeholder later says they need weekly reports. The requirement was signed off 2 months ago.",
+    "question": "How should this be handled?",
+    "options": [
+      {"text": "Submit a change request through the change control process", "correct": true},
+      {"text": "Update the requirement directly since it is a minor change", "correct": false},
+      {"text": "Reject the change since the requirement was already signed off", "correct": false},
+      {"text": "Implement both monthly and weekly reports", "correct": false}
+    ],
+    "explanation": "Even seemingly minor changes must go through the formal change control process. The change request should include impact analysis on schedule, cost, and resources. The CCB then decides on approval."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "During user acceptance testing (UAT), users report that the system does not match their workflow. They claim the requirements gathering did not capture their actual processes.",
+    "question": "What is the most likely root cause?",
+    "options": [
+      {"text": "Insufficient stakeholder involvement during requirements elicitation", "correct": true},
+      {"text": "The development team did not follow the requirements", "correct": false},
+      {"text": "The users did not participate in UAT properly", "correct": false},
+      {"text": "The requirements documentation was incomplete", "correct": false}
+    ],
+    "explanation": "When the delivered system does not match user workflows, the root cause is typically insufficient user involvement during requirements elicitation. End users should be actively involved in defining and validating requirements."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A project has 200 requirements. The team completed 180. Testing revealed 15 defects. 10 defects are in implemented requirements, 5 are in unimplemented requirements.",
+    "question": "What is the defect density of the implemented requirements?",
+    "options": [
+      {"text": "5.6% (10 defects in 180 requirements)", "correct": true},
+      {"text": "7.5% (15 defects in 200 requirements)", "correct": false},
+      {"text": "2.5% (5 defects in 200 requirements)", "correct": false},
+      {"text": "8.3% (15 defects in 180 requirements)", "correct": false}
+    ],
+    "explanation": "Defect density of implemented requirements = 10 / 180 = 5.6%. Only count defects in implemented requirements against the implemented base. The 5 defects in unimplemented requirements are not relevant to implementation quality."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A regulatory change requires a new data retention policy. This affects 25 of the 100 requirements in the current project. The project is in the execution phase.",
+    "question": "What is the appropriate response?",
+    "options": [
+      {"text": "Submit a change request, assess impact on the 25 affected requirements, and update the baseline", "correct": true},
+      {"text": "Wait until the current phase completes", "correct": false},
+      {"text": "Immediately implement all 25 changes without analysis", "correct": false},
+      {"text": "Escalate to the sponsor to cancel the project", "correct": false}
+    ],
+    "explanation": "Regulatory changes are mandatory and must be addressed. The formal change control process ensures all 25 affected requirements are identified, impact is assessed, schedule/cost adjustments are made, and the baseline is updated."
+  },
+  {
+    "category": "Requirements Management",
+    "scenario": "A project uses a MoSCoW prioritization method. Requirements are categorized as Must, Should, Could, Won't. There are 40 Must, 30 Should, 20 Could, 10 Won't requirements. The project is running late.",
+    "question": "Which requirements should be delivered first if time is limited?",
+    "options": [
+      {"text": "All 40 Must requirements", "correct": true},
+      {"text": "Must and Should requirements", "correct": false},
+      {"text": "All requirements equally", "correct": false},
+      {"text": "Must requirements plus as many Should as possible", "correct": false}
+    ],
+    "explanation": "MoSCoW prioritization: Must requirements are mandatory for project success. If time-constrained, deliver all Must requirements first, then Should if time permits. Could and Won't are deferred. Never compromise Must requirements."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "Your project has a BAC of $1,000,000. At the 6-month mark (50% planned), PV = $500,000, EV = $400,000, AC = $550,000.",
+    "question": "What is the project's status and what action should you take?",
+    "options": [
+      {"text": "Behind schedule (SPI=0.80), over budget (CPI=0.73) - corrective action needed for both", "correct": true},
+      {"text": "On schedule, slightly over budget", "correct": false},
+      {"text": "Ahead of schedule, over budget", "correct": false},
+      {"text": "Need more information to assess", "correct": false}
+    ],
+    "explanation": "SPI = 400/500 = 0.80 (behind schedule), CPI = 400/550 = 0.73 (over budget). Both indices are significantly below 1.0, requiring immediate corrective action on both schedule and cost fronts."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "You receive the following weekly status: Tasks completed: 12 of 15 planned. Open issues: 8 (3 critical). Risks materialized: 2. New risks identified: 5.",
+    "question": "What should be your primary focus based on this status?",
+    "options": [
+      {"text": "The 3 critical issues and 2 materialized risks", "correct": true},
+      {"text": "The 3 tasks that were not completed", "correct": false},
+      {"text": "The 5 new risks identified", "correct": false},
+      {"text": "All items equally", "correct": false}
+    ],
+    "explanation": "Critical issues and materialized risks require immediate attention. 3 critical issues could block progress and 2 materialized risks need response activation. While the other items are important, critical issues take priority."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project milestone was due last Friday. The responsible team lead reports it will be done by Wednesday - 5 days late. The next milestone depends on this one.",
+    "question": "What is the immediate impact assessment you should perform?",
+    "options": [
+      {"text": "Calculate the impact on dependent milestones, critical path, and overall project end date", "correct": true},
+      {"text": "Escalate to the sponsor immediately", "correct": false},
+      {"text": "Accept the delay and update the schedule", "correct": false},
+      {"text": "Request overtime to recover the 5 days", "correct": false}
+    ],
+    "explanation": "Before taking action, assess the full impact: how does this 5-day delay cascade through dependent tasks? Does it affect the critical path? What is the new project end date? Only then can you determine the appropriate response (crash, fast-track, negotiate, or accept)."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "Your project dashboard shows SPI has been declining for 4 consecutive weeks: 0.95, 0.90, 0.85, 0.80. CPI has been stable at 1.05.",
+    "question": "What does this trend indicate and what should you do?",
+    "options": [
+      {"text": "Schedule is deteriorating while costs are controlled - investigate schedule root causes", "correct": true},
+      {"text": "The project is overall healthy since CPI is good", "correct": false},
+      {"text": "The project will recover on its own", "correct": false},
+      {"text": "Add more resources to fix the schedule", "correct": false}
+    ],
+    "explanation": "A consistent SPI decline indicates a systemic schedule problem (not a one-time event). Since CPI is healthy (1.05), the cost per work unit is fine but the rate of progress is slowing. Root cause analysis is needed before adding resources."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "The monthly variance report shows: SV = -$50,000, CV = +$20,000. The project manager reports 'the project is on track.'",
+    "question": "Is the PM's assessment correct?",
+    "options": [
+      {"text": "No - the project is behind schedule ($50K) despite being under budget ($20K)", "correct": true},
+      {"text": "Yes - the positive CV indicates the project is on track", "correct": false},
+      {"text": "No - both variances are concerning", "correct": false},
+      {"text": "Yes - variances are within acceptable limits", "correct": false}
+    ],
+    "explanation": "The project is under budget (CV = +$20K) but significantly behind schedule (SV = -$50K). Being under budget does not compensate for being behind schedule. The PM should address the schedule issue."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project has 10 milestones. 5 are completed on time, 2 are completed late, 2 are in progress (on track), and 1 has not started (on schedule).",
+    "question": "What is the milestone completion rate and what is the concern?",
+    "options": [
+      {"text": "70% complete (7 of 10), with 2 late milestones indicating schedule risk", "correct": true},
+      {"text": "50% complete (5 of 10 on time), indicating poor performance", "correct": false},
+      {"text": "90% on track (9 of 10), indicating healthy progress", "correct": false},
+      {"text": "80% complete, no concerns", "correct": false}
+    ],
+    "explanation": "7 of 10 milestones are completed (70%), but 2 were late (29% late rate). This pattern suggests systemic schedule challenges. The 1 not-yet-started milestone and 2 in-progress need monitoring to prevent further delays."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "Your EVM data shows: BAC = $2M, AC = $800K, EV = $700K, PV = $900K. Three months remain in the project.",
+    "question": "What is the EAC and what does it indicate?",
+    "options": [
+      {"text": "EAC = $2,286,000, indicating the project will exceed budget by $286K if current trend continues", "correct": true},
+      {"text": "EAC = $2,000,000, on budget", "correct": false},
+      {"text": "EAC = $1,714,000, under budget", "correct": false},
+      {"text": "Cannot calculate without more data", "correct": false}
+    ],
+    "explanation": "CPI = 700/800 = 0.875. EAC = BAC/CPI = $2M/0.875 = $2,286,000. The project is forecast to exceed budget by approximately $286K if the current cost efficiency continues."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A team member consistently reports 90% completion for the past three weeks on the same task. Other team members have raised concerns about this task.",
+    "question": "What should the project manager do?",
+    "options": [
+      {"text": "Meet with the team member to understand the actual status and obstacles", "correct": true},
+      {"text": "Accept the 90% report since the team member is responsible", "correct": false},
+      {"text": "Reassign the task to another team member", "correct": false},
+      {"text": "Report the task as 100% complete", "correct": false}
+    ],
+    "explanation": "The '90% complete syndrome' is a common reporting issue. When a task stays at the same completion percentage for weeks, it signals a problem. The PM should directly engage with the team member to understand blockers."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "The project's CPI has been above 1.1 for the past 3 months. Management asks if the contingency reserve can be reduced.",
+    "question": "What is the appropriate response?",
+    "options": [
+      {"text": "Analyze remaining risk exposure before reducing reserves - past performance does not guarantee future results", "correct": true},
+      {"text": "Yes, reduce the reserve since the project is under budget", "correct": false},
+      {"text": "No, reserves can never be reduced", "correct": false},
+      {"text": "Reduce the reserve by the exact amount of cost savings", "correct": false}
+    ],
+    "explanation": "While past CPI is favorable, future phases may have different risk profiles. Before reducing reserves: analyze remaining risks, consider whether cost savings are from efficiency or scope reduction, and maintain adequate contingency for identified risks."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project has 5 work streams. Status: WS1 = Green, WS2 = Red (2 weeks behind), WS3 = Yellow (minor issues), WS4 = Green, WS5 = Yellow (resource concern).",
+    "question": "What is the overall project status and priority actions?",
+    "options": [
+      {"text": "Overall Red - prioritize WS2 recovery plan and address WS5 resource concern", "correct": true},
+      {"text": "Overall Yellow - mostly healthy with some concerns", "correct": false},
+      {"text": "Overall Green - 2 out of 5 are green", "correct": false},
+      {"text": "Cannot determine overall status without weighted assessment", "correct": false}
+    ],
+    "explanation": "One Red work stream typically makes the overall project Red. WS2 is 2 weeks behind and needs a recovery plan. WS5's resource concern may become critical. WS3 needs monitoring but is manageable."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "Your weekly earned value report shows: EV increased by $30K this week, AC increased by $35K, and PV increased by $40K. The previous week had EV=+$35K, AC=+$30K, PV=+$35K.",
+    "question": "What trend do these numbers show?",
+    "options": [
+      {"text": "Both SPI and CPI are deteriorating - earning less while spending more each week", "correct": true},
+      {"text": "The project is improving", "correct": false},
+      {"text": "Costs are improving but schedule is worsening", "correct": false},
+      {"text": "SPI is improving but CPI is worsening", "correct": false}
+    ],
+    "explanation": "Last week: earned $35K for $30K spent (good). This week: earned $30K for $35K spent (worse). Both weekly EV and weekly efficiency declined. CPI went from 35/30=1.17 to 30/35=0.86. SPI went from 35/35=1.0 to 30/40=0.75."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "You are managing a software project. At sprint review, the demo shows 8 of 12 planned features working. 2 features have bugs, 2 are incomplete. The sprint commitment was 12 features.",
+    "question": "What is the sprint completion rate and what should you communicate?",
+    "options": [
+      {"text": "67% completion (8/12) - report honestly, analyze root causes, and adjust next sprint planning", "correct": true},
+      {"text": "100% since all 12 are in progress", "correct": false},
+      {"text": "83% (10/12) since only 2 are incomplete", "correct": false},
+      {"text": "Do not report until all 12 are complete", "correct": false}
+    ],
+    "explanation": "Only working features count as done. 8/12 = 67% is the completion rate. Honest reporting builds trust. Analyze why 4 features were not completed and use the information to improve future sprint planning accuracy."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project's risk register shows 20 risks. This month, 2 risks materialized into issues, 1 risk was closed (no longer relevant), and 3 new risks were identified.",
+    "question": "How many risks are now in the risk register?",
+    "options": [
+      {"text": "20 risks (2 materialized out, 1 closed out, 3 new in)", "correct": true},
+      {"text": "21 risks", "correct": false},
+      {"text": "18 risks", "correct": false},
+      {"text": "23 risks", "correct": false}
+    ],
+    "explanation": "Starting: 20 risks. -2 materialized (move to issue log), -1 closed = 17 remaining. +3 new = 20 risks. The risk register stays at 20, but the composition has changed. Materialized risks now live in the issue log."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project status report template asks for: RAG status, top 3 risks, milestones, and issues. The sponsor always only reads the RAG status (Green/Yellow/Red).",
+    "question": "What should you do to ensure important information reaches the sponsor?",
+    "options": [
+      {"text": "Include a concise executive summary highlighting critical items alongside the RAG status", "correct": true},
+      {"text": "Only report the RAG status since that is what is read", "correct": false},
+      {"text": "Request the sponsor reads the full report", "correct": false},
+      {"text": "Schedule a meeting for the full report", "correct": false}
+    ],
+    "explanation": "Adapt communication to the stakeholder's preference. Since the sponsor only reads the RAG status, include critical information in a brief summary right at the top. This ensures important details are seen without requiring the sponsor to change behavior."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "Your project burn-down chart shows the remaining work line has been above the ideal line for the past 5 sprints. The gap is widening.",
+    "question": "What does this indicate and what should you do?",
+    "options": [
+      {"text": "The team is consistently delivering less than planned - reassess velocity and adjust the plan", "correct": true},
+      {"text": "The project is ahead of schedule", "correct": false},
+      {"text": "The chart is incorrect", "correct": false},
+      {"text": "Add more team members immediately", "correct": false}
+    ],
+    "explanation": "When the actual burn-down line stays above the ideal line and the gap widens, the team's velocity is consistently lower than planned. This may indicate over-optimistic estimates, scope creep, or blocked tasks. Reassess and re-plan based on actual velocity."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project has a management reserve of $100K. The PM has spent $60K of it for unforeseen issues. The sponsor asks for a justification.",
+    "question": "What should the PM provide?",
+    "options": [
+      {"text": "A detailed record of each management reserve use: issue, amount, authorization, and remaining risk exposure", "correct": true},
+      {"text": "A verbal explanation that the money was needed for unexpected issues", "correct": false},
+      {"text": "A promise to not use the remaining $40K", "correct": false},
+      {"text": "A request for an additional $100K reserve", "correct": false}
+    ],
+    "explanation": "Management reserve requires sponsor approval for use. Each dip should be documented with: the issue, amount used, who authorized it, impact on the project, and the remaining reserve adequacy for remaining risks."
+  },
+  {
+    "category": "Project Monitoring",
+    "scenario": "A project is 75% complete according to schedule. However, quality testing reveals that 30% of completed work packages have defects requiring rework.",
+    "question": "What is the real completion status considering rework?",
+    "options": [
+      {"text": "Effective completion is approximately 52.5% (75% x 0.70) when accounting for rework needed", "correct": true},
+      {"text": "75% - the defects are minor and can be fixed quickly", "correct": false},
+      {"text": "60% - adjust for the 30% defect rate", "correct": false},
+      {"text": "Cannot be determined", "correct": false}
+    ],
+    "explanation": "If 30% of completed work needs rework, only 70% of the claimed 75% is truly complete. Effective completion = 75% x 70% = 52.5%. This shows that quality metrics must be considered alongside schedule metrics."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A critical system integration test is failing intermittently. It passes 3 out of 5 times with no pattern. The deadline is in 2 weeks.",
+    "question": "What is the best problem-solving approach?",
+    "options": [
+      {"text": "Isolate variables, add logging to capture the failure condition, and analyze root cause", "correct": true},
+      {"text": "Keep running the test until it passes 5 times in a row", "correct": false},
+      {"text": "Skip the test and proceed to production", "correct": false},
+      {"text": "Replace the integration component entirely", "correct": false}
+    ],
+    "explanation": "Intermittent failures require systematic debugging: isolate variables, add instrumentation/logging, capture the exact failure state, and analyze root cause. Random retesting without understanding the cause wastes time."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "Your project team is experiencing conflicts between senior and junior developers. Senior developers insist on their approach; junior developers feel unheard. Productivity has dropped 20%.",
+    "question": "What conflict resolution approach should you use?",
+    "options": [
+      {"text": "Collaborate: facilitate a technical review where both sides present their approach with pros/cons", "correct": true},
+      {"text": "Force: side with the senior developers since they have more experience", "correct": false},
+      {"text": "Compromise: let each side have their way on alternate modules", "correct": false},
+      {"text": "Avoid: let them work it out themselves", "correct": false}
+    ],
+    "explanation": "Collaboration (problem-solving) addresses the root cause by having both sides present evidence-based arguments. It respects both perspectives and leads to the best technical decision while maintaining team cohesion."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project post-mortem reveals that 40% of defects were caused by unclear requirements. The top 3 defect categories are: wrong functionality (25%), missing functionality (10%), and interface mismatches (5%).",
+    "question": "What process improvement would be most effective?",
+    "options": [
+      {"text": "Implement requirements reviews with stakeholder sign-off and add prototyping for UI requirements", "correct": true},
+      {"text": "Increase testing effort", "correct": false},
+      {"text": "Hire more senior developers", "correct": false},
+      {"text": "Extend the development timeline", "correct": false}
+    ],
+    "explanation": "Since 40% of defects originate from requirements, improving the requirements process is the highest-impact improvement. Requirements reviews catch issues early (shift-left), and prototyping addresses the interface mismatch category."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A vendor delivers a component 3 weeks late. The delay cascades to 4 dependent activities on the critical path. The project end date is now at risk.",
+    "question": "What corrective actions should you consider?",
+    "options": [
+      {"text": "Evaluate crashing and fast-tracking options, assess liquidated damages, and update stakeholders", "correct": true},
+      {"text": "Accept the delay and extend the project end date", "correct": false},
+      {"text": "Terminate the vendor contract immediately", "correct": false},
+      {"text": "Add the delay to the schedule and continue", "correct": false}
+    ],
+    "explanation": "Multiple corrective actions should be evaluated: crash critical path activities, fast-track where possible, check contract for liquidated damages, and communicate the impact to stakeholders with recovery options."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A team member consistently underperforms despite coaching. The quality of their work is below standard, and other team members are compensating. The project deadline is approaching.",
+    "question": "What is the appropriate escalation path?",
+    "options": [
+      {"text": "Document the performance issues, involve HR, and plan for resource replacement if needed", "correct": true},
+      {"text": "Continue coaching until the project ends", "correct": false},
+      {"text": "Fire the team member immediately", "correct": false},
+      {"text": "Redistribute all their work to other team members", "correct": false}
+    ],
+    "explanation": "Documented performance issues should be escalated through the proper channel (functional manager/HR). The PM should also plan for contingency (replacement or redistribution) to protect the project while following organizational policies."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "After implementing a corrective action, the project's CPI improved from 0.85 to 0.95. The sponsor asks if the project will now meet the original budget.",
+    "question": "What is the correct response?",
+    "options": [
+      {"text": "The improvement is positive but CPI is still below 1.0 - the project will still exceed budget unless further improvement occurs", "correct": true},
+      {"text": "Yes, the project will now meet the original budget", "correct": false},
+      {"text": "No, the improvement is not significant", "correct": false},
+      {"text": "It depends on the SPI", "correct": false}
+    ],
+    "explanation": "CPI of 0.95 means the project is still 5% over budget. While improving, the project will not meet the original BAC unless CPI reaches 1.0 or higher. The EAC should be recalculated with the new CPI for a more accurate forecast."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project has experienced 3 critical defects in production after go-live. The root cause analysis reveals that all 3 defects were in modules that skipped code review due to schedule pressure.",
+    "question": "What is the most important corrective action?",
+    "options": [
+      {"text": "Enforce mandatory code review for all modules - no exceptions regardless of schedule pressure", "correct": true},
+      {"text": "Fix the 3 defects and continue", "correct": false},
+      {"text": "Add more testers to catch defects earlier", "correct": false},
+      {"text": "Extend the testing phase", "correct": false}
+    ],
+    "explanation": "The root cause is process violation (skipping code reviews). Fixing the 3 defects treats symptoms, not the cause. Enforcing the code review process prevents future defects regardless of schedule pressure. Quality gates should never be bypassed."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project's lessons learned from the previous phase include: (1) estimates were 30% optimistic, (2) stakeholder communication was insufficient, (3) testing started too late. You are now planning the next phase.",
+    "question": "How should you incorporate these lessons?",
+    "options": [
+      {"text": "Add 30% estimation buffer, increase communication frequency, and shift testing earlier in the schedule", "correct": true},
+      {"text": "Note the lessons in the project document and proceed with normal planning", "correct": false},
+      {"text": "Only address the estimation issue since it is quantifiable", "correct": false},
+      {"text": "Create a separate lessons learned report", "correct": false}
+    ],
+    "explanation": "Lessons learned should directly influence planning: apply estimation corrections, increase communication cadence, and shift testing left (earlier). This transforms lessons into actionable improvements rather than just documentation."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "During a project, you discover that a team member has been taking shortcuts that violate the company's coding standards. The code works but is unmaintainable and undocumented.",
+    "question": "What is the appropriate response?",
+    "options": [
+      {"text": "Address the behavior directly, require the code to meet standards, and document the issue", "correct": true},
+      {"text": "Accept the working code since it meets functional requirements", "correct": false},
+      {"text": "Rewrite the code yourself", "correct": false},
+      {"text": "Report the team member to management", "correct": false}
+    ],
+    "explanation": "Code that works but violates standards creates technical debt that increases future maintenance costs and risk. The PM should address the behavior, enforce standards, and ensure documentation. This is a quality management responsibility."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "Two project tasks are assigned to the same resource. Both are on the critical path. The resource can only work on one at a time. Task A is 3 days long, Task B is 2 days long. Both start today.",
+    "question": "What is the impact and what should you do?",
+    "options": [
+      {"text": "The project is delayed by 2 days (the shorter task) - resolve by finding an additional resource or re-sequencing", "correct": true},
+      {"text": "No impact since tasks can be done in sequence", "correct": false},
+      {"text": "The project is delayed by 5 days", "correct": false},
+      {"text": "The project is delayed by 3 days", "correct": false}
+    ],
+    "explanation": "Both tasks are on the critical path. Running them sequentially delays the project by the duration of the second task (2 days minimum). Options: assign another resource, fast-track, or re-sequence if dependencies allow."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project team identifies that they spend 40% of their time in meetings, leaving only 60% for productive work. Sprint velocity has been declining for 4 sprints.",
+    "question": "What is the most effective solution?",
+    "options": [
+      {"text": "Audit all meetings, eliminate unnecessary ones, and implement stand-up time-boxing", "correct": true},
+      {"text": "Add more team members to maintain velocity", "correct": false},
+      {"text": "Extend the sprint duration", "correct": false},
+      {"text": "Reduce meeting frequency to once per sprint", "correct": false}
+    ],
+    "explanation": "40% meeting time is excessive. The PM should audit meetings (which are necessary?), eliminate non-essential ones, time-box remaining meetings, and ensure each meeting has a clear agenda and outcome. This directly addresses the root cause of declining velocity."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A subcontractor's work does not meet quality standards specified in the contract. The subcontractor claims the standards were unclear. The contract specifies liquidated damages of $1,000/day.",
+    "question": "What should you do first?",
+    "options": [
+      {"text": "Review the contract terms, document the quality gaps, and initiate formal communication per contract dispute procedures", "correct": true},
+      {"text": "Immediately invoke liquidated damages", "correct": false},
+      {"text": "Fix the quality issues yourself and back-charge the subcontractor", "correct": false},
+      {"text": "Terminate the contract", "correct": false}
+    ],
+    "explanation": "Follow the contract's dispute resolution process. Document specific quality gaps with evidence, communicate formally per contract terms, and give the subcontractor opportunity to remedy. Liquidated damages are a last resort after proper process."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project's risk response strategy for a key risk was 'mitigate.' The mitigation plan has been implemented but the risk still materialized. The impact is $200K against an EMV of $50K.",
+    "question": "What should you do now?",
+    "options": [
+      {"text": "Activate the contingency plan (from the $50K reserve), assess if management reserve is needed for the remaining $150K, and update the risk register", "correct": true},
+      {"text": "Accept the full $200K loss since risk materialization is normal", "correct": false},
+      {"text": "Blame the team for poor mitigation", "correct": false},
+      {"text": "Increase the project budget by $200K", "correct": false}
+    ],
+    "explanation": "Mitigation reduces probability/impact but doesn't eliminate risk. Use contingency reserve ($50K based on EMV) first, then request management reserve for the shortfall ($150K). Document lessons learned about why mitigation was insufficient."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A company is migrating from on-premise servers to cloud infrastructure. The current system has 50 tightly coupled components with undocumented dependencies. The migration must be completed with zero downtime.",
+    "question": "What migration strategy is most appropriate?",
+    "options": [
+      {"text": "Phased migration: identify dependency chains, migrate independent components first, use feature flags and parallel running", "correct": true},
+      {"text": "Big bang migration: move everything at once over a weekend", "correct": false},
+      {"text": "Build a completely new system in the cloud and switch over", "correct": false},
+      {"text": "Delay migration until all dependencies are documented", "correct": false}
+    ],
+    "explanation": "Given undocumented dependencies and zero-downtime requirement, a phased approach with parallel running is safest. Identify dependency chains first, migrate independent components, use feature flags for gradual traffic shifting."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "You need to choose between a monolithic and microservices architecture for a new application. The team has 5 developers, 12-month timeline, and requirements are still evolving.",
+    "question": "Which architecture is more appropriate and why?",
+    "options": [
+      {"text": "Modular monolith - simpler to manage with a small team, allows future extraction to microservices", "correct": true},
+      {"text": "Microservices - they are the modern best practice", "correct": false},
+      {"text": "Monolithic - it is the simplest approach", "correct": false},
+      {"text": "Microservices - they allow independent scaling", "correct": false}
+    ],
+    "explanation": "With only 5 developers and evolving requirements, a full microservices architecture adds operational complexity (DevOps, service mesh, monitoring) that the small team cannot support. A modular monolith offers clean separation within a single deployable unit."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "An architecture review reveals that the proposed system uses synchronous REST calls between services, creating tight coupling. If Service A is down, Services B and C also fail.",
+    "question": "What architectural pattern would best address this coupling?",
+    "options": [
+      {"text": "Event-driven architecture with asynchronous messaging (e.g., message queues)", "correct": true},
+      {"text": "Add more load balancers", "correct": false},
+      {"text": "Add retry logic to the REST calls", "correct": false},
+      {"text": "Deploy all services on the same server", "correct": false}
+    ],
+    "explanation": "Asynchronous messaging decouples services: Services B and C subscribe to events from Service A without direct dependency. If A goes down, B and C continue operating. This improves resilience and scalability."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A system needs to process 10,000 transactions per second at peak times. Current capacity tests show the database becomes the bottleneck at 3,000 TPS.",
+    "question": "What is the most effective architectural solution?",
+    "options": [
+      {"text": "Implement caching (Redis/Memcached), database read replicas, and connection pooling", "correct": true},
+      {"text": "Upgrade the database server hardware", "correct": false},
+      {"text": "Switch to a different database vendor", "correct": false},
+      {"text": "Reduce the number of transactions", "correct": false}
+    ],
+    "explanation": "Caching reduces database load for frequent reads, read replicas distribute query load, and connection pooling optimizes database connections. This multi-layered approach is more effective and cost-efficient than hardware upgrades alone."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A legacy system must be replaced. It has 200 active users, processes 500 daily transactions, and has 15 years of accumulated business logic. The new system must replicate all existing functionality.",
+    "question": "What is the recommended approach for this migration?",
+    "options": [
+      {"text": "Parallel running with phased cutover: run both systems simultaneously, gradually migrate users and functions", "correct": true},
+      {"text": "Immediate cutover to the new system", "correct": false},
+      {"text": "Keep the legacy system and build the new one alongside it", "correct": false},
+      {"text": "Document all 15 years of business logic before starting development", "correct": false}
+    ],
+    "explanation": "Parallel running with phased cutover minimizes risk. Both systems operate simultaneously while users are gradually migrated. Issues can be detected and fixed before full cutover. This approach is safest for mission-critical systems."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "An organization is evaluating whether to build or buy a CRM solution. Build option: $500K, 8 months. Buy option: $200K license + $100K customization, 3 months. Both meet functional requirements.",
+    "question": "What factors should influence the build vs. buy decision beyond cost and timeline?",
+    "options": [
+      {"text": "Long-term maintenance cost, vendor lock-in risk, customization flexibility, integration complexity, and strategic value", "correct": true},
+      {"text": "Only cost and timeline should be considered", "correct": false},
+      {"text": "Buy is always better since it is faster and cheaper", "correct": false},
+      {"text": "Build is always better for strategic control", "correct": false}
+    ],
+    "explanation": "Build vs. buy analysis must consider total cost of ownership: maintenance (build = internal cost, buy = annual license), vendor dependency, ability to customize, integration with existing systems, and whether the CRM is a strategic differentiator."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A system architecture uses a single point of failure: one database server with no replication. The business impact analysis shows that 1 hour of downtime costs $100,000. The database fails on average once per quarter.",
+    "question": "What is the annual expected cost of downtime, and what should you recommend?",
+    "options": [
+      {"text": "$400,000/year (4 failures x $100K) - recommend high-availability database architecture", "correct": true},
+      {"text": "$25,000/year (average downtime cost) - acceptable risk", "correct": false},
+      {"text": "$100,000/year - implement manual failover", "correct": false},
+      {"text": "$1,200,000/year - build a redundant data center", "correct": false}
+    ],
+    "explanation": "Annual downtime risk = 4 incidents x $100K/hour x average recovery time. Even if recovery is fast, the annual risk exposure justifies investing in high-availability architecture (replication, automatic failover, clustering)."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A project requires selecting a database technology. Options: (A) Relational SQL, proven technology, team experienced; (B) NoSQL, better scalability for big data, team needs training; (C) Graph database, best fit for relationship queries, team has no experience.",
+    "question": "What selection methodology should be used?",
+    "options": [
+      {"text": "Weighted scoring matrix evaluating: functional fit (40%), team capability (25%), TCO (20%), vendor support (15%)", "correct": true},
+      {"text": "Choose the technology the team is most experienced with", "correct": false},
+      {"text": "Choose the most modern technology", "correct": false},
+      {"text": "Choose the cheapest option", "correct": false}
+    ],
+    "explanation": "A weighted scoring matrix balances multiple factors. Functional fit is weighted highest (40%) since the technology must meet requirements. Team capability (25%) is critical for execution risk. TCO and vendor support complete the evaluation."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "The system must handle peak loads 5x higher than normal during year-end processing. Peak lasts 2 weeks per year. The system runs on cloud infrastructure.",
+    "question": "What is the most cost-effective approach?",
+    "options": [
+      {"text": "Auto-scaling: provision additional resources during peak and release them after", "correct": true},
+      {"text": "Size infrastructure for peak load permanently", "correct": false},
+      {"text": "Request users to avoid peak period usage", "correct": false},
+      {"text": "Upgrade to a larger permanent instance", "correct": false}
+    ],
+    "explanation": "Cloud auto-scaling is the most cost-effective: provision resources only when needed during the 2-week peak, then scale down. Permanent peak-capacity infrastructure would waste resources for the other 50 weeks."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A proposed architecture has the web server, application server, and database all on a single virtual machine. The projected user base is 500 concurrent users.",
+    "question": "What is the primary concern with this architecture?",
+    "options": [
+      {"text": "No separation of concerns - cannot scale, update, or troubleshoot components independently", "correct": true},
+      {"text": "It is too expensive", "correct": false},
+      {"text": "It is not secure enough", "correct": false},
+      {"text": "It will be too slow", "correct": false}
+    ],
+    "explanation": "While it may work for 500 users, single-VM deployment prevents independent scaling, updating, and fault isolation. Each component should be on separate infrastructure to allow independent management and scaling."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "An API gateway is being considered for a microservices architecture. The gateway would handle authentication, rate limiting, and routing.",
+    "question": "What is the primary benefit of an API gateway in this context?",
+    "options": [
+      {"text": "Centralized cross-cutting concerns (auth, rate limiting, logging) so individual services focus on business logic", "correct": true},
+      {"text": "It makes the system faster", "correct": false},
+      {"text": "It eliminates the need for service-to-service communication", "correct": false},
+      {"text": "It reduces the number of microservices needed", "correct": false}
+    ],
+    "explanation": "An API gateway centralizes cross-cutting concerns that would otherwise need to be implemented in every microservice. This reduces duplication, ensures consistent security policies, and simplifies client integration."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A system requires 99.99% availability (52.6 minutes downtime per year). The current architecture achieves 99.9% (8.76 hours downtime per year).",
+    "question": "What architectural changes are needed to close the gap?",
+    "options": [
+      {"text": "Implement redundant systems across availability zones, automated failover, and multi-region deployment", "correct": true},
+      {"text": "Better monitoring and faster incident response", "correct": false},
+      {"text": "More frequent backups", "correct": false},
+      {"text": "Upgrade server hardware", "correct": false}
+    ],
+    "explanation": "Jumping from 99.9% to 99.99% requires eliminating single points of failure through redundancy, automated failover, and geographic distribution. Manual processes (monitoring, backups) are insufficient - you need architectural resilience."
+  },
+  {
+    "category": "System Architecture",
+    "scenario": "A project involves integrating 5 external systems via APIs. Two APIs have rate limits of 100 requests/minute, and one API has no published SLA.",
+    "question": "What architecture patterns should be implemented to manage these constraints?",
+    "options": [
+      {"text": "API rate limiting, circuit breakers, retry with exponential backoff, and request queuing", "correct": true},
+      {"text": "Call all APIs simultaneously to maximize throughput", "correct": false},
+      {"text": "Cache all API responses to minimize calls", "correct": false},
+      {"text": "Build a wrapper that bypasses rate limits", "correct": false}
+    ],
+    "explanation": "Circuit breakers prevent cascade failures when an external API is down. Retry with backoff handles transient failures. Request queuing manages rate limits. Caching (selective) reduces unnecessary API calls. Together these patterns create resilient integrations."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "You are managing a $5M ERP implementation project, 6 months into a 12-month plan. Status: PV=$2.5M, EV=$2.0M, AC=$2.8M. Three key team members resigned last month. The client has requested 15 scope changes. The system integrator is 2 months behind on module delivery.",
+    "question": "What is the project's overall health and what should be your top 3 priorities?",
+    "options": [
+      {"text": "Critical: (1) Address resource gap from resignations, (2) Escalate vendor delay with contract remedies, (3) Implement change control board for 15 scope changes", "correct": true},
+      {"text": "Moderate concern: Focus on improving CPI and SPI metrics", "correct": false},
+      {"text": "Healthy: The project is within acceptable variance ranges", "correct": false},
+      {"text": "Cancel the project and start over", "correct": false}
+    ],
+    "explanation": "SPI=0.80, CPI=0.71 - significantly over budget and behind schedule. Combined with key personnel loss, vendor delays, and 15 uncontrolled scope changes, this project is in critical condition. Immediate priorities: staff, vendor management, and scope control."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project to develop a healthcare app has the following constraints: BAC=$3M, FDA compliance required, team of 12, 9-month timeline. At month 6: SPI=0.85, CPI=0.95, 3 high-priority defects found in compliance testing, 2 key developers on medical leave.",
+    "question": "What is the most critical risk to project success?",
+    "options": [
+      {"text": "FDA compliance failures could prevent product launch regardless of schedule or budget performance", "correct": true},
+      {"text": "The schedule delay indicated by SPI", "correct": false},
+      {"text": "The cost overrun indicated by CPI", "correct": false},
+      {"text": "Staffing shortage from medical leave", "correct": false}
+    ],
+    "explanation": "In regulated industries, compliance is a binary gate - if the product cannot pass FDA requirements, it cannot launch regardless of schedule or budget performance. Compliance defects must be prioritized above all other concerns."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "You take over a troubled project mid-execution. The previous PM left no documentation. The team reports different completion percentages to different stakeholders. The client is angry about missed deadlines. Budget is 60% spent with 40% of work done.",
+    "question": "What should be your first action?",
+    "options": [
+      {"text": "Establish a single source of truth: audit actual status, create a verified baseline, and meet with the client", "correct": true},
+      {"text": "Start implementing corrective actions immediately", "correct": false},
+      {"text": "Document the previous PM's failures", "correct": false},
+      {"text": "Request additional budget before proceeding", "correct": false}
+    ],
+    "explanation": "Before taking corrective action, you need accurate information. Audit the real project status, establish a verified baseline (actual scope, schedule, cost), and communicate transparently with the client. You cannot fix what you cannot measure."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project has three parallel work streams: Frontend (3 developers), Backend (4 developers), Infrastructure (2 engineers). Frontend is 2 weeks ahead, Backend is 3 weeks behind, Infrastructure is on schedule. The critical path runs through Backend.",
+    "question": "What is the best resource optimization strategy?",
+    "options": [
+      {"text": "Move 1-2 frontend developers to backend to compress the critical path while maintaining frontend progress", "correct": true},
+      {"text": "Let each team work independently and compress the schedule at the end", "correct": false},
+      {"text": "Add new developers to the backend team", "correct": false},
+      {"text": "Delay the project end date by 3 weeks", "correct": false}
+    ],
+    "explanation": "Since the critical path is through Backend (3 weeks behind), moving resources from Frontend (2 weeks ahead) optimizes overall schedule. However, be aware of Brooks' Law: adding people to a late project may make it later. Consider knowledge transfer overhead."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project uses a hybrid approach: Agile for development, waterfall for compliance and deployment. The agile team delivers working software every 2 weeks, but the compliance review cycle takes 6 weeks.",
+    "question": "How should you handle the mismatch in cadence?",
+    "options": [
+      {"text": "Batch compliance reviews to cover multiple sprints and run reviews in parallel with development", "correct": true},
+      {"text": "Slow down development to match the compliance cycle", "correct": false},
+      {"text": "Speed up the compliance process", "correct": false},
+      {"text": "Skip compliance for internal releases", "correct": false}
+    ],
+    "explanation": "Batching compliance reviews allows the 6-week cycle to cover 3 sprints of work. Running reviews in parallel with development means the team continues delivering while compliance reviews proceed, minimizing the overall timeline impact."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project must go live on January 15. Current EAC shows completion by February 28. The delta is 6 weeks. Crashing all critical path activities would cost $500K. Fast-tracking could save 3 weeks but increases defect risk by 40%.",
+    "question": "What recommendation should you present to the sponsor?",
+    "options": [
+      {"text": "Present options with trade-offs: (A) Crashing for $500K, (B) Fast-track + accept 40% more defects, (C) Negotiate deadline extension, (D) Hybrid approach", "correct": true},
+      {"text": "Recommend crashing since the deadline is firm", "correct": false},
+      {"text": "Recommend fast-tracking since it is free", "correct": false},
+      {"text": "Recommend extending the deadline", "correct": false}
+    ],
+    "explanation": "The sponsor should make the decision with full information. Present all options with their costs, risks, and trade-offs. A hybrid approach (partial crash + partial fast-track + partial deadline extension) may offer the best balance."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your organization's PMO requires monthly project health reports. Your project has been 'Green' for 4 months. This month, SPI dropped to 0.78 due to a vendor delay. You expect to recover in 2 months.",
+    "question": "How should you report this month's status?",
+    "options": [
+      {"text": "Report Yellow (at risk) with explanation: vendor delay causing temporary SPI drop, recovery plan in place, expected to return to Green in 2 months", "correct": true},
+      {"text": "Report Green since recovery is expected", "correct": false},
+      {"text": "Report Red to be safe", "correct": false},
+      {"text": "Delay the report until the project recovers", "correct": false}
+    ],
+    "explanation": "Honest reporting builds credibility. SPI of 0.78 is significantly below 1.0 and warrants a Yellow status. The explanation and recovery plan show proactive management. Consistently accurate reporting (even when negative) is valued more than always reporting Green."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A client requests a major feature addition 2 months before the planned go-live date. The feature would add $200K and 6 weeks to the timeline. The contract has a penalty of $50K/week for late delivery.",
+    "question": "What is the correct approach to handle this request?",
+    "options": [
+      {"text": "Analyze impact ($200K + $300K penalties), present options to client with recommendation to defer to Phase 2", "correct": true},
+      {"text": "Accept the change since the client is always right", "correct": false},
+      {"text": "Reject the change to avoid penalties", "correct": false},
+      {"text": "Implement the change without telling the client about the delay", "correct": false}
+    ],
+    "explanation": "The change costs $200K directly plus $300K in late penalties (6 weeks x $50K), totaling $500K impact. Present this analysis to the client with options: defer to Phase 2, accept the cost and delay, or reduce scope elsewhere to accommodate."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project team has completed a successful pilot with 50 users. The full rollout targets 5,000 users across 10 locations over 6 months. The pilot revealed 3 usability issues and 2 performance bottlenecks.",
+    "question": "What should be the rollout strategy?",
+    "options": [
+      {"text": "Phased rollout by location: fix pilot issues first, then deploy in waves of 2-3 locations with monitoring between phases", "correct": true},
+      {"text": "Deploy to all 5,000 users immediately since the pilot was successful", "correct": false},
+      {"text": "Wait until all pilot issues are completely resolved before any rollout", "correct": false},
+      {"text": "Deploy to 500 users as a second pilot", "correct": false}
+    ],
+    "explanation": "Phased rollout manages risk: fix known issues first, then deploy incrementally with monitoring. Each phase validates the fixes and catches location-specific issues. This approach limits the blast radius of any problems."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project's quality metrics show: unit test coverage = 95%, integration test pass rate = 85%, UAT pass rate = 70%. The sponsor asks if the product is ready for release.",
+    "question": "What is your assessment and recommendation?",
+    "options": [
+      {"text": "Not ready - the declining pass rate (95% to 85% to 70%) indicates quality issues that increase with complexity; address UAT failures first", "correct": true},
+      {"text": "Ready - 70% UAT pass rate is acceptable", "correct": false},
+      {"text": "Ready - unit test coverage of 95% is excellent", "correct": false},
+      {"text": "Need more unit tests before deciding", "correct": false}
+    ],
+    "explanation": "The declining pass rate across test levels indicates that quality degrades as complexity increases. 70% UAT pass rate means 30% of features fail user validation. The product should not release until UAT pass rate reaches the acceptance threshold (typically 95%+)."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project budget is $1M with a 10% contingency ($100K). You have used $80K of contingency so far. A new risk has been identified with a 40% probability and $300K impact. There are 4 months remaining.",
+    "question": "What is the risk exposure and what should you do?",
+    "options": [
+      {"text": "EMV = $120K. With only $20K contingency remaining, you need to mitigate the risk or request management reserve", "correct": true},
+      {"text": "The $80K contingency used so far is sufficient", "correct": false},
+      {"text": "Request an additional $300K for the potential risk", "correct": false},
+      {"text": "Accept the risk since 60% chance it will not occur", "correct": false}
+    ],
+    "explanation": "EMV = 0.40 x $300K = $120K. Remaining contingency = $100K - $80K = $20K. The risk exposure ($120K) exceeds remaining contingency ($20K) by $100K. Proactive risk mitigation or management reserve request is needed."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Two projects compete for the same senior architect's time. Project A is in a critical phase (2 weeks to deadline) and needs 80% of the architect's time. Project B is in planning and needs the architect for 3 weeks starting now.",
+    "question": "How should this resource conflict be resolved?",
+    "options": [
+      {"text": "Prioritize Project A (critical phase, nearer deadline) and delay Project B's planning by 2 weeks or find an alternative resource", "correct": true},
+      {"text": "Split the architect 50/50 between both projects", "correct": false},
+      {"text": "Assign the architect to Project B since it is earlier in the lifecycle", "correct": false},
+      {"text": "Let both project managers negotiate directly", "correct": false}
+    ],
+    "explanation": "Resource conflicts should be resolved based on project priority, phase criticality, and deadline proximity. Project A is in a critical phase with an imminent deadline, making it the higher priority. Project B can be delayed or resourced differently."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project's post-implementation review shows: delivered on time, 10% over budget, 95% of requirements met. User satisfaction is 65% - below the 80% target. Root cause: requirements gathering missed workflow needs of 3 departments.",
+    "question": "What is the key lesson learned and how should it be applied?",
+    "options": [
+      {"text": "All user departments must participate in requirements validation, not just sign-off. Implement process mapping workshops in future projects.", "correct": true},
+      {"text": "The project was successful since 95% of requirements were met", "correct": false},
+      {"text": "Spend more time on user training to improve satisfaction", "correct": false},
+      {"text": "Increase the budget by 15% for future projects", "correct": false}
+    ],
+    "explanation": "Meeting 95% of documented requirements is insufficient if those requirements did not capture actual user needs. The lesson is that requirements validation must include all user groups through active participation, not just sign-off."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project uses earned value management. Week 10: PV=500, EV=450, AC=480. Week 11: PV=550, EV=500, AC=510. Week 12: PV=600, EV=560, AC=540.",
+    "question": "What trend do you observe and what does it mean?",
+    "options": [
+      {"text": "CPI is improving (0.94 to 0.98 to 1.04) while SPI remains consistently below 1.0 (0.90 to 0.91 to 0.93) - cost efficiency improving but schedule still lagging", "correct": true},
+      {"text": "Both CPI and SPI are improving steadily", "correct": false},
+      {"text": "The project is recovering in all areas", "correct": false},
+      {"text": "The project performance is stable", "correct": false}
+    ],
+    "explanation": "Week 10: SPI=0.90, CPI=0.94. Week 11: SPI=0.91, CPI=0.98. Week 12: SPI=0.93, CPI=1.04. CPI has crossed into favorable territory but SPI remains below 1.0. The project needs schedule-specific corrective actions."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A system go-live is scheduled for Monday. On Friday, testing reveals a critical data corruption bug that occurs under specific conditions. The fix is estimated at 3 days. The business has committed to the Monday go-live in customer communications.",
+    "question": "What should you recommend?",
+    "options": [
+      {"text": "Recommend delaying go-live: data corruption is unacceptable, communicate transparently with stakeholders and customers", "correct": true},
+      {"text": "Go live on Monday and fix the bug in a patch", "correct": false},
+      {"text": "Go live with the bug and work around the specific conditions", "correct": false},
+      {"text": "Cancel the project", "correct": false}
+    ],
+    "explanation": "Data corruption is a critical defect that cannot be tolerated in production. A 3-day delay is far less damaging than data loss. Transparent communication with customers (with appropriate explanation) is better than risking data integrity."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "You are managing a portfolio of 5 projects. Total budget: $10M. Project 1: $3M, on track. Project 2: $2M, CPI=0.75, SPI=0.80. Project 3: $1.5M, cancelled. Project 4: $2.5M, ahead of schedule. Project 5: $1M, just starting.",
+    "question": "What should you do with the freed budget from Project 3?",
+    "options": [
+      {"text": "Allocate to Project 2's cost overrun first (needs ~$2.67M vs $2M budget), then reassess remaining portfolio needs", "correct": true},
+      {"text": "Distribute equally across all active projects", "correct": false},
+      {"text": "Return the budget to the organization", "correct": false},
+      {"text": "Start a new Project 6", "correct": false}
+    ],
+    "explanation": "Project 2 has an EAC of $2.67M ($2M/0.75), exceeding its $2M budget by $670K. The freed $1.5M should first cover this overrun, then remaining funds can be allocated based on portfolio priorities and organizational strategy."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project team is distributed across 3 time zones (Tokyo, London, New York). Overlapping work hours are only 2 hours per day. The project has tight integration dependencies between components developed in each location.",
+    "question": "What project management approach best addresses this challenge?",
+    "options": [
+      {"text": "Asynchronous communication with well-defined APIs/contracts, daily handoff documents, and rotating overlap meeting times", "correct": true},
+      {"text": "Require everyone to work the same hours", "correct": false},
+      {"text": "Relocate all developers to one location", "correct": false},
+      {"text": "Hire a separate team that works across all time zones", "correct": false}
+    ],
+    "explanation": "With only 2 hours of overlap, the team must rely on asynchronous collaboration. Well-defined interface contracts (APIs) allow independent development. Daily handoff documents capture progress and blockers. Rotating meeting times shares the timezone burden fairly."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project has the following EAC scenarios: Best case (CPI improves to 1.0): $1.8M. Most likely (CPI stays at 0.90): $2.0M. Worst case (CPI drops to 0.80): $2.25M. BAC is $1.8M. The sponsor has a hard budget cap of $2.0M.",
+    "question": "What is your recommendation?",
+    "options": [
+      {"text": "Implement cost reduction measures immediately since the most likely EAC equals the budget cap with no margin for additional risks", "correct": true},
+      {"text": "Proceed as planned since the best case meets the budget", "correct": false},
+      {"text": "Request a budget increase to $2.25M", "correct": false},
+      {"text": "Reduce project scope by 10%", "correct": false}
+    ],
+    "explanation": "The most likely EAC ($2.0M) exactly equals the hard cap, leaving zero margin. The PM should implement cost reduction measures to create a buffer. This is proactive risk management rather than reactive crisis management."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project stakeholder matrix shows: Sponsor (high power, high interest), End users (low power, high interest), IT operations (high power, low interest), Vendors (low power, low interest). Budget is being cut by 20%.",
+    "question": "Who should be consulted first about the budget cut?",
+    "options": [
+      {"text": "The sponsor - high power and high interest, they set priorities and can authorize scope changes", "correct": true},
+      {"text": "End users - they will be most affected by reduced features", "correct": false},
+      {"text": "IT operations - they have the technical knowledge", "correct": false},
+      {"text": "All stakeholders equally", "correct": false}
+    ],
+    "explanation": "The sponsor has both high power (budget authority) and high interest (project success). They should be consulted first to understand priorities and get direction on scope adjustments needed to accommodate the 20% budget cut."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project manager receives conflicting directives: the sponsor wants to cut costs by 15%, while the quality department insists on maintaining full testing scope. The project is 60% complete with a CPI of 0.95.",
+    "question": "What is the best approach to resolve this conflict?",
+    "options": [
+      {"text": "Analyze cost-cutting options that preserve critical quality gates, present trade-offs to both parties for joint decision", "correct": true},
+      {"text": "Follow the sponsor's directive since they have higher authority", "correct": false},
+      {"text": "Follow quality department's directive since quality cannot be compromised", "correct": false},
+      {"text": "Cut 15% from non-testing activities to satisfy both parties", "correct": false}
+    ],
+    "explanation": "The PM should analyze options, identify which costs can be reduced without impacting critical quality gates, and present the trade-offs. Both concerns are valid - the decision should be data-driven with both parties involved."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "An agile team has a velocity of 40 story points per sprint. The product backlog has 400 remaining points. The release is planned for 8 sprints from now. Mid-way through, the team's velocity drops to 30 points per sprint.",
+    "question": "What should the PM do first?",
+    "options": [
+      {"text": "Recalculate the release forecast (400/30 = 13.3 sprints) and work with the product owner to reprioritize the backlog", "correct": true},
+      {"text": "Add more team members to restore velocity", "correct": false},
+      {"text": "Extend the sprint duration to compensate", "correct": false},
+      {"text": "Ask the team to work overtime", "correct": false}
+    ],
+    "explanation": "Velocity decline requires reforecasting and scope negotiation. Adding people (Brooks' Law) often worsens the situation. The PM should help the PO identify the MVP scope that can be delivered in the remaining sprints."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project requires integrating with a third-party API. The vendor's API documentation is outdated, and the vendor is unresponsive to support requests. The integration is on the critical path with 4 weeks until deadline.",
+    "question": "What is the best risk mitigation approach?",
+    "options": [
+      {"text": "Implement an adapter/abstraction layer to decouple from the vendor API, use reverse engineering if needed, and escalate vendor non-responsiveness", "correct": true},
+      {"text": "Wait for the vendor to respond", "correct": false},
+      {"text": "Find a different vendor immediately", "correct": false},
+      {"text": "Build a custom solution instead of using the API", "correct": false}
+    ],
+    "explanation": "An abstraction layer isolates the integration from the vendor's specific API, allowing adaptation if the API differs from documentation. Escalation creates management awareness. This dual approach addresses both the immediate technical need and the vendor relationship issue."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project team has completed 200 test cases with a 90% pass rate. 20 test cases failed. Analysis shows: 10 are data-related, 5 are logic errors, 3 are UI issues, 2 are performance issues.",
+    "question": "What is the recommended defect resolution priority?",
+    "options": [
+      {"text": "Logic errors first (correctness), then data issues (integrity), then performance, then UI (usability)", "correct": true},
+      {"text": "Fix all defects equally since they all failed testing", "correct": false},
+      {"text": "UI issues first since they are most visible to users", "correct": false},
+      {"text": "Performance issues first since they are hardest to fix", "correct": false}
+    ],
+    "explanation": "Priority should be based on business impact: logic errors affect correctness (highest), data issues affect integrity, performance affects scalability, and UI affects usability. Fix critical business logic before cosmetic issues."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A company is implementing a new ERP system across 5 regional offices. Office A (pilot) completed successfully in 6 weeks. Office B encountered data migration issues and is 4 weeks behind. Offices C, D, E are scheduled to start next month.",
+    "question": "What should you do before starting Offices C, D, E?",
+    "options": [
+      {"text": "Conduct a retrospective on Office B's data migration issues, update the migration playbook, and incorporate lessons into the remaining rollout plan", "correct": true},
+      {"text": "Proceed with the original plan since Office A succeeded", "correct": false},
+      {"text": "Delay all remaining offices until Office B is resolved", "correct": false},
+      {"text": "Assign the Office A team to Office B to speed it up", "correct": false}
+    ],
+    "explanation": "Before scaling, address the issues found in Office B. Update the migration playbook with Office A's success factors and Office B's lessons. This prevents repeating the same mistakes in Offices C, D, and E."
+  },
+  {
+    "category": "Problem Solving",
+    "scenario": "A project's defect density is 8 defects/KLOC. The industry average for similar projects is 4 defects/KLOC. The project is in its 6th month of an 8-month timeline.",
+    "question": "What is the most effective improvement strategy?",
+    "options": [
+      {"text": "Implement mandatory code reviews, pair programming for complex modules, and increase test coverage to reduce defects in remaining work", "correct": true},
+      {"text": "Add more QA testers at the end", "correct": false},
+      {"text": "Extend the timeline by 2 months", "correct": false},
+      {"text": "Accept the higher defect density as within tolerance", "correct": false}
+    ],
+    "explanation": "Since the project is in mid-execution, process improvements (code reviews, pair programming) address the root cause for remaining work. End-stage testing catches defects too late. The goal is to prevent defects, not just find them."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project must comply with GDPR. The team collected user data during testing without proper consent mechanisms. The go-live is in 2 weeks.",
+    "question": "What is the correct course of action?",
+    "options": [
+      {"text": "Immediately implement proper consent mechanisms, anonymize test data, consult legal/compliance before go-live, and document the corrective action", "correct": true},
+      {"text": "Proceed with go-live and fix compliance issues in a patch", "correct": false},
+      {"text": "Delete all test data and retest with proper consent", "correct": false},
+      {"text": "Postpone go-live indefinitely until full compliance audit", "correct": false}
+    ],
+    "explanation": "GDPR compliance is a legal requirement. The team must implement consent mechanisms, handle test data properly, and get compliance clearance before go-live. Documenting the corrective action demonstrates good faith."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "Your project has a CPI of 1.15 and SPI of 0.85. The sponsor is happy about cost savings but concerned about the schedule delay. The project has 4 months remaining.",
+    "question": "What strategy should you propose?",
+    "options": [
+      {"text": "Use the cost savings (CPI=1.15) to fund schedule compression activities (crashing/fast-tracking) to improve SPI without increasing total cost", "correct": true},
+      {"text": "Focus only on schedule since cost is not an issue", "correct": false},
+      {"text": "Reduce scope to meet the deadline", "correct": false},
+      {"text": "Accept the delay and deliver on original cost", "correct": false}
+    ],
+    "explanation": "The cost underperformance (CPI=1.15) provides a budget buffer that can fund schedule compression. Crashing critical path activities using the savings improves schedule without impacting the total budget. This leverages the good CPI to fix the bad SPI."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A critical project depends on a vendor delivering a hardware component. The vendor informs you of a 6-week delay. The component cannot be sourced elsewhere. The project has a hard deadline tied to a regulatory filing date.",
+    "question": "What is the most effective response?",
+    "options": [
+      {"text": "Investigate partial delivery options, identify work that can proceed without the component, and escalate to management for deadline negotiation if needed", "correct": true},
+      {"text": "Accept the delay and notify stakeholders", "correct": false},
+      {"text": "Find a different supplier", "correct": false},
+      {"text": "Redesign the system to use an alternative component", "correct": false}
+    ],
+    "explanation": "When a single-source vendor delays and the component cannot be substituted, the PM should: (1) negotiate partial delivery to start work sooner, (2) resequence work to maximize productivity without the component, and (3) escalate if the regulatory deadline is at risk."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A team of 8 developers has been working on a project for 6 months. Morale is declining. An anonymous survey reveals: developers feel micromanaged, meetings are too frequent, and their technical suggestions are ignored. Velocity has dropped 30%.",
+    "question": "What leadership approach should the PM adopt?",
+    "options": [
+      {"text": "Shift to servant leadership: reduce meeting frequency, delegate technical decisions to the team, implement retrospectives, and act on survey feedback", "correct": true},
+      {"text": "Add incentives and bonuses to motivate the team", "correct": false},
+      {"text": "Replace underperforming team members", "correct": false},
+      {"text": "Increase monitoring to ensure productivity", "correct": false}
+    ],
+    "explanation": "The survey clearly indicates management practices are causing the decline. Servant leadership addresses each concern: fewer meetings, more autonomy, acting on feedback. This is more effective than extrinsic motivation (bonuses) when the root cause is management style."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "You are preparing a project for closure. The deliverables have been accepted by the client. However, 3 of 15 contract deliverables from a subcontractor are disputed. The subcontractor claims they are complete; your team disagrees.",
+    "question": "What should you do before closing the project?",
+    "options": [
+      {"text": "Resolve all disputes through the contract's dispute resolution process before formal closure; document any unresolved items as claims", "correct": true},
+      {"text": "Close the project and handle disputes separately", "correct": false},
+      {"text": "Accept the subcontractor's claims to expedite closure", "correct": false},
+      {"text": "Withhold final payment until all disputes are resolved in your favor", "correct": false}
+    ],
+    "explanation": "All contractual obligations and disputes should be resolved before project closure. Unresolved disputes become claims that can affect project records and organizational process assets. Follow the contract's formal dispute resolution process."
+  },
+  {
+    "category": "Comprehensive Scenarios",
+    "scenario": "A project uses waterfall methodology. During the design phase, the team discovers that a key technology choice made during planning is no longer viable (vendor discontinued the product). The design is 80% complete.",
+    "question": "What is the appropriate change management approach?",
+    "options": [
+      {"text": "Submit a change request through integrated change control: assess impact on design, schedule, and cost; evaluate alternative technologies; get CCB approval before redesigning affected components", "correct": true},
+      {"text": "Immediately switch to the closest alternative without formal approval", "correct": false},
+      {"text": "Return to the planning phase to re-evaluate all technology choices", "correct": false},
+      {"text": "Proceed with the discontinued technology using the existing license", "correct": false}
+    ],
+    "explanation": "A fundamental technology change requires formal change control. The change request should include: impact assessment (which design components are affected), alternative technology evaluation, schedule impact, and cost impact. The CCB approves before the team invests redesign effort."
+  }
+]
