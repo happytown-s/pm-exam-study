@@ -13,6 +13,19 @@ type Mode = 'category' | 'quiz' | 'result';
 const STORAGE_WRONG = 'pm-quiz-wrong';
 const STORAGE_STATS = 'pm-quiz-stats';
 
+const categoryNames: Record<string, string> = {
+  'Project Planning': 'プロジェクト計画',
+  'Project Execution & Control': 'プロジェクト実行と統制',
+  'Risk Management': 'リスクマネジメント',
+  'Quality Management': '品質マネジメント',
+  'Cost Management': 'コストマネジメント',
+  'Schedule Management': 'スケジュールマネジメント',
+  'Stakeholder & Communication': 'ステークホルダとコミュニケーション',
+  'Contract & Procurement': '契約と調達',
+  'IT Governance & Audit': 'ITガバナンスと監査',
+  'Service Management': 'サービスマネジメント',
+};
+
 interface Stats {
   total: number;
   correct: number;
@@ -113,7 +126,7 @@ export default function Quiz() {
   if (mode === 'category') {
     return (
       <div>
-        <h2 className="text-lg font-bold mb-4" style={{ color: '#e0e0f0' }}>Select Categories</h2>
+        <h2 className="text-lg font-bold mb-4" style={{ color: '#e0e0f0' }}>カテゴリを選択</h2>
         <div className="flex flex-wrap gap-2 mb-6">
           {categories.map(cat => {
             const count = questions.filter(q => q.category === cat).length;
@@ -129,7 +142,7 @@ export default function Quiz() {
                   color: selected ? '#fff' : '#8888aa',
                 }}
               >
-                {cat} ({count})
+                {categoryNames[cat] || cat} ({count})
               </button>
             );
           })}
@@ -142,14 +155,14 @@ export default function Quiz() {
             className="flex-1 py-3 rounded font-medium text-white transition-colors disabled:opacity-40"
             style={{ backgroundColor: selectedCategories.length > 0 ? '#27ae60' : '#2a2a5a' }}
           >
-            Start ({questions.filter(q => selectedCategories.includes(q.category)).length} Qs)
+            開始 ({questions.filter(q => selectedCategories.includes(q.category)).length}問)
           </button>
           <button
             onClick={() => startQuiz(questions)}
             className="flex-1 py-3 rounded font-medium transition-colors border"
             style={{ backgroundColor: '#16162e', borderColor: '#27ae60', color: '#27ae60' }}
           >
-            All ({questions.length} Qs)
+            全問 ({questions.length}問)
           </button>
         </div>
 
@@ -159,13 +172,13 @@ export default function Quiz() {
             className="w-full py-3 rounded font-medium text-white transition-colors mb-4"
             style={{ backgroundColor: '#e74c3c' }}
           >
-            Wrong Answers Review ({wrongCount} Qs)
+            復習 ({wrongCount}問)
           </button>
         )}
 
         {stats.total > 0 && (
           <div className="rounded p-4 mt-4" style={{ backgroundColor: '#16162e', border: '1px solid #2a2a5a' }}>
-            <p style={{ color: '#8888aa' }} className="text-sm">Overall Accuracy</p>
+            <p style={{ color: '#8888aa' }} className="text-sm">全体正解率</p>
             <p className="text-2xl font-bold" style={{ color: '#27ae60' }}>
               {Math.round(stats.correct / stats.total * 100)}% ({stats.correct}/{stats.total})
             </p>
@@ -179,19 +192,19 @@ export default function Quiz() {
     const pct = Math.round(correctCount / pool.length * 100);
     return (
       <div className="text-center">
-        <h2 className="text-2xl font-bold mb-4" style={{ color: '#e0e0f0' }}>Quiz Complete</h2>
+        <h2 className="text-2xl font-bold mb-4" style={{ color: '#e0e0f0' }}>問題集完了</h2>
         <div className="rounded p-6 mb-6" style={{ backgroundColor: '#16162e' }}>
           <p className="text-4xl font-bold mb-2" style={{ color: pct >= 80 ? '#27ae60' : pct >= 60 ? '#f39c12' : '#e74c3c' }}>
             {pct}%
           </p>
-          <p style={{ color: '#8888aa' }}>{correctCount} correct / {pool.length} total</p>
+          <p style={{ color: '#8888aa' }}>{correctCount}問正解 / {pool.length}問中</p>
         </div>
         <button
           onClick={() => setMode('category')}
           className="w-full py-3 rounded font-medium text-white"
           style={{ backgroundColor: '#27ae60' }}
         >
-          Back to Categories
+          カテゴリに戻る
         </button>
       </div>
     );
@@ -205,7 +218,7 @@ export default function Quiz() {
       <div className="flex items-center justify-between mb-3">
         <span className="text-sm" style={{ color: '#8888aa' }}>{idx + 1} / {pool.length}</span>
         <span className="text-xs px-2 py-1 rounded" style={{ backgroundColor: '#2a2a5a', color: '#27ae60' }}>
-          {q.category}
+          {categoryNames[q.category] || q.category}
         </span>
       </div>
       <div className="w-full h-1.5 rounded-full mb-4" style={{ backgroundColor: '#2a2a5a' }}>
@@ -232,8 +245,8 @@ export default function Quiz() {
               style={{ backgroundColor: bg, borderColor: border, color }}
             >
               <span className="text-sm font-medium">{opt.text}</span>
-              {answered && opt.correct && <span className="float-right text-sm">OK</span>}
-              {answered && oi === selectedIdx && !opt.correct && <span className="float-right text-sm">X</span>}
+              {answered && opt.correct && <span className="float-right text-sm text-xs">正解</span>}
+              {answered && oi === selectedIdx && !opt.correct && <span className="float-right text-sm text-xs">不正解</span>}
             </button>
           );
         })}
@@ -245,7 +258,7 @@ export default function Quiz() {
       )}
       {answered && (
         <button onClick={next} className="w-full mt-4 py-3 rounded font-medium text-white" style={{ backgroundColor: '#27ae60' }}>
-          {idx + 1 < pool.length ? 'Next' : 'See Results'}
+          {idx + 1 < pool.length ? '次へ' : '結果を見る'}
         </button>
       )}
     </div>
