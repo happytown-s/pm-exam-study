@@ -1,1202 +1,1202 @@
 [
   {
     "category": "Project Initiation",
-    "scenario": "Your company is considering developing a new inventory management system. The estimated development cost is $2,000,000. Expected annual savings are $500,000. The system has a 5-year operational life. The required rate of return is 10%.",
-    "question": "What is the payback period for this project?",
+    "scenario": "自社で在庫管理システムの開発を検討中。開発コスト200万ドル、年間節約見込み50万ドル、稼働期間5年、要求収益率10%。",
+    "question": "このプロジェクトの回収期間はいくらか。",
     "options": [
-      {"text": "4 years", "correct": true},
-      {"text": "5 years", "correct": false},
-      {"text": "3 years", "correct": false},
-      {"text": "2.5 years", "correct": false}
+      {"text": "4年", "correct": true},
+      {"text": "5年", "correct": false},
+      {"text": "3年", "correct": false},
+      {"text": "2.5年", "correct": false}
     ],
-    "explanation": "Payback period = Investment / Annual savings = $2,000,000 / $500,000 = 4 years. The project recovers its investment in 4 years out of the 5-year life, leaving 1 year of net benefit."
+    "explanation": "回収期間 = 投資 / 年間節約 = 2,000,000 / 500,000 = 4年。プロジェクトは5年の稼働期間中に4年で投資を回収し、1年の純便益が残る。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A company is evaluating three project proposals. Project A: NPV = $500k, IRR = 15%. Project B: NPV = $800k, IRR = 12%. Project C: NPV = $300k, IRR = 20%. Budget allows only one project.",
-    "question": "Which project should be selected based on NPV?",
+    "scenario": "3つのプロジェクト提案を評価中。プロジェクトA：NPV=500k、IRR=15%。プロジェクトB：NPV=800k、IRR=12%。プロジェクトC：NPV=300k、IRR=20%。予算は1プロジェクトのみ。",
+    "question": "NPVに基づいてどのプロジェクトを選択すべきか。",
     "options": [
-      {"text": "Project B (highest NPV of $800k)", "correct": true},
-      {"text": "Project C (highest IRR of 20%)", "correct": false},
-      {"text": "Project A (balanced NPV and IRR)", "correct": false},
-      {"text": "Any project since all are positive NPV", "correct": false}
+      {"text": "プロジェクトB（NPVが最高の800k）", "correct": true},
+      {"text": "プロジェクトC（IRRが最高の20%）", "correct": false},
+      {"text": "プロジェクトA（NPVとIRRのバランス）", "correct": false},
+      {"text": "全てNPVが正なのでどれでも可", "correct": false}
     ],
-    "explanation": "When projects are mutually exclusive and budget-constrained, NPV is generally preferred because it measures total value creation. Project B creates the most total value ($800k) despite having a lower IRR than Project C."
+    "explanation": "プロジェクトが排他的で予算制約がある場合、NPVは総価値創造を測定するため一般的に推奨。プロジェクトBはIRRがCより低くても、最も高い総価値（800k）を創造。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A feasibility study reveals that a proposed e-commerce platform project has significant technical risk due to unproven technology, moderate market risk, and high regulatory compliance requirements. The estimated ROI is 25% over 3 years.",
-    "question": "What should be the recommended next step?",
+    "scenario": "実現可能性調査により、Eコマースプラットフォームには未検証技術による重大な技術リスク、中程度の市場リスク、高い規制コンプライアンス要件があることが判明。推定ROIは3年で25%。",
+    "question": "推奨される次のステップは何か。",
     "options": [
-      {"text": "Conduct a detailed risk assessment and proof-of-concept before proceeding", "correct": true},
-      {"text": "Proceed immediately since ROI exceeds the threshold", "correct": false},
-      {"text": "Reject the project due to high risks", "correct": false},
-      {"text": "Reduce the project scope to minimize risks", "correct": false}
+      {"text": "詳細なリスク評価と概念実証を実施してから進行", "correct": true},
+      {"text": "ROIが閾値を超えるので直ちに進行", "correct": false},
+      {"text": "リスクが高いためプロジェクトを却下", "correct": false},
+      {"text": "リスクを最小化するためにスコープを縮小", "correct": false}
     ],
-    "explanation": "A proof-of-concept or detailed risk assessment is the appropriate next step. The ROI is attractive but the significant technical risk needs to be addressed before committing full resources. This is risk-informed decision making."
+    "explanation": "概念実証または詳細なリスク評価が適切な次のステップ。ROIは魅力的だが、全リソース投入前に重大な技術リスクに対応が必要。リスクインフォームドな意思決定。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "You are appointed as project manager for a new project. The sponsor provides a brief email describing the desired outcome but no formal document. The finance department requires a signed project charter before releasing funds.",
-    "question": "What should you do first?",
+    "scenario": "新プロジェクトのPMに任命。スポンサーは望ましい成果を記載した短いメールを提供したが正式文書はない。財務部門は資金解放前に署名済みプロジェクトチャーターを要求。",
+    "question": "まず何をすべきか。",
     "options": [
-      {"text": "Work with the sponsor to develop a formal project charter", "correct": true},
-      {"text": "Start planning immediately since you have the sponsor's intent", "correct": false},
-      {"text": "Ask the finance department to waive the requirement", "correct": false},
-      {"text": "Create a project charter yourself and ask the sponsor to sign it", "correct": false}
+      {"text": "スポンサーと協力して正式なプロジェクトチャーターを作成", "correct": true},
+      {"text": "スポンサーの意図があるので直ちに計画開始", "correct": false},
+      {"text": "財務部門に要件の免除を依頼", "correct": false},
+      {"text": "自らプロジェクトチャーターを作成しスポンサーに署名依頼", "correct": false}
     ],
-    "explanation": "The project charter should be developed collaboratively with the sponsor. It formalizes the authorization, defines high-level requirements, and assigns the PM authority. Creating it yourself without sponsor involvement misses the collaborative essence."
+    "explanation": "プロジェクトチャーターはスポンサーと協力して作成すべき。承認を正式化し、高レベル要件を定義し、PMに権限を付与する。スポンサーの関与なしに単独で作成すると協働の本質を見逃す。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A project to upgrade the company's ERP system is estimated at $5M with a 12-month timeline. The current system has 2 more years of vendor support. The business case projects $3M in efficiency gains over 5 years.",
-    "question": "What is the main concern about this project's business case?",
+    "scenario": "ERPシステムアップグレードプロジェクト：推定500万ドル、12ヶ月。現在システムはあと2年ベンダーサポートあり。ビジネスケースでは5年で300万ドルの効率向上を予測。",
+    "question": "このビジネスケースの最大の懸念は何か。",
     "options": [
-      {"text": "The project cost ($5M) exceeds the total projected benefit ($3M)", "correct": true},
-      {"text": "The timeline of 12 months is too long", "correct": false},
-      {"text": "The current system still has 2 years of support", "correct": false},
-      {"text": "The benefit period is only 5 years", "correct": false}
+      {"text": "プロジェクトコスト（500万）が総便益（300万）を超える", "correct": true},
+      {"text": "12ヶ月のタイムラインが長すぎる", "correct": false},
+      {"text": "現在システムはあと2年サポートがある", "correct": false},
+      {"text": "便益期間が5年しかない", "correct": false}
     ],
-    "explanation": "The cost ($5M) exceeds the total benefit ($3M), resulting in a net loss of $2M. This project has a negative NPV and should be reconsidered or redesigned to achieve positive returns."
+    "explanation": "コスト（500万）が総便益（300万）を超え、200万の純損失。このプロジェクトは負のNPVであり、再考または再設計で正のリターンを達成すべき。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "Two departments are competing for project funding. Department A proposes a cost-saving project with a 3-year payback. Department B proposes a revenue-generating project with a 2-year payback. Both require $1M. The company can fund only one.",
-    "question": "What additional information is most important for the decision?",
+    "scenario": "2つの部門がプロジェクト資金を競合。部門Aはコスト削減プロジェクト（回収期間3年）。部門Bは収益創出プロジェクト（回収期間2年）。両方とも100万ドル必要。会社は1プロジェクトのみ資金提供可能。",
+    "question": "意思決定に最も重要な追加情報は何か。",
     "options": [
-      {"text": "NPV of both projects and strategic alignment with company goals", "correct": true},
-      {"text": "Payback period (already provided)", "correct": false},
-      {"text": "Internal rate of return alone", "correct": false},
-      {"text": "Department head's recommendation", "correct": false}
+      {"text": "両プロジェクトのNPVと会社目標との戦略的整合性", "correct": true},
+      {"text": "回収期間（既に提供済み）", "correct": false},
+      {"text": "内部収益率のみ", "correct": false},
+      {"text": "部門長の推薦", "correct": false}
     ],
-    "explanation": "While payback is useful, NPV considers the time value of money and total value created. Strategic alignment ensures the selected project supports the organization's long-term goals. Both factors together provide the best decision basis."
+    "explanation": "回収期間は有用だが、NPVは資金の時間価値と総価値創造を考慮。戦略的整合性は選択プロジェクトが組織の長期目標をサポートすることを確保。両方で最良の意思決定基盤。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "During project initiation, the sponsor asks you to commit to a completion date before requirements are gathered. The date is 6 months from now. Similar past projects have taken 8-12 months.",
-    "question": "How should you respond?",
+    "scenario": "プロジェクト起動中、スポンサーが要件収集前に完了日のコミットを求める。期限は6ヶ月後。類似の過去プロジェクトは8〜12ヶ月かかっている。",
+    "question": "どう応答すべきか。",
     "options": [
-      {"text": "Explain that a reliable estimate requires requirements analysis and offer a rough range with caveats", "correct": true},
-      {"text": "Agree to the 6-month date to satisfy the sponsor", "correct": false},
-      {"text": "Refuse the date and insist on 10 months", "correct": false},
-      {"text": "Start work immediately and adjust the date later", "correct": false}
+      {"text": "信頼性のある見積には要件分析が必要と説明し、注記付きの大まかな範囲を提示", "correct": true},
+      {"text": "スポンサーを満足させるため6ヶ月に同意", "correct": false},
+      {"text": "期限を拒否し10ヶ月を主張", "correct": false},
+      {"text": "直ちに作業開始し後で日付を調整", "correct": false}
     ],
-    "explanation": "Committing to unrealistic dates creates accountability for failure. A rough order of magnitude estimate (-25% to +75%) is appropriate at initiation. Share historical data (8-12 months) and explain that detailed planning will refine the estimate."
+    "explanation": "非現実的な期限へのコミットは失敗への責任。起動時にはラフオーダーオブマグニチュード見積（-25%〜+75%）が適切。過去データ（8〜12ヶ月）を共有し、詳細計画で見積が洗練されると説明。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A project charter has been created and signed. During the first planning meeting, you discover that two key stakeholders were not consulted and strongly disagree with the project's scope.",
-    "question": "What is the best course of action?",
+    "scenario": "プロジェクトチャーターが作成・署名済み。最初の計画会議で、2名の重要ステークホルダーが協議されておらず、プロジェクトスコープに強く反対していることが判明。",
+    "question": "最適な対応は何か。",
     "options": [
-      {"text": "Pause planning, engage the stakeholders, and update the charter if needed", "correct": true},
-      {"text": "Proceed with planning since the charter is signed", "correct": false},
-      {"text": "Escalate to the sponsor to force compliance", "correct": false},
-      {"text": "Exclude the dissenting stakeholders from the project", "correct": false}
+      {"text": "計画を一時停止し、ステークホルダーと協議し、必要に応じてチャーターを更新", "correct": true},
+      {"text": "チャーターが署名済みなので計画を継続", "correct": false},
+      {"text": "スポンサーにエスカレーションしコンプライアンスを強制", "correct": false},
+      {"text": "反対するステークホルダーをプロジェクトから除外", "correct": false}
     ],
-    "explanation": "Ignoring key stakeholders risks scope disputes, delays, and project failure. Engaging them early may require charter updates but saves significant rework later. The charter is a living document in early stages."
+    "explanation": "重要ステークホルダーを無視するとスコープ紛争、遅延、プロジェクト失敗のリスク。早期に協議すればチャーター更新が必要だが、後の大幅な手戻りを回避。初期段階ではチャーターは生きた文書。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "Your organization uses a project selection committee. A new AI project has a high strategic value but unknown technical feasibility. The estimated budget is $3M. The committee asks for your recommendation.",
-    "question": "What project structure would you recommend?",
+    "scenario": "組織はプロジェクト選択委員会を使用。新規AIプロジェクトは高い戦略的価値だが技術的実現可能性が不明。推定予算300万ドル。委員会が推薦を求めている。",
+    "question": "推奨するプロジェクト構成は何か。",
     "options": [
-      {"text": "Phase-gate approach: fund a feasibility study first, then decide on full funding", "correct": true},
-      {"text": "Full waterfall funding since the strategic value is high", "correct": false},
-      {"text": "Agile with unlimited budget", "correct": false},
-      {"text": "Reject the project until technology is proven", "correct": false}
+      {"text": "フェーズゲート方式：まず実現可能性調査に資金提供し、その後全額資金の判断", "correct": true},
+      {"text": "戦略的価値が高いので全額ウォーターフォール資金提供", "correct": false},
+      {"text": "アジャイルで予算無制限", "correct": false},
+      {"text": "技術が証明されるまでプロジェクトを却下", "correct": false}
     ],
-    "explanation": "A phase-gate approach allows staged investment. Fund a feasibility/proof-of-concept phase first ($200-500K), evaluate results, then decide whether to commit the full $3M. This limits downside while preserving upside."
+    "explanation": "フェーズゲート方式は段階的投資を可能に。まず実現可能性/概念実証フェーズに資金提供（20〜50万ドル）、結果を評価し、全額300万のコミットを判断。ダウンサイドを限定しながらアップサイドを保持。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A company's strategic plan includes becoming carbon neutral by 2030. A proposed project would install solar panels at a cost of $2M, saving $300K annually. The panels last 20 years.",
-    "question": "What is the primary justification for this project?",
+    "scenario": "会社の戦略計画に2030年までのカーボンニュートラル化が含まれる。提案プロジェクトは200万ドルで太陽光パネル設置、年間30万ドル節約。パネル耐用年数20年。",
+    "question": "このプロジェクトの主要な正当化理由は何か。",
     "options": [
-      {"text": "Strategic alignment with corporate sustainability goals and long-term cost savings", "correct": true},
-      {"text": "Only the financial payback period of 6.67 years", "correct": false},
-      {"text": "Only the environmental benefit", "correct": false},
-      {"text": "The technology is new and innovative", "correct": false}
+      {"text": "企業の持続可能性目標との戦略的整合性と長期コスト削減", "correct": true},
+      {"text": "6.67年の財務回収期間のみ", "correct": false},
+      {"text": "環境面の便益のみ", "correct": false},
+      {"text": "技術が新規で革新的", "correct": false}
     ],
-    "explanation": "While the financial case is solid (6.67-year payback with 13+ years of savings), the primary justification is strategic alignment. The project supports the company's stated goal of carbon neutrality, making it strategically imperative beyond pure financial metrics."
+    "explanation": "財務ケースは確実だが（6.67年回収で13年以上の節約）、主要な正当化は戦略的整合性。カーボンニュートラル化という会社の公表目標をサポートし、純粋な財務指標を超えた戦略的必須事項。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "During initiation, you identify that the project requires resources from three different departments, each with their own priorities. One department head has verbally agreed to provide resources but has not committed in writing.",
-    "question": "What should you do to secure resource commitment?",
+    "scenario": "プロジェクト起動中、3つの異なる部門のリソースが必要と判明。各部門独自の優先事項がある。1人の部門長は口頭でリソース提供に同意したが、文書でのコミットはない。",
+    "question": "リソースコミットを確保するにはどうすべきか。",
     "options": [
-      {"text": "Get written resource commitments in the project charter signed by all department heads", "correct": true},
-      {"text": "Proceed based on the verbal agreement", "correct": false},
-      {"text": "Ask the project sponsor to mandate resource allocation", "correct": false},
-      {"text": "Hire external contractors instead", "correct": false}
+      {"text": "全部門長が署名するプロジェクトチャーターに文書でのリソースコミットを取得", "correct": true},
+      {"text": "口頭合意に基づき進行", "correct": false},
+      {"text": "プロジェクトスポンサーにリソース配分の指示を依頼", "correct": false},
+      {"text": "外部コンサルタントを代わりに雇用", "correct": false}
     ],
-    "explanation": "Written commitments in the charter ensure accountability. Verbal agreements are easily forgotten or deprioritized when departmental pressures arise. Having all department heads sign the charter creates shared ownership."
+    "explanation": "チャーター内の文書コミットが説明責任を確保。口頭合意は部門の圧力で忘れられたり優先度が下がったりしやすい。全部門長にチャーター署名で共同所有権を創出。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A project to develop a mobile app has been approved with a BAC of $800K. The sponsor mentions that 'customer satisfaction must be above 90%.' There are no other defined quality metrics.",
-    "question": "What is the gap in the project charter?",
+    "scenario": "モバイルアプリ開発プロジェクトがBAC 800kで承認済み。スポンサーは「顧客満足度は90%以上」と言及。他の品質指標は未定義。",
+    "question": "プロジェクトチャーターのギャップは何か。",
     "options": [
-      {"text": "Quality criteria are vague and not measurable beyond one metric", "correct": true},
-      {"text": "The BAC is insufficient for a mobile app", "correct": false},
-      {"text": "Customer satisfaction is not a valid metric", "correct": false},
-      {"text": "The charter should not include quality criteria", "correct": false}
+      {"text": "品質基準が曖昧で1指標以外は測定不可能", "correct": true},
+      {"text": "BACがモバイルアプリに不足", "correct": false},
+      {"text": "顧客満足度は有効な指標ではない", "correct": false},
+      {"text": "チャーターに品質基準は含めるべきではない", "correct": false}
     ],
-    "explanation": "The charter should include specific, measurable acceptance criteria. 'Customer satisfaction above 90%' is one metric but insufficient alone. Additional metrics like response time, error rates, and performance benchmarks are needed."
+    "explanation": "チャーターには具体的で測定可能な受入基準を含めるべき。「顧客満足度90%以上」は1指標だが不十分。応答時間、エラー率、パフォーマンスベンチマーク等の追加指標が必要。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "The project sponsor asks you to include a 'bonus clause' in the charter: if the project is completed 1 month early, the team gets a $50K bonus. The normal schedule is 10 months.",
-    "question": "What concern should you raise about this incentive?",
+    "scenario": "スポンサーがチャーターに「ボーナス条項」を含めるよう依頼：1ヶ月早く完了したらチームに50kのボーナス。通常スケジュール10ヶ月。",
+    "question": "このインセンティブについて懸念すべき点は何か。",
     "options": [
-      {"text": "It may encourage cutting corners on quality to meet the early deadline", "correct": true},
-      {"text": "It is too small to motivate the team", "correct": false},
-      {"text": "Bonuses should be individual, not team-based", "correct": false},
-      {"text": "The sponsor should not be involved in team incentives", "correct": false}
+      {"text": "早期完了のために品質を妥協する動機を生む可能性", "correct": true},
+      {"text": "チームの動機付けには小さすぎる", "correct": false},
+      {"text": "ボーナスは個人向けでなくチーム向けであるべき", "correct": false},
+      {"text": "スポンサーはチームインセンティブに関与すべきではない", "correct": false}
     ],
-    "explanation": "Schedule-based bonuses without quality safeguards risk encouraging teams to rush work, skip testing, or compromise quality. The bonus should be tied to meeting quality and scope requirements as well as schedule."
+    "explanation": "品質保護なしのスケジュールベースボーナスは、チームが作業を急ぎ、テストをスキップ、品質を妥協するリスク。ボーナスは品質・スコープ要件の達成にも結び付けるべき。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "A government project requires compliance with accessibility regulations. The project charter does not mention this requirement. The project team is unaware of the regulation.",
-    "question": "What is the risk of proceeding without addressing this?",
+    "scenario": "政府プロジェクトでアクセシビリティ規制へのコンプライアンスが必須。プロジェクトチャーターにこの要件は記載なし。チームは規制を認識していない。",
+    "question": "この問題に対処せずに進行するリスクは何か。",
     "options": [
-      {"text": "The project deliverable may be non-compliant, requiring costly rework or legal penalties", "correct": true},
-      {"text": "No risk since the team will discover it during testing", "correct": false},
-      {"text": "Accessibility can be added later as an enhancement", "correct": false},
-      {"text": "The charter is correct as-is since the team will handle it", "correct": false}
+      {"text": "納入物が非コンプライアンスとなり、高額な手戻りや法的罰則が必要", "correct": true},
+      {"text": "チームがテスト中に発見するのでリスクなし", "correct": false},
+      {"text": "アクセシビリティは後で拡張として追加可能", "correct": false},
+      {"text": "チャーターは現状で正しい（チームが対応する）", "correct": false}
     ],
-    "explanation": "Regulatory requirements must be identified during initiation and included in the project scope. Discovering compliance gaps late in the project causes significant rework, delays, and potential legal consequences."
+    "explanation": "規制要件は起動時に識別しプロジェクトスコープに含める必要がある。プロジェクト後半でのコンプライアンスギャップ発見は大幅な手戻り、遅延、法的結果を引き起こす。"
   },
   {
     "category": "Project Initiation",
-    "scenario": "Your company evaluates projects using a scoring model with criteria: Strategic Fit (40%), Financial Return (30%), Risk (20%), Innovation (10%). Project X scores: Strategic=8, Financial=6, Risk=4, Innovation=7 (out of 10).",
-    "question": "What is Project X's weighted score?",
+    "scenario": "会社はスコアリングモデルでプロジェクトを評価：戦略適合40%、財務リターン30%、リスク20%、イノベーション10%。プロジェクトXのスコア：戦略=8、財務=6、リスク=4、イノベーション=7（10点満点）。",
+    "question": "プロジェクトXの加重スコアはいくらか。",
     "options": [
       {"text": "6.5", "correct": true},
       {"text": "6.25", "correct": false},
       {"text": "7.0", "correct": false},
       {"text": "5.5", "correct": false}
     ],
-    "explanation": "Weighted score = (8x0.40) + (6x0.30) + (4x0.20) + (7x0.10) = 3.2 + 1.8 + 0.8 + 0.7 = 6.5. The low risk score (4) pulls down the overall result despite strong strategic fit."
+    "explanation": "加重スコア = (8x0.40) + (6x0.30) + (4x0.20) + (7x0.10) = 3.2 + 1.8 + 0.8 + 0.7 = 6.5。低いリスクスコア（4）が戦略適合の良さを引き下げている。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A stakeholder requests that the new system 'must be fast.' The development team needs specific requirements. The stakeholder cannot provide more detailed specifications.",
-    "question": "What is the best approach to handle this vague requirement?",
+    "scenario": "ステークホルダーが「システムは速くなければならない」と要求。開発チームは具体的な要件が必要だが、ステークホルダーは詳細な仕様を提供できない。",
+    "question": "この曖昧な要件への最適なアプローチは何か。",
     "options": [
-      {"text": "Propose measurable performance criteria (e.g., response time under 2 seconds) for stakeholder confirmation", "correct": true},
-      {"text": "Add it to requirements as-is and let developers decide", "correct": false},
-      {"text": "Reject the requirement as too vague", "correct": false},
-      {"text": "Define 'fast' as industry standard benchmarks", "correct": false}
+      {"text": "測定可能な性能基準（例：応答時間2秒以下）を提案しステークホルダーに確認", "correct": true},
+      {"text": "現状のまま要件に追加し開発者に判断を委ねる", "correct": false},
+      {"text": "曖昧すぎるとして要件を却下", "correct": false},
+      {"text": "業界標準ベンチマークで「速い」を定義", "correct": false}
     ],
-    "explanation": "Converting vague requirements into measurable criteria is the PM's responsibility. Proposing specific metrics (response time, throughput, page load time) allows the stakeholder to validate that their intent is captured."
+    "explanation": "曖昧な要件を測定可能な基準に変換するのはPMの責任。具体的な指標（応答時間、スループット、ページロード時間）を提案すればステークホルダーが意図の正確さを検証できる。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "During requirements analysis, the marketing department wants real-time analytics, while the finance department wants daily batch reports. Both are stakeholders for the same reporting system.",
-    "question": "How should you handle these conflicting requirements?",
+    "scenario": "要件分析中、マーケティング部門はリアルタイム分析を要求、財務部門は日次バッチレポートを要求。両方が同じレポーティングシステムのステークホルダー。",
+    "question": "この競合する要件をどう扱うべきか。",
     "options": [
-      {"text": "Analyze the cost and feasibility of each option and facilitate stakeholder negotiation", "correct": true},
-      {"text": "Implement both since both departments are important", "correct": false},
-      {"text": "Choose the less expensive option", "correct": false},
-      {"text": "Let the project sponsor decide without analysis", "correct": false}
+      {"text": "各オプションのコストと実現可能性を分析しステークホルダー間の交渉をファシリテート", "correct": true},
+      {"text": "両方重要なので両方実装", "correct": false},
+      {"text": "安い方を選択", "correct": false},
+      {"text": "スポンサーに分析なしで判断を委ねる", "correct": false}
     ],
-    "explanation": "Conflicting requirements should be analyzed for cost and feasibility, then presented to stakeholders for negotiation. The PM facilitates resolution but should not unilaterally choose. Understanding the business justification helps find the best compromise."
+    "explanation": "競合要件はコスト・実現可能性を分析しステークホルダーに提示して交渉。PMは解決をファシリテートすべきだが一方的に選択してはいけない。ビジネス根拠の理解が最適な妥協を助ける。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A project has 150 requirements. During development, the client adds 30 new requirements. The team has already implemented 80 requirements.",
-    "question": "What is the impact of these changes on the project?",
+    "scenario": "プロジェクトに150要件。開発中にクライアントが30件の新要件を追加。チームは80要件を既に実装済み。",
+    "question": "これらの変更のプロジェクトへの影響は何か。",
     "options": [
-      {"text": "Scope increase requires re-baselining, schedule/cost re-estimation, and change control approval", "correct": true},
-      {"text": "Just add the 30 requirements to the existing schedule", "correct": false},
-      {"text": "Reject all new requirements", "correct": false},
-      {"text": "Replace existing requirements with the new ones", "correct": false}
+      {"text": "スコープ増加はベースライン再設定、スケジュール/コスト再見積、変更管理承認が必要", "correct": true},
+      {"text": "30要件を既存スケジュールに追加", "correct": false},
+      {"text": "全ての新要件を却下", "correct": false},
+      {"text": "既存要件を新要件で置換", "correct": false}
     ],
-    "explanation": "A 20% scope increase significantly impacts the project. All change requests must go through integrated change control: analyze impact on schedule, cost, quality, and resources, then present to the CCB for approval with a revised baseline."
+    "explanation": "20%のスコープ増加はプロジェクトに重大な影響。全変更要求は統合変更管理を経由：スケジュール・コスト・品質・リソースへの影響を分析し、CCBに改定ベースラインと共に承認提示。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A requirements traceability matrix (RTM) links each requirement to its source, test case, and design element. Requirement R-045 has no linked test case.",
-    "question": "What does this gap indicate?",
+    "scenario": "要件トレーサビリティマトリクス（RTM）で各要件をソース、テストケース、設計要素にリンク。要件R-045にはリンクされたテストケースがない。",
+    "question": "このギャップは何を示すか。",
     "options": [
-      {"text": "There is no way to verify that R-045 is implemented correctly", "correct": true},
-      {"text": "R-045 is not needed", "correct": false},
-      {"text": "R-045 has already been tested", "correct": false},
-      {"text": "The test case exists but is not linked", "correct": false}
+      {"text": "R-045が正しく実装されたことを検証する手段がない", "correct": true},
+      {"text": "R-045は不要", "correct": false},
+      {"text": "R-045は既にテスト済み", "correct": false},
+      {"text": "テストケースは存在するがリンクされていない", "correct": false}
     ],
-    "explanation": "Every requirement must be traceable to a test case for verification. An unlinked requirement means there is no planned way to verify it meets the stakeholder's needs. This is a requirements management gap that must be addressed."
+    "explanation": "全要件は検証のためにテストケースにトレース可能でなければならない。リンクされていない要件はステークホルダーのニーズを満たしているか検証する計画的手段がない。対応が必要な要件管理ギャップ。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A non-functional requirement states 'the system shall handle 10,000 concurrent users.' During testing, the system handles only 7,000 concurrent users before performance degrades.",
-    "question": "What is the correct classification of this situation?",
+    "scenario": "非機能要件：「システムは10,000の同時ユーザーを処理すること」。テストで7,000ユーザーまで性能劣化なしに処理。",
+    "question": "この状況の正しい分類は何か。",
     "options": [
-      {"text": "Requirement not met - performance defect that must be resolved before acceptance", "correct": true},
-      {"text": "This is expected and acceptable since 7,000 is close to 10,000", "correct": false},
-      {"text": "This is a scope change request", "correct": false},
-      {"text": "This is only relevant during peak usage periods", "correct": false}
+      {"text": "要件未達 - 受入前に解決が必要な性能欠陥", "correct": true},
+      {"text": "7,000は10,000に近いので想定内で許容", "correct": false},
+      {"text": "これはスコープ変更要求", "correct": false},
+      {"text": "ピーク時のみ関連", "correct": false}
     ],
-    "explanation": "The system fails to meet its stated non-functional requirement. This is a performance defect that must be addressed before the deliverable can be accepted. Options include: fix the performance, negotiate a reduced requirement, or both."
+    "explanation": "システムは非機能要件を満たしていない。性能欠陥として納入物受入前に対応が必要。選択肢：性能修正、要件緩和の交渉、またはその両方。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "The client says 'I need the same functionality as our competitor's app.' You ask for specific features and the client says 'Just make it like theirs.'",
-    "question": "What is the best approach to define requirements in this situation?",
+    "scenario": "クライアントが「競合他社のアプリと同じ機能が必要」と言う。具体的機能を尋ねると「あれと同じにして」と答える。",
+    "question": "この状況で要件を定義する最適なアプローチは何か。",
     "options": [
-      {"text": "Analyze the competitor's app to extract specific functional requirements for client confirmation", "correct": true},
-      {"text": "Clone the competitor's app exactly", "correct": false},
-      {"text": "Tell the client to provide detailed specifications", "correct": false},
-      {"text": "Proceed with a general interpretation", "correct": false}
+      {"text": "競合アプリを分析して具体的機能要件を抽出しクライアントに確認", "correct": true},
+      {"text": "競合アプリを完全にクローン", "correct": false},
+      {"text": "クライアントに詳細仕様の提供を依頼", "correct": false},
+      {"text": "一般的な解釈で進行", "correct": false}
     ],
-    "explanation": "Analyze the competitor's app and create a specific feature list for the client to review. This converts a vague reference into actionable, specific requirements. Note: be careful about IP/legal issues when analyzing competitor products."
+    "explanation": "競合アプリを分析し、クライアントがレビューする具体的機能リストを作成。曖昧な参照を実行可能な具体的要件に変換。注：競合製品分析時のIP/法的問題に注意。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A functional requirement is 'The system shall generate monthly reports.' A stakeholder later says they need weekly reports. The requirement was signed off 2 months ago.",
-    "question": "How should this be handled?",
+    "scenario": "機能要件：「システムは月次レポートを生成すること」。ステークホルダーが後で週次レポートが必要と言う。要件は2ヶ月前に署名済み。",
+    "question": "これをどう扱うべきか。",
     "options": [
-      {"text": "Submit a change request through the change control process", "correct": true},
-      {"text": "Update the requirement directly since it is a minor change", "correct": false},
-      {"text": "Reject the change since the requirement was already signed off", "correct": false},
-      {"text": "Implement both monthly and weekly reports", "correct": false}
+      {"text": "変更管理プロセスを通じて変更要求を提出", "correct": true},
+      {"text": "小変更なので要件を直接更新", "correct": false},
+      {"text": "要件は署名済みなので変更を却下", "correct": false},
+      {"text": "月次と週次の両方レポートを実装", "correct": false}
     ],
-    "explanation": "Even seemingly minor changes must go through the formal change control process. The change request should include impact analysis on schedule, cost, and resources. The CCB then decides on approval."
+    "explanation": "一見小さな変更でも正式な変更管理プロセスを経由すべき。変更要求にはスケジュール・コスト・リソースへの影響分析を含める。CCBが承認を判断。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "During user acceptance testing (UAT), users report that the system does not match their workflow. They claim the requirements gathering did not capture their actual processes.",
-    "question": "What is the most likely root cause?",
+    "scenario": "ユーザー受け入れテスト（UAT）でユーザーがシステムがワークフローに合わないと報告。要件収集が実際のプロセスを捉えていなかったと主張。",
+    "question": "最も可能性の高い根本原因は何か。",
     "options": [
-      {"text": "Insufficient stakeholder involvement during requirements elicitation", "correct": true},
-      {"text": "The development team did not follow the requirements", "correct": false},
-      {"text": "The users did not participate in UAT properly", "correct": false},
-      {"text": "The requirements documentation was incomplete", "correct": false}
+      {"text": "要件引き出し時のステークホルダー関与不足", "correct": true},
+      {"text": "開発チームが要件に従わなかった", "correct": false},
+      {"text": "ユーザーがUATに正しく参加しなかった", "correct": false},
+      {"text": "要件ドキュメントが不完全", "correct": false}
     ],
-    "explanation": "When the delivered system does not match user workflows, the root cause is typically insufficient user involvement during requirements elicitation. End users should be actively involved in defining and validating requirements."
+    "explanation": "納入システムがユーザーワークフローに合わない場合、根本原因は通常要件引き出し時のユーザー関与不足。エンドユーザーは要件の定義と検証に積極的に関与すべき。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A project has 200 requirements. The team completed 180. Testing revealed 15 defects. 10 defects are in implemented requirements, 5 are in unimplemented requirements.",
-    "question": "What is the defect density of the implemented requirements?",
+    "scenario": "プロジェクトに200要件。チームは180を完了。テストで15欠陥発見。10欠陥は実装済み要件に、5欠陥は未実装要件に。",
+    "question": "実装済み要件の欠陥密度は何%か。",
     "options": [
-      {"text": "5.6% (10 defects in 180 requirements)", "correct": true},
-      {"text": "7.5% (15 defects in 200 requirements)", "correct": false},
-      {"text": "2.5% (5 defects in 200 requirements)", "correct": false},
-      {"text": "8.3% (15 defects in 180 requirements)", "correct": false}
+      {"text": "5.6%（180要件中10欠陥）", "correct": true},
+      {"text": "7.5%（200要件中15欠陥）", "correct": false},
+      {"text": "2.5%（200要件中5欠陥）", "correct": false},
+      {"text": "8.3%（180要件中15欠陥）", "correct": false}
     ],
-    "explanation": "Defect density of implemented requirements = 10 / 180 = 5.6%. Only count defects in implemented requirements against the implemented base. The 5 defects in unimplemented requirements are not relevant to implementation quality."
+    "explanation": "実装済み要件の欠陥密度 = 10 / 180 = 5.6%。実装済み要件の欠陥のみを 実装済みベースに対してカウント。未実装要件の5欠陥は実装品質に関連しない。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A regulatory change requires a new data retention policy. This affects 25 of the 100 requirements in the current project. The project is in the execution phase.",
-    "question": "What is the appropriate response?",
+    "scenario": "規制変更で新しいデータ保持ポリシーが必要。現在のプロジェクトの100要件中25要件に影響。実行フェーズ。",
+    "question": "適切な対応は何か。",
     "options": [
-      {"text": "Submit a change request, assess impact on the 25 affected requirements, and update the baseline", "correct": true},
-      {"text": "Wait until the current phase completes", "correct": false},
-      {"text": "Immediately implement all 25 changes without analysis", "correct": false},
-      {"text": "Escalate to the sponsor to cancel the project", "correct": false}
+      {"text": "変更要求を提出、25件の影響を受ける要件を評価しベースラインを更新", "correct": true},
+      {"text": "現在フェーズ完了まで待つ", "correct": false},
+      {"text": "分析なしですぐに25件の変更を実装", "correct": false},
+      {"text": "スポンサーにエスカレーションしプロジェクト中止を依頼", "correct": false}
     ],
-    "explanation": "Regulatory changes are mandatory and must be addressed. The formal change control process ensures all 25 affected requirements are identified, impact is assessed, schedule/cost adjustments are made, and the baseline is updated."
+    "explanation": "規制変更は必須で対応が必要。正式な変更管理プロセスで25件の影響を受ける要件を識別、影響評価、スケジュール/コスト調整、ベースライン更新。"
   },
   {
     "category": "Requirements Management",
-    "scenario": "A project uses a MoSCoW prioritization method. Requirements are categorized as Must, Should, Could, Won't. There are 40 Must, 30 Should, 20 Could, 10 Won't requirements. The project is running late.",
-    "question": "Which requirements should be delivered first if time is limited?",
+    "scenario": "MoSCoW優先度付けを使用。Must 40、Should 30、Could 20、Won't 10要件。プロジェクトは遅延中。",
+    "question": "時間が限られている場合、どの要件を先に納品すべきか。",
     "options": [
-      {"text": "All 40 Must requirements", "correct": true},
-      {"text": "Must and Should requirements", "correct": false},
-      {"text": "All requirements equally", "correct": false},
-      {"text": "Must requirements plus as many Should as possible", "correct": false}
+      {"text": "全40のMust要件", "correct": true},
+      {"text": "MustとShould要件", "correct": false},
+      {"text": "全要件を平等に", "correct": false},
+      {"text": "Must要件 + 可能な限りのShould", "correct": false}
     ],
-    "explanation": "MoSCoW prioritization: Must requirements are mandatory for project success. If time-constrained, deliver all Must requirements first, then Should if time permits. Could and Won't are deferred. Never compromise Must requirements."
+    "explanation": "MoSCoW優先度付け：Must要件はプロジェクト成功に必須。時間制約時は全Must要件を先に納品、時間が許せばShouldを。CouldとWon'tは延期。Must要件は絶対に妥協しない。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "Your project has a BAC of $1,000,000. At the 6-month mark (50% planned), PV = $500,000, EV = $400,000, AC = $550,000.",
-    "question": "What is the project's status and what action should you take?",
+    "scenario": "プロジェクトBAC 100万ドル。6ヶ月時点（50%計画）でPV=500,000、EV=400,000、AC=550,000。",
+    "question": "プロジェクトのステータスと取るべきアクションは。",
     "options": [
-      {"text": "Behind schedule (SPI=0.80), over budget (CPI=0.73) - corrective action needed for both", "correct": true},
-      {"text": "On schedule, slightly over budget", "correct": false},
-      {"text": "Ahead of schedule, over budget", "correct": false},
-      {"text": "Need more information to assess", "correct": false}
+      {"text": "スケジュール遅延（SPI=0.80）、コスト超過（CPI=0.73）- 両方に是正アクションが必要", "correct": true},
+      {"text": "計画通り、ややコスト超過", "correct": false},
+      {"text": "スケジュール先行、コスト超過", "correct": false},
+      {"text": "評価に必要な情報不足", "correct": false}
     ],
-    "explanation": "SPI = 400/500 = 0.80 (behind schedule), CPI = 400/550 = 0.73 (over budget). Both indices are significantly below 1.0, requiring immediate corrective action on both schedule and cost fronts."
+    "explanation": "SPI = 400/500 = 0.80（スケジュール遅延）、CPI = 400/550 = 0.73（コスト超過）。両指数が1.0を大きく下回り、スケジュールとコストの両面で即座の是正アクションが必要。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "You receive the following weekly status: Tasks completed: 12 of 15 planned. Open issues: 8 (3 critical). Risks materialized: 2. New risks identified: 5.",
-    "question": "What should be your primary focus based on this status?",
+    "scenario": "週次ステータス：完了タスク12/15計画。オープン課題8（3件クリティカル）。リスク顕在化2件。新規リスク識別5件。",
+    "question": "このステータスに基づく主な焦点は何か。",
     "options": [
-      {"text": "The 3 critical issues and 2 materialized risks", "correct": true},
-      {"text": "The 3 tasks that were not completed", "correct": false},
-      {"text": "The 5 new risks identified", "correct": false},
-      {"text": "All items equally", "correct": false}
+      {"text": "3件のクリティカル課題と2件の顕在化リスク", "correct": true},
+      {"text": "完了しなかった3タスク", "correct": false},
+      {"text": "5件の新規リスク", "correct": false},
+      {"text": "全項目を平等に", "correct": false}
     ],
-    "explanation": "Critical issues and materialized risks require immediate attention. 3 critical issues could block progress and 2 materialized risks need response activation. While the other items are important, critical issues take priority."
+    "explanation": "クリティカル課題と顕在化リスクは即座の注意が必要。3件のクリティカル課題は進行をブロックし、2件の顕在化リスクは対応起動が必要。他の項目も重要だがクリティカル課題が優先。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project milestone was due last Friday. The responsible team lead reports it will be done by Wednesday - 5 days late. The next milestone depends on this one.",
-    "question": "What is the immediate impact assessment you should perform?",
+    "scenario": "プロジェクトマイルストーンが前週金曜の期限だった。担当チームリードは水曜日まで完了予定（5日遅延）。次のマイルストーンはこれに依存。",
+    "question": "直ちに実施すべき影響評価は何か。",
     "options": [
-      {"text": "Calculate the impact on dependent milestones, critical path, and overall project end date", "correct": true},
-      {"text": "Escalate to the sponsor immediately", "correct": false},
-      {"text": "Accept the delay and update the schedule", "correct": false},
-      {"text": "Request overtime to recover the 5 days", "correct": false}
+      {"text": "依存マイルストーン、クリティカルパス、全体のプロジェクト完了日への影響を計算", "correct": true},
+      {"text": "直ちにスポンサーにエスカレーション", "correct": false},
+      {"text": "遅延を受け入れスケジュールを更新", "correct": false},
+      {"text": "5日回復のために残業を要求", "correct": false}
     ],
-    "explanation": "Before taking action, assess the full impact: how does this 5-day delay cascade through dependent tasks? Does it affect the critical path? What is the new project end date? Only then can you determine the appropriate response (crash, fast-track, negotiate, or accept)."
+    "explanation": "アクション前に全面影響を評価：この5日遅延が依存タスクにどう波及するか。クリティカルパスに影響するか。新しいプロジェクト完了日はいつか。適切な対応（クラッシュ、ファストトラック、交渉、または受入）を判断。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "Your project dashboard shows SPI has been declining for 4 consecutive weeks: 0.95, 0.90, 0.85, 0.80. CPI has been stable at 1.05.",
-    "question": "What does this trend indicate and what should you do?",
+    "scenario": "プロジェクトダッシュボードでSPIが4週連続低下：0.95、0.90、0.85、0.80。CPIは1.05で安定。",
+    "question": "この傾向は何を示し、どうすべきか。",
     "options": [
-      {"text": "Schedule is deteriorating while costs are controlled - investigate schedule root causes", "correct": true},
-      {"text": "The project is overall healthy since CPI is good", "correct": false},
-      {"text": "The project will recover on its own", "correct": false},
-      {"text": "Add more resources to fix the schedule", "correct": false}
+      {"text": "スケジュールが悪化中でコストは管理済み - スケジュールの根本原因を調査", "correct": true},
+      {"text": "CPIが良いので全体健全", "correct": false},
+      {"text": "プロジェクトは自然に回復する", "correct": false},
+      {"text": "リソース追加でスケジュール修正", "correct": false}
     ],
-    "explanation": "A consistent SPI decline indicates a systemic schedule problem (not a one-time event). Since CPI is healthy (1.05), the cost per work unit is fine but the rate of progress is slowing. Root cause analysis is needed before adding resources."
+    "explanation": "一貫したSPI低下は体系的なスケジュール問題（一時的でない）を示す。CPIは健全（1.05）なので作業単位あたりのコストは問題ないが進行率が低下。根本原因分析をリソース追加前に実施。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "The monthly variance report shows: SV = -$50,000, CV = +$20,000. The project manager reports 'the project is on track.'",
-    "question": "Is the PM's assessment correct?",
+    "scenario": "月次差異レポート：SV = -50,000、CV = +20,000。PMは「プロジェクトは順調」と報告。",
+    "question": "PMの評価は正しいか。",
     "options": [
-      {"text": "No - the project is behind schedule ($50K) despite being under budget ($20K)", "correct": true},
-      {"text": "Yes - the positive CV indicates the project is on track", "correct": false},
-      {"text": "No - both variances are concerning", "correct": false},
-      {"text": "Yes - variances are within acceptable limits", "correct": false}
+      {"text": "不正解 - 予算内（20k）だがスケジュール遅延（50k）", "correct": true},
+      {"text": "正解 - CVが正なので順調", "correct": false},
+      {"text": "不正解 - 両差異が懸念", "correct": false},
+      {"text": "正解 - 差異は許容範囲内", "correct": false}
     ],
-    "explanation": "The project is under budget (CV = +$20K) but significantly behind schedule (SV = -$50K). Being under budget does not compensate for being behind schedule. The PM should address the schedule issue."
+    "explanation": "プロジェクトは予算内（CV = +20k）だが大幅にスケジュール遅延（SV = -50k）。予算内でもスケジュール遅延を補償しない。PMはスケジュール問題に対応すべき。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project has 10 milestones. 5 are completed on time, 2 are completed late, 2 are in progress (on track), and 1 has not started (on schedule).",
-    "question": "What is the milestone completion rate and what is the concern?",
+    "scenario": "プロジェクトに10マイルストーン。5件が期日通り完了、2件が遅延完了、2件が進行中（順調）、1件が未開始（予定通り）。",
+    "question": "マイルストーン完了率と懸念点は何か。",
     "options": [
-      {"text": "70% complete (7 of 10), with 2 late milestones indicating schedule risk", "correct": true},
-      {"text": "50% complete (5 of 10 on time), indicating poor performance", "correct": false},
-      {"text": "90% on track (9 of 10), indicating healthy progress", "correct": false},
-      {"text": "80% complete, no concerns", "correct": false}
+      {"text": "70%完了（10中7）、2件の遅延マイルストーンがスケジュールリスクを示唆", "correct": true},
+      {"text": "50%完了（10中5期日通り）、パフォーマンス不良", "correct": false},
+      {"text": "90%順調（10中9）、健全な進捗", "correct": false},
+      {"text": "80%完了、懸念なし", "correct": false}
     ],
-    "explanation": "7 of 10 milestones are completed (70%), but 2 were late (29% late rate). This pattern suggests systemic schedule challenges. The 1 not-yet-started milestone and 2 in-progress need monitoring to prevent further delays."
+    "explanation": "10マイルストーン中7件完了（70%）、2件遅延（29%遅延率）。このパターンは体系的なスケジュール課題を示唆。未開始1件と進行中2件はさらなる遅延防止のため監視が必要。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "Your EVM data shows: BAC = $2M, AC = $800K, EV = $700K, PV = $900K. Three months remain in the project.",
-    "question": "What is the EAC and what does it indicate?",
+    "scenario": "EVMデータ：BAC = 200万ドル、AC = 800k、EV = 700k、PV = 900k。残り3ヶ月。",
+    "question": "EACはいくらか。何を示すか。",
     "options": [
-      {"text": "EAC = $2,286,000, indicating the project will exceed budget by $286K if current trend continues", "correct": true},
-      {"text": "EAC = $2,000,000, on budget", "correct": false},
-      {"text": "EAC = $1,714,000, under budget", "correct": false},
-      {"text": "Cannot calculate without more data", "correct": false}
+      {"text": "EAC = 2,286,000、現在の傾向が継続すると286kのコスト超過が予測", "correct": true},
+      {"text": "EAC = 2,000,000、予算通り", "correct": false},
+      {"text": "EAC = 1,714,000、予算内", "correct": false},
+      {"text": "データ不足で計算不可", "correct": false}
     ],
-    "explanation": "CPI = 700/800 = 0.875. EAC = BAC/CPI = $2M/0.875 = $2,286,000. The project is forecast to exceed budget by approximately $286K if the current cost efficiency continues."
+    "explanation": "CPI = 700/800 = 0.875。EAC = BAC/CPI = 200万/0.875 = 2,286,000。現在のコスト効率が継続すると約286kの予算超過が予測。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A team member consistently reports 90% completion for the past three weeks on the same task. Other team members have raised concerns about this task.",
-    "question": "What should the project manager do?",
+    "scenario": "チームメンバーが3週連続で同じタスクを90%完了と報告。他のメンバーがこのタスクについて懸念を提起。",
+    "question": "PMはどうすべきか。",
     "options": [
-      {"text": "Meet with the team member to understand the actual status and obstacles", "correct": true},
-      {"text": "Accept the 90% report since the team member is responsible", "correct": false},
-      {"text": "Reassign the task to another team member", "correct": false},
-      {"text": "Report the task as 100% complete", "correct": false}
+      {"text": "チームメンバーと面会し実際の状況と障害を理解", "correct": true},
+      {"text": "責任者なので90%報告を受け入れる", "correct": false},
+      {"text": "タスクを他のメンバーに再アサイン", "correct": false},
+      {"text": "タスクを100%完了として報告", "correct": false}
     ],
-    "explanation": "The '90% complete syndrome' is a common reporting issue. When a task stays at the same completion percentage for weeks, it signals a problem. The PM should directly engage with the team member to understand blockers."
+    "explanation": "「90%完了症候群」は一般的な報告問題。数週間同じ完了率のままであるなら問題の兆候。PMは直接チームメンバーと面会しブロッカーを理解すべき。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "The project's CPI has been above 1.1 for the past 3 months. Management asks if the contingency reserve can be reduced.",
-    "question": "What is the appropriate response?",
+    "scenario": "CPIが過去3ヶ月1.1超過。経営陣がコンティンジェンシーリザーブの削減を検討。",
+    "question": "適切な対応は何か。",
     "options": [
-      {"text": "Analyze remaining risk exposure before reducing reserves - past performance does not guarantee future results", "correct": true},
-      {"text": "Yes, reduce the reserve since the project is under budget", "correct": false},
-      {"text": "No, reserves can never be reduced", "correct": false},
-      {"text": "Reduce the reserve by the exact amount of cost savings", "correct": false}
+      {"text": "リザーブ削減前に残りリスクエクスポージャーを分析 - 過去のパフォーマンスは将来を保証しない", "correct": true},
+      {"text": "予算内なのでリザーブを削減", "correct": false},
+      {"text": "リザーブは削減不可", "correct": false},
+      {"text": "コスト節約額と同額を削減", "correct": false}
     ],
-    "explanation": "While past CPI is favorable, future phases may have different risk profiles. Before reducing reserves: analyze remaining risks, consider whether cost savings are from efficiency or scope reduction, and maintain adequate contingency for identified risks."
+    "explanation": "過去のCPIは良好だが、今後のフェーズは異なるリスクプロファイルかもしれない。リザーブ削減前に：残りリスク分析、コスト節約が効率改善かスコープ削減によるものか検討、識別済みリスクに十分なコンティンジェンシー維持。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project has 5 work streams. Status: WS1 = Green, WS2 = Red (2 weeks behind), WS3 = Yellow (minor issues), WS4 = Green, WS5 = Yellow (resource concern).",
-    "question": "What is the overall project status and priority actions?",
+    "scenario": "プロジェクトに5つのワークストリーム。WS1=緑、WS2=赤（2週遅延）、WS3=黄（軽微な課題）、WS4=緑、WS5=黄（リソース懸念）。",
+    "question": "全体ステータスと優先アクションは何か。",
     "options": [
-      {"text": "Overall Red - prioritize WS2 recovery plan and address WS5 resource concern", "correct": true},
-      {"text": "Overall Yellow - mostly healthy with some concerns", "correct": false},
-      {"text": "Overall Green - 2 out of 5 are green", "correct": false},
-      {"text": "Cannot determine overall status without weighted assessment", "correct": false}
+      {"text": "全体赤 - WS2の回復計画を優先しWS5のリソース懸念に対応", "correct": true},
+      {"text": "全体黄 - 大部分健全だが懸念あり", "correct": false},
+      {"text": "全体緑 - 5中2が緑", "correct": false},
+      {"text": "加重評価なしでは全体ステータス判定不可", "correct": false}
     ],
-    "explanation": "One Red work stream typically makes the overall project Red. WS2 is 2 weeks behind and needs a recovery plan. WS5's resource concern may become critical. WS3 needs monitoring but is manageable."
+    "explanation": "1つの赤ワークストリームで全体が通常赤。WS2は2週遅延で回復計画が必要。WS5のリソース懸念はクリティカルになる可能性。WS3は監視必要だが管理可能。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "Your weekly earned value report shows: EV increased by $30K this week, AC increased by $35K, and PV increased by $40K. The previous week had EV=+$35K, AC=+$30K, PV=+$35K.",
-    "question": "What trend do these numbers show?",
+    "scenario": "週次EVレポート：今週EV増加30k、AC増加35k、PV増加40k。前週はEV=+35k、AC=+30k、PV=+35k。",
+    "question": "この数値はどういう傾向を示すか。",
     "options": [
-      {"text": "Both SPI and CPI are deteriorating - earning less while spending more each week", "correct": true},
-      {"text": "The project is improving", "correct": false},
-      {"text": "Costs are improving but schedule is worsening", "correct": false},
-      {"text": "SPI is improving but CPI is worsening", "correct": false}
+      {"text": "SPIとCPIの両方が悪化 - 週ごとに達成が減少し支出が増加", "correct": true},
+      {"text": "プロジェクトは改善中", "correct": false},
+      {"text": "コストは改善だがスケジュールは悪化", "correct": false},
+      {"text": "SPIは改善だがCPIは悪化", "correct": false}
     ],
-    "explanation": "Last week: earned $35K for $30K spent (good). This week: earned $30K for $35K spent (worse). Both weekly EV and weekly efficiency declined. CPI went from 35/30=1.17 to 30/35=0.86. SPI went from 35/35=1.0 to 30/40=0.75."
+    "explanation": "前週：35kを30kで達成（良好）。今週：30kを35kで達成（悪化）。週次EVと効率の両方が低下。CPIは35/30=1.17から30/35=0.86に。SPIは35/35=1.0から30/40=0.75に。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "You are managing a software project. At sprint review, the demo shows 8 of 12 planned features working. 2 features have bugs, 2 are incomplete. The sprint commitment was 12 features.",
-    "question": "What is the sprint completion rate and what should you communicate?",
+    "scenario": "ソフトウェアプロジェクト。スプリントレビューで12機能中8機能が動作。2機能にバグ、2機能が未完了。スプリントコミットメントは12機能。",
+    "question": "スプリント完了率と何を伝達すべきか。",
     "options": [
-      {"text": "67% completion (8/12) - report honestly, analyze root causes, and adjust next sprint planning", "correct": true},
-      {"text": "100% since all 12 are in progress", "correct": false},
-      {"text": "83% (10/12) since only 2 are incomplete", "correct": false},
-      {"text": "Do not report until all 12 are complete", "correct": false}
+      {"text": "67%完了（8/12）- 正直に報告し、根本原因を分析、次スプリント計画を調整", "correct": true},
+      {"text": "全12が進行中なので100%", "correct": false},
+      {"text": "未完了は2のみなので83%（10/12）", "correct": false},
+      {"text": "全12完了まで報告しない", "correct": false}
     ],
-    "explanation": "Only working features count as done. 8/12 = 67% is the completion rate. Honest reporting builds trust. Analyze why 4 features were not completed and use the information to improve future sprint planning accuracy."
+    "explanation": "動作する機能のみが完了とカウント。8/12 = 67%が完了率。正直な報告が信頼を構築。4機能が完了しなかった理由を分析し、将来のスプリント計画精度の改善に活用。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project's risk register shows 20 risks. This month, 2 risks materialized into issues, 1 risk was closed (no longer relevant), and 3 new risks were identified.",
-    "question": "How many risks are now in the risk register?",
+    "scenario": "リスクレジスターに20リスク。今月2リスクが課題に顕在化、1リスクはクローズ（不要に）、3新規リスク識別。",
+    "question": "現在リスクレジスターにはいくつのリスクがあるか。",
     "options": [
-      {"text": "20 risks (2 materialized out, 1 closed out, 3 new in)", "correct": true},
-      {"text": "21 risks", "correct": false},
-      {"text": "18 risks", "correct": false},
-      {"text": "23 risks", "correct": false}
+      {"text": "20リスク（2件顕在化で除外、1件クローズで除外、3件新規追加）", "correct": true},
+      {"text": "21リスク", "correct": false},
+      {"text": "18リスク", "correct": false},
+      {"text": "23リスク", "correct": false}
     ],
-    "explanation": "Starting: 20 risks. -2 materialized (move to issue log), -1 closed = 17 remaining. +3 new = 20 risks. The risk register stays at 20, but the composition has changed. Materialized risks now live in the issue log."
+    "explanation": "開始：20リスク。-2顕在化（課題ログへ移動）、-1クローズ = 17残。+3新規 = 20リスク。リスクレジスターは20のまま、構成が変化。顕在化したリスクは課題ログに。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project status report template asks for: RAG status, top 3 risks, milestones, and issues. The sponsor always only reads the RAG status (Green/Yellow/Red).",
-    "question": "What should you do to ensure important information reaches the sponsor?",
+    "scenario": "プロジェクトステータスレポートテンプレートにRAGステータス、上位3リスク、マイルストーン、課題を要求。スポンサーは常にRAGステータス（緑/黄/赤）しか読まない。",
+    "question": "重要情報をスポンサーに届けるにはどうすべきか。",
     "options": [
-      {"text": "Include a concise executive summary highlighting critical items alongside the RAG status", "correct": true},
-      {"text": "Only report the RAG status since that is what is read", "correct": false},
-      {"text": "Request the sponsor reads the full report", "correct": false},
-      {"text": "Schedule a meeting for the full report", "correct": false}
+      {"text": "RAGステータスと共に重要項目をハイライトした簡潔なエグゼクティブサマリーを含める", "correct": true},
+      {"text": "読まれるものがRAGだけなのでRAGのみ報告", "correct": false},
+      {"text": "スポンサーに全文を読むよう依頼", "correct": false},
+      {"text": "全文報告のために会議を設定", "correct": false}
     ],
-    "explanation": "Adapt communication to the stakeholder's preference. Since the sponsor only reads the RAG status, include critical information in a brief summary right at the top. This ensures important details are seen without requiring the sponsor to change behavior."
+    "explanation": "ステークホルダーの好みに合わせてコミュニケーションを適応。スポンサーがRAGのみ読むなら、簡潔なサマリーを冒頭に含める。スポンサーの行動を変えることなく重要詳細を確実に閲覧。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "Your project burn-down chart shows the remaining work line has been above the ideal line for the past 5 sprints. The gap is widening.",
-    "question": "What does this indicate and what should you do?",
+    "scenario": "バーンダウンチャートで残作業ラインが5スプリント連続で理想ラインより上。ギャップが拡大中。",
+    "question": "何を示し、どうすべきか。",
     "options": [
-      {"text": "The team is consistently delivering less than planned - reassess velocity and adjust the plan", "correct": true},
-      {"text": "The project is ahead of schedule", "correct": false},
-      {"text": "The chart is incorrect", "correct": false},
-      {"text": "Add more team members immediately", "correct": false}
+      {"text": "チームが計画より一貫して少ない成果を出している - ベロシティを再評価し計画を調整", "correct": true},
+      {"text": "プロジェクトはスケジュール先行", "correct": false},
+      {"text": "チャートが不正確", "correct": false},
+      {"text": "直ちにチームメンバーを追加", "correct": false}
     ],
-    "explanation": "When the actual burn-down line stays above the ideal line and the gap widens, the team's velocity is consistently lower than planned. This may indicate over-optimistic estimates, scope creep, or blocked tasks. Reassess and re-plan based on actual velocity."
+    "explanation": "実際のバーンダウンラインが理想ラインより上でギャップ拡大は、チームのベロシティが計画より一貫して低いことを示す。過度な楽観見積、スコープクリープ、またはブロックされたタスクが原因。実際ベロシティに基づき再評価・再計画。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project has a management reserve of $100K. The PM has spent $60K of it for unforeseen issues. The sponsor asks for a justification.",
-    "question": "What should the PM provide?",
+    "scenario": "プロジェクトに10万ドルのマネジメントリザーブ。PMは予期せぬ課題に6万ドル使用済み。スポンサーが根拠を求めている。",
+    "question": "PMは何を提供すべきか。",
     "options": [
-      {"text": "A detailed record of each management reserve use: issue, amount, authorization, and remaining risk exposure", "correct": true},
-      {"text": "A verbal explanation that the money was needed for unexpected issues", "correct": false},
-      {"text": "A promise to not use the remaining $40K", "correct": false},
-      {"text": "A request for an additional $100K reserve", "correct": false}
+      {"text": "マネジメントリザーブ使用の各明細：課題、金額、承認、残りリスクエクスポージャー", "correct": true},
+      {"text": "予期せぬ課題に必要だったと口頭で説明", "correct": false},
+      {"text": "残り4万ドルを使用しないと約束", "correct": false},
+      {"text": "追加10万ドルリザーブを要求", "correct": false}
     ],
-    "explanation": "Management reserve requires sponsor approval for use. Each dip should be documented with: the issue, amount used, who authorized it, impact on the project, and the remaining reserve adequacy for remaining risks."
+    "explanation": "マネジメントリザーブはスポンサー承認が必要。各使用を文書化：課題、使用額、承認者、プロジェクトへの影響、残リザーブの残りリスクへの十分性。"
   },
   {
     "category": "Project Monitoring",
-    "scenario": "A project is 75% complete according to schedule. However, quality testing reveals that 30% of completed work packages have defects requiring rework.",
-    "question": "What is the real completion status considering rework?",
+    "scenario": "プロジェクトはスケジュール上75%完了。品質テストで完了したワークパッケージの30%に欠陥があり手戻りが必要。",
+    "question": "手戻りを考慮した実効完了ステータスは何%か。",
     "options": [
-      {"text": "Effective completion is approximately 52.5% (75% x 0.70) when accounting for rework needed", "correct": true},
-      {"text": "75% - the defects are minor and can be fixed quickly", "correct": false},
-      {"text": "60% - adjust for the 30% defect rate", "correct": false},
-      {"text": "Cannot be determined", "correct": false}
+      {"text": "手戻りを考慮すると実効完了は約52.5%（75% x 0.70）", "correct": true},
+      {"text": "75% - 欠陥は軽微で迅速修正可能", "correct": false},
+      {"text": "60% - 30%欠陥率で調整", "correct": false},
+      {"text": "判定不可", "correct": false}
     ],
-    "explanation": "If 30% of completed work needs rework, only 70% of the claimed 75% is truly complete. Effective completion = 75% x 70% = 52.5%. This shows that quality metrics must be considered alongside schedule metrics."
+    "explanation": "完了作業の30%が手戻り必要なら、主張する75%の70%のみが真に完了。実効完了 = 75% x 70% = 52.5%。品質指標をスケジュール指標と共に考慮する必要がある。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A critical system integration test is failing intermittently. It passes 3 out of 5 times with no pattern. The deadline is in 2 weeks.",
-    "question": "What is the best problem-solving approach?",
+    "scenario": "重大なシステム統合テストが間欠的に失敗。5回中3回成功、パターンなし。期限は2週間後。",
+    "question": "最適な問題解決アプローチは何か。",
     "options": [
-      {"text": "Isolate variables, add logging to capture the failure condition, and analyze root cause", "correct": true},
-      {"text": "Keep running the test until it passes 5 times in a row", "correct": false},
-      {"text": "Skip the test and proceed to production", "correct": false},
-      {"text": "Replace the integration component entirely", "correct": false}
+      {"text": "変数を分離し、失敗条件をキャプチャするログを追加し根本原因を分析", "correct": true},
+      {"text": "5回連続で通るまでテストを継続", "correct": false},
+      {"text": "テストをスキップし本番へ", "correct": false},
+      {"text": "統合コンポーネント全体を交換", "correct": false}
     ],
-    "explanation": "Intermittent failures require systematic debugging: isolate variables, add instrumentation/logging, capture the exact failure state, and analyze root cause. Random retesting without understanding the cause wastes time."
+    "explanation": "間欠的故障には体系的なデバッグが必要：変数分離、計装/ログ追加、正確な故障状態のキャプチャ、根本原因分析。原因理解なしのランダム再テストは時間の無駄。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "Your project team is experiencing conflicts between senior and junior developers. Senior developers insist on their approach; junior developers feel unheard. Productivity has dropped 20%.",
-    "question": "What conflict resolution approach should you use?",
+    "scenario": "シニア開発者とジュニア開発者間で衝突。シニアは自チームのアプローチに固執、ジュニアは意見を聞いてもらえない。生産性が20%低下。",
+    "question": "どの紛争解決アプローチを使用すべきか。",
     "options": [
-      {"text": "Collaborate: facilitate a technical review where both sides present their approach with pros/cons", "correct": true},
-      {"text": "Force: side with the senior developers since they have more experience", "correct": false},
-      {"text": "Compromise: let each side have their way on alternate modules", "correct": false},
-      {"text": "Avoid: let them work it out themselves", "correct": false}
+      {"text": "コラボレーション：両側がメリット/デメリット付きでアプローチを提示する技術レビューをファシリテート", "correct": true},
+      {"text": "強制：経験豊富なシニア開発者に賛同", "correct": false},
+      {"text": "妥協：各チームに交代で自チームの方法を採用", "correct": false},
+      {"text": "回避：任せて解決させる", "correct": false}
     ],
-    "explanation": "Collaboration (problem-solving) addresses the root cause by having both sides present evidence-based arguments. It respects both perspectives and leads to the best technical decision while maintaining team cohesion."
+    "explanation": "コラボレーション（問題解決）は両側に証拠ベースの議論を提示させ根本原因に対応。両方の視点を尊重しチーム結束を維持しながら最適な技術決定に導く。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project post-mortem reveals that 40% of defects were caused by unclear requirements. The top 3 defect categories are: wrong functionality (25%), missing functionality (10%), and interface mismatches (5%).",
-    "question": "What process improvement would be most effective?",
+    "scenario": "プロジェクトの振り返りで40%の欠陥が不明確な要件が原因。上位3カテゴリ：誤機能25%、機能漏れ10%、インターフェース不一致5%。",
+    "question": "最も効果的なプロセス改善は何か。",
     "options": [
-      {"text": "Implement requirements reviews with stakeholder sign-off and add prototyping for UI requirements", "correct": true},
-      {"text": "Increase testing effort", "correct": false},
-      {"text": "Hire more senior developers", "correct": false},
-      {"text": "Extend the development timeline", "correct": false}
+      {"text": "ステークホルダーサインオフ付きの要件レビューを実装しUI要件にプロトタイピングを追加", "correct": true},
+      {"text": "テスト工数を増加", "correct": false},
+      {"text": "シニア開発者を増雇", "correct": false},
+      {"text": "開発タイムラインを延長", "correct": false}
     ],
-    "explanation": "Since 40% of defects originate from requirements, improving the requirements process is the highest-impact improvement. Requirements reviews catch issues early (shift-left), and prototyping addresses the interface mismatch category."
+    "explanation": "40%の欠陥が要件に起因するため、要件プロセスの改善が最大インパクト。要件レビューは早期に問題を発見（シフトレフト）、プロトタイピングはインターフェース不一致カテゴリに対応。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A vendor delivers a component 3 weeks late. The delay cascades to 4 dependent activities on the critical path. The project end date is now at risk.",
-    "question": "What corrective actions should you consider?",
+    "scenario": "ベンダーがコンポーネントを3週遅延で納品。遅延がクリティカルパス上の4依存アクティビティに波及。プロジェクト完了日がリスクに。",
+    "question": "検討すべき是正アクションは何か。",
     "options": [
-      {"text": "Evaluate crashing and fast-tracking options, assess liquidated damages, and update stakeholders", "correct": true},
-      {"text": "Accept the delay and extend the project end date", "correct": false},
-      {"text": "Terminate the vendor contract immediately", "correct": false},
-      {"text": "Add the delay to the schedule and continue", "correct": false}
+      {"text": "クラッシングとファストトラッキングオプションを評価し、違約金を確認しステークホルダーに更新", "correct": true},
+      {"text": "遅延を受け入れプロジェクト完了日を延長", "correct": false},
+      {"text": "直ちにベンダー契約を解除", "correct": false},
+      {"text": "遅延をスケジュールに追加して継続", "correct": false}
     ],
-    "explanation": "Multiple corrective actions should be evaluated: crash critical path activities, fast-track where possible, check contract for liquidated damages, and communicate the impact to stakeholders with recovery options."
+    "explanation": "複数の是正アクションを評価：クリティカルパスアクティビティのクラッシュ、可能なファストトラック、契約の違約金確認、回復オプションと共にステークホルダーに影響を伝達。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A team member consistently underperforms despite coaching. The quality of their work is below standard, and other team members are compensating. The project deadline is approaching.",
-    "question": "What is the appropriate escalation path?",
+    "scenario": "チームメンバーがコーチングにもかかわらず一貫してパフォーマンス不良。作業品質が基準以下で他のメンバーが補完している。プロジェクト期限が迫っている。",
+    "question": "適切なエスカレーションパスは何か。",
     "options": [
-      {"text": "Document the performance issues, involve HR, and plan for resource replacement if needed", "correct": true},
-      {"text": "Continue coaching until the project ends", "correct": false},
-      {"text": "Fire the team member immediately", "correct": false},
-      {"text": "Redistribute all their work to other team members", "correct": false}
+      {"text": "パフォーマンス問題を文書化しHRを関与、必要に応じリソース交替を計画", "correct": true},
+      {"text": "プロジェクト終了までコーチング継続", "correct": false},
+      {"text": "直ちに解雇", "correct": false},
+      {"text": "全作業を他のメンバーに再配分", "correct": false}
     ],
-    "explanation": "Documented performance issues should be escalated through the proper channel (functional manager/HR). The PM should also plan for contingency (replacement or redistribution) to protect the project while following organizational policies."
+    "explanation": "文書化されたパフォーマンス問題は適切なチャンネル（機能マネージャー/HR）を通じてエスカレート。PMは組織ポリシーに従いつつコンティンジェンシー（交替または再配分）を計画しプロジェクトを保護。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "After implementing a corrective action, the project's CPI improved from 0.85 to 0.95. The sponsor asks if the project will now meet the original budget.",
-    "question": "What is the correct response?",
+    "scenario": "是正アクション実施後、CPIが0.85から0.95に改善。スポンサーが元の予算を満たすか尋ねている。",
+    "question": "正しい対応は何か。",
     "options": [
-      {"text": "The improvement is positive but CPI is still below 1.0 - the project will still exceed budget unless further improvement occurs", "correct": true},
-      {"text": "Yes, the project will now meet the original budget", "correct": false},
-      {"text": "No, the improvement is not significant", "correct": false},
-      {"text": "It depends on the SPI", "correct": false}
+      {"text": "改善は肯定的だがCPIはまだ1.0以下 - さらなる改善がなければプロジェクトは予算超過のまま", "correct": true},
+      {"text": "はい、元の予算を満たす", "correct": false},
+      {"text": "いいえ、改善は有意ではない", "correct": false},
+      {"text": "SPIによる", "correct": false}
     ],
-    "explanation": "CPI of 0.95 means the project is still 5% over budget. While improving, the project will not meet the original BAC unless CPI reaches 1.0 or higher. The EAC should be recalculated with the new CPI for a more accurate forecast."
+    "explanation": "CPI 0.95はプロジェクトがまだ5%コスト超過であることを意味する。改善傾向だが、CPIが1.0以上に達しない限り元のBACは満たせない。新しいCPIでEACを再計算すべき。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project has experienced 3 critical defects in production after go-live. The root cause analysis reveals that all 3 defects were in modules that skipped code review due to schedule pressure.",
-    "question": "What is the most important corrective action?",
+    "scenario": "本番稼働後に3件のクリティカル欠陥が発生。根本原因分析で全3件がスケジュール圧力でコードレビューをスキップしたモジュールにあることが判明。",
+    "question": "最も重要な是正アクションは何か。",
     "options": [
-      {"text": "Enforce mandatory code review for all modules - no exceptions regardless of schedule pressure", "correct": true},
-      {"text": "Fix the 3 defects and continue", "correct": false},
-      {"text": "Add more testers to catch defects earlier", "correct": false},
-      {"text": "Extend the testing phase", "correct": false}
+      {"text": "全モジュールで必須コードレビューを強制 - スケジュール圧力に関わらず例外なし", "correct": true},
+      {"text": "3欠陥を修正して継続", "correct": false},
+      {"text": "テスターを追加して早期発見", "correct": false},
+      {"text": "テストフェーズを延長", "correct": false}
     ],
-    "explanation": "The root cause is process violation (skipping code reviews). Fixing the 3 defects treats symptoms, not the cause. Enforcing the code review process prevents future defects regardless of schedule pressure. Quality gates should never be bypassed."
+    "explanation": "根本原因はプロセス違反（コードレビューのスキップ）。3欠陥の修正は症状に対処で原因ではない。コードレビュープロセスを強制すればスケジュール圧力に関係なく将来の欠陥を防止。品質ゲートはバイパスすべきでない。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project's lessons learned from the previous phase include: (1) estimates were 30% optimistic, (2) stakeholder communication was insufficient, (3) testing started too late. You are now planning the next phase.",
-    "question": "How should you incorporate these lessons?",
+    "scenario": "前フェーズの教訓：(1) 見積が30%楽観的、(2) ステークホルダーコミュニケーション不足、(3) テスト開始が遅すぎた。次フェーズを計画中。",
+    "question": "これらの教訓をどう取り込むべきか。",
     "options": [
-      {"text": "Add 30% estimation buffer, increase communication frequency, and shift testing earlier in the schedule", "correct": true},
-      {"text": "Note the lessons in the project document and proceed with normal planning", "correct": false},
-      {"text": "Only address the estimation issue since it is quantifiable", "correct": false},
-      {"text": "Create a separate lessons learned report", "correct": false}
+      {"text": "30%見積バッファ追加、コミュニケーション頻度増加、テストをスケジュールの早期にシフト", "correct": true},
+      {"text": "教訓をプロジェクト文書に記録し通常計画で進行", "correct": false},
+      {"text": "定量化可能なので見積問題のみ対処", "correct": false},
+      {"text": "別の教訓レポートを作成", "correct": false}
     ],
-    "explanation": "Lessons learned should directly influence planning: apply estimation corrections, increase communication cadence, and shift testing left (earlier). This transforms lessons into actionable improvements rather than just documentation."
+    "explanation": "教訓は計画に直接影響：見積補正を適用、コミュニケーション頻度を増加、テストをシフトレフト（早期化）。教訓を実行可能な改善に変換すべき。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "During a project, you discover that a team member has been taking shortcuts that violate the company's coding standards. The code works but is unmaintainable and undocumented.",
-    "question": "What is the appropriate response?",
+    "scenario": "プロジェクト中、チームメンバーが会社のコーディング標準に違反するショートカットを使用していることを発見。コードは動作するが保守不可能で未文書化。",
+    "question": "適切な対応は何か。",
     "options": [
-      {"text": "Address the behavior directly, require the code to meet standards, and document the issue", "correct": true},
-      {"text": "Accept the working code since it meets functional requirements", "correct": false},
-      {"text": "Rewrite the code yourself", "correct": false},
-      {"text": "Report the team member to management", "correct": false}
+      {"text": "行動を直接是正しコードを標準に適合させ、問題を文書化", "correct": true},
+      {"text": "機能要件を満たすので動作コードを受け入れる", "correct": false},
+      {"text": "コードを自分で書き直す", "correct": false},
+      {"text": "チームメンバーを経営陣に報告", "correct": false}
     ],
-    "explanation": "Code that works but violates standards creates technical debt that increases future maintenance costs and risk. The PM should address the behavior, enforce standards, and ensure documentation. This is a quality management responsibility."
+    "explanation": "動作するが標準違反のコードは将来の保守コストとリスクを増大する技術的負債を作成。PMは行動を是正し標準を強制し文書化を確保。品質管理責任。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "Two project tasks are assigned to the same resource. Both are on the critical path. The resource can only work on one at a time. Task A is 3 days long, Task B is 2 days long. Both start today.",
-    "question": "What is the impact and what should you do?",
+    "scenario": "2つのプロジェクトタスクが同じリソースに割り当て。両方がクリティカルパス。リソースは一度に1つしか作業できない。タスクAは3日、タスクBは2日。両方とも今日開始。",
+    "question": "影響と対応は何か。",
     "options": [
-      {"text": "The project is delayed by 2 days (the shorter task) - resolve by finding an additional resource or re-sequencing", "correct": true},
-      {"text": "No impact since tasks can be done in sequence", "correct": false},
-      {"text": "The project is delayed by 5 days", "correct": false},
-      {"text": "The project is delayed by 3 days", "correct": false}
+      {"text": "プロジェクトは2日遅延（短いタスク分）- 追加リソースの確保か再シーケンスで解決", "correct": true},
+      {"text": "直列実行で影響なし", "correct": false},
+      {"text": "プロジェクトは5日遅延", "correct": false},
+      {"text": "プロジェクトは3日遅延", "correct": false}
     ],
-    "explanation": "Both tasks are on the critical path. Running them sequentially delays the project by the duration of the second task (2 days minimum). Options: assign another resource, fast-track, or re-sequence if dependencies allow."
+    "explanation": "両タスクがクリティカルパス上。直列実行でプロジェクトは第2タスクの期間分（最低2日）遅延。オプション：別リソース割当、ファストトラック、または依存関係が許せば再シーケンス。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project team identifies that they spend 40% of their time in meetings, leaving only 60% for productive work. Sprint velocity has been declining for 4 sprints.",
-    "question": "What is the most effective solution?",
+    "scenario": "チームが労働時間の40%を会議に費やし、生産的作業は60%のみ。スプリントベロシティが4スプリント連続で低下。",
+    "question": "最も効果的な解決策は何か。",
     "options": [
-      {"text": "Audit all meetings, eliminate unnecessary ones, and implement stand-up time-boxing", "correct": true},
-      {"text": "Add more team members to maintain velocity", "correct": false},
-      {"text": "Extend the sprint duration", "correct": false},
-      {"text": "Reduce meeting frequency to once per sprint", "correct": false}
+      {"text": "全会議を監査し不要なものを削除、スタンドアップのタイムボックス化を実装", "correct": true},
+      {"text": "ベロシティ維持のためにチームメンバー追加", "correct": false},
+      {"text": "スプリント期間を延長", "correct": false},
+      {"text": "会議頻度をスプリント1回に削減", "correct": false}
     ],
-    "explanation": "40% meeting time is excessive. The PM should audit meetings (which are necessary?), eliminate non-essential ones, time-box remaining meetings, and ensure each meeting has a clear agenda and outcome. This directly addresses the root cause of declining velocity."
+    "explanation": "40%の会議時間は過大。PMは会議を監査（必要なものは？）、不要なものを削除、残りをタイムボックス化、各会議に明確なアジェンダと成果を確保。これがベロシティ低下の根本原因に直接対応。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A subcontractor's work does not meet quality standards specified in the contract. The subcontractor claims the standards were unclear. The contract specifies liquidated damages of $1,000/day.",
-    "question": "What should you do first?",
+    "scenario": "下請業者の作業が契約仕様の品質基準を満たさない。下請業者は仕様が不明確だったと主張。契約には1日1,000ドルの違約金条項。",
+    "question": "まず何をすべきか。",
     "options": [
-      {"text": "Review the contract terms, document the quality gaps, and initiate formal communication per contract dispute procedures", "correct": true},
-      {"text": "Immediately invoke liquidated damages", "correct": false},
-      {"text": "Fix the quality issues yourself and back-charge the subcontractor", "correct": false},
-      {"text": "Terminate the contract", "correct": false}
+      {"text": "契約条項を確認し品質ギャップを文書化し契約紛争手続きに従い正式なコミュニケーションを開始", "correct": true},
+      {"text": "直ちに違約金を発動", "correct": false},
+      {"text": "品質問題を自ら修正し下請業者にバックチャージ", "correct": false},
+      {"text": "契約を解除", "correct": false}
     ],
-    "explanation": "Follow the contract's dispute resolution process. Document specific quality gaps with evidence, communicate formally per contract terms, and give the subcontractor opportunity to remedy. Liquidated damages are a last resort after proper process."
+    "explanation": "契約の紛争解決プロセスに従う。証拠付きで具体的な品質ギャップを文書化、契約条項に従い正式にコミュニケーション、下請業者に修正機会を付与。違約金は適正プロセス後の最終手段。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project's risk response strategy for a key risk was 'mitigate.' The mitigation plan has been implemented but the risk still materialized. The impact is $200K against an EMV of $50K.",
-    "question": "What should you do now?",
+    "scenario": "重要リスクの対応戦略が「緩和」。緩和計画は実施済みだがリスクが依然顕在化。影響は200kでEMVは50k。",
+    "question": "今どうすべきか。",
     "options": [
-      {"text": "Activate the contingency plan (from the $50K reserve), assess if management reserve is needed for the remaining $150K, and update the risk register", "correct": true},
-      {"text": "Accept the full $200K loss since risk materialization is normal", "correct": false},
-      {"text": "Blame the team for poor mitigation", "correct": false},
-      {"text": "Increase the project budget by $200K", "correct": false}
+      {"text": "コンティンジェンシープラン（50kリザーブから）を起動し、残り150kにマネジメントリザーブが必要か評価しリスクレジスターを更新", "correct": true},
+      {"text": "リスク顕在化は正常なので200kの損失を受け入れる", "correct": false},
+      {"text": "チームの緩和不備を責める", "correct": false},
+      {"text": "プロジェクト予算を200k増額", "correct": false}
     ],
-    "explanation": "Mitigation reduces probability/impact but doesn't eliminate risk. Use contingency reserve ($50K based on EMV) first, then request management reserve for the shortfall ($150K). Document lessons learned about why mitigation was insufficient."
+    "explanation": "緩和は確率/影響を低減するがリスクを排除しない。まずコンティンジェンシーリザーブ（EMVベースの50k）を使用、不足分（150k）にマネジメントリザーブを要求。緩和が不十分だった理由を教訓として文書化。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A company is migrating from on-premise servers to cloud infrastructure. The current system has 50 tightly coupled components with undocumented dependencies. The migration must be completed with zero downtime.",
-    "question": "What migration strategy is most appropriate?",
+    "scenario": "オンプレミスサーバーからクラウドインフラへ移行中。現在システムは50の密結合コンポーネントで未文書化の依存関係。ダウンタイムゼロでの移行が必須。",
+    "question": "最適な移行戦略は何か。",
     "options": [
-      {"text": "Phased migration: identify dependency chains, migrate independent components first, use feature flags and parallel running", "correct": true},
-      {"text": "Big bang migration: move everything at once over a weekend", "correct": false},
-      {"text": "Build a completely new system in the cloud and switch over", "correct": false},
-      {"text": "Delay migration until all dependencies are documented", "correct": false}
+      {"text": "フェーズ移行：依存チェーンを識別、独立コンポーネントを先に移行、フィーチャーフラグと並行稼働を使用", "correct": true},
+      {"text": "ビッグバン移行：週末に全て移行", "correct": false},
+      {"text": "クラウドに全く新しいシステムを構築し切り替え", "correct": false},
+      {"text": "全依存関係が文書化されるまで移行延期", "correct": false}
     ],
-    "explanation": "Given undocumented dependencies and zero-downtime requirement, a phased approach with parallel running is safest. Identify dependency chains first, migrate independent components, use feature flags for gradual traffic shifting."
+    "explanation": "未文書化の依存関係とダウンタイムゼロ要件で、並行稼働付きフェーズアプローチが最安全。まず依存チェーンを識別し、独立コンポーネントを移行、フィーチャーフラグで段階的トラフィックシフト。"
   },
   {
     "category": "System Architecture",
-    "scenario": "You need to choose between a monolithic and microservices architecture for a new application. The team has 5 developers, 12-month timeline, and requirements are still evolving.",
-    "question": "Which architecture is more appropriate and why?",
+    "scenario": "新アプリケーションでモノリスとマイクロサービスの選択。チーム5名、12ヶ月タイムライン、要件はまだ変動中。",
+    "question": "どのアーキテクチャが適切か。理由は。",
     "options": [
-      {"text": "Modular monolith - simpler to manage with a small team, allows future extraction to microservices", "correct": true},
-      {"text": "Microservices - they are the modern best practice", "correct": false},
-      {"text": "Monolithic - it is the simplest approach", "correct": false},
-      {"text": "Microservices - they allow independent scaling", "correct": false}
+      {"text": "モジュラーモノリス - 小チームで管理が簡潔、将来マイクロサービスへの抽出が可能", "correct": true},
+      {"text": "マイクロサービス - 現代のベストプラクティス", "correct": false},
+      {"text": "モノリス - 最もシンプル", "correct": false},
+      {"text": "マイクロサービス - 独立スケーリング可能", "correct": false}
     ],
-    "explanation": "With only 5 developers and evolving requirements, a full microservices architecture adds operational complexity (DevOps, service mesh, monitoring) that the small team cannot support. A modular monolith offers clean separation within a single deployable unit."
+    "explanation": "5名の小チームと変動要件でフルマイクロサービスは小チームがサポートできない運用複雑性（DevOps、サービスメッシュ、監視）を追加。モジュラーモノリスは単一デプロイ単位内でクリーンな分離を提供。"
   },
   {
     "category": "System Architecture",
-    "scenario": "An architecture review reveals that the proposed system uses synchronous REST calls between services, creating tight coupling. If Service A is down, Services B and C also fail.",
-    "question": "What architectural pattern would best address this coupling?",
+    "scenario": "アーキテクチャレビューで提案システムがサービス間で同期REST呼び出しを使用し密結合を作成。サービスAがダウンするとBとCも失敗。",
+    "question": "この結合に最適なアーキテクチャパターンは何か。",
     "options": [
-      {"text": "Event-driven architecture with asynchronous messaging (e.g., message queues)", "correct": true},
-      {"text": "Add more load balancers", "correct": false},
-      {"text": "Add retry logic to the REST calls", "correct": false},
-      {"text": "Deploy all services on the same server", "correct": false}
+      {"text": "非同期メッセージングのイベント駆動アーキテクチャ（メッセージキューなど）", "correct": true},
+      {"text": "ロードバランサー追加", "correct": false},
+      {"text": "REST呼び出しにリトライロジック追加", "correct": false},
+      {"text": "全サービスを同じサーバーにデプロイ", "correct": false}
     ],
-    "explanation": "Asynchronous messaging decouples services: Services B and C subscribe to events from Service A without direct dependency. If A goes down, B and C continue operating. This improves resilience and scalability."
+    "explanation": "非同期メッセージングでサービスを分離：BとCはサービスAからのイベントを直接依存なく購読。AがダウンしてもBとCは継続稼働。レジリエンスとスケーラビリティが向上。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A system needs to process 10,000 transactions per second at peak times. Current capacity tests show the database becomes the bottleneck at 3,000 TPS.",
-    "question": "What is the most effective architectural solution?",
+    "scenario": "システムがピーク時に10,000トランザクション/秒を処理する必要がある。現在の負荷テストでデータベースが3,000TPSでボトルネック。",
+    "question": "最も効果的なアーキテクチャソリューションは何か。",
     "options": [
-      {"text": "Implement caching (Redis/Memcached), database read replicas, and connection pooling", "correct": true},
-      {"text": "Upgrade the database server hardware", "correct": false},
-      {"text": "Switch to a different database vendor", "correct": false},
-      {"text": "Reduce the number of transactions", "correct": false}
+      {"text": "キャッシュ（Redis/Memcached）、DB読取レプリカ、コネクションプーリングを実装", "correct": true},
+      {"text": "DBサーバーのハードウェアアップグレード", "correct": false},
+      {"text": "別のDBベンダーに切り替え", "correct": false},
+      {"text": "トランザクション数を削減", "correct": false}
     ],
-    "explanation": "Caching reduces database load for frequent reads, read replicas distribute query load, and connection pooling optimizes database connections. This multi-layered approach is more effective and cost-efficient than hardware upgrades alone."
+    "explanation": "キャッシュは頻繁な読取のDB負荷を削減、読取レプリカはクエリ負荷を分散、コネクションプーリングはDB接続を最適化。この多層アプローチはハードウェアアップグレード単独より効果的かつコスト効率的。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A legacy system must be replaced. It has 200 active users, processes 500 daily transactions, and has 15 years of accumulated business logic. The new system must replicate all existing functionality.",
-    "question": "What is the recommended approach for this migration?",
+    "scenario": "レガシーシステムの置き換え。200アクティブユーザー、日次500トランザクション、15年分のビジネスロジック蓄積。新システムは全既存機能を複製する必要。",
+    "question": "推奨される移行アプローチは何か。",
     "options": [
-      {"text": "Parallel running with phased cutover: run both systems simultaneously, gradually migrate users and functions", "correct": true},
-      {"text": "Immediate cutover to the new system", "correct": false},
-      {"text": "Keep the legacy system and build the new one alongside it", "correct": false},
-      {"text": "Document all 15 years of business logic before starting development", "correct": false}
+      {"text": "段階的カットオーバー付き並行稼働：両システムを同時稼働させ、段階的にユーザーと機能を移行", "correct": true},
+      {"text": "新システムへの即時カットオーバー", "correct": false},
+      {"text": "レガシーを維持し新システムを並行構築", "correct": false},
+      {"text": "開発開始前に15年分の全ビジネスロジックを文書化", "correct": false}
     ],
-    "explanation": "Parallel running with phased cutover minimizes risk. Both systems operate simultaneously while users are gradually migrated. Issues can be detected and fixed before full cutover. This approach is safest for mission-critical systems."
+    "explanation": "段階的カットオーバー付き並行稼働でリスク最小化。両システムを同時稼働しながら段階的にユーザー移行。問題をフルカットオーバー前に検出・修正。ミッションクリティカルなシステムに最安全。"
   },
   {
     "category": "System Architecture",
-    "scenario": "An organization is evaluating whether to build or buy a CRM solution. Build option: $500K, 8 months. Buy option: $200K license + $100K customization, 3 months. Both meet functional requirements.",
-    "question": "What factors should influence the build vs. buy decision beyond cost and timeline?",
+    "scenario": "組織がCRMソリューションの自作か購入を評価。自作：500k、8ヶ月。購入：200kライセンス + 100kカスタマイズ、3ヶ月。両方とも機能要件を満たす。",
+    "question": "コストとタイムライン以外の自作対購入判断に影響する要因は何か。",
     "options": [
-      {"text": "Long-term maintenance cost, vendor lock-in risk, customization flexibility, integration complexity, and strategic value", "correct": true},
-      {"text": "Only cost and timeline should be considered", "correct": false},
-      {"text": "Buy is always better since it is faster and cheaper", "correct": false},
-      {"text": "Build is always better for strategic control", "correct": false}
+      {"text": "長期保守コスト、ベンダーロックインリスク、カスタマイズ柔軟性、統合複雑性、戦略的価値", "correct": true},
+      {"text": "コストとタイムラインのみ考慮", "correct": false},
+      {"text": "購入は常に高速で安価なので優先", "correct": false},
+      {"text": "自作は戦略的コントロールに常に優先", "correct": false}
     ],
-    "explanation": "Build vs. buy analysis must consider total cost of ownership: maintenance (build = internal cost, buy = annual license), vendor dependency, ability to customize, integration with existing systems, and whether the CRM is a strategic differentiator."
+    "explanation": "自作対購入分析は所有総コストを考慮：保守（自作=内部コスト、購入=年間ライセンス）、ベンダー依存、カスタマイズ能力、既存システムとの統合、CRMが戦略的差別化要因かどうか。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A system architecture uses a single point of failure: one database server with no replication. The business impact analysis shows that 1 hour of downtime costs $100,000. The database fails on average once per quarter.",
-    "question": "What is the annual expected cost of downtime, and what should you recommend?",
+    "scenario": "システムアーキテクチャに単一障害点：レプリケーションなしのDBサーバー1台。BIAで1時間のダウンタイムコスト10万ドル。DBは四半期に平均1回故障。",
+    "question": "年間ダウンタイムの期待コストと推奨は何か。",
     "options": [
-      {"text": "$400,000/year (4 failures x $100K) - recommend high-availability database architecture", "correct": true},
-      {"text": "$25,000/year (average downtime cost) - acceptable risk", "correct": false},
-      {"text": "$100,000/year - implement manual failover", "correct": false},
-      {"text": "$1,200,000/year - build a redundant data center", "correct": false}
+      {"text": "年間400,000ドル（4回故障 x 10万）- 高可用性DBアーキテクチャを推奨", "correct": true},
+      {"text": "年間25,000ドル（平均ダウンタイムコスト）- 受容可能なリスク", "correct": false},
+      {"text": "年間100,000ドル - 手動フェイルオーバー実装", "correct": false},
+      {"text": "年間1,200,000ドル - 冗長データセンター構築", "correct": false}
     ],
-    "explanation": "Annual downtime risk = 4 incidents x $100K/hour x average recovery time. Even if recovery is fast, the annual risk exposure justifies investing in high-availability architecture (replication, automatic failover, clustering)."
+    "explanation": "年間ダウンタイムリスク = 4回インシデント x 10万/時間 x 平均復旧時間。復旧が速くても年間リスクエクスポージャーは高可用性アーキテクチャ（レプリケーション、自動フェイルオーバー、クラスタリング）への投資を正当化。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A project requires selecting a database technology. Options: (A) Relational SQL, proven technology, team experienced; (B) NoSQL, better scalability for big data, team needs training; (C) Graph database, best fit for relationship queries, team has no experience.",
-    "question": "What selection methodology should be used?",
+    "scenario": "DB技術の選択が必要。（A）リレーショナルSQL：実績あり、チーム経験豊富。（B）NoSQL：ビッグデータ向け高スケーラビリティ、チームは訓練が必要。（C）グラフDB：リレーションシップクエリに最適、チーム経験なし。",
+    "question": "どの選択方法論を使用すべきか。",
     "options": [
-      {"text": "Weighted scoring matrix evaluating: functional fit (40%), team capability (25%), TCO (20%), vendor support (15%)", "correct": true},
-      {"text": "Choose the technology the team is most experienced with", "correct": false},
-      {"text": "Choose the most modern technology", "correct": false},
-      {"text": "Choose the cheapest option", "correct": false}
+      {"text": "加重スコアリングマトリクス：機能適合40%、チーム能力25%、TCO 20%、ベンダーサポート15%で評価", "correct": true},
+      {"text": "チームが最も経験のある技術を選択", "correct": false},
+      {"text": "最もモダンな技術を選択", "correct": false},
+      {"text": "最も安いオプションを選択", "correct": false}
     ],
-    "explanation": "A weighted scoring matrix balances multiple factors. Functional fit is weighted highest (40%) since the technology must meet requirements. Team capability (25%) is critical for execution risk. TCO and vendor support complete the evaluation."
+    "explanation": "加重スコアリングマトリクスで複数要因をバランス。機能適合が最高加重（40%）で技術が要件を満たすことが必須。チーム能力（25%）は実行リスクに重要。TCOとベンダーサポートで評価完了。"
   },
   {
     "category": "System Architecture",
-    "scenario": "The system must handle peak loads 5x higher than normal during year-end processing. Peak lasts 2 weeks per year. The system runs on cloud infrastructure.",
-    "question": "What is the most cost-effective approach?",
+    "scenario": "システムは年末処理で通常の5倍のピーク負荷を処理する必要。ピークは年間2週間。クラウドインフラで稼働。",
+    "question": "最もコスト効率的なアプローチは何か。",
     "options": [
-      {"text": "Auto-scaling: provision additional resources during peak and release them after", "correct": true},
-      {"text": "Size infrastructure for peak load permanently", "correct": false},
-      {"text": "Request users to avoid peak period usage", "correct": false},
-      {"text": "Upgrade to a larger permanent instance", "correct": false}
+      {"text": "オートスケーリング：ピーク時に追加リソースをプロビジョニングし終了後に解放", "correct": true},
+      {"text": "ピーク負荷向けにインフラを常時確保", "correct": false},
+      {"text": "ピーク期間の利用をユーザーに依頼", "correct": false},
+      {"text": "より大きな永続インスタンスにアップグレード", "correct": false}
     ],
-    "explanation": "Cloud auto-scaling is the most cost-effective: provision resources only when needed during the 2-week peak, then scale down. Permanent peak-capacity infrastructure would waste resources for the other 50 weeks."
+    "explanation": "クラウドオートスケーリングが最もコスト効率的：2週間のピーク時にのみリソースをプロビジョニングし、終了後にスケールダウン。永続的なピーク容量インフラは残り50週間でリソースを浪費。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A proposed architecture has the web server, application server, and database all on a single virtual machine. The projected user base is 500 concurrent users.",
-    "question": "What is the primary concern with this architecture?",
+    "scenario": "提案アーキテクチャでWebサーバー、アプリケーションサーバー、DBが全て1台の仮想マシンに。推定ユーザー数は500同時。",
+    "question": "このアーキテクチャの最大の懸念は何か。",
     "options": [
-      {"text": "No separation of concerns - cannot scale, update, or troubleshoot components independently", "correct": true},
-      {"text": "It is too expensive", "correct": false},
-      {"text": "It is not secure enough", "correct": false},
-      {"text": "It will be too slow", "correct": false}
+      {"text": "関心の分離なし - スケール、更新、トラブルシューティングをコンポーネント別に独立して実行不可", "correct": true},
+      {"text": "高すぎる", "correct": false},
+      {"text": "セキュリティ不足", "correct": false},
+      {"text": "遅すぎる", "correct": false}
     ],
-    "explanation": "While it may work for 500 users, single-VM deployment prevents independent scaling, updating, and fault isolation. Each component should be on separate infrastructure to allow independent management and scaling."
+    "explanation": "500ユーザーでは動作するかもしれないが、1VMデプロイメントは独立したスケーリング、更新、障害分離を防止。各コンポーネントは独立したインフラに配置し独立管理とスケーリングを可能にすべき。"
   },
   {
     "category": "System Architecture",
-    "scenario": "An API gateway is being considered for a microservices architecture. The gateway would handle authentication, rate limiting, and routing.",
-    "question": "What is the primary benefit of an API gateway in this context?",
+    "scenario": "マイクロサービスアーキテクチャでAPIゲートウェイを検討中。ゲートウェイは認証、レート制限、ルーティングを処理。",
+    "question": "この文脈でAPIゲートウェイの主な利点は何か。",
     "options": [
-      {"text": "Centralized cross-cutting concerns (auth, rate limiting, logging) so individual services focus on business logic", "correct": true},
-      {"text": "It makes the system faster", "correct": false},
-      {"text": "It eliminates the need for service-to-service communication", "correct": false},
-      {"text": "It reduces the number of microservices needed", "correct": false}
+      {"text": "横断的関心事（認証、レート制限、ロギング）を集中化し個別サービスはビジネスロジックに集中", "correct": true},
+      {"text": "システムが速くなる", "correct": false},
+      {"text": "サービス間通信が不要になる", "correct": false},
+      {"text": "必要なマイクロサービス数が減る", "correct": false}
     ],
-    "explanation": "An API gateway centralizes cross-cutting concerns that would otherwise need to be implemented in every microservice. This reduces duplication, ensures consistent security policies, and simplifies client integration."
+    "explanation": "APIゲートウェイは各マイクロサービスで実装が必要な横断的関心事を集中化。重複を削減、一貫したセキュリティポリシーを確保、クライアント統合を簡素化。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A system requires 99.99% availability (52.6 minutes downtime per year). The current architecture achieves 99.9% (8.76 hours downtime per year).",
-    "question": "What architectural changes are needed to close the gap?",
+    "scenario": "システムは99.99%可用性が必要（年間52.6分ダウンタイム）。現在のアーキテクチャは99.9%（年間8.76時間ダウンタイム）。",
+    "question": "ギャップを埋めるために必要なアーキテクチャ変更は何か。",
     "options": [
-      {"text": "Implement redundant systems across availability zones, automated failover, and multi-region deployment", "correct": true},
-      {"text": "Better monitoring and faster incident response", "correct": false},
-      {"text": "More frequent backups", "correct": false},
-      {"text": "Upgrade server hardware", "correct": false}
+      {"text": "アベイラビリティゾーン横断の冗長化、自動フェイルオーバー、マルチリージョンデプロイメントを実装", "correct": true},
+      {"text": "より良い監視と迅速なインシデント対応", "correct": false},
+      {"text": "より頻繁なバックアップ", "correct": false},
+      {"text": "サーバーハードウェアのアップグレード", "correct": false}
     ],
-    "explanation": "Jumping from 99.9% to 99.99% requires eliminating single points of failure through redundancy, automated failover, and geographic distribution. Manual processes (monitoring, backups) are insufficient - you need architectural resilience."
+    "explanation": "99.9%から99.99%へのジャンプは冗長化、自動フェイルオーバー、地理的分散による単一障害点の排除が必要。手動プロセス（監視、バックアップ）では不十分。アーキテクチャのレジリエンスが必要。"
   },
   {
     "category": "System Architecture",
-    "scenario": "A project involves integrating 5 external systems via APIs. Two APIs have rate limits of 100 requests/minute, and one API has no published SLA.",
-    "question": "What architecture patterns should be implemented to manage these constraints?",
+    "scenario": "5つの外部システムとAPI統合。2つのAPIはレート制限100リクエスト/分、1つのAPIは公開SLAなし。",
+    "question": "これらの制約を管理するアーキテクチャパターンは何か。",
     "options": [
-      {"text": "API rate limiting, circuit breakers, retry with exponential backoff, and request queuing", "correct": true},
-      {"text": "Call all APIs simultaneously to maximize throughput", "correct": false},
-      {"text": "Cache all API responses to minimize calls", "correct": false},
-      {"text": "Build a wrapper that bypasses rate limits", "correct": false}
+      {"text": "APIレート制限、サーキットブレーカー、指数バックオフ付きリトライ、リクエストキューイング", "correct": true},
+      {"text": "スループット最大化のために全APIに同時呼び出し", "correct": false},
+      {"text": "全APIレスポンスをキャッシュして呼び出し最小化", "correct": false},
+      {"text": "レート制限をバイパスするラッパーを構築", "correct": false}
     ],
-    "explanation": "Circuit breakers prevent cascade failures when an external API is down. Retry with backoff handles transient failures. Request queuing manages rate limits. Caching (selective) reduces unnecessary API calls. Together these patterns create resilient integrations."
+    "explanation": "サーキットブレーカーは外部API停止時のカスケード故障を防止。指数バックオック付きリトライは一時的故障に対応。リクエストキューイングはレート制限を管理。選択的キャッシュは不要なAPI呼び出しを削減。これらでレジリエントな統合を構築。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "You are managing a $5M ERP implementation project, 6 months into a 12-month plan. Status: PV=$2.5M, EV=$2.0M, AC=$2.8M. Three key team members resigned last month. The client has requested 15 scope changes. The system integrator is 2 months behind on module delivery.",
-    "question": "What is the project's overall health and what should be your top 3 priorities?",
+    "scenario": "500万ドルのERP導入プロジェクト、12ヶ月計画の6ヶ月時点。ステータス：PV=250万、EV=200万、AC=280万。先月主要メンバー3名退職。クライアントが15スコープ変更を要求。システムインテグレーターはモジュール納品で2ヶ月遅延。",
+    "question": "プロジェクトの全体健全性とトップ3優先事項は何か。",
     "options": [
-      {"text": "Critical: (1) Address resource gap from resignations, (2) Escalate vendor delay with contract remedies, (3) Implement change control board for 15 scope changes", "correct": true},
-      {"text": "Moderate concern: Focus on improving CPI and SPI metrics", "correct": false},
-      {"text": "Healthy: The project is within acceptable variance ranges", "correct": false},
-      {"text": "Cancel the project and start over", "correct": false}
+      {"text": "クリティカル：(1) 退職によるリソースギャップ対応、(2) 契約救済でベンダー遅延をエスカレーション、(3) 15スコープ変更にCCBを設置", "correct": true},
+      {"text": "中程度の懸念：CPIとSPIの改善に集中", "correct": false},
+      {"text": "健全：許容差異範囲内", "correct": false},
+      {"text": "プロジェクト中止し再開始", "correct": false}
     ],
-    "explanation": "SPI=0.80, CPI=0.71 - significantly over budget and behind schedule. Combined with key personnel loss, vendor delays, and 15 uncontrolled scope changes, this project is in critical condition. Immediate priorities: staff, vendor management, and scope control."
+    "explanation": "SPI=0.80、CPI=0.71 - 大幅なコスト超過とスケジュール遅延。主要人員喪失、ベンダー遅延、15件の管理外スコープ変更と組み合わせ、プロジェクトはクリティカル状態。即時優先事項：人員、ベンダー管理、スコープ管理。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project to develop a healthcare app has the following constraints: BAC=$3M, FDA compliance required, team of 12, 9-month timeline. At month 6: SPI=0.85, CPI=0.95, 3 high-priority defects found in compliance testing, 2 key developers on medical leave.",
-    "question": "What is the most critical risk to project success?",
+    "scenario": "医療アプリ開発：BAC=300万、FDAコンプライアンス必須、チーム12名、9ヶ月タイムライン。6ヶ月時点：SPI=0.85、CPI=0.95、コンプライアンステストで3件の高優先度欠陥、主要開発者2名が病気休暇。",
+    "question": "プロジェクト成功の最もクリティカルなリスクは何か。",
     "options": [
-      {"text": "FDA compliance failures could prevent product launch regardless of schedule or budget performance", "correct": true},
-      {"text": "The schedule delay indicated by SPI", "correct": false},
-      {"text": "The cost overrun indicated by CPI", "correct": false},
-      {"text": "Staffing shortage from medical leave", "correct": false}
+      {"text": "FDAコンプライアンス失敗はスケジュールや予算に関わらず製品ローンチを阻止する", "correct": true},
+      {"text": "SPIが示すスケジュール遅延", "correct": false},
+      {"text": "CPIが示すコスト超過", "correct": false},
+      {"text": "病気休暇による人員不足", "correct": false}
     ],
-    "explanation": "In regulated industries, compliance is a binary gate - if the product cannot pass FDA requirements, it cannot launch regardless of schedule or budget performance. Compliance defects must be prioritized above all other concerns."
+    "explanation": "規制産業ではコンプライアンスはバイナリゲート - FDA要件を満たせなければ製品はローンチ不可。スケジュールや予算パフォーマンスに関係ない。コンプライアンス欠陥を全ての懸念より優先。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "You take over a troubled project mid-execution. The previous PM left no documentation. The team reports different completion percentages to different stakeholders. The client is angry about missed deadlines. Budget is 60% spent with 40% of work done.",
-    "question": "What should be your first action?",
+    "scenario": "トラブルプロジェクトの途中で引き継ぎ。前PMはドキュメントなし。チームはステークホルダーごとに異なる完了率を報告。クライアントは期限遅延に怒っている。予算は60%消費で40%の作業完了。",
+    "question": "最初のアクションは何か。",
     "options": [
-      {"text": "Establish a single source of truth: audit actual status, create a verified baseline, and meet with the client", "correct": true},
-      {"text": "Start implementing corrective actions immediately", "correct": false},
-      {"text": "Document the previous PM's failures", "correct": false},
-      {"text": "Request additional budget before proceeding", "correct": false}
+      {"text": "単一の信頼できる情報源を確立：実際ステータスを監査、検証済みベースラインを作成しクライアントと面会", "correct": true},
+      {"text": "直ちに是正アクションを実装", "correct": false},
+      {"text": "前PMの失敗を文書化", "correct": false},
+      {"text": "進行前に追加予算を要求", "correct": false}
     ],
-    "explanation": "Before taking corrective action, you need accurate information. Audit the real project status, establish a verified baseline (actual scope, schedule, cost), and communicate transparently with the client. You cannot fix what you cannot measure."
+    "explanation": "是正アクション前に正確な情報が必要。実際のプロジェクトステータスを監査し、検証済みベースライン（実際スコープ、スケジュール、コスト）を確立し、クライアントと透明にコミュニケーション。測定できないものは修正できない。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project has three parallel work streams: Frontend (3 developers), Backend (4 developers), Infrastructure (2 engineers). Frontend is 2 weeks ahead, Backend is 3 weeks behind, Infrastructure is on schedule. The critical path runs through Backend.",
-    "question": "What is the best resource optimization strategy?",
+    "scenario": "3つの並行ワークストリーム：フロントエンド（3名）、バックエンド（4名）、インフラ（2名）。フロントエンドは2週先行、バックエンドは3週遅延、インフラは予定通り。クリティカルパスはバックエンド経由。",
+    "question": "最適なリソース最適化戦略は何か。",
     "options": [
-      {"text": "Move 1-2 frontend developers to backend to compress the critical path while maintaining frontend progress", "correct": true},
-      {"text": "Let each team work independently and compress the schedule at the end", "correct": false},
-      {"text": "Add new developers to the backend team", "correct": false},
-      {"text": "Delay the project end date by 3 weeks", "correct": false}
+      {"text": "1〜2名のフロントエンド開発者をバックエンドに移動しクリティカルパスを圧縮しつつフロントエンドの進捗を維持", "correct": true},
+      {"text": "各チームに独立して作業させ最後にスケジュール圧縮", "correct": false},
+      {"text": "バックエンドチームに新規開発者を追加", "correct": false},
+      {"text": "プロジェクト完了日を3週延長", "correct": false}
     ],
-    "explanation": "Since the critical path is through Backend (3 weeks behind), moving resources from Frontend (2 weeks ahead) optimizes overall schedule. However, be aware of Brooks' Law: adding people to a late project may make it later. Consider knowledge transfer overhead."
+    "explanation": "クリティカルパスがバックエンド（3週遅延）のため、先行しているフロントエンド（2週先行）からリソースを移動で全体スケジュールを最適化。ただしブルックスの法則に注意：遅延プロジェクトへの人数追加は遅延を悪化させる可能性。ナレッジトランスファーのオーバーヘッドを考慮。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project uses a hybrid approach: Agile for development, waterfall for compliance and deployment. The agile team delivers working software every 2 weeks, but the compliance review cycle takes 6 weeks.",
-    "question": "How should you handle the mismatch in cadence?",
+    "scenario": "ハイブリッド方式：開発はアジャイル、コンプライアンスとデプロイメントはウォーターフォール。アジャイルチームは2週ごとに動作ソフトを納品だがコンプライアンスレビューサイクルは6週間。",
+    "question": "このリズムの不一致をどう扱うべきか。",
     "options": [
-      {"text": "Batch compliance reviews to cover multiple sprints and run reviews in parallel with development", "correct": true},
-      {"text": "Slow down development to match the compliance cycle", "correct": false},
-      {"text": "Speed up the compliance process", "correct": false},
-      {"text": "Skip compliance for internal releases", "correct": false}
+      {"text": "コンプライアンスレビューをバッチ処理して複数スプリントをカバーし、開発と並行してレビューを実行", "correct": true},
+      {"text": "コンプライアンスサイクルに合わせて開発速度を落とす", "correct": false},
+      {"text": "コンプライアンスプロセスを加速", "correct": false},
+      {"text": "内部リリースではコンプライアンスをスキップ", "correct": false}
     ],
-    "explanation": "Batching compliance reviews allows the 6-week cycle to cover 3 sprints of work. Running reviews in parallel with development means the team continues delivering while compliance reviews proceed, minimizing the overall timeline impact."
+    "explanation": "コンプライアンスレビューをバッチ化すれば6週サイクルで3スプリント分をカバー。開発と並行でレビューを実行すればチームは継続して納品しつつレビューも進行し、全体タイムラインへの影響を最小化。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project must go live on January 15. Current EAC shows completion by February 28. The delta is 6 weeks. Crashing all critical path activities would cost $500K. Fast-tracking could save 3 weeks but increases defect risk by 40%.",
-    "question": "What recommendation should you present to the sponsor?",
+    "scenario": "プロジェクトは1月15日リリース予定。現在のEACは2月28日完了予定。差分6週間。全クリティカルパスアクティビティのクラッシュは50万ドル。ファストトラックで3週短縮可能だが欠陥リスク40%増加。",
+    "question": "スポンサーに提示すべき推奨は何か。",
     "options": [
-      {"text": "Present options with trade-offs: (A) Crashing for $500K, (B) Fast-track + accept 40% more defects, (C) Negotiate deadline extension, (D) Hybrid approach", "correct": true},
-      {"text": "Recommend crashing since the deadline is firm", "correct": false},
-      {"text": "Recommend fast-tracking since it is free", "correct": false},
-      {"text": "Recommend extending the deadline", "correct": false}
+      {"text": "トレードオフ付きオプション提示：(A) 50万でクラッシュ、(B) ファストトラック + 40%欠陥増加受入、(C) 期限延長交渉、(D) ハイブリッド", "correct": true},
+      {"text": "期限が確定なのでクラッシュを推奨", "correct": false},
+      {"text": "無料なのでファストトラックを推奨", "correct": false},
+      {"text": "期限延長を推奨", "correct": false}
     ],
-    "explanation": "The sponsor should make the decision with full information. Present all options with their costs, risks, and trade-offs. A hybrid approach (partial crash + partial fast-track + partial deadline extension) may offer the best balance."
+    "explanation": "スポンサーは全情報で判断すべき。全オプションのコスト、リスク、トレードオフを提示。ハイブリッド（部分クラッシュ + 部分ファストトラック + 部分期限延長）が最適バランスの可能性。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your organization's PMO requires monthly project health reports. Your project has been 'Green' for 4 months. This month, SPI dropped to 0.78 due to a vendor delay. You expect to recover in 2 months.",
-    "question": "How should you report this month's status?",
+    "scenario": "PMOで月次プロジェクト健全性レポートが必要。プロジェクトは4ヶ月連続「緑」。今月、ベンダー遅延でSPIが0.78に低下。2ヶ月で回復すると予想。",
+    "question": "今月のステータスをどう報告すべきか。",
     "options": [
-      {"text": "Report Yellow (at risk) with explanation: vendor delay causing temporary SPI drop, recovery plan in place, expected to return to Green in 2 months", "correct": true},
-      {"text": "Report Green since recovery is expected", "correct": false},
-      {"text": "Report Red to be safe", "correct": false},
-      {"text": "Delay the report until the project recovers", "correct": false}
+      {"text": "黄色（リスクあり）で報告：ベンダー遅延による一時的SPI低下、回復計画あり、2ヶ月で緑に復帰予定と説明", "correct": true},
+      {"text": "回復予定なので緑で報告", "correct": false},
+      {"text": "安全策で赤で報告", "correct": false},
+      {"text": "回復まで報告を延期", "correct": false}
     ],
-    "explanation": "Honest reporting builds credibility. SPI of 0.78 is significantly below 1.0 and warrants a Yellow status. The explanation and recovery plan show proactive management. Consistently accurate reporting (even when negative) is valued more than always reporting Green."
+    "explanation": "正直な報告が信頼性を構築。SPI 0.78は1.0を大きく下回り黄色ステータスを正当化。説明と回復計画は積極的な管理を示す。一貫した正確な報告（否定的でも）が常に緑報告より評価される。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A client requests a major feature addition 2 months before the planned go-live date. The feature would add $200K and 6 weeks to the timeline. The contract has a penalty of $50K/week for late delivery.",
-    "question": "What is the correct approach to handle this request?",
+    "scenario": "クライアントがリリース2ヶ月前に主要機能追加を要求。機能追加で20万と6週のタイムライン増加。契約には週5万の遅延違約金条項。",
+    "question": "この要求の正しい対応は何か。",
     "options": [
-      {"text": "Analyze impact ($200K + $300K penalties), present options to client with recommendation to defer to Phase 2", "correct": true},
-      {"text": "Accept the change since the client is always right", "correct": false},
-      {"text": "Reject the change to avoid penalties", "correct": false},
-      {"text": "Implement the change without telling the client about the delay", "correct": false}
+      {"text": "影響分析（20万 + 30万違約金）を実施しフェーズ2への延期を推奨するオプションを提示", "correct": true},
+      {"text": "クライアントは常に正しいので変更を受け入れる", "correct": false},
+      {"text": "違約金を回避するため変更を却下", "correct": false},
+      {"text": "遅延をクライアントに伝えずに変更を実装", "correct": false}
     ],
-    "explanation": "The change costs $200K directly plus $300K in late penalties (6 weeks x $50K), totaling $500K impact. Present this analysis to the client with options: defer to Phase 2, accept the cost and delay, or reduce scope elsewhere to accommodate."
+    "explanation": "変更は直接20万 + 6週の遅延違約金30万（6週 x 5万）= 合計50万の影響。分析をクライアントに提示しオプション：フェーズ2延期、コストと遅延を受入、他のスコープ削減で対応。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project team has completed a successful pilot with 50 users. The full rollout targets 5,000 users across 10 locations over 6 months. The pilot revealed 3 usability issues and 2 performance bottlenecks.",
-    "question": "What should be the rollout strategy?",
+    "scenario": "50名でのパイロット成功。本格展開は10拠点で5,000名対象、6ヶ月。パイロットで3件のユーザビリティ問題と2件の性能ボトルネックを発見。",
+    "question": "展開戦略は何か。",
     "options": [
-      {"text": "Phased rollout by location: fix pilot issues first, then deploy in waves of 2-3 locations with monitoring between phases", "correct": true},
-      {"text": "Deploy to all 5,000 users immediately since the pilot was successful", "correct": false},
-      {"text": "Wait until all pilot issues are completely resolved before any rollout", "correct": false},
-      {"text": "Deploy to 500 users as a second pilot", "correct": false}
+      {"text": "拠点別段階展開：パイロット問題を先に修正し、2〜3拠点ずつウェーブでデプロイしフェーズ間で監視", "correct": true},
+      {"text": "パイロット成功なので全5,000名に即時デプロイ", "correct": false},
+      {"text": "パイロット問題が完全に解決するまで展開を待つ", "correct": false},
+      {"text": "500名で第2パイロットを実施", "correct": false}
     ],
-    "explanation": "Phased rollout manages risk: fix known issues first, then deploy incrementally with monitoring. Each phase validates the fixes and catches location-specific issues. This approach limits the blast radius of any problems."
+    "explanation": "段階展開でリスク管理：既知問題を先に修正し、監視付きで段階的にデプロイ。各フェーズで修正を検証し拠点固有の問題を発見。問題の影響範囲を限定。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project's quality metrics show: unit test coverage = 95%, integration test pass rate = 85%, UAT pass rate = 70%. The sponsor asks if the product is ready for release.",
-    "question": "What is your assessment and recommendation?",
+    "scenario": "品質メトリクス：単体テストカバレッジ95%、統合テスト合格率85%、UAT合格率70%。スポンサーがリリース準備完了か尋ねている。",
+    "question": "評価と推奨は何か。",
     "options": [
-      {"text": "Not ready - the declining pass rate (95% to 85% to 70%) indicates quality issues that increase with complexity; address UAT failures first", "correct": true},
-      {"text": "Ready - 70% UAT pass rate is acceptable", "correct": false},
-      {"text": "Ready - unit test coverage of 95% is excellent", "correct": false},
-      {"text": "Need more unit tests before deciding", "correct": false}
+      {"text": "未完了 - 低下する合格率（95%→85%→70%）は複雑性増加に伴う品質問題を示唆。UAT不合格を先に対応", "correct": true},
+      {"text": "準備完了 - 70% UAT合格率は許容", "correct": false},
+      {"text": "準備完了 - 95%単体テストカバレッジは優秀", "correct": false},
+      {"text": "判定前に単体テスト追加が必要", "correct": false}
     ],
-    "explanation": "The declining pass rate across test levels indicates that quality degrades as complexity increases. 70% UAT pass rate means 30% of features fail user validation. The product should not release until UAT pass rate reaches the acceptance threshold (typically 95%+)."
+    "explanation": "テストレベルを跨ぐ低下合格率は複雑性増加で品質が劣化することを示す。70% UAT合格率は30%の機能がユーザー検証に不合格。UAT合格率が受入基準（通常95%+）に達するまでリリース不可。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project budget is $1M with a 10% contingency ($100K). You have used $80K of contingency so far. A new risk has been identified with a 40% probability and $300K impact. There are 4 months remaining.",
-    "question": "What is the risk exposure and what should you do?",
+    "scenario": "プロジェクト予算100万、10%コンティンジェンシー（10万）。8万を使用済み。新リスク識別：確率40%、影響30万。残り4ヶ月。",
+    "question": "リスクエクスポージャーはいくらか。どうすべきか。",
     "options": [
-      {"text": "EMV = $120K. With only $20K contingency remaining, you need to mitigate the risk or request management reserve", "correct": true},
-      {"text": "The $80K contingency used so far is sufficient", "correct": false},
-      {"text": "Request an additional $300K for the potential risk", "correct": false},
-      {"text": "Accept the risk since 60% chance it will not occur", "correct": false}
+      {"text": "EMV = 12万。残りコンティンジェンシー2万のみでリスク緩和またはマネジメントリザーブが必要", "correct": true},
+      {"text": "これまで使用した8万で十分", "correct": false},
+      {"text": "潜在的リスクに対して追加30万を要求", "correct": false},
+      {"text": "60%の確率で発生しないのでリスクを受入", "correct": false}
     ],
-    "explanation": "EMV = 0.40 x $300K = $120K. Remaining contingency = $100K - $80K = $20K. The risk exposure ($120K) exceeds remaining contingency ($20K) by $100K. Proactive risk mitigation or management reserve request is needed."
+    "explanation": "EMV = 0.40 x 30万 = 12万。残りコンティンジェンシー = 10万 - 8万 = 2万。リスクエクスポージャー（12万）が残りコンティンジェンシー（2万）を10万上回る。積極的なリスク緩和またはマネジメントリザーブ要求が必要。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Two projects compete for the same senior architect's time. Project A is in a critical phase (2 weeks to deadline) and needs 80% of the architect's time. Project B is in planning and needs the architect for 3 weeks starting now.",
-    "question": "How should this resource conflict be resolved?",
+    "scenario": "2つのプロジェクトが同じシニアアーキテクトの時間を競合。プロジェクトAはクリティカルフェーズ（期限2週間）で80%の時間が必要。プロジェクトBは計画フェーズで今から3週間必要。",
+    "question": "このリソース競合をどう解決すべきか。",
     "options": [
-      {"text": "Prioritize Project A (critical phase, nearer deadline) and delay Project B's planning by 2 weeks or find an alternative resource", "correct": true},
-      {"text": "Split the architect 50/50 between both projects", "correct": false},
-      {"text": "Assign the architect to Project B since it is earlier in the lifecycle", "correct": false},
-      {"text": "Let both project managers negotiate directly", "correct": false}
+      {"text": "プロジェクトAを優先（クリティカルフェーズ、期限が近い）しプロジェクトBの計画を2週延長または代替リソースを確保", "correct": true},
+      {"text": "両プロジェクトに50/50で分割", "correct": false},
+      {"text": "ライフサイクル早期のプロジェクトBを優先", "correct": false},
+      {"text": "両PMに直接交渉させる", "correct": false}
     ],
-    "explanation": "Resource conflicts should be resolved based on project priority, phase criticality, and deadline proximity. Project A is in a critical phase with an imminent deadline, making it the higher priority. Project B can be delayed or resourced differently."
+    "explanation": "リソース競合はプロジェクト優先度、フェーズのクリティカリティ、期限の近さで解決。プロジェクトAはクリティカルフェーズで差し迫った期限。プロジェクトBは延期または別リソースで対応可能。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project's post-implementation review shows: delivered on time, 10% over budget, 95% of requirements met. User satisfaction is 65% - below the 80% target. Root cause: requirements gathering missed workflow needs of 3 departments.",
-    "question": "What is the key lesson learned and how should it be applied?",
+    "scenario": "事後実装レビュー：期日通り完了、10%予算超過、要件95%達成。ユーザー満足度65% - 80%目標を下回る。根本原因：要件収集が3部門のワークフロー要件を漏洩。",
+    "question": "主要な教訓と適用方法は何か。",
     "options": [
-      {"text": "All user departments must participate in requirements validation, not just sign-off. Implement process mapping workshops in future projects.", "correct": true},
-      {"text": "The project was successful since 95% of requirements were met", "correct": false},
-      {"text": "Spend more time on user training to improve satisfaction", "correct": false},
-      {"text": "Increase the budget by 15% for future projects", "correct": false}
+      {"text": "全ユーザー部門がサインオフだけでなく要件検証に参加必須。将来プロジェクトでプロセスマッピングワークショップを実装", "correct": true},
+      {"text": "要件95%達成で成功", "correct": false},
+      {"text": "ユーザートレーニングを増やし満足度改善", "correct": false},
+      {"text": "将来プロジェクトで予算を15%増加", "correct": false}
     ],
-    "explanation": "Meeting 95% of documented requirements is insufficient if those requirements did not capture actual user needs. The lesson is that requirements validation must include all user groups through active participation, not just sign-off."
+    "explanation": "文書化された要件の95%達成でも要件が実際のユーザーニーズを捉えていなければ不十分。教訓：要件検証には全ユーザーグループがサインオフだけでなく積極的に参加する必要がある。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project uses earned value management. Week 10: PV=500, EV=450, AC=480. Week 11: PV=550, EV=500, AC=510. Week 12: PV=600, EV=560, AC=540.",
-    "question": "What trend do you observe and what does it mean?",
+    "scenario": "EVM使用。10週目：PV=500、EV=450、AC=480。11週目：PV=550、EV=500、AC=510。12週目：PV=600、EV=560、AC=540。",
+    "question": "どういう傾向か。何を意味するか。",
     "options": [
-      {"text": "CPI is improving (0.94 to 0.98 to 1.04) while SPI remains consistently below 1.0 (0.90 to 0.91 to 0.93) - cost efficiency improving but schedule still lagging", "correct": true},
-      {"text": "Both CPI and SPI are improving steadily", "correct": false},
-      {"text": "The project is recovering in all areas", "correct": false},
-      {"text": "The project performance is stable", "correct": false}
+      {"text": "CPI改善中（0.94→0.98→1.04）だがSPIは一貫して1.0以下（0.90→0.91→0.93）- コスト効率改善中だがスケジュール依然遅延", "correct": true},
+      {"text": "CPIとSPIの両方が改善中", "correct": false},
+      {"text": "全領域で回復中", "correct": false},
+      {"text": "パフォーマンス安定", "correct": false}
     ],
-    "explanation": "Week 10: SPI=0.90, CPI=0.94. Week 11: SPI=0.91, CPI=0.98. Week 12: SPI=0.93, CPI=1.04. CPI has crossed into favorable territory but SPI remains below 1.0. The project needs schedule-specific corrective actions."
+    "explanation": "10週目：SPI=0.90、CPI=0.94。11週目：SPI=0.91、CPI=0.98。12週目：SPI=0.93、CPI=1.04。CPIは良好領域に到達したがSPIは1.0以下のまま。スケジュール特化の是正アクションが必要。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A system go-live is scheduled for Monday. On Friday, testing reveals a critical data corruption bug that occurs under specific conditions. The fix is estimated at 3 days. The business has committed to the Monday go-live in customer communications.",
-    "question": "What should you recommend?",
+    "scenario": "システムリリースは月曜日予定。金曜日のテストで特定条件でデータ破損バグを発見。修正に3日。ビジネスは顧客通信で月曜リリースを公約済み。",
+    "question": "推奨は何か。",
     "options": [
-      {"text": "Recommend delaying go-live: data corruption is unacceptable, communicate transparently with stakeholders and customers", "correct": true},
-      {"text": "Go live on Monday and fix the bug in a patch", "correct": false},
-      {"text": "Go live with the bug and work around the specific conditions", "correct": false},
-      {"text": "Cancel the project", "correct": false}
+      {"text": "リリース延期を推奨：データ破損は許容不可、ステークホルダーと顧客に透明にコミュニケーション", "correct": true},
+      {"text": "月曜にリリースしパッチで修正", "correct": false},
+      {"text": "バグありでリリースし特定条件を回避", "correct": false},
+      {"text": "プロジェクト中止", "correct": false}
     ],
-    "explanation": "Data corruption is a critical defect that cannot be tolerated in production. A 3-day delay is far less damaging than data loss. Transparent communication with customers (with appropriate explanation) is better than risking data integrity."
+    "explanation": "データ破損は本番で許容不可のクリティカル欠陥。3日延期はデータ損失よりはるかに少ない損害。顧客への透明なコミュニケーション（適切な説明付き）がデータ完全性のリスクより良い。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "You are managing a portfolio of 5 projects. Total budget: $10M. Project 1: $3M, on track. Project 2: $2M, CPI=0.75, SPI=0.80. Project 3: $1.5M, cancelled. Project 4: $2.5M, ahead of schedule. Project 5: $1M, just starting.",
-    "question": "What should you do with the freed budget from Project 3?",
+    "scenario": "5プロジェクトのポートフォリオ管理。総予算：1000万。プロジェクト1：300万、順調。プロジェクト2：200万、CPI=0.75、SPI=0.80。プロジェクト3：150万、中止。プロジェクト4：250万、スケジュール先行。プロジェクト5：100万、開始直後。",
+    "question": "プロジェクト3の解放予算をどうすべきか。",
     "options": [
-      {"text": "Allocate to Project 2's cost overrun first (needs ~$2.67M vs $2M budget), then reassess remaining portfolio needs", "correct": true},
-      {"text": "Distribute equally across all active projects", "correct": false},
-      {"text": "Return the budget to the organization", "correct": false},
-      {"text": "Start a new Project 6", "correct": false}
+      {"text": "プロジェクト2のコスト超過（約267万必要 vs 200万予算）にまず配分し、残りポートフォリオニーズを再評価", "correct": true},
+      {"text": "全アクティブプロジェクトに均等配分", "correct": false},
+      {"text": "予算を組織に返却", "correct": false},
+      {"text": "新プロジェクト6を開始", "correct": false}
     ],
-    "explanation": "Project 2 has an EAC of $2.67M ($2M/0.75), exceeding its $2M budget by $670K. The freed $1.5M should first cover this overrun, then remaining funds can be allocated based on portfolio priorities and organizational strategy."
+    "explanation": "プロジェクト2のEAC = 200万/0.75 = 267万で予算を67万上回る。解放された150万をまずこの超過に充当し、残りをポートフォリオ優先度と組織戦略に基づき配分。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project team is distributed across 3 time zones (Tokyo, London, New York). Overlapping work hours are only 2 hours per day. The project has tight integration dependencies between components developed in each location.",
-    "question": "What project management approach best addresses this challenge?",
+    "scenario": "プロジェクトチームが3タイムゾーン（東京、ロンドン、ニューヨーク）に分散。オーバーラップ稼働時間は1日2時間のみ。各拠点で開発するコンポーネント間に強い統合依存関係。",
+    "question": "この課題に最適なプロジェクト管理アプローチは何か。",
     "options": [
-      {"text": "Asynchronous communication with well-defined APIs/contracts, daily handoff documents, and rotating overlap meeting times", "correct": true},
-      {"text": "Require everyone to work the same hours", "correct": false},
-      {"text": "Relocate all developers to one location", "correct": false},
-      {"text": "Hire a separate team that works across all time zones", "correct": false}
+      {"text": "非同期コミュニケーションと明確なAPI/契約、日次引き継ぎドキュメント、交代制オーバーラップ会議時間", "correct": true},
+      {"text": "全員が同じ時間帯に作業することを要求", "correct": false},
+      {"text": "全開発者を1拠点に移転", "correct": false},
+      {"text": "全タイムゾーンで稼働する別チームを雇用", "correct": false}
     ],
-    "explanation": "With only 2 hours of overlap, the team must rely on asynchronous collaboration. Well-defined interface contracts (APIs) allow independent development. Daily handoff documents capture progress and blockers. Rotating meeting times shares the timezone burden fairly."
+    "explanation": "2時間のオーバーラップのみでチームは非同期コラボレーションに依存。明確なインターフェース契約（API）で独立開発を可能に。日次引き継ぎドキュメントで進捗とブロッカーを記録。交代制会議時間でタイムゾーン負担を公平に配分。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project has the following EAC scenarios: Best case (CPI improves to 1.0): $1.8M. Most likely (CPI stays at 0.90): $2.0M. Worst case (CPI drops to 0.80): $2.25M. BAC is $1.8M. The sponsor has a hard budget cap of $2.0M.",
-    "question": "What is your recommendation?",
+    "scenario": "EACシナリオ：最良（CPIが1.0に改善）：180万。最大公算（CPIは0.90維持）：200万。最悪（CPIが0.80に低下）：225万。BACは180万。スポンサーの予算上限は200万。",
+    "question": "推奨は何か。",
     "options": [
-      {"text": "Implement cost reduction measures immediately since the most likely EAC equals the budget cap with no margin for additional risks", "correct": true},
-      {"text": "Proceed as planned since the best case meets the budget", "correct": false},
-      {"text": "Request a budget increase to $2.25M", "correct": false},
-      {"text": "Reduce project scope by 10%", "correct": false}
+      {"text": "即座にコスト削減措置を実施 - 最大公算EACが予算上限に等しく追加リスクの余裕なし", "correct": true},
+      {"text": "最良ケースが予算を満たすので計画通り進行", "correct": false},
+      {"text": "予算を225万に増額要求", "correct": false},
+      {"text": "スコープを10%削減", "correct": false}
     ],
-    "explanation": "The most likely EAC ($2.0M) exactly equals the hard cap, leaving zero margin. The PM should implement cost reduction measures to create a buffer. This is proactive risk management rather than reactive crisis management."
+    "explanation": "最大公算EAC（200万）がハード上限に等しく余裕ゼロ。PMはバッファを作るためにコスト削減措置を実施すべき。これは積極的なリスク管理で事後の危機管理ではない。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project stakeholder matrix shows: Sponsor (high power, high interest), End users (low power, high interest), IT operations (high power, low interest), Vendors (low power, low interest). Budget is being cut by 20%.",
-    "question": "Who should be consulted first about the budget cut?",
+    "scenario": "ステークホルダーマトリクス：スポンサー（高権力、高関心）、エンドユーザー（低権力、高関心）、IT運用（高権力、低関心）、ベンダー（低権力、低関心）。予算が20%削減。",
+    "question": "予算削減についてまず誰に相談すべきか。",
     "options": [
-      {"text": "The sponsor - high power and high interest, they set priorities and can authorize scope changes", "correct": true},
-      {"text": "End users - they will be most affected by reduced features", "correct": false},
-      {"text": "IT operations - they have the technical knowledge", "correct": false},
-      {"text": "All stakeholders equally", "correct": false}
+      {"text": "スポンサー - 高権力と高関心で優先順位を決定しスコープ変更を承認できる", "correct": true},
+      {"text": "エンドユーザー - 機能削減の影響が最も大きい", "correct": false},
+      {"text": "IT運用 - 技術的知識がある", "correct": false},
+      {"text": "全ステークホルダー平等に", "correct": false}
     ],
-    "explanation": "The sponsor has both high power (budget authority) and high interest (project success). They should be consulted first to understand priorities and get direction on scope adjustments needed to accommodate the 20% budget cut."
+    "explanation": "スポンサーは予算権限（高権力）とプロジェクト成功への関心（高関心）の両方を持つ。20%予算削減に必要な優先度とスコープ調整の方向を理解するために最初に相談すべき。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project manager receives conflicting directives: the sponsor wants to cut costs by 15%, while the quality department insists on maintaining full testing scope. The project is 60% complete with a CPI of 0.95.",
-    "question": "What is the best approach to resolve this conflict?",
+    "scenario": "PMが相反する指示を受領：スポンサーはコスト15%削減を要求、品質部門は完全なテストスコープ維持を主張。プロジェクト60%完了でCPI 0.95。",
+    "question": "この紛争の最適な解決アプローチは何か。",
     "options": [
-      {"text": "Analyze cost-cutting options that preserve critical quality gates, present trade-offs to both parties for joint decision", "correct": true},
-      {"text": "Follow the sponsor's directive since they have higher authority", "correct": false},
-      {"text": "Follow quality department's directive since quality cannot be compromised", "correct": false},
-      {"text": "Cut 15% from non-testing activities to satisfy both parties", "correct": false}
+      {"text": "クリティカル品質ゲートを維持するコスト削減オプションを分析し両者にトレードオフを提示し共同判断", "correct": true},
+      {"text": "権限が高いスポンサーの指示に従う", "correct": false},
+      {"text": "品質は妥協できないので品質部門の指示に従う", "correct": false},
+      {"text": "テスト以外のアクティビティを15%削減して両方を満たす", "correct": false}
     ],
-    "explanation": "The PM should analyze options, identify which costs can be reduced without impacting critical quality gates, and present the trade-offs. Both concerns are valid - the decision should be data-driven with both parties involved."
+    "explanation": "PMはオプションを分析し、クリティカル品質ゲートに影響しないコスト削減を特定しトレードオフを提示。両方の懸念は正当 - データ駆動の判断を両者関与で。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "An agile team has a velocity of 40 story points per sprint. The product backlog has 400 remaining points. The release is planned for 8 sprints from now. Mid-way through, the team's velocity drops to 30 points per sprint.",
-    "question": "What should the PM do first?",
+    "scenario": "アジャイルチームのベロシティ40ストーリーポイント/スプリント。プロダクトバックログに400ポイント残。リリースは8スプリント後予定。途中でベロシティが30に低下。",
+    "question": "PMはまず何をすべきか。",
     "options": [
-      {"text": "Recalculate the release forecast (400/30 = 13.3 sprints) and work with the product owner to reprioritize the backlog", "correct": true},
-      {"text": "Add more team members to restore velocity", "correct": false},
-      {"text": "Extend the sprint duration to compensate", "correct": false},
-      {"text": "Ask the team to work overtime", "correct": false}
+      {"text": "リリース予測を再計算（400/30 = 13.3スプリント）しPOとバックログの再優先度付けに協力", "correct": true},
+      {"text": "ベロシティ回復のためにチームメンバー追加", "correct": false},
+      {"text": "スプリント期間を延長して補償", "correct": false},
+      {"text": "残業を依頼", "correct": false}
     ],
-    "explanation": "Velocity decline requires reforecasting and scope negotiation. Adding people (Brooks' Law) often worsens the situation. The PM should help the PO identify the MVP scope that can be delivered in the remaining sprints."
+    "explanation": "ベロシティ低下には再予測とスコープ交渉が必要。人数追加（ブルックスの法則）は状況を悪化させる可能性。PMは残りスプリントで納品可能なMVPスコープをPOと特定するのを支援すべき。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project requires integrating with a third-party API. The vendor's API documentation is outdated, and the vendor is unresponsive to support requests. The integration is on the critical path with 4 weeks until deadline.",
-    "question": "What is the best risk mitigation approach?",
+    "scenario": "サードパーティAPIとの統合が必要。ベンダーのAPIドキュメントは古く、サポート要求に非対応。統合はクリティカルパス上で期限4週間。",
+    "question": "最適なリスク緩和アプローチは何か。",
     "options": [
-      {"text": "Implement an adapter/abstraction layer to decouple from the vendor API, use reverse engineering if needed, and escalate vendor non-responsiveness", "correct": true},
-      {"text": "Wait for the vendor to respond", "correct": false},
-      {"text": "Find a different vendor immediately", "correct": false},
-      {"text": "Build a custom solution instead of using the API", "correct": false}
+      {"text": "アダプター/抽象化レイヤーを実装してベンダーAPIから分離し、必要に応じリバースエンジニアリングしベンダーの非対応をエスカレーション", "correct": true},
+      {"text": "ベンダーの応答を待つ", "correct": false},
+      {"text": "直ちに別ベンダーを探す", "correct": false},
+      {"text": "APIを使わずカスタムソリューションを構築", "correct": false}
     ],
-    "explanation": "An abstraction layer isolates the integration from the vendor's specific API, allowing adaptation if the API differs from documentation. Escalation creates management awareness. This dual approach addresses both the immediate technical need and the vendor relationship issue."
+    "explanation": "抽象化レイヤーは統合をベンダーの特定APIから分離し、ドキュメントと異なる場合の適応を可能に。エスカレーションで経営陣の認識を獲得。即座の技術ニーズとベンダー関係の課題に対応するデュアルアプローチ。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project team has completed 200 test cases with a 90% pass rate. 20 test cases failed. Analysis shows: 10 are data-related, 5 are logic errors, 3 are UI issues, 2 are performance issues.",
-    "question": "What is the recommended defect resolution priority?",
+    "scenario": "テスト200件で合格率90%。20件不合格。分析：データ関連10件、ロジックエラー5件、UI 3件、性能2件。",
+    "question": "推奨される欠陥解決優先度は何か。",
     "options": [
-      {"text": "Logic errors first (correctness), then data issues (integrity), then performance, then UI (usability)", "correct": true},
-      {"text": "Fix all defects equally since they all failed testing", "correct": false},
-      {"text": "UI issues first since they are most visible to users", "correct": false},
-      {"text": "Performance issues first since they are hardest to fix", "correct": false}
+      {"text": "ロジックエラー優先（正確性）、次にデータ問題（完全性）、性能、UI（使いやすさ）", "correct": true},
+      {"text": "全欠陥を平等に修正", "correct": false},
+      {"text": "ユーザーに最も見えるUIを先に修正", "correct": false},
+      {"text": "修正が最も困難な性能を先に修正", "correct": false}
     ],
-    "explanation": "Priority should be based on business impact: logic errors affect correctness (highest), data issues affect integrity, performance affects scalability, and UI affects usability. Fix critical business logic before cosmetic issues."
+    "explanation": "優先度はビジネスインパクトに基づく：ロジックエラーは正確性に影響（最高）、データ問題は完全性に影響、性能はスケーラビリティに影響、UIは使いやすさに影響。重大ビジネスロジックを表面的問題より先に修正。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A company is implementing a new ERP system across 5 regional offices. Office A (pilot) completed successfully in 6 weeks. Office B encountered data migration issues and is 4 weeks behind. Offices C, D, E are scheduled to start next month.",
-    "question": "What should you do before starting Offices C, D, E?",
+    "scenario": "新ERPシステムを5拠点で導入。拠点A（パイロット）は6週で成功。拠点Bはデータ移行問題で4週遅延。拠点C、D、Eは来月開始予定。",
+    "question": "拠点C、D、E開始前に何をすべきか。",
     "options": [
-      {"text": "Conduct a retrospective on Office B's data migration issues, update the migration playbook, and incorporate lessons into the remaining rollout plan", "correct": true},
-      {"text": "Proceed with the original plan since Office A succeeded", "correct": false},
-      {"text": "Delay all remaining offices until Office B is resolved", "correct": false},
-      {"text": "Assign the Office A team to Office B to speed it up", "correct": false}
+      {"text": "拠点Bのデータ移行問題で振り返り、移行プレイブックを更新し残りの展開計画に教訓を組み込む", "correct": true},
+      {"text": "拠点A成功なので元の計画で進行", "correct": false},
+      {"text": "拠点B解決まで残り全拠点を延期", "correct": false},
+      {"text": "拠点Aチームを拠点Bに割り当てて加速", "correct": false}
     ],
-    "explanation": "Before scaling, address the issues found in Office B. Update the migration playbook with Office A's success factors and Office B's lessons. This prevents repeating the same mistakes in Offices C, D, and E."
+    "explanation": "拠点C、D、E開始前に拠点Bの問題を解決。移行プレイブックに拠点Aの成功要因と拠点Bの教訓を更新。拠点C、D、Eで同じ過ちを繰り返すのを防止。"
   },
   {
     "category": "Problem Solving",
-    "scenario": "A project's defect density is 8 defects/KLOC. The industry average for similar projects is 4 defects/KLOC. The project is in its 6th month of an 8-month timeline.",
-    "question": "What is the most effective improvement strategy?",
+    "scenario": "プロジェクトの欠陥密度は8件/KLOC。類似プロジェクトの業界平均は4件/KLOC。8ヶ月タイムラインの6ヶ月目。",
+    "question": "最も効果的な改善戦略は何か。",
     "options": [
-      {"text": "Implement mandatory code reviews, pair programming for complex modules, and increase test coverage to reduce defects in remaining work", "correct": true},
-      {"text": "Add more QA testers at the end", "correct": false},
-      {"text": "Extend the timeline by 2 months", "correct": false},
-      {"text": "Accept the higher defect density as within tolerance", "correct": false}
+      {"text": "必須コードレビュー、複雑モジュールのペアプログラミング、テストカバレッジ増加で残り作業の欠陥削減", "correct": true},
+      {"text": "最後にQAテスター追加", "correct": false},
+      {"text": "タイムラインを2ヶ月延長", "correct": false},
+      {"text": "高い欠陥密度を許容範囲として受け入れる", "correct": false}
     ],
-    "explanation": "Since the project is in mid-execution, process improvements (code reviews, pair programming) address the root cause for remaining work. End-stage testing catches defects too late. The goal is to prevent defects, not just find them."
+    "explanation": "プロジェクトが実行中盤なので、プロセス改善（コードレビュー、ペアプログラミング）は残り作業の根本原因に対応。最終段階のテストでは欠陥発見が遅すぎる。目標は欠陥の発見ではなく防止。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project must comply with GDPR. The team collected user data during testing without proper consent mechanisms. The go-live is in 2 weeks.",
-    "question": "What is the correct course of action?",
+    "scenario": "GDPRコンプライアンスが必須。テスト中に適切な同意メカニズムなしでユーザーデータを収集。リリース2週間前。",
+    "question": "正しい対応は何か。",
     "options": [
-      {"text": "Immediately implement proper consent mechanisms, anonymize test data, consult legal/compliance before go-live, and document the corrective action", "correct": true},
-      {"text": "Proceed with go-live and fix compliance issues in a patch", "correct": false},
-      {"text": "Delete all test data and retest with proper consent", "correct": false},
-      {"text": "Postpone go-live indefinitely until full compliance audit", "correct": false}
+      {"text": "直ちに適切な同意メカニズムを実装しテストデータを匿名化し、リリース前に法務/コンプライアンスに相談し是正措置を文書化", "correct": true},
+      {"text": "リリースしてパッチでコンプライアンス問題を修正", "correct": false},
+      {"text": "全テストデータを削除し適切な同意で再テスト", "correct": false},
+      {"text": "完全なコンプライアンス監査までリリースを無期限延期", "correct": false}
     ],
-    "explanation": "GDPR compliance is a legal requirement. The team must implement consent mechanisms, handle test data properly, and get compliance clearance before go-live. Documenting the corrective action demonstrates good faith."
+    "explanation": "GDPRコンプライアンスは法的要件。チームは同意メカニズムを実装し、テストデータを適切に処理し、リリース前にコンプライアンス承認を取得。是正措置の文書化は誠意を示す。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "Your project has a CPI of 1.15 and SPI of 0.85. The sponsor is happy about cost savings but concerned about the schedule delay. The project has 4 months remaining.",
-    "question": "What strategy should you propose?",
+    "scenario": "CPI 1.15、SPI 0.85。スポンサーはコスト節約を喜んでいるがスケジュール遅延を懸念。残り4ヶ月。",
+    "question": "提案すべき戦略は何か。",
     "options": [
-      {"text": "Use the cost savings (CPI=1.15) to fund schedule compression activities (crashing/fast-tracking) to improve SPI without increasing total cost", "correct": true},
-      {"text": "Focus only on schedule since cost is not an issue", "correct": false},
-      {"text": "Reduce scope to meet the deadline", "correct": false},
-      {"text": "Accept the delay and deliver on original cost", "correct": false}
+      {"text": "コスト節約（CPI=1.15）でスケジュール圧縮アクティビティ（クラッシング/ファストトラッキング）を資金提供しSPIを改善しつつ総コストを増加させない", "correct": true},
+      {"text": "コストは問題ないのでスケジュールのみ集中", "correct": false},
+      {"text": "期限に間に合わせるためスコープ削減", "correct": false},
+      {"text": "遅延を受け入れ元コストで納品", "correct": false}
     ],
-    "explanation": "The cost underperformance (CPI=1.15) provides a budget buffer that can fund schedule compression. Crashing critical path activities using the savings improves schedule without impacting the total budget. This leverages the good CPI to fix the bad SPI."
+    "explanation": "コストパフォーマンス（CPI=1.15）が予算バッファを提供しスケジュール圧縮の資金に使用可能。節約でクリティカルパスアクティビティのクラッシュで総予算に影響なくスケジュール改善。良好なCPIを活用して悪いSPIを修正。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A critical project depends on a vendor delivering a hardware component. The vendor informs you of a 6-week delay. The component cannot be sourced elsewhere. The project has a hard deadline tied to a regulatory filing date.",
-    "question": "What is the most effective response?",
+    "scenario": "重要プロジェクトがベンダーのハードウェアコンポーネント納品に依存。ベンダーが6週の遅延を通知。代替調達不可。プロジェクトに規制提出期限に紐づく確定納期。",
+    "question": "最も効果的な対応は何か。",
     "options": [
-      {"text": "Investigate partial delivery options, identify work that can proceed without the component, and escalate to management for deadline negotiation if needed", "correct": true},
-      {"text": "Accept the delay and notify stakeholders", "correct": false},
-      {"text": "Find a different supplier", "correct": false},
-      {"text": "Redesign the system to use an alternative component", "correct": false}
+      {"text": "部分納品オプションを調査し、コンポーネントなしで進行可能な作業を特定し、必要に応じ管理層への期限交渉をエスカレーション", "correct": true},
+      {"text": "遅延を受け入れステークホルダーに通知", "correct": false},
+      {"text": "別サプライヤーを探す", "correct": false},
+      {"text": "代替コンポーネントでシステムを再設計", "correct": false}
     ],
-    "explanation": "When a single-source vendor delays and the component cannot be substituted, the PM should: (1) negotiate partial delivery to start work sooner, (2) resequence work to maximize productivity without the component, and (3) escalate if the regulatory deadline is at risk."
+    "explanation": "単一ソースベンダー遅延で代替不可の場合：(1) 部分納品を交渉して早期作業開始、(2) コンポーネントなしで実行可能な作業を再シーケンス、(3) 規制期限がリスクならエスカレーション。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A team of 8 developers has been working on a project for 6 months. Morale is declining. An anonymous survey reveals: developers feel micromanaged, meetings are too frequent, and their technical suggestions are ignored. Velocity has dropped 30%.",
-    "question": "What leadership approach should the PM adopt?",
+    "scenario": "8名の開発チームが6ヶ月稼働。士気低下。匿名調査で：開発者はマイクロマネジメントを感じ、会議が頻繁すぎ、技術提案が無視されている。ベロシティが30%低下。",
+    "question": "PMはどのリーダーシップアプローチを採用すべきか。",
     "options": [
-      {"text": "Shift to servant leadership: reduce meeting frequency, delegate technical decisions to the team, implement retrospectives, and act on survey feedback", "correct": true},
-      {"text": "Add incentives and bonuses to motivate the team", "correct": false},
-      {"text": "Replace underperforming team members", "correct": false},
-      {"text": "Increase monitoring to ensure productivity", "correct": false}
+      {"text": "サーバントリーダーシップへ転換：会議頻度削減、技術決定をチームに委譲、レトロスペクティブ実装、調査フィードバックに対応", "correct": true},
+      {"text": "インセンティブとボーナス追加で動機付け", "correct": false},
+      {"text": "パフォーマンス不良のメンバーを交替", "correct": false},
+      {"text": "生産性確保のため監視を強化", "correct": false}
     ],
-    "explanation": "The survey clearly indicates management practices are causing the decline. Servant leadership addresses each concern: fewer meetings, more autonomy, acting on feedback. This is more effective than extrinsic motivation (bonuses) when the root cause is management style."
+    "explanation": "調査が管理慣行が低下原因と明確に示している。サーバントリーダーシップは各懸念に対応：会議削減、自律性向上、フィードバックへの対応。根本原因が管理スタイルの場合、外発的動機（ボーナス）より効果的。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "You are preparing a project for closure. The deliverables have been accepted by the client. However, 3 of 15 contract deliverables from a subcontractor are disputed. The subcontractor claims they are complete; your team disagrees.",
-    "question": "What should you do before closing the project?",
+    "scenario": "プロジェクトのクロージャー準備中。納入物はクライアントに受入済み。ただし下請業者の15契約納入物中3件が紛争中。下請業者は完了と主張、チームは不一致。",
+    "question": "クロージャー前に何をすべきか。",
     "options": [
-      {"text": "Resolve all disputes through the contract's dispute resolution process before formal closure; document any unresolved items as claims", "correct": true},
-      {"text": "Close the project and handle disputes separately", "correct": false},
-      {"text": "Accept the subcontractor's claims to expedite closure", "correct": false},
-      {"text": "Withhold final payment until all disputes are resolved in your favor", "correct": false}
+      {"text": "正式クロージャー前に契約の紛争解決プロセスで全紛争を解決。未解決項目をクレームとして文書化", "correct": true},
+      {"text": "プロジェクトをクローズし紛争は別処理", "correct": false},
+      {"text": "迅速クロージャーのために下請業者の主張を受け入れる", "correct": false},
+      {"text": "全紛争が自社に有利に解決するまで最終支払いを保留", "correct": false}
     ],
-    "explanation": "All contractual obligations and disputes should be resolved before project closure. Unresolved disputes become claims that can affect project records and organizational process assets. Follow the contract's formal dispute resolution process."
+    "explanation": "全契約上の義務と紛争はプロジェクトクロージャー前に解決すべき。未解決紛争はプロジェクト記録や組織のプロセス資産に影響するクレームになる。契約の正式な紛争解決プロセスに従う。"
   },
   {
     "category": "Comprehensive Scenarios",
-    "scenario": "A project uses waterfall methodology. During the design phase, the team discovers that a key technology choice made during planning is no longer viable (vendor discontinued the product). The design is 80% complete.",
-    "question": "What is the appropriate change management approach?",
+    "scenario": "ウォーターフォール方式を使用。設計フェーズで計画時の技術選択が実行不可能（ベンダーが製品を終了）と判明。設計は80%完了。",
+    "question": "適切な変更管理アプローチは何か。",
     "options": [
-      {"text": "Submit a change request through integrated change control: assess impact on design, schedule, and cost; evaluate alternative technologies; get CCB approval before redesigning affected components", "correct": true},
-      {"text": "Immediately switch to the closest alternative without formal approval", "correct": false},
-      {"text": "Return to the planning phase to re-evaluate all technology choices", "correct": false},
-      {"text": "Proceed with the discontinued technology using the existing license", "correct": false}
+      {"text": "統合変更管理を通じて変更要求を提出：設計・スケジュール・コストへの影響評価、代替技術の検討、CCB承認後に影響コンポーネントを再設計", "correct": true},
+      {"text": "正式承認なしに直ちに最も近い代替に切替", "correct": false},
+      {"text": "計画フェーズに戻り全技術選択を再評価", "correct": false},
+      {"text": "既存ライセンスを使用して終了製品で継続", "correct": false}
     ],
-    "explanation": "A fundamental technology change requires formal change control. The change request should include: impact assessment (which design components are affected), alternative technology evaluation, schedule impact, and cost impact. The CCB approves before the team invests redesign effort."
+    "explanation": "根本的な技術変更は正式な変更管理が必要。変更要求に含めるべき：影響評価（どの設計コンポーネントが影響）、代替技術評価、スケジュール影響、コスト影響。CCBが承認後にチームが再設計に投資。"
   }
 ]

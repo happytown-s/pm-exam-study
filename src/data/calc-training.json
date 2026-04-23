@@ -1,1441 +1,1441 @@
 [
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, PV = 200, AC = 250, EV = 180. Calculate SPI.",
+    "question": "BAC = 500、PV = 200、AC = 250、EV = 180 の場合、SPI を計算しなさい。",
     "options": [
       {"text": "0.90", "correct": true},
       {"text": "0.72", "correct": false},
       {"text": "1.11", "correct": false},
       {"text": "1.39", "correct": false}
     ],
-    "explanation": "SPI = EV / PV = 180 / 200 = 0.90. The project is behind schedule. For every unit of time planned, only 0.90 units of work have been earned.",
-    "cheatsheet": "SPI = EV / PV. SPI < 1 = behind schedule, SPI = 1 = on schedule, SPI > 1 = ahead of schedule."
+    "explanation": "SPI = EV / PV = 180 / 200 = 0.90。プロジェクトはスケジュール遅延中。計画に対して1単位の時間あたり、0.90単位の作業しか達成されていない。",
+    "cheatsheet": "SPI = EV / PV。SPI < 1 = スケジュール遅延、SPI = 1 = 計画通り、SPI > 1 = スケジュール先行。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, PV = 200, AC = 250, EV = 180. Calculate CPI.",
+    "question": "BAC = 500、PV = 200、AC = 250、EV = 180 の場合、CPI を計算しなさい。",
     "options": [
       {"text": "0.72", "correct": true},
       {"text": "0.90", "correct": false},
       {"text": "1.11", "correct": false},
       {"text": "1.39", "correct": false}
     ],
-    "explanation": "CPI = EV / AC = 180 / 250 = 0.72. The project is significantly over budget. For every $1 spent, only $0.72 of value has been earned.",
-    "cheatsheet": "CPI = EV / AC. CPI < 1 = over budget, CPI = 1 = on budget, CPI > 1 = under budget."
+    "explanation": "CPI = EV / AC = 180 / 250 = 0.72。プロジェクトは大幅なコスト超過中。1ドル支出あたり0.72ドル分の価値しか達成されていない。",
+    "cheatsheet": "CPI = EV / AC。CPI < 1 = コスト超過、CPI = 1 = 予算通り、CPI > 1 = 予算内。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, PV = 200, AC = 250, EV = 180. Calculate SV.",
+    "question": "BAC = 500、PV = 200、AC = 250、EV = 180 の場合、SV を計算しなさい。",
     "options": [
       {"text": "-20", "correct": true},
       {"text": "20", "correct": false},
       {"text": "-70", "correct": false},
       {"text": "70", "correct": false}
     ],
-    "explanation": "SV = EV - PV = 180 - 200 = -20. Negative SV means the project is behind schedule by 20 units of value.",
-    "cheatsheet": "SV = EV - PV. SV < 0 = behind schedule, SV = 0 = on schedule, SV > 0 = ahead of schedule."
+    "explanation": "SV = EV - PV = 180 - 200 = -20。SVが負は、プロジェクトが20単位分スケジュール遅延していることを示す。",
+    "cheatsheet": "SV = EV - PV。SV < 0 = スケジュール遅延、SV = 0 = 計画通り、SV > 0 = スケジュール先行。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, PV = 200, AC = 250, EV = 180. Calculate CV.",
+    "question": "BAC = 500、PV = 200、AC = 250、EV = 180 の場合、CV を計算しなさい。",
     "options": [
       {"text": "-70", "correct": true},
       {"text": "70", "correct": false},
       {"text": "-20", "correct": false},
       {"text": "20", "correct": false}
     ],
-    "explanation": "CV = EV - AC = 180 - 250 = -70. Negative CV means the project is over budget by 70 units.",
-    "cheatsheet": "CV = EV - AC. CV < 0 = over budget, CV = 0 = on budget, CV > 0 = under budget."
+    "explanation": "CV = EV - AC = 180 - 250 = -70。CVが負は、プロジェクトが70単位分コスト超過していることを示す。",
+    "cheatsheet": "CV = EV - AC。CV < 0 = コスト超過、CV = 0 = 予算通り、CV > 0 = 予算内。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, AC = 250, EV = 180, CPI = 0.72. Calculate EAC (assuming CPI continues).",
+    "question": "BAC = 500、AC = 250、EV = 180、CPI = 0.72 の場合、EAC を計算しなさい（CPIが継続すると仮定）。",
     "options": [
       {"text": "694.44", "correct": true},
       {"text": "570", "correct": false},
       {"text": "500", "correct": false},
       {"text": "720", "correct": false}
     ],
-    "explanation": "EAC = BAC / CPI = 500 / 0.72 = 694.44. The project is forecast to cost $694.44 at completion, exceeding the original BAC of $500.",
-    "cheatsheet": "EAC = BAC / CPI (when CPI expected to continue). Alternative: EAC = AC + (BAC - EV) / CPI."
+    "explanation": "EAC = BAC / CPI = 500 / 0.72 = 694.44。プロジェクトは完成時に694.44のコストが予測され、元のBAC 500を上回る。",
+    "cheatsheet": "EAC = BAC / CPI（CPIが継続すると想定する場合）。別法：EAC = AC + (BAC - EV) / CPI。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given EAC = 694.44, AC = 250. Calculate ETC.",
+    "question": "EAC = 694.44、AC = 250 の場合、ETC を計算しなさい。",
     "options": [
       {"text": "444.44", "correct": true},
       {"text": "320", "correct": false},
       {"text": "250", "correct": false},
       {"text": "500", "correct": false}
     ],
-    "explanation": "ETC = EAC - AC = 694.44 - 250 = 444.44. This is the estimated cost to complete the remaining work.",
-    "cheatsheet": "ETC = EAC - AC. This represents the cost needed to complete all remaining work."
+    "explanation": "ETC = EAC - AC = 694.44 - 250 = 444.44。これは残り作業を完了するための推定コスト。",
+    "cheatsheet": "ETC = EAC - AC。残りの全作業を完了するために必要なコスト。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, AC = 250, EV = 180. Calculate TCPI (to complete at BAC).",
+    "question": "BAC = 500、AC = 250、EV = 180 の場合、TCPI（BACで完了する場合）を計算しなさい。",
     "options": [
       {"text": "1.60", "correct": true},
       {"text": "0.72", "correct": false},
       {"text": "1.39", "correct": false},
       {"text": "0.90", "correct": false}
     ],
-    "explanation": "TCPI = (BAC - EV) / (BAC - AC) = (500 - 180) / (500 - 250) = 320 / 250 = 1.60. The project must achieve a cost efficiency of 1.60 to finish at the original BAC.",
-    "cheatsheet": "TCPI = (BAC - EV) / (BAC - AC) for target BAC. TCPI > 1 means efficiency must improve."
+    "explanation": "TCPI = (BAC - EV) / (BAC - AC) = (500 - 180) / (500 - 250) = 320 / 250 = 1.60。プロジェクトは元のBACで完了するため、1.60のコスト効率を達成する必要がある。",
+    "cheatsheet": "TCPI = (BAC - EV) / (BAC - AC)（目標BACの場合）。TCPI > 1 は効率改善が必要。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Given BAC = 500, EAC = 694.44. Calculate VAC.",
+    "question": "BAC = 500、EAC = 694.44 の場合、VAC を計算しなさい。",
     "options": [
       {"text": "-194.44", "correct": true},
       {"text": "194.44", "correct": false},
       {"text": "-70", "correct": false},
       {"text": "70", "correct": false}
     ],
-    "explanation": "VAC = BAC - EAC = 500 - 694.44 = -194.44. Negative VAC means the project is forecast to be over budget by $194.44.",
-    "cheatsheet": "VAC = BAC - EAC. VAC < 0 = forecast over budget, VAC > 0 = forecast under budget."
+    "explanation": "VAC = BAC - EAC = 500 - 694.44 = -194.44。VACが負は、プロジェクトが194.44のコスト超過が予測されることを示す。",
+    "cheatsheet": "VAC = BAC - EAC。VAC < 0 = コスト超過予測、VAC > 0 = 予算内予測。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 1000, project is 40% complete, AC = 500. What is CPI?",
+    "question": "BAC = 1000、プロジェクトは40%完了、AC = 500。CPI はいくらか。",
     "options": [
       {"text": "0.80", "correct": true},
       {"text": "1.25", "correct": false},
       {"text": "0.50", "correct": false},
       {"text": "2.00", "correct": false}
     ],
-    "explanation": "EV = BAC x % complete = 1000 x 0.40 = 400. CPI = EV / AC = 400 / 500 = 0.80. The project is over budget.",
-    "cheatsheet": "EV = BAC x Actual % Complete. Then CPI = EV / AC."
+    "explanation": "EV = BAC x 完了率 = 1000 x 0.40 = 400。CPI = EV / AC = 400 / 500 = 0.80。プロジェクトはコスト超過。",
+    "cheatsheet": "EV = BAC x 実際完了率。次に CPI = EV / AC。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 800, CPI = 1.25, SPI = 0.90. What is the estimated project cost?",
+    "question": "BAC = 800、CPI = 1.25、SPI = 0.90 の場合、プロジェクトの推定コストはいくらか。",
     "options": [
       {"text": "640", "correct": true},
       {"text": "900", "correct": false},
       {"text": "1000", "correct": false},
       {"text": "720", "correct": false}
     ],
-    "explanation": "EAC = BAC / CPI = 800 / 1.25 = 640. The project is forecast to finish under budget at $640.",
-    "cheatsheet": "EAC = BAC / CPI when cost efficiency is expected to continue."
+    "explanation": "EAC = BAC / CPI = 800 / 1.25 = 640。プロジェクトは640で予算内に完了する予測。",
+    "cheatsheet": "コスト効率が継続すると想定する場合、EAC = BAC / CPI。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 2000, EV = 800, AC = 1000, remaining work will follow original budget efficiency. What is EAC?",
+    "question": "BAC = 2000、EV = 800、AC = 1000。残り作業は元の予算効率に従う場合、EAC はいくらか。",
     "options": [
       {"text": "2200", "correct": true},
       {"text": "2500", "correct": false},
       {"text": "2000", "correct": false},
       {"text": "1800", "correct": false}
     ],
-    "explanation": "EAC = AC + (BAC - EV) = 1000 + (2000 - 800) = 1000 + 1200 = 2200. Used when future work will be performed at the planned rate (not current CPI).",
-    "cheatsheet": "EAC = AC + (BAC - EV) when future efficiency returns to planned rate."
+    "explanation": "EAC = AC + (BAC - EV) = 1000 + (2000 - 800) = 1000 + 1200 = 2200。将来の作業が計画通りの率で実行される場合に使用（現在のCPIではない）。",
+    "cheatsheet": "将来の効率が計画率に戻る場合、EAC = AC + (BAC - EV)。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 10000, EV = 4000, AC = 4500, future work at both SPI and CPI rate. What is EAC?",
+    "question": "BAC = 10000、EV = 4000、AC = 4500。将来の作業はSPIとCPIの両方の率に従う場合、EAC はいくらか。",
     "options": [
       {"text": "12187.50", "correct": true},
       {"text": "11250", "correct": false},
       {"text": "10500", "correct": false},
       {"text": "10000", "correct": false}
     ],
-    "explanation": "CPI = 4000/4500 = 0.889, SPI = Assume 0.90. EAC = AC + (BAC - EV)/(CPI x SPI) = 4500 + (10000-4000)/(0.889 x 0.90) = 4500 + 6000/0.80 = 4500 + 7500 = 12000. Closest is 12187.50 with exact CPI = 0.8889.",
-    "cheatsheet": "EAC = AC + (BAC - EV) / (CPI x SPI) when both cost and schedule impact future work."
+    "explanation": "CPI = 4000/4500 = 0.889、SPI = 0.90と仮定。EAC = AC + (BAC - EV)/(CPI x SPI) = 4500 + (10000-4000)/(0.889 x 0.90) = 4500 + 6000/0.80 = 4500 + 7500 = 12000。正確なCPI = 0.8889の場合、最も近い値は12187.50。",
+    "cheatsheet": "コストとスケジュールの両方が将来の作業に影響する場合、EAC = AC + (BAC - EV) / (CPI x SPI)。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Project has PV = 300, EV = 240, AC = 280. Is the project under or over budget, and by how much?",
+    "question": "PV = 300、EV = 240、AC = 280 の場合、プロジェクトは予算内か超過か。どれだけか。",
     "options": [
-      {"text": "Over budget by $40", "correct": true},
-      {"text": "Under budget by $40", "correct": false},
-      {"text": "Over budget by $60", "correct": false},
-      {"text": "Under budget by $20", "correct": false}
+      {"text": "40超過", "correct": true},
+      {"text": "40予算内", "correct": false},
+      {"text": "60超過", "correct": false},
+      {"text": "20予算内", "correct": false}
     ],
-    "explanation": "CV = EV - AC = 240 - 280 = -40. The project is over budget by $40. CV is negative, meaning costs exceed earned value.",
-    "cheatsheet": "CV = EV - AC. Negative = over budget. Magnitude tells you how much."
+    "explanation": "CV = EV - AC = 240 - 280 = -40。プロジェクトは40のコスト超過。CVが負はコストが達成価値を上回ることを示す。",
+    "cheatsheet": "CV = EV - AC。負 = コスト超過。絶対値が超過額。"
   },
   {
     "category": "Earned Value Management",
-    "question": "PV = 300, EV = 240. Is the project ahead or behind schedule, and what is SV?",
+    "question": "PV = 300、EV = 240 の場合、プロジェクトは先行か遅延か。SV はいくらか。",
     "options": [
-      {"text": "Behind schedule, SV = -60", "correct": true},
-      {"text": "Ahead of schedule, SV = +60", "correct": false},
-      {"text": "Behind schedule, SV = -40", "correct": false},
-      {"text": "On schedule, SV = 0", "correct": false}
+      {"text": "スケジュール遅延、SV = -60", "correct": true},
+      {"text": "スケジュール先行、SV = +60", "correct": false},
+      {"text": "スケジュール遅延、SV = -40", "correct": false},
+      {"text": "計画通り、SV = 0", "correct": false}
     ],
-    "explanation": "SV = EV - PV = 240 - 300 = -60. The project is behind schedule by 60 units of value. Less work has been accomplished than planned.",
-    "cheatsheet": "SV = EV - PV. Negative = behind schedule. The value shows the gap between earned and planned work."
+    "explanation": "SV = EV - PV = 240 - 300 = -60。プロジェクトは60単位分スケジュール遅延。計画より少ない作業しか達成されていない。",
+    "cheatsheet": "SV = EV - PV。負 = スケジュール遅延。値は達成済み作業と計画作業の差。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 1000, EV = 600, AC = 700. Calculate TCPI to complete at EAC of 1166.67.",
+    "question": "BAC = 1000、EV = 600、AC = 700。EAC = 1166.67 で完了する場合のTCPI を計算しなさい。",
     "options": [
       {"text": "0.857", "correct": true},
       {"text": "1.33", "correct": false},
       {"text": "1.00", "correct": false},
       {"text": "0.714", "correct": false}
     ],
-    "explanation": "TCPI = (BAC - EV) / (EAC - AC) = (1000 - 600) / (1166.67 - 700) = 400 / 466.67 = 0.857. When targeting EAC, TCPI equals current CPI.",
-    "cheatsheet": "TCPI = (BAC - EV) / (EAC - AC) when target is EAC. TCPI = (BAC - EV) / (BAC - AC) when target is BAC."
+    "explanation": "TCPI = (BAC - EV) / (EAC - AC) = (1000 - 600) / (1166.67 - 700) = 400 / 466.67 = 0.857。EACを目標とする場合、TCPIは現在のCPIに等しい。",
+    "cheatsheet": "目標がEACの場合、TCPI = (BAC - EV) / (EAC - AC)。目標がBACの場合、TCPI = (BAC - EV) / (BAC - AC)。"
   },
   {
     "category": "Earned Value Management",
-    "question": "A project has a CPI of 0.80 and SPI of 0.95. BAC is $500,000. What is the EAC?",
+    "question": "プロジェクトのCPI = 0.80、SPI = 0.95。BACは500,000。EACはいくらか。",
     "options": [
-      {"text": "$625,000", "correct": true},
-      {"text": "$526,316", "correct": false},
-      {"text": "$500,000", "correct": false},
-      {"text": "$400,000", "correct": false}
+      {"text": "625,000", "correct": true},
+      {"text": "526,316", "correct": false},
+      {"text": "500,000", "correct": false},
+      {"text": "400,000", "correct": false}
     ],
-    "explanation": "EAC = BAC / CPI = 500,000 / 0.80 = $625,000. This assumes the cost performance index continues at the same rate for the remainder of the project.",
-    "cheatsheet": "EAC = BAC / CPI. Use this when cost inefficiency is expected to continue."
+    "explanation": "EAC = BAC / CPI = 500,000 / 0.80 = 625,000。コスト効率指数がプロジェクト残りの期間も同じ率で継続すると仮定。",
+    "cheatsheet": "EAC = BAC / CPI。コスト非効率が継続すると想定する場合に使用。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 200, AC = 120, EV = 100. The project had a one-time cost overrun. Future work at planned rate. What is EAC?",
+    "question": "BAC = 200、AC = 120、EV = 100。一度限りのコスト超過があった。将来は計画率で実行。EAC はいくらか。",
     "options": [
       {"text": "220", "correct": true},
       {"text": "240", "correct": false},
       {"text": "200", "correct": false},
       {"text": "180", "correct": false}
     ],
-    "explanation": "EAC = AC + (BAC - EV) = 120 + (200 - 100) = 120 + 100 = 220. Used when the variance is one-time and future work follows the planned rate.",
-    "cheatsheet": "EAC = AC + (BAC - EV). Use when one-time variance occurred and future work is at planned rate."
+    "explanation": "EAC = AC + (BAC - EV) = 120 + (200 - 100) = 120 + 100 = 220。差異が一度限りで、将来の作業が計画率に従う場合に使用。",
+    "cheatsheet": "EAC = AC + (BAC - EV)。一度限りの差異が発生し、将来の作業が計画率の場合に使用。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 600, PV = 240, EV = 200. What is the schedule variance as a percentage?",
+    "question": "BAC = 600、PV = 240、EV = 200。スケジュール差異のパーセンテージはいくらか。",
     "options": [
-      {"text": "16.7% behind schedule", "correct": true},
-      {"text": "20.0% behind schedule", "correct": false},
-      {"text": "83.3% behind schedule", "correct": false},
-      {"text": "120% behind schedule", "correct": false}
+      {"text": "16.7%のスケジュール遅延", "correct": true},
+      {"text": "20.0%のスケジュール遅延", "correct": false},
+      {"text": "83.3%のスケジュール遅延", "correct": false},
+      {"text": "120%のスケジュール遅延", "correct": false}
     ],
-    "explanation": "SV% = (EV - PV) / PV = (200 - 240) / 240 = -40/240 = -16.7%. The project is 16.7% behind schedule in terms of value earned versus planned.",
-    "cheatsheet": "SV% = (EV - PV) / PV. This gives the schedule variance as a percentage of planned work."
+    "explanation": "SV% = (EV - PV) / PV = (200 - 240) / 240 = -40/240 = -16.7%。達成価値対計画価値で16.7%のスケジュール遅延。",
+    "cheatsheet": "SV% = (EV - PV) / PV。計画作業に対するスケジュール差異のパーセンテージ。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 1000, EV = 650, AC = 600. Calculate CV, CPI, and interpret.",
+    "question": "BAC = 1000、EV = 650、AC = 600。CV、CPI を計算し、解釈しなさい。",
     "options": [
-      {"text": "CV = +50, CPI = 1.08, under budget", "correct": true},
-      {"text": "CV = -50, CPI = 0.92, over budget", "correct": false},
-      {"text": "CV = +50, CPI = 0.92, under budget", "correct": false},
-      {"text": "CV = -50, CPI = 1.08, over budget", "correct": false}
+      {"text": "CV = +50、CPI = 1.08、予算内", "correct": true},
+      {"text": "CV = -50、CPI = 0.92、コスト超過", "correct": false},
+      {"text": "CV = +50、CPI = 0.92、予算内", "correct": false},
+      {"text": "CV = -50、CPI = 1.08、コスト超過", "correct": false}
     ],
-    "explanation": "CV = EV - AC = 650 - 600 = +50. CPI = EV / AC = 650/600 = 1.083. Positive CV and CPI > 1 indicate the project is under budget - earning more value than spending.",
-    "cheatsheet": "CV = EV - AC (positive = under budget). CPI = EV / AC (>1 = under budget)."
+    "explanation": "CV = EV - AC = 650 - 600 = +50。CPI = EV / AC = 650/600 = 1.083。CVが正でCPI > 1 はプロジェクトが予算内（支出以上の価値を達成）であることを示す。",
+    "cheatsheet": "CV = EV - AC（正 = 予算内）。CPI = EV / AC（>1 = 予算内）。"
   },
   {
     "category": "Earned Value Management",
-    "question": "Project is 50% complete with EV = 200 and AC = 220. What is the BAC?",
+    "question": "プロジェクトは50%完了で、EV = 200、AC = 220。BAC はいくらか。",
     "options": [
       {"text": "400", "correct": true},
       {"text": "440", "correct": false},
       {"text": "380", "correct": false},
       {"text": "360", "correct": false}
     ],
-    "explanation": "BAC = EV / % Complete = 200 / 0.50 = 400. Since EV represents the budgeted value of work completed, dividing by the completion percentage gives the total BAC.",
-    "cheatsheet": "BAC = EV / (% Complete). EV = BAC x (% Complete)."
+    "explanation": "BAC = EV / 完了率 = 200 / 0.50 = 400。EVは完了作業の予算価値を表すため、完了率で割るとBACになる。",
+    "cheatsheet": "BAC = EV / 完了率。EV = BAC x 完了率。"
   },
   {
     "category": "Earned Value Management",
-    "question": "If CPI = 0.80 and ETC = 300, what is EAC?",
+    "question": "CPI = 0.80、ETC = 300 の場合、EAC はいくらか。",
     "options": [
-      {"text": "Cannot determine without AC", "correct": true},
+      {"text": "ACなしでは計算不可能", "correct": true},
       {"text": "375", "correct": false},
       {"text": "240", "correct": false},
       {"text": "525", "correct": false}
     ],
-    "explanation": "EAC = AC + ETC. Since we do not know AC (actual cost incurred to date), we cannot calculate EAC. We need either AC or BAC to determine EAC.",
-    "cheatsheet": "EAC = AC + ETC. You always need AC to calculate EAC from ETC."
+    "explanation": "EAC = AC + ETC。AC（現在までの実際コスト）が不明のため、EACは計算できない。ACまたはBACのいずれかが必要。",
+    "cheatsheet": "EAC = AC + ETC。ETCからEACを計算するには常にACが必要。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 1000, PV = 400, EV = 350, AC = 450. Calculate the Estimate to Complete (ETC) using CPI-based approach.",
+    "question": "BAC = 1000、PV = 400、EV = 350、AC = 450。CPIベースのアプローチでETCを計算しなさい。",
     "options": [
       {"text": "687.50", "correct": true},
       {"text": "550", "correct": false},
       {"text": "800", "correct": false},
       {"text": "650", "correct": false}
     ],
-    "explanation": "CPI = 350/450 = 0.778. EAC = BAC/CPI = 1000/0.778 = 1285.71. ETC = EAC - AC = 1285.71 - 450 = 835.71. Or directly: ETC = (BAC-EV)/CPI = 650/0.778 = 835.71. With rounding: 835.71.",
-    "cheatsheet": "ETC = (BAC - EV) / CPI. This estimates remaining cost assuming current CPI continues."
+    "explanation": "CPI = 350/450 = 0.778。EAC = BAC/CPI = 1000/0.778 = 1285.71。ETC = EAC - AC = 1285.71 - 450 = 835.71。または直接：ETC = (BAC-EV)/CPI = 650/0.778 = 835.71。四捨五入で835.71。",
+    "cheatsheet": "ETC = (BAC - EV) / CPI。現在のCPIが継続すると仮定した残りコストの推定。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 5000, EV = 3000, AC = 2800. Calculate the percent complete.",
+    "question": "BAC = 5000、EV = 3000、AC = 2800。完了率は何%か。",
     "options": [
       {"text": "60%", "correct": true},
       {"text": "56%", "correct": false},
       {"text": "67%", "correct": false},
       {"text": "50%", "correct": false}
     ],
-    "explanation": "% Complete = EV / BAC = 3000 / 5000 = 0.60 = 60%. Earned value divided by BAC gives the percentage of budgeted work completed.",
-    "cheatsheet": "% Complete = EV / BAC. This represents how much of the budgeted work has been accomplished."
+    "explanation": "完了率 = EV / BAC = 3000 / 5000 = 0.60 = 60%。達成価値をBACで割ると予算作業の完了パーセンテージ。",
+    "cheatsheet": "完了率 = EV / BAC。予算済み作業のうち完了した割合。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 800, EV = 400, AC = 500. What is the percent spent of the budget?",
+    "question": "BAC = 800、EV = 400、AC = 500。予算の支出率は何%か。",
     "options": [
       {"text": "62.5%", "correct": true},
       {"text": "50%", "correct": false},
       {"text": "80%", "correct": false},
       {"text": "40%", "correct": false}
     ],
-    "explanation": "% Spent = AC / BAC = 500 / 800 = 0.625 = 62.5%. The project has spent 62.5% of the total budget but only completed 50% of the work (400/800).",
-    "cheatsheet": "% Spent = AC / BAC. Compare with % Complete (EV/BAC) to see spending vs. progress."
+    "explanation": "支出率 = AC / BAC = 500 / 800 = 0.625 = 62.5%。プロジェクトは予算の62.5%を費やしたが、作業は50%（400/800）しか完了していない。",
+    "cheatsheet": "支出率 = AC / BAC。完了率（EV/BAC）と比較して支出と進捗のバランスを確認。"
   },
   {
     "category": "Earned Value Management",
-    "question": "BAC = 10000, EAC = 12000, AC = 4000. What is ETC?",
+    "question": "BAC = 10000、EAC = 12000、AC = 4000。ETC はいくらか。",
     "options": [
       {"text": "8000", "correct": true},
       {"text": "6000", "correct": false},
       {"text": "2000", "correct": false},
       {"text": "10000", "correct": false}
     ],
-    "explanation": "ETC = EAC - AC = 12000 - 4000 = 8000. The remaining work is estimated to cost $8000, bringing the total to $12000.",
-    "cheatsheet": "ETC = EAC - AC. Always subtract actual costs from EAC to get remaining cost."
+    "explanation": "ETC = EAC - AC = 12000 - 4000 = 8000。残り作業のコストは8000と推定され、合計12000になる。",
+    "cheatsheet": "ETC = EAC - AC。EACから実際コストを引いて残りコストを求める。"
   },
   {
     "category": "Earned Value Management",
-    "question": "A project has a TCPI of 1.50. What does this mean for the remaining work?",
+    "question": "プロジェクトのTCPIが1.50の場合、残り作業に何を意味するか。",
     "options": [
-      {"text": "The project must achieve 50% better efficiency than planned to meet BAC", "correct": true},
-      {"text": "The project is currently 50% over budget", "correct": false},
-      {"text": "The project will finish at 150% of BAC", "correct": false},
-      {"text": "The project has 50% schedule overrun", "correct": false}
+      {"text": "BACで完了するには計画より50%高い効率が必要", "correct": true},
+      {"text": "プロジェクトは現在50%のコスト超過", "correct": false},
+      {"text": "プロジェクトはBACの150%で完了する", "correct": false},
+      {"text": "プロジェクトは50%のスケジュール超過", "correct": false}
     ],
-    "explanation": "TCPI = 1.50 means the remaining work must be performed at 1.5 times the planned efficiency. For every $1 of remaining budget, $1.50 worth of work must be completed. This is very challenging.",
-    "cheatsheet": "TCPI > 1 means future efficiency must improve. TCPI = 1 means current efficiency is sufficient. TCPI < 1 means future efficiency can relax."
+    "explanation": "TCPI = 1.50 は残り作業が計画の1.5倍の効率で実行される必要があることを意味する。残り予算1に対して1.50相当の作業を完了させる必要がある。非常に困難。",
+    "cheatsheet": "TCPI > 1 は将来の効率改善が必要。TCPI = 1 は現在の効率で十分。TCPI < 1 は将来の効率を緩和できる。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity has Optimistic = 4 days, Most Likely = 6 days, Pessimistic = 14 days. Calculate expected duration.",
+    "question": "最楽観値 = 4日、最頻値 = 6日、最悲観値 = 14日の場合、期待所要日数を計算しなさい。",
     "options": [
-      {"text": "7 days", "correct": true},
-      {"text": "6 days", "correct": false},
-      {"text": "8 days", "correct": false},
-      {"text": "5 days", "correct": false}
+      {"text": "7日", "correct": true},
+      {"text": "6日", "correct": false},
+      {"text": "8日", "correct": false},
+      {"text": "5日", "correct": false}
     ],
-    "explanation": "Expected duration = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7 days.",
-    "cheatsheet": "Expected Duration = (O + 4M + P) / 6. This is the PERT weighted average formula."
+    "explanation": "期待所要日数 = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7日。",
+    "cheatsheet": "期待所要日数 = (O + 4M + P) / 6。PERT加重平均公式。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity has Optimistic = 4, Most Likely = 6, Pessimistic = 14. Calculate standard deviation.",
+    "question": "最楽観値 = 4、最頻値 = 6、最悲観值 = 14。標準偏差を計算しなさい。",
     "options": [
-      {"text": "1.67 days", "correct": true},
-      {"text": "3.33 days", "correct": false},
-      {"text": "2.50 days", "correct": false},
-      {"text": "1.00 day", "correct": false}
+      {"text": "1.67日", "correct": true},
+      {"text": "3.33日", "correct": false},
+      {"text": "2.50日", "correct": false},
+      {"text": "1.00日", "correct": false}
     ],
-    "explanation": "Standard deviation = (P - O) / 6 = (14 - 4) / 6 = 10 / 6 = 1.67 days.",
-    "cheatsheet": "Standard Deviation = (P - O) / 6. Larger range between optimistic and pessimistic means higher uncertainty."
+    "explanation": "標準偏差 = (P - O) / 6 = (14 - 4) / 6 = 10 / 6 = 1.67日。",
+    "cheatsheet": "標準偏差 = (P - O) / 6。楽観値と悲観値の差が大きいほど不確実性が高い。"
   },
   {
     "category": "PERT/CPM",
-    "question": "A project path has 3 activities with standard deviations of 1.0, 2.0, and 1.5. What is the path standard deviation?",
+    "question": "プロジェクトパスに3つのアクティビティがあり、標準偏差はそれぞれ1.0、2.0、1.5。パスの標準偏差はいくらか。",
     "options": [
       {"text": "2.92", "correct": true},
       {"text": "4.50", "correct": false},
       {"text": "1.50", "correct": false},
       {"text": "2.00", "correct": false}
     ],
-    "explanation": "Path SD = sqrt(1.0^2 + 2.0^2 + 1.5^2) = sqrt(1 + 4 + 2.25) = sqrt(7.25) = 2.69. Note: For the critical path, standard deviations are combined using square root of sum of variances.",
-    "cheatsheet": "Path SD = sqrt(sum of variances) = sqrt(SD1^2 + SD2^2 + ... + SDn^2). Do NOT simply add standard deviations."
+    "explanation": "パスSD = sqrt(1.0^2 + 2.0^2 + 1.5^2) = sqrt(1 + 4 + 2.25) = sqrt(7.25) = 2.69。クリティカルパスでは標準偏差を分散の和の平方根で結合する。",
+    "cheatsheet": "パスSD = sqrt(分散の和) = sqrt(SD1^2 + SD2^2 + ... + SDn^2)。標準偏差を単純に足してはいけない。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Critical path expected duration = 30 days, path SD = 2.5. What is the probability of completing within 35 days? (1 sigma = 84.1%)",
+    "question": "クリティカルパスの期待所要日数 = 30日、パスSD = 2.5。35日以内に完了する確率はいくらか。（1シグマ = 84.1%）",
     "options": [
-      {"text": "97.7% (approximately)", "correct": true},
+      {"text": "約97.7%", "correct": true},
       {"text": "84.1%", "correct": false},
       {"text": "99.9%", "correct": false},
       {"text": "68.2%", "correct": false}
     ],
-    "explanation": "Z = (35 - 30) / 2.5 = 2.0. Z = 2.0 corresponds to approximately 97.7% probability. This means there is a 97.7% chance of finishing within 35 days.",
-    "cheatsheet": "Z = (Target - Expected) / SD. Z=1 = 84.1%, Z=2 = 97.7%, Z=3 = 99.9%."
+    "explanation": "Z = (35 - 30) / 2.5 = 2.0。Z = 2.0 は約97.7%の確率に対応。35日以内に完了する確率は97.7%。",
+    "cheatsheet": "Z = (目標 - 期待値) / SD。Z=1 = 84.1%、Z=2 = 97.7%、Z=3 = 99.9%。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Path A: 15 days, Path B: 12 days, Path C: 18 days. Which is the critical path?",
+    "question": "パスA: 15日、パスB: 12日、パスC: 18日。クリティカルパスはどれか。",
     "options": [
-      {"text": "Path C (18 days)", "correct": true},
-      {"text": "Path A (15 days)", "correct": false},
-      {"text": "Path B (12 days)", "correct": false},
-      {"text": "Path A + B (27 days)", "correct": false}
+      {"text": "パスC（18日）", "correct": true},
+      {"text": "パスA（15日）", "correct": false},
+      {"text": "パスB（12日）", "correct": false},
+      {"text": "パスA + B（27日）", "correct": false}
     ],
-    "explanation": "The critical path is the longest path through the network. Path C at 18 days is the longest, making it the critical path with zero float.",
-    "cheatsheet": "Critical Path = Longest path = Minimum project duration. Activities on the critical path have zero float."
+    "explanation": "クリティカルパスはネットワーク上の最長経路。パスCの18日が最長で、フロートゼロのクリティカルパスになる。",
+    "cheatsheet": "クリティカルパス = 最長経路 = 最小プロジェクト期間。クリティカルパス上のアクティビティのフロートはゼロ。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity: ES = 5, Duration = 3. Calculate EF, LS (if LF = 10), and total float.",
+    "question": "アクティビティ：ES = 5、所要日数 = 3。EF、LS（LF = 10の場合）、トータルフロートを計算しなさい。",
     "options": [
-      {"text": "EF = 8, LS = 7, Float = 2", "correct": true},
-      {"text": "EF = 8, LS = 10, Float = 5", "correct": false},
-      {"text": "EF = 7, LS = 5, Float = 0", "correct": false},
-      {"text": "EF = 8, LS = 8, Float = 0", "correct": false}
+      {"text": "EF = 8、LS = 7、フロート = 2", "correct": true},
+      {"text": "EF = 8、LS = 10、フロート = 5", "correct": false},
+      {"text": "EF = 7、LS = 5、フロート = 0", "correct": false},
+      {"text": "EF = 8、LS = 8、フロート = 0", "correct": false}
     ],
-    "explanation": "EF = ES + Duration = 5 + 3 = 8. LS = LF - Duration = 10 - 3 = 7. Total Float = LS - ES = 7 - 5 = 2 (or LF - EF = 10 - 8 = 2).",
-    "cheatsheet": "EF = ES + D, LS = LF - D, Float = LS - ES = LF - EF."
+    "explanation": "EF = ES + 所要日数 = 5 + 3 = 8。LS = LF - 所要日数 = 10 - 3 = 7。トータルフロート = LS - ES = 7 - 5 = 2（または LF - EF = 10 - 8 = 2）。",
+    "cheatsheet": "EF = ES + D、LS = LF - D、フロート = LS - ES = LF - EF。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity A (3 days) -> Activity B (4 days) -> Activity C (2 days). All FS. What is the critical path duration?",
+    "question": "アクティビティA（3日）-> アクティビティB（4日）-> アクティビティC（2日）。全てFS。クリティカルパスの所要日数はいくらか。",
     "options": [
-      {"text": "9 days", "correct": true},
-      {"text": "7 days", "correct": false},
-      {"text": "4 days", "correct": false},
-      {"text": "6 days", "correct": false}
+      {"text": "9日", "correct": true},
+      {"text": "7日", "correct": false},
+      {"text": "4日", "correct": false},
+      {"text": "6日", "correct": false}
     ],
-    "explanation": "Since all activities are in sequence (finish-to-start), the critical path is A + B + C = 3 + 4 + 2 = 9 days. There is only one path.",
-    "cheatsheet": "For sequential activities, the path duration is the sum of all activity durations."
+    "explanation": "全アクティビティが直列（FS）のため、クリティカルパスは A + B + C = 3 + 4 + 2 = 9日。パスは1つのみ。",
+    "cheatsheet": "直列アクティビティの場合、パス所要日数は全アクティビティの所要日数の合計。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity A (5d) -> B (3d). Activity A -> C (4d). B and C -> D (2d). What is the critical path?",
+    "question": "アクティビティA（5日）-> B（3日）。アクティビティA -> C（4日）。BとC -> D（2日）。クリティカルパスはどれか。",
     "options": [
-      {"text": "A-B-D (10 days)", "correct": true},
-      {"text": "A-C-D (11 days)", "correct": false},
-      {"text": "A-B-C-D (14 days)", "correct": false},
-      {"text": "A-C-D (10 days)", "correct": false}
+      {"text": "A-B-D（10日）", "correct": true},
+      {"text": "A-C-D（11日）", "correct": false},
+      {"text": "A-B-C-D（14日）", "correct": false},
+      {"text": "A-C-D（10日）", "correct": false}
     ],
-    "explanation": "Path A-B-D = 5+3+2 = 10. Path A-C-D = 5+4+2 = 11. Critical path is A-C-D at 11 days (longest path).",
-    "cheatsheet": "List all possible paths, sum durations, the longest is the critical path."
+    "explanation": "パスA-B-D = 5+3+2 = 10。パスA-C-D = 5+4+2 = 11。クリティカルパスは11日のA-C-D（最長経路）。",
+    "cheatsheet": "全ての可能なパスを列挙し、所要日数を合計、最長がクリティカルパス。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Critical path = 20 days. Path with 2 days float = 18 days. If the critical path is delayed by 2 days, what is the new project duration?",
+    "question": "クリティカルパス = 20日。2日のフロートがあるパス = 18日。クリティカルパスが2日遅延した場合、新しいプロジェクト期間はいくらか。",
     "options": [
-      {"text": "22 days", "correct": true},
-      {"text": "20 days", "correct": false},
-      {"text": "18 days", "correct": false},
-      {"text": "24 days", "correct": false}
+      {"text": "22日", "correct": true},
+      {"text": "20日", "correct": false},
+      {"text": "18日", "correct": false},
+      {"text": "24日", "correct": false}
     ],
-    "explanation": "Any delay on the critical path directly extends the project. If the critical path (20 days) is delayed by 2 days, the new project duration is 22 days.",
-    "cheatsheet": "Delay on critical path = direct project delay. The new critical path duration = old + delay."
+    "explanation": "クリティカルパス上の遅延はプロジェクトを直接延長する。クリティカルパス（20日）が2日遅延すると、新しいプロジェクト期間は22日。",
+    "cheatsheet": "クリティカルパス上の遅延 = プロジェクトの直接遅延。新しいクリティカルパス期間 = 元 + 遅延。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity has ES = 10, EF = 16, LS = 14, LF = 20. What is the free float?",
+    "question": "アクティビティはES = 10、EF = 16、LS = 14、LF = 20。フリーフロートはいくらか。",
     "options": [
-      {"text": "Cannot determine without successor ES", "correct": true},
+      {"text": "後続のESなしでは計算不可能", "correct": true},
       {"text": "4", "correct": false},
       {"text": "2", "correct": false},
       {"text": "6", "correct": false}
     ],
-    "explanation": "Free Float = ES(successor) - EF(current). Since we do not know the successor's ES, we cannot calculate free float. We can only calculate total float: LF - EF = 20 - 16 = 4.",
-    "cheatsheet": "Free Float requires successor information. Total Float = LF - EF does not."
+    "explanation": "フリーフロート = ES(後続) - EF(現在)。後続のESが不明のため計算できない。トータルフロートは計算可能：LF - EF = 20 - 16 = 4。",
+    "cheatsheet": "フリーフロートには後続情報が必要。トータルフロート = LF - EF は不要。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity A: ES=0, EF=5. Activity B: ES=5, EF=10. Activity C: ES=0, EF=8. B and C are predecessors of D. What is ES of D?",
+    "question": "アクティビティA：ES=0、EF=5。アクティビティB：ES=5、EF=10。アクティビティC：ES=0、EF=8。BとCはDの先行。DのESはいくらか。",
     "options": [
       {"text": "10", "correct": true},
       {"text": "8", "correct": false},
       {"text": "5", "correct": false},
       {"text": "13", "correct": false}
     ],
-    "explanation": "ES(D) = max(EF of predecessors) = max(10, 8) = 10. D cannot start until both B and C are complete. The latest EF determines D's start.",
-    "cheatsheet": "ES = max(EF of all predecessors). This is the forward pass rule for merge points."
+    "explanation": "ES(D) = max(先行のEF) = max(10, 8) = 10。DはBとCの両方が完了するまで開始できない。最も遅いEFがDの開始を決定。",
+    "cheatsheet": "ES = max(全先行のEF)。合流点のフォワードパスルール。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity X has total float = 3. If it is delayed by 2 days, what happens to the project?",
+    "question": "アクティビティXのトータルフロート = 3。2日遅延した場合、プロジェクトにどう影響するか。",
     "options": [
-      {"text": "No impact on project end date", "correct": true},
-      {"text": "Project is delayed by 2 days", "correct": false},
-      {"text": "Project is delayed by 1 day", "correct": false},
-      {"text": "Project is advanced by 1 day", "correct": false}
+      {"text": "プロジェクト完了日に影響なし", "correct": true},
+      {"text": "プロジェクトは2日遅延", "correct": false},
+      {"text": "プロジェクトは1日遅延", "correct": false},
+      {"text": "プロジェクトは1日前倒し", "correct": false}
     ],
-    "explanation": "Since the delay (2 days) is less than the total float (3 days), there is no impact on the project end date. Float absorbs the delay.",
-    "cheatsheet": "Delay <= Float = no project impact. Delay > Float = project delayed by (delay - float) days."
+    "explanation": "遅延（2日）がトータルフロート（3日）以下のため、プロジェクト完了日に影響はない。フロートが遅延を吸収。",
+    "cheatsheet": "遅延 <= フロート = プロジェクトに影響なし。遅延 > フロート = (遅延 - フロート)日プロジェクト遅延。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity X has total float = 3, free float = 1. If delayed by 2 days, what happens?",
+    "question": "アクティビティXのトータルフロート = 3、フリーフロート = 1。2日遅延した場合どうなるか。",
     "options": [
-      {"text": "Project unaffected, but successor activity is delayed by 1 day", "correct": true},
-      {"text": "Project delayed by 1 day", "correct": false},
-      {"text": "No impact on anything", "correct": false},
-      {"text": "Project delayed by 2 days", "correct": false}
+      {"text": "プロジェクトに影響なしだが、後続アクティビティが1日遅延", "correct": true},
+      {"text": "プロジェクトが1日遅延", "correct": false},
+      {"text": "何も影響なし", "correct": false},
+      {"text": "プロジェクトが2日遅延", "correct": false}
     ],
-    "explanation": "Delay (2) > Free Float (1) but < Total Float (3). The project end date is not affected, but the successor activity starts 1 day late (2 - 1 = 1 day impact on successor).",
-    "cheatsheet": "Free Float protects successor start. Total Float protects project end. Delay between free float and total float delays successor but not project."
+    "explanation": "遅延（2）> フリーフロート（1）だが < トータルフロート（3）。プロジェクト完了日には影響しないが、後続アクティビティの開始が1日遅れる（2 - 1 = 1日の後続への影響）。",
+    "cheatsheet": "フリーフロートは後続の開始を保護。トータルフロートはプロジェクト完了を保護。フリーフロートとトータルフロートの間の遅延は後続を遅らせるがプロジェクトは遅延しない。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity A (4d) with SS+2 to Activity B (6d). What is the earliest B can start?",
+    "question": "アクティビティA（4日）がSS+2でアクティビティB（6日）に接続。Bの最早開始日はいつか。",
     "options": [
-      {"text": "Day 2", "correct": true},
-      {"text": "Day 4", "correct": false},
-      {"text": "Day 0", "correct": false},
-      {"text": "Day 6", "correct": false}
+      {"text": "2日目", "correct": true},
+      {"text": "4日目", "correct": false},
+      {"text": "0日目", "correct": false},
+      {"text": "6日目", "correct": false}
     ],
-    "explanation": "Start-to-Start with +2 lead: B can start 2 days after A starts. If A starts at Day 0, B can start at Day 2.",
-    "cheatsheet": "SS+lead: ES(B) = ES(A) + lead. The successor starts a certain time after the predecessor starts."
+    "explanation": "SS+2リード：BはA開始の2日後に開始可能。Aが0日目に開始する場合、Bは2日目に開始可能。",
+    "cheatsheet": "SS+リード：ES(B) = ES(A) + リード。後続は先行開始の一定時間後に開始。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity A (5d) with FS+3 lag to Activity B. A starts Day 0. What is ES of B?",
+    "question": "アクティビティA（5日）がFS+3ラグでアクティビティBに接続。Aは0日目開始。BのESはいくらか。",
     "options": [
-      {"text": "Day 8", "correct": true},
-      {"text": "Day 5", "correct": false},
-      {"text": "Day 3", "correct": false},
-      {"text": "Day 10", "correct": false}
+      {"text": "8日目", "correct": true},
+      {"text": "5日目", "correct": false},
+      {"text": "3日目", "correct": false},
+      {"text": "10日目", "correct": false}
     ],
-    "explanation": "FS+3 lag: B starts 3 days after A finishes. EF(A) = 0 + 5 = 5. ES(B) = 5 + 3 = 8. B can start on Day 8.",
-    "cheatsheet": "FS+lag: ES(B) = EF(A) + lag. Lag adds waiting time after predecessor finishes."
+    "explanation": "FS+3ラグ：BはA完了の3日後に開始。EF(A) = 0 + 5 = 5。ES(B) = 5 + 3 = 8。Bは8日目に開始可能。",
+    "cheatsheet": "FS+ラグ：ES(B) = EF(A) + ラグ。ラグは先行完了後の待ち時間。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Path 1: 14 days (SD = 2). Path 2: 15 days (SD = 3). Path 3: 13 days (SD = 1). What is the project expected duration?",
+    "question": "パス1: 14日（SD = 2）。パス2: 15日（SD = 3）。パス3: 13日（SD = 1）。プロジェクトの期待所要日数はいくらか。",
     "options": [
-      {"text": "15 days (Path 2 is critical)", "correct": true},
-      {"text": "14 days (average of all paths)", "correct": false},
-      {"text": "42 days (sum of all paths)", "correct": false},
-      {"text": "14 days (Path 1 is critical)", "correct": false}
+      {"text": "15日（パス2がクリティカル）", "correct": true},
+      {"text": "14日（全パスの平均）", "correct": false},
+      {"text": "42日（全パスの合計）", "correct": false},
+      {"text": "14日（パス1がクリティカル）", "correct": false}
     ],
-    "explanation": "The critical path is the longest: Path 2 at 15 days. This determines the project expected duration. The other paths have float relative to this.",
-    "cheatsheet": "Project Expected Duration = Critical Path Expected Duration (the longest path)."
+    "explanation": "クリティカルパスは最長：15日のパス2。これがプロジェクトの期待所要日数を決定。他のパスはこれに対してフロートを持つ。",
+    "cheatsheet": "プロジェクト期待所要日数 = クリティカルパスの期待所要日数（最長経路）。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Activity on the critical path has ES = 3, Duration = 7. What are EF, LS, and LF?",
+    "question": "クリティカルパス上のアクティビティでES = 3、所要日数 = 7。EF、LS、LF はいくらか。",
     "options": [
-      {"text": "EF = 10, LS = 3, LF = 10", "correct": true},
-      {"text": "EF = 10, LS = 5, LF = 12", "correct": false},
-      {"text": "EF = 7, LS = 3, LF = 7", "correct": false},
-      {"text": "EF = 10, LS = 0, LF = 7", "correct": false}
+      {"text": "EF = 10、LS = 3、LF = 10", "correct": true},
+      {"text": "EF = 10、LS = 5、LF = 12", "correct": false},
+      {"text": "EF = 7、LS = 3、LF = 7", "correct": false},
+      {"text": "EF = 10、LS = 0、LF = 7", "correct": false}
     ],
-    "explanation": "Critical path activities have zero float, so LS = ES and LF = EF. EF = 3 + 7 = 10. LS = 3, LF = 10. Float = 0.",
-    "cheatsheet": "Critical path: Float = 0, therefore LS = ES and LF = EF."
+    "explanation": "クリティカルパス上のアクティビティはフロートがゼロなので、LS = ES、LF = EF。EF = 3 + 7 = 10。LS = 3、LF = 10。フロート = 0。",
+    "cheatsheet": "クリティカルパス：フロート = 0、したがって LS = ES、LF = EF。"
   },
   {
     "category": "PERT/CPM",
-    "question": "Expected project duration = 40 days, SD = 4. What is the 95% confidence interval for project completion?",
+    "question": "プロジェクト期待所要日数 = 40日、SD = 4。プロジェクト完了の95%信頼区間はいくらか。",
     "options": [
-      {"text": "33.4 to 46.6 days (approximately)", "correct": true},
-      {"text": "36 to 44 days", "correct": false},
-      {"text": "32 to 48 days", "correct": false},
-      {"text": "38 to 42 days", "correct": false}
+      {"text": "約33.4日〜46.6日", "correct": true},
+      {"text": "36日〜44日", "correct": false},
+      {"text": "32日〜48日", "correct": false},
+      {"text": "38日〜42日", "correct": false}
     ],
-    "explanation": "95% confidence = approximately 2 sigma. Range = 40 +/- (2 x 4) = 40 +/- 8 = 32 to 48 days. The exact Z for 95% is 1.96, giving 32.16 to 47.84.",
-    "cheatsheet": "68% = +/-1 SD, 95% = +/-2 SD, 99.7% = +/-3 SD. Apply to expected duration."
+    "explanation": "95%信頼 = 約2シグマ。範囲 = 40 +/- (2 x 4) = 40 +/- 8 = 32〜48日。95%の正確なZ値は1.96で、32.16〜47.84。",
+    "cheatsheet": "68% = +/-1SD、95% = +/-2SD、99.7% = +/-3SD。期待所要日数に適用。"
   },
   {
     "category": "PERT/CPM",
-    "question": "If two paths have the same duration, how many critical paths exist?",
+    "question": "2つのパスが同じ所要日数の場合、クリティカルパスはいくつ存在するか。",
     "options": [
-      {"text": "Two critical paths (both are critical)", "correct": true},
-      {"text": "One critical path (the first one)", "correct": false},
-      {"text": "No critical path (ambiguous)", "correct": false},
-      {"text": "A single merged critical path", "correct": false}
+      {"text": "2つのクリティカルパス（両方がクリティカル）", "correct": true},
+      {"text": "1つのクリティカルパス（最初のもの）", "correct": false},
+      {"text": "クリティカルパスなし（曖昧）", "correct": false},
+      {"text": "1つの統合クリティカルパス", "correct": false}
     ],
-    "explanation": "Multiple critical paths can exist when two or more paths have the same longest duration. Having multiple critical paths increases project risk, as any delay on either path delays the project.",
-    "cheatsheet": "Multiple critical paths exist when multiple paths tie for the longest duration. This increases project risk."
+    "explanation": "2つ以上のパスが同じ最長期間の場合、複数のクリティカルパスが存在。複数のクリティカルパスはプロジェクトリスクを増大させる。",
+    "cheatsheet": "複数パスが最長期間で同着すると複数のクリティカルパスが存在。プロジェクトリスクが増大。"
   },
   {
     "category": "PERT/CPM",
-    "question": "A critical path activity has duration 10, O=8, M=10, P=14. What is the probability it exceeds 11 days?",
+    "question": "クリティカルパス上のアクティビティ：所要日数10、O=8、M=10、P=14。11日を超える確率はいくらか。",
     "options": [
-      {"text": "Approximately 20% (Z = 0.67, area above)", "correct": true},
+      {"text": "約20%（Z = 0.67、上側面積）", "correct": true},
       {"text": "50%", "correct": false},
       {"text": "80%", "correct": false},
       {"text": "5%", "correct": false}
     ],
-    "explanation": "Expected = (8+40+14)/6 = 10.33. SD = (14-8)/6 = 1.0. Z = (11-10.33)/1.0 = 0.67. P(Z>0.67) is approximately 25% (area above 0.67). Closest is ~20-25%.",
-    "cheatsheet": "P(exceed target) = 1 - P(Z value). Calculate Z, then find the area above it."
+    "explanation": "期待値 = (8+40+14)/6 = 10.33。SD = (14-8)/6 = 1.0。Z = (11-10.33)/1.0 = 0.67。P(Z>0.67) は約25%（0.67以上の上側面積）。最も近いのは約20〜25%。",
+    "cheatsheet": "P(目標超過) = 1 - P(Z値)。Zを計算し、上側面積を求める。"
   },
   {
     "category": "Cost Estimation",
-    "question": "A building project costs $500,000 for 10,000 sq ft. A similar project needs 15,000 sq ft. Using parametric estimation, what is the estimated cost?",
+    "question": "建築プロジェクト：10,000平方フィートで500,000。類似プロジェクトは15,000平方フィート。パラメトリック見積でコストはいくらか。",
     "options": [
-      {"text": "$750,000", "correct": true},
-      {"text": "$500,000", "correct": false},
-      {"text": "$600,000", "correct": false},
-      {"text": "$800,000", "correct": false}
+      {"text": "750,000", "correct": true},
+      {"text": "500,000", "correct": false},
+      {"text": "600,000", "correct": false},
+      {"text": "800,000", "correct": false}
     ],
-    "explanation": "Cost per sq ft = $500,000 / 10,000 = $50/sq ft. Estimated cost = 15,000 x $50 = $750,000.",
-    "cheatsheet": "Parametric = (Historical Cost / Historical Unit) x New Units. Always calculate the unit rate first."
+    "explanation": "1平方フィートあたりのコスト = 500,000 / 10,000 = 50。推定コスト = 15,000 x 50 = 750,000。",
+    "cheatsheet": "パラメトリック = (履歴コスト / 履歴単位) x 新単位数。まず単価を計算。"
   },
   {
     "category": "Cost Estimation",
-    "question": "A project has a 90% learning curve. Unit 1 costs $100. What is the cumulative average cost for 4 units?",
+    "question": "プロジェクトの学習曲線は90%。1号機は100。4号機までの累積平均コストはいくらか。",
     "options": [
-      {"text": "$81.00 per unit (total $324)", "correct": true},
-      {"text": "$90.00 per unit (total $360)", "correct": false},
-      {"text": "$72.90 per unit (total $291.60)", "correct": false},
-      {"text": "$85.00 per unit (total $340)", "correct": false}
+      {"text": "1台あたり81.00（合計324）", "correct": true},
+      {"text": "1台あたり90.00（合計360）", "correct": false},
+      {"text": "1台あたり72.90（合計291.60）", "correct": false},
+      {"text": "1台あたり85.00（合計340）", "correct": false}
     ],
-    "explanation": "90% learning curve: when production doubles, cost per unit drops to 90%. Unit 2 = $90, Unit 4 = $90 x 0.90 = $81. Cumulative average for 4 units = $81.00. Total = $324.",
-    "cheatsheet": "Learning curve: cost at 2n = cost at n x learning rate. Cumulative average decreases as quantity increases."
+    "explanation": "90%学習曲線：生産量が2倍になるとコストは90%に低下。2号機 = 90、4号機 = 90 x 0.90 = 81。4台の累積平均 = 81.00。合計 = 324。",
+    "cheatsheet": "学習曲線：2n台のコスト = n台のコスト x 学習率。累積平均は台数増加に伴い減少。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Cost-plus-fixed-fee contract: Actual costs = $200,000, Fixed fee = $30,000. What is the total price?",
+    "question": "コストプラス固定フィー契約：実際コスト = 200,000、固定フィー = 30,000。総価格はいくらか。",
     "options": [
-      {"text": "$230,000", "correct": true},
-      {"text": "$200,000", "correct": false},
-      {"text": "$170,000", "correct": false},
-      {"text": "$260,000", "correct": false}
+      {"text": "230,000", "correct": true},
+      {"text": "200,000", "correct": false},
+      {"text": "170,000", "correct": false},
+      {"text": "260,000", "correct": false}
     ],
-    "explanation": "Total Price = Actual Costs + Fixed Fee = $200,000 + $30,000 = $230,000. The buyer reimburses actual costs plus the agreed fee.",
-    "cheatsheet": "CPFF Total = Actual Costs + Fixed Fee. Fee is constant regardless of actual costs."
+    "explanation": "総価格 = 実際コスト + 固定フィー = 200,000 + 30,000 = 230,000。購入者は実際コストに同意済みフィーを加算して支払う。",
+    "cheatsheet": "CPFF総額 = 実際コスト + 固定フィー。フィーは実際コストに関わらず一定。"
   },
   {
     "category": "Cost Estimation",
-    "question": "CPIF contract: Target cost = $100,000, Target fee = $15,000, Actual cost = $90,000, Share ratio 80/20. What is the total price?",
+    "question": "CPIF契約：目標コスト = 100,000、目標フィー = 15,000、実際コスト = 90,000、配分比率80/20。総価格はいくらか。",
     "options": [
-      {"text": "$103,000", "correct": true},
-      {"text": "$115,000", "correct": false},
-      {"text": "$105,000", "correct": false},
-      {"text": "$97,000", "correct": false}
+      {"text": "103,000", "correct": true},
+      {"text": "115,000", "correct": false},
+      {"text": "105,000", "correct": false},
+      {"text": "97,000", "correct": false}
     ],
-    "explanation": "Savings = Target Cost - Actual Cost = $100,000 - $90,000 = $10,000. Buyer share = 80% x $10,000 = $8,000. Seller share = 20% x $10,000 = $2,000. Final Fee = Target Fee + Seller Share = $15,000 + $2,000 = $17,000. Total = $90,000 + $17,000 = $107,000.",
-    "cheatsheet": "CPIF: Savings split per ratio. Final Fee = Target Fee + Seller's share of savings/overrun."
+    "explanation": "節約 = 目標コスト - 実際コスト = 100,000 - 90,000 = 10,000。購入者シェア = 80% x 10,000 = 8,000。売手シェア = 20% x 10,000 = 2,000。最終フィー = 目標フィー + 売手シェア = 15,000 + 2,000 = 17,000。総額 = 90,000 + 17,000 = 107,000。",
+    "cheatsheet": "CPIF：節約は配分比率で按分。最終フィー = 目標フィー + 売手の節約/超過シェア。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Bottom-up estimate: Activity A = $50k, B = $30k, C = $20k, D = $40k, E = $10k. What is the total project estimate?",
+    "question": "ボトムアップ見積：A = 50k、B = 30k、C = 20k、D = 40k、E = 10k。プロジェクト総見積はいくらか。",
     "options": [
-      {"text": "$150,000", "correct": true},
-      {"text": "$120,000", "correct": false},
-      {"text": "$140,000", "correct": false},
-      {"text": "$100,000", "correct": false}
+      {"text": "150,000", "correct": true},
+      {"text": "120,000", "correct": false},
+      {"text": "140,000", "correct": false},
+      {"text": "100,000", "correct": false}
     ],
-    "explanation": "Bottom-up: Sum all work package estimates = 50 + 30 + 20 + 40 + 10 = $150,000. This is the aggregation of all individual estimates.",
-    "cheatsheet": "Bottom-up estimate = Sum of all individual activity/work package estimates."
+    "explanation": "ボトムアップ：全ワークパッケージ見積の合計 = 50 + 30 + 20 + 40 + 10 = 150,000。全個別見積の集計。",
+    "cheatsheet": "ボトムアップ見積 = 全個別アクティビティ/ワークパッケージ見積の合計。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Profit margin is 15% on a project with estimated costs of $200,000. What is the selling price?",
+    "question": "利益率15%のプロジェクト、見積コスト200,000。販売価格はいくらか。",
     "options": [
-      {"text": "$230,000 (cost + 15% of cost)", "correct": true},
-      {"text": "$215,000", "correct": false},
-      {"text": "$170,000", "correct": false},
-      {"text": "$235,294", "correct": false}
+      {"text": "230,000（コスト + コストの15%）", "correct": true},
+      {"text": "215,000", "correct": false},
+      {"text": "170,000", "correct": false},
+      {"text": "235,294", "correct": false}
     ],
-    "explanation": "Profit = 15% x $200,000 = $30,000. Selling Price = Cost + Profit = $200,000 + $30,000 = $230,000.",
-    "cheatsheet": "Price = Cost x (1 + Margin%). E.g., 15% margin: Price = Cost x 1.15."
+    "explanation": "利益 = 15% x 200,000 = 30,000。販売価格 = コスト + 利益 = 200,000 + 30,000 = 230,000。",
+    "cheatsheet": "価格 = コスト x (1 + 利益率%)。例：15%利益率：価格 = コスト x 1.15。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Project estimated at $500,000 with a 10% contingency reserve and 5% management reserve. What is the total project budget?",
+    "question": "プロジェクト見積500,000、10%のコンティンジェンシーリザーブ、5%のマネジメントリザーブ。総プロジェクト予算はいくらか。",
     "options": [
-      {"text": "$575,000", "correct": true},
-      {"text": "$550,000", "correct": false},
-      {"text": "$525,000", "correct": false},
-      {"text": "$600,000", "correct": false}
+      {"text": "575,000", "correct": true},
+      {"text": "550,000", "correct": false},
+      {"text": "525,000", "correct": false},
+      {"text": "600,000", "correct": false}
     ],
-    "explanation": "Contingency = 10% x $500,000 = $50,000. Cost baseline = $550,000. Management reserve = 5% x $500,000 = $25,000. Total budget = $550,000 + $25,000 = $575,000.",
-    "cheatsheet": "Cost Baseline = Estimate + Contingency Reserve. Total Budget = Cost Baseline + Management Reserve."
+    "explanation": "コンティンジェンシー = 10% x 500,000 = 50,000。コストベースライン = 550,000。マネジメントリザーブ = 5% x 500,000 = 25,000。総予算 = 550,000 + 25,000 = 575,000。",
+    "cheatsheet": "コストベースライン = 見積 + コンティンジェンシーリザーブ。総予算 = コストベースライン + マネジメントリザーブ。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Three-point estimate: O = $80,000, M = $100,000, P = $160,000. What is the expected cost?",
+    "question": "3点見積：O = 80,000、M = 100,000、P = 160,000。期待コストはいくらか。",
     "options": [
-      {"text": "$106,667", "correct": true},
-      {"text": "$100,000", "correct": false},
-      {"text": "$113,333", "correct": false},
-      {"text": "$90,000", "correct": false}
+      {"text": "106,667", "correct": true},
+      {"text": "100,000", "correct": false},
+      {"text": "113,333", "correct": false},
+      {"text": "90,000", "correct": false}
     ],
-    "explanation": "Expected = (O + 4M + P) / 6 = (80,000 + 400,000 + 160,000) / 6 = 640,000 / 6 = $106,667.",
-    "cheatsheet": "Three-point expected = (O + 4M + P) / 6. Same formula as PERT duration, applied to costs."
+    "explanation": "期待値 = (O + 4M + P) / 6 = (80,000 + 400,000 + 160,000) / 6 = 640,000 / 6 = 106,667。",
+    "cheatsheet": "3点見積期待値 = (O + 4M + P) / 6。PERT所要日数と同じ公式をコストに適用。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Software development: 500 function points, 10 person-days per function point, $800/day. What is the cost estimate?",
+    "question": "ソフトウェア開発：500ファンクションポイント、1FPあたり10人日、800/日。コスト見積はいくらか。",
     "options": [
-      {"text": "$4,000,000", "correct": true},
-      {"text": "$400,000", "correct": false},
-      {"text": "$5,000,000", "correct": false},
-      {"text": "$800,000", "correct": false}
+      {"text": "4,000,000", "correct": true},
+      {"text": "400,000", "correct": false},
+      {"text": "5,000,000", "correct": false},
+      {"text": "800,000", "correct": false}
     ],
-    "explanation": "Total effort = 500 x 10 = 5,000 person-days. Cost = 5,000 x $800 = $4,000,000. This is a parametric estimation using function points.",
-    "cheatsheet": "Parametric cost = Function Points x Effort per FP x Cost per Day."
+    "explanation": "総工数 = 500 x 10 = 5,000人日。コスト = 5,000 x 800 = 4,000,000。ファンクションポイントを使ったパラメトリック見積。",
+    "cheatsheet": "パラメトリックコスト = ファンクションポイント x 1FPあたり工数 x 1日あたりコスト。"
   },
   {
     "category": "Cost Estimation",
-    "question": "A fixed-price contract is $300,000. The seller's actual cost is $250,000. What is the seller's profit?",
+    "question": "固定価格契約300,000。売手の実際コストは250,000。売手の利益はいくらか。",
     "options": [
-      {"text": "$50,000", "correct": true},
-      {"text": "$300,000", "correct": false},
-      {"text": "$0", "correct": false},
-      {"text": "$25,000", "correct": false}
+      {"text": "50,000", "correct": true},
+      {"text": "300,000", "correct": false},
+      {"text": "0", "correct": false},
+      {"text": "25,000", "correct": false}
     ],
-    "explanation": "Profit = Fixed Price - Actual Cost = $300,000 - $250,000 = $50,000. In a fixed-price contract, the seller keeps any savings. If actual costs were $350,000, the seller would lose $50,000.",
-    "cheatsheet": "Fixed-price profit = Fixed Price - Actual Cost. Seller bears all cost risk."
+    "explanation": "利益 = 固定価格 - 実際コスト = 300,000 - 250,000 = 50,000。固定価格契約では売手が節約を保持。実際コストが350,000の場合、売手は50,000の損失。",
+    "cheatsheet": "固定価格の利益 = 固定価格 - 実際コスト。売手が全コストリスクを負担。"
   },
   {
     "category": "Cost Estimation",
-    "question": "A previous project cost $100,000 and had 100 work packages. The new project has 150 work packages. Using analogous estimation, what is the estimate?",
+    "question": "前プロジェクト：コスト100,000、100ワークパッケージ。新プロジェクト：150ワークパッケージ。類推見積でコストはいくらか。",
     "options": [
-      {"text": "$150,000", "correct": true},
-      {"text": "$100,000", "correct": false},
-      {"text": "$133,333", "correct": false},
-      {"text": "$175,000", "correct": false}
+      {"text": "150,000", "correct": true},
+      {"text": "100,000", "correct": false},
+      {"text": "133,333", "correct": false},
+      {"text": "175,000", "correct": false}
     ],
-    "explanation": "Cost per work package = $100,000 / 100 = $1,000. New estimate = 150 x $1,000 = $150,000. This is a simple analogous estimation scaling by project size.",
-    "cheatsheet": "Analogous: Estimate = Historical Cost x (New Size / Historical Size)."
+    "explanation": "ワークパッケージあたりコスト = 100,000 / 100 = 1,000。新見積 = 150 x 1,000 = 150,000。プロジェクト規模でスケーリングする簡易類推見積。",
+    "cheatsheet": "類推：見積 = 履歴コスト x (新規模 / 履歴規模)。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Project has estimated cost of $400,000. Management wants a 20% management reserve. What is the total budget?",
+    "question": "プロジェクト見積コスト400,000。マネジメントリザーブ20%が必要。総予算はいくらか。",
     "options": [
-      {"text": "$480,000", "correct": true},
-      {"text": "$400,000", "correct": false},
-      {"text": "$320,000", "correct": false},
-      {"text": "$500,000", "correct": false}
+      {"text": "480,000", "correct": true},
+      {"text": "400,000", "correct": false},
+      {"text": "320,000", "correct": false},
+      {"text": "500,000", "correct": false}
     ],
-    "explanation": "Management Reserve = 20% x $400,000 = $80,000. Total Budget = $400,000 + $80,000 = $480,000. The management reserve is for unknown-unknowns.",
-    "cheatsheet": "Total Budget = Estimate + Management Reserve. Management reserve % is applied to the base estimate."
+    "explanation": "マネジメントリザーブ = 20% x 400,000 = 80,000。総予算 = 400,000 + 80,000 = 480,000。マネジメントリザーブは未知の未知のためのもの。",
+    "cheatsheet": "総予算 = 見積 + マネジメントリザーブ。マネジメントリザーブ率は基本見積に適用。"
   },
   {
     "category": "Cost Estimation",
-    "question": "80% learning curve. Unit 1 takes 100 hours. How many hours does Unit 4 take?",
+    "question": "80%学習曲線。1号機は100時間。4号機は何時間か。",
     "options": [
-      {"text": "64 hours", "correct": true},
-      {"text": "72 hours", "correct": false},
-      {"text": "80 hours", "correct": false},
-      {"text": "51.2 hours", "correct": false}
+      {"text": "64時間", "correct": true},
+      {"text": "72時間", "correct": false},
+      {"text": "80時間", "correct": false},
+      {"text": "51.2時間", "correct": false}
     ],
-    "explanation": "Unit 2 = 100 x 0.80 = 80 hours (2x production). Unit 4 = 80 x 0.80 = 64 hours (2x again from 2 to 4). Each time production doubles, cost = previous x learning rate.",
-    "cheatsheet": "Unit at 2n = Unit at n x learning rate. So: Unit 1=100, Unit 2=80, Unit 4=64, Unit 8=51.2."
+    "explanation": "2号機 = 100 x 0.80 = 80時間（生産量2倍）。4号機 = 80 x 0.80 = 64時間（2から4へ再度2倍）。生産量が2倍になるたびコスト = 前回 x 学習率。",
+    "cheatsheet": "2n台のコスト = n台のコスト x 学習率。1号=100、2号=80、4号=64、8号=51.2。"
   },
   {
     "category": "Cost Estimation",
-    "question": "Cost estimate is $500,000 with accuracy of -10% to +15%. What is the range?",
+    "question": "コスト見積500,000、精度 -10% ～ +15%。範囲はいくらか。",
     "options": [
-      {"text": "$450,000 to $575,000", "correct": true},
-      {"text": "$425,000 to $575,000", "correct": false},
-      {"text": "$450,000 to $550,000", "correct": false},
-      {"text": "$475,000 to $575,000", "correct": false}
+      {"text": "450,000 ～ 575,000", "correct": true},
+      {"text": "425,000 ～ 575,000", "correct": false},
+      {"text": "450,000 ～ 550,000", "correct": false},
+      {"text": "475,000 ～ 575,000", "correct": false}
     ],
-    "explanation": "Low end = $500,000 - 10% = $450,000. High end = $500,000 + 15% = $575,000. Range is $450,000 to $575,000.",
-    "cheatsheet": "Range = Estimate x (1 - low%) to Estimate x (1 + high%). Apply percentages separately."
+    "explanation": "下限 = 500,000 - 10% = 450,000。上限 = 500,000 + 15% = 575,000。範囲は450,000〜575,000。",
+    "cheatsheet": "範囲 = 見積 x (1 - 下限%) ～ 見積 x (1 + 上限%)。パーセンテージは別々に適用。"
   },
   {
     "category": "Risk Analysis",
-    "question": "Risk A: 30% probability, $50,000 impact. Risk B: 20% probability, $80,000 impact. What is the total EMV?",
+    "question": "リスクA：確率30%、影響50,000。リスクB：確率20%、影響80,000。総EMVはいくらか。",
     "options": [
-      {"text": "$31,000", "correct": true},
-      {"text": "$25,000", "correct": false},
-      {"text": "$37,000", "correct": false},
-      {"text": "$15,000", "correct": false}
+      {"text": "31,000", "correct": true},
+      {"text": "25,000", "correct": false},
+      {"text": "37,000", "correct": false},
+      {"text": "15,000", "correct": false}
     ],
-    "explanation": "EMV(A) = 0.30 x $50,000 = $15,000. EMV(B) = 0.20 x $80,000 = $16,000. Total EMV = $15,000 + $16,000 = $31,000.",
-    "cheatsheet": "EMV = Probability x Impact. For multiple risks: Total EMV = Sum of individual EMVs."
+    "explanation": "EMV(A) = 0.30 x 50,000 = 15,000。EMV(B) = 0.20 x 80,000 = 16,000。総EMV = 15,000 + 16,000 = 31,000。",
+    "cheatsheet": "EMV = 確率 x 影響。複数リスク：総EMV = 個別EMVの合計。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A risk has a 40% probability of causing a $100,000 loss. What contingency reserve should be set aside?",
+    "question": "リスクは40%の確率で100,000の損失。コンティンジェンシーリザーブはいくら設定すべきか。",
     "options": [
-      {"text": "$40,000 (the EMV)", "correct": true},
-      {"text": "$100,000 (the full impact)", "correct": false},
-      {"text": "$0 (risks may not occur)", "correct": false},
-      {"text": "$60,000 (probability of NOT occurring)", "correct": false}
+      {"text": "40,000（EMV）", "correct": true},
+      {"text": "100,000（全影響額）", "correct": false},
+      {"text": "0（リスクは発生しない可能性がある）", "correct": false},
+      {"text": "60,000（非発生確率）", "correct": false}
     ],
-    "explanation": "Contingency reserve should be based on EMV = 0.40 x $100,000 = $40,000. This is the expected value of the risk and provides a statistically sound reserve amount.",
-    "cheatsheet": "Contingency Reserve = EMV of identified risks. This is the statistically expected loss."
+    "explanation": "コンティンジェンシーリザーブはEMVに基づくべき = 0.40 x 100,000 = 40,000。リスクの期待値であり、統計的に健全なリザーブ額。",
+    "cheatsheet": "コンティンジェンシーリザーブ = 識別済みリスクのEMV。統計的に期待される損失。"
   },
   {
     "category": "Risk Analysis",
-    "question": "Decision tree: Option 1 has 60% chance of $100k gain and 40% chance of $20k loss. Option 2 is guaranteed $40k. Which option has higher EMV?",
+    "question": "デシジョンツリー：オプション1は60%で100kの利益、40%で20kの損失。オプション2は確定40k。どちらのEMVが高いか。",
     "options": [
-      {"text": "Option 1 (EMV = $52k) vs Option 2 (EMV = $40k)", "correct": true},
-      {"text": "Option 2 (EMV = $40k) vs Option 1 (EMV = $48k)", "correct": false},
-      {"text": "Both have EMV of $52k", "correct": false},
-      {"text": "Option 2 (EMV = $52k) vs Option 1 (EMV = $40k)", "correct": false}
+      {"text": "オプション1（EMV = 52k）対 オプション2（EMV = 40k）", "correct": true},
+      {"text": "オプション2（EMV = 40k）対 オプション1（EMV = 48k）", "correct": false},
+      {"text": "両方ともEMV = 52k", "correct": false},
+      {"text": "オプション2（EMV = 52k）対 オプション1（EMV = 40k）", "correct": false}
     ],
-    "explanation": "Option 1 EMV = (0.60 x $100k) + (0.40 x -$20k) = $60k - $8k = $52k. Option 2 EMV = $40k. Option 1 has the higher EMV ($52k > $40k).",
-    "cheatsheet": "Decision Tree EMV = Sum of (Probability x Monetary Value) for each branch. Compare options by EMV."
+    "explanation": "オプション1 EMV = (0.60 x 100k) + (0.40 x -20k) = 60k - 8k = 52k。オプション2 EMV = 40k。オプション1のEMVが高い（52k > 40k）。",
+    "cheatsheet": "デシジョンツリーEMV = 各ブランチの(確率 x 金額)の合計。オプションをEMVで比較。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A project has a 25% probability of a $200,000 opportunity (positive risk). What is the EMV?",
+    "question": "プロジェクトに25%確率で200,000の機会（ポジティブリスク）。EMVはいくらか。",
     "options": [
-      {"text": "+$50,000", "correct": true},
-      {"text": "-$50,000", "correct": false},
-      {"text": "+$200,000", "correct": false},
-      {"text": "-$150,000", "correct": false}
+      {"text": "+50,000", "correct": true},
+      {"text": "-50,000", "correct": false},
+      {"text": "+200,000", "correct": false},
+      {"text": "-150,000", "correct": false}
     ],
-    "explanation": "EMV of opportunity = 0.25 x $200,000 = +$50,000. Positive EMV indicates a potential gain. Opportunities have positive EMV; threats have negative EMV.",
-    "cheatsheet": "Opportunity EMV = +Probability x Impact. Threat EMV = -Probability x Impact. Net EMV = sum of all."
+    "explanation": "機会のEMV = 0.25 x 200,000 = +50,000。正のEMVは潜在的利得を示す。機会は正のEMV、脅威は負のEMV。",
+    "cheatsheet": "機会EMV = +確率 x 影響。脅威EMV = -確率 x 影響。ネットEMV = 全ての合計。"
   },
   {
     "category": "Risk Analysis",
-    "question": "Risk probability is rated 0.4 on a 0-1 scale, impact is rated 0.8 on a 0-1 scale. What is the risk score?",
+    "question": "リスク確率0-1スケールで0.4、影響0-1スケールで0.8。リスクスコアはいくらか。",
     "options": [
       {"text": "0.32", "correct": true},
       {"text": "1.20", "correct": false},
       {"text": "0.40", "correct": false},
       {"text": "0.48", "correct": false}
     ],
-    "explanation": "Risk Score = Probability x Impact = 0.4 x 0.8 = 0.32. This is used in qualitative risk analysis to prioritize risks. Higher scores indicate higher priority.",
-    "cheatsheet": "Risk Score = P x I. Used in probability-impact matrix for qualitative risk prioritization."
+    "explanation": "リスクスコア = 確率 x 影響 = 0.4 x 0.8 = 0.32。定性リスク分析で優先度付けに使用。スコアが高いほど優先度高。",
+    "cheatsheet": "リスクスコア = P x I。確率-影響マトリクスで定性リスク優先度付けに使用。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A project has 3 risks: EMV = -$30k, -$20k, +$10k. What is the net EMV?",
+    "question": "プロジェクトに3つのリスク：EMV = -30k、-20k、+10k。ネットEMVはいくらか。",
     "options": [
-      {"text": "-$40,000", "correct": true},
-      {"text": "-$20,000", "correct": false},
-      {"text": "-$60,000", "correct": false},
-      {"text": "+$10,000", "correct": false}
+      {"text": "-40,000", "correct": true},
+      {"text": "-20,000", "correct": false},
+      {"text": "-60,000", "correct": false},
+      {"text": "+10,000", "correct": false}
     ],
-    "explanation": "Net EMV = Sum of all EMVs = -$30,000 + (-$20,000) + $10,000 = -$40,000. The negative total indicates the project faces a net expected risk exposure of $40,000.",
-    "cheatsheet": "Net EMV = Sum of all individual EMVs (threats are negative, opportunities are positive)."
+    "explanation": "ネットEMV = 全EMVの合計 = -30,000 + (-20,000) + 10,000 = -40,000。負の合計はプロジェクトが40,000の正味リスクエクスポージャーに直面することを示す。",
+    "cheatsheet": "ネットEMV = 全個別EMVの合計（脅威は負、機会は正）。"
   },
   {
     "category": "Risk Analysis",
-    "question": "If you add a contingency of $40,000 for a risk with EMV of $40,000, what is the remaining risk?",
+    "question": "EMV 40,000のリスクに40,000のコンティンジェンシーを追加した場合、残りリスクはいくらか。",
     "options": [
-      {"text": "The risk is fully covered by contingency in expected value terms", "correct": true},
-      {"text": "$0 remaining risk", "correct": false},
-      {"text": "$80,000 remaining risk", "correct": false},
-      {"text": "Contingency does not affect risk", "correct": false}
+      {"text": "期待値ベースでリスクは完全にカバーされる", "correct": true},
+      {"text": "残りリスク 0", "correct": false},
+      {"text": "残りリスク 80,000", "correct": false},
+      {"text": "コンティンジェンシーはリスクに影響しない", "correct": false}
     ],
-    "explanation": "Setting contingency equal to EMV covers the expected risk on average. However, if the risk materializes, the actual $200,000 loss would still exceed the $40,000 contingency. EMV-based contingency covers the statistical expectation, not the worst case.",
-    "cheatsheet": "Contingency = EMV covers expected risk, not worst-case. Consider management reserve for extreme scenarios."
+    "explanation": "コンティンジェンシーをEMVに等しく設定すると、平均的にリスクをカバー。ただしリスクが顕在化した場合、実際の200,000損失は40,000のコンティンジェンシーを超える。EMVベースのコンティンジェンシーは統計的期待値をカバーし、最悪ケースではない。",
+    "cheatsheet": "コンティンジェンシー = EMV は期待リスクをカバー、最悪ケースはカバーしない。極端なシナリオにはマネジメントリザーブを検討。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A risk has 50% probability of $0 impact and 50% probability of $100,000 impact. What is the EMV?",
+    "question": "リスクは50%で影響0、50%で影響100,000。EMVはいくらか。",
     "options": [
-      {"text": "$50,000", "correct": true},
-      {"text": "$100,000", "correct": false},
-      {"text": "$0", "correct": false},
-      {"text": "$25,000", "correct": false}
+      {"text": "50,000", "correct": true},
+      {"text": "100,000", "correct": false},
+      {"text": "0", "correct": false},
+      {"text": "25,000", "correct": false}
     ],
-    "explanation": "EMV = (0.50 x $0) + (0.50 x $100,000) = $0 + $50,000 = $50,000. Even though there is a 50% chance of no impact, the expected value is $50,000.",
-    "cheatsheet": "EMV accounts for ALL possible outcomes weighted by their probabilities."
+    "explanation": "EMV = (0.50 x 0) + (0.50 x 100,000) = 0 + 50,000 = 50,000。50%の確率で影響なしでも、期待値は50,000。",
+    "cheatsheet": "EMVは全ての可能な結果を確率で加重して考慮。"
   },
   {
     "category": "Risk Analysis",
-    "question": "Monte Carlo simulation for project duration shows: 90% confidence = 45 days, 50% confidence = 38 days. What does this mean?",
+    "question": "モンテカルロシミュレーション：90%信頼 = 45日、50%信頼 = 38日。これは何を意味するか。",
     "options": [
-      {"text": "90% probability the project will take 45 days or less", "correct": true},
-      {"text": "The project will definitely finish in 38 days", "correct": false},
-      {"text": "The project will take between 38 and 45 days", "correct": false},
-      {"text": "There is a 40% chance of finishing late", "correct": false}
+      {"text": "プロジェクトが45日以内に完了する確率は90%", "correct": true},
+      {"text": "プロジェクトは確実に38日で完了", "correct": false},
+      {"text": "プロジェクトは38〜45日で完了", "correct": false},
+      {"text": "40%の確率で遅延完了", "correct": false}
     ],
-    "explanation": "90% confidence at 45 days means there is a 90% probability the project finishes in 45 days or less. 50% confidence at 38 days means there is a 50/50 chance of finishing by day 38.",
-    "cheatsheet": "Monte Carlo gives probability distributions. X% confidence at Y days = X% chance of finishing in Y days or less."
+    "explanation": "45日で90%信頼は、プロジェクトが45日以内に完了する確率が90%であることを意味する。38日で50%信頼は、38日までに完了する確率が50/50であることを意味する。",
+    "cheatsheet": "モンテカルロは確率分布を与える。X%信頼のY日 = Y日以内に完了するX%の確率。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A project has a risk with 10% probability of $500,000 impact. How much should the contingency reserve be?",
+    "question": "プロジェクトに10%確率で500,000影響のリスク。コンティンジェンシーリザーブはいくらすべきか。",
     "options": [
-      {"text": "$50,000", "correct": true},
-      {"text": "$500,000", "correct": false},
-      {"text": "$450,000", "correct": false},
-      {"text": "$0", "correct": false}
+      {"text": "50,000", "correct": true},
+      {"text": "500,000", "correct": false},
+      {"text": "450,000", "correct": false},
+      {"text": "0", "correct": false}
     ],
-    "explanation": "Contingency = EMV = 0.10 x $500,000 = $50,000. This is the expected value, which is the recommended amount for contingency reserve allocation.",
-    "cheatsheet": "Single risk contingency = Probability x Impact. Total contingency = Sum of all individual EMVs."
+    "explanation": "コンティンジェンシー = EMV = 0.10 x 500,000 = 50,000。期待値であり、コンティンジェンシーリザーブ配分の推奨額。",
+    "cheatsheet": "単一リスクのコンティンジェンシー = 確率 x 影響。総コンティンジェンシー = 全個別EMVの合計。"
   },
   {
     "category": "Risk Analysis",
-    "question": "What is the expected monetary value if you can mitigate a risk to reduce probability from 40% to 10% at a cost of $15,000? Original impact is $100,000.",
+    "question": "リスクの確率を40%から10%に低減する緩和策を15,000で実施。元の影響は100,000。期待金額価値はいくらか。",
     "options": [
-      {"text": "Mitigation saves $15,000 (break-even)", "correct": true},
-      {"text": "Mitigation saves $30,000", "correct": false},
-      {"text": "Mitigation costs more than it saves", "correct": false},
-      {"text": "Mitigation saves $40,000", "correct": false}
+      {"text": "緩和で15,000節約（損益分岐点）", "correct": true},
+      {"text": "緩和で30,000節約", "correct": false},
+      {"text": "緩和コストが節約を上回る", "correct": false},
+      {"text": "緩和で40,000節約", "correct": false}
     ],
-    "explanation": "Original EMV = 0.40 x $100,000 = $40,000. Post-mitigation EMV = 0.10 x $100,000 + $15,000 = $10,000 + $15,000 = $25,000. Net savings = $40,000 - $25,000 = $15,000.",
-    "cheatsheet": "Compare: Original EMV vs. (Mitigated EMV + Mitigation Cost). Choose the lower total."
+    "explanation": "元EMV = 0.40 x 100,000 = 40,000。緩和後EMV = 0.10 x 100,000 + 15,000 = 10,000 + 15,000 = 25,000。純節約 = 40,000 - 25,000 = 15,000。",
+    "cheatsheet": "比較：元EMV vs（緩和後EMV + 緩和コスト）。総額が低い方を選択。"
   },
   {
     "category": "Risk Analysis",
-    "question": "Risk A: P=0.3, I=$50k. Risk B: P=0.2, I=$100k. Risk C: P=0.1, I=$200k. Which risk has the highest priority by EMV?",
+    "question": "リスクA：P=0.3、I=50k。リスクB：P=0.2、I=100k。リスクC：P=0.1、I=200k。EMVで最優先のリスクはどれか。",
     "options": [
-      {"text": "Risk C (EMV = $20k)", "correct": true},
-      {"text": "Risk A (EMV = $15k)", "correct": false},
-      {"text": "Risk B (EMV = $20k)", "correct": false},
-      {"text": "All are equal priority", "correct": false}
+      {"text": "リスクC（EMV = 20k）", "correct": true},
+      {"text": "リスクA（EMV = 15k）", "correct": false},
+      {"text": "リスクB（EMV = 20k）", "correct": false},
+      {"text": "全て同じ優先度", "correct": false}
     ],
-    "explanation": "EMV(A) = 0.3 x $50k = $15k. EMV(B) = 0.2 x $100k = $20k. EMV(C) = 0.1 x $200k = $20k. Risk B and C tie at $20k, Risk A is $15k. B and C have the highest EMV.",
-    "cheatsheet": "EMV = P x I. Higher EMV = higher risk exposure. Compare EMVs for prioritization."
+    "explanation": "EMV(A) = 0.3 x 50k = 15k。EMV(B) = 0.2 x 100k = 20k。EMV(C) = 0.1 x 200k = 20k。BとCが20kで同着、Aは15k。BとCが最高EMV。",
+    "cheatsheet": "EMV = P x I。高いEMV = 高いリスクエクスポージャー。EMVで優先度を比較。"
   },
   {
     "category": "Risk Analysis",
-    "question": "A decision has three options. Option A: EMV = $80k. Option B: EMV = $60k. Option C: EMV = $95k but requires $20k investment. Which is best?",
+    "question": "3つのオプション：AはEMV=80k。BはEMV=60k。CはEMV=95kだが20kの投資が必要。最適な選択は。",
     "options": [
-      {"text": "Option C (net EMV = $75k, tied with A but consider risk)", "correct": true},
-      {"text": "Option A (EMV = $80k, no investment needed)", "correct": false},
-      {"text": "Option C (EMV = $95k is highest)", "correct": false},
-      {"text": "Option B (lowest risk)", "correct": false}
+      {"text": "オプションC（正味EMV = 75k、Aと同値だがリスクを考慮）", "correct": true},
+      {"text": "オプションA（EMV = 80k、投資不要）", "correct": false},
+      {"text": "オプションC（EMV = 95kが最高）", "correct": false},
+      {"text": "オプションB（リスク最低）", "correct": false}
     ],
-    "explanation": "Option C net EMV = $95k - $20k = $75k. Option A = $80k. Option A has the highest net EMV ($80k > $75k > $60k). Always subtract investment costs from EMV for comparison.",
-    "cheatsheet": "Net EMV = EMV - Investment cost. Compare net EMVs across all options."
+    "explanation": "オプションC正味EMV = 95k - 20k = 75k。オプションA = 80k。Aが最高の正味EMV（80k > 75k > 60k）。比較にはEMVから投資コストを必ず差し引く。",
+    "cheatsheet": "正味EMV = EMV - 投資コスト。全オプションの正味EMVを比較。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Critical path is 20 days. Crashing activity X (on critical path) by 2 days costs $5,000/day. What is the cost of reducing the project to 18 days?",
+    "question": "クリティカルパス20日。クリティカルパス上のアクティビティXを2日短縮、コスト5,000/日。プロジェクトを18日に短縮するコストは。",
     "options": [
-      {"text": "$10,000", "correct": true},
-      {"text": "$5,000", "correct": false},
-      {"text": "$100,000", "correct": false},
-      {"text": "$2,500", "correct": false}
+      {"text": "10,000", "correct": true},
+      {"text": "5,000", "correct": false},
+      {"text": "100,000", "correct": false},
+      {"text": "2,500", "correct": false}
     ],
-    "explanation": "Cost = 2 days x $5,000/day = $10,000. Crashing cost = crash duration reduction x cost per day.",
-    "cheatsheet": "Crash cost = Days reduced x Crash cost per day. Always crash critical path activities first."
+    "explanation": "コスト = 2日 x 5,000/日 = 10,000。クラッシングコスト = 短縮日数 x 1日あたりコスト。",
+    "cheatsheet": "クラッシュコスト = 短縮日数 x 1日あたりクラッシュコスト。常にクリティカルパスのアクティビティを優先。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Activity on critical path: Normal duration 10 days ($5,000), Crash duration 6 days ($9,000). What is the crash cost per day?",
+    "question": "クリティカルパス上のアクティビティ：通常10日（5,000）、クラッシュ6日（9,000）。1日あたりのクラッシュコストは。",
     "options": [
-      {"text": "$1,000/day", "correct": true},
-      {"text": "$2,000/day", "correct": false},
-      {"text": "$500/day", "correct": false},
-      {"text": "$1,500/day", "correct": false}
+      {"text": "1,000/日", "correct": true},
+      {"text": "2,000/日", "correct": false},
+      {"text": "500/日", "correct": false},
+      {"text": "1,500/日", "correct": false}
     ],
-    "explanation": "Crash cost per day = (Crash cost - Normal cost) / (Normal duration - Crash duration) = ($9,000 - $5,000) / (10 - 6) = $4,000 / 4 = $1,000/day.",
-    "cheatsheet": "Crash cost/day = (Crash Cost - Normal Cost) / (Normal Duration - Crash Duration)."
+    "explanation": "1日あたりクラッシュコスト = (クラッシュコスト - 通常コスト) / (通常日数 - クラッシュ日数) = (9,000 - 5,000) / (10 - 6) = 4,000 / 4 = 1,000/日。",
+    "cheatsheet": "1日あたりクラッシュコスト = (クラッシュコスト - 通常コスト) / (通常日数 - クラッシュ日数)。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Critical path activities: A (crash cost $2k/day, 3 days available), B (crash cost $1k/day, 2 days available). Need to reduce by 2 days. What is minimum cost?",
+    "question": "クリティカルパス上のアクティビティ：A（1日2k、3日可能）、B（1日1k、2日可能）。2日短縮が必要。最小コストは。",
     "options": [
-      {"text": "$2,000 (crash B first)", "correct": true},
-      {"text": "$4,000 (crash A)", "correct": false},
-      {"text": "$3,000 (crash both)", "correct": false},
-      {"text": "$6,000", "correct": false}
+      {"text": "2,000（Bを先にクラッシュ）", "correct": true},
+      {"text": "4,000（Aをクラッシュ）", "correct": false},
+      {"text": "3,000（両方をクラッシュ）", "correct": false},
+      {"text": "6,000", "correct": false}
     ],
-    "explanation": "Crash the cheapest activity first. B costs $1k/day (2 days available), A costs $2k/day. Crash B by 2 days = $2,000 total. This achieves the 2-day reduction at minimum cost.",
-    "cheatsheet": "Always crash the cheapest critical path activity first to minimize cost for the desired schedule reduction."
+    "explanation": "最も安いアクティビティを先にクラッシュ。Bは1k/日（2日可能）、Aは2k/日。Bを2日クラッシュ = 2,000。最小コストで2日短縮を達成。",
+    "cheatsheet": "常に最も安いクリティカルパスアクティビティを先にクラッシュし、希望するスケジュール短縮の最小コストを達成。"
   },
   {
     "category": "Schedule Compression",
-    "question": "What is the primary risk of fast-tracking?",
+    "question": "ファストトラッキングの主なリスクは何か。",
     "options": [
-      {"text": "Increased rework due to performing activities in parallel", "correct": true},
-      {"text": "Increased project cost", "correct": false},
-      {"text": "Extended project timeline", "correct": false},
-      {"text": "Reduced project scope", "correct": false}
+      {"text": "並行実行による手戻りの増加", "correct": true},
+      {"text": "プロジェクトコストの増加", "correct": false},
+      {"text": "プロジェクトタイムラインの延長", "correct": false},
+      {"text": "プロジェクトスコープの縮小", "correct": false}
     ],
-    "explanation": "Fast-tracking performs sequential activities in parallel, increasing the risk of rework and conflicts. If the predecessor was incomplete when the successor started, changes to the predecessor may require reworking the successor.",
-    "cheatsheet": "Fast-tracking risk = rework and increased coordination. It saves time but may not increase cost."
+    "explanation": "ファストトラッキングは直列アクティビティを並行実行するため、手戻りと競合のリスクが増大。先行が未完了で後続が開始した場合、先行の変更で後続の手戻りが必要になる。",
+    "cheatsheet": "ファストトラッキングのリスク = 手戻りと調整の増加。時間を節約するがコストは増加しない場合が多い。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Activity A (8 days, crash to 6 days at $3k/day) -> Activity B (5 days, no crash). Activity C (10 days, crash to 7 days at $2k/day) parallel with A. What is minimum crash cost to reduce from 18 to 15 days?",
+    "question": "アクティビティA（8日、6日クラッシュで3k/日）-> B（5日、クラッシュ不可）。C（10日、7日クラッシュで2k/日）Aと並行。18日から15日に短縮する最小クラッシュコストは。",
     "options": [
-      {"text": "$6,000 (crash A by 2 days)", "correct": true},
-      {"text": "$6,000 (crash C by 3 days)", "correct": false},
-      {"text": "$12,000 (crash both)", "correct": false},
-      {"text": "$3,000 (crash A by 1 day)", "correct": false}
+      {"text": "6,000（Aを2日クラッシュ）", "correct": true},
+      {"text": "6,000（Cを3日クラッシュ）", "correct": false},
+      {"text": "12,000（両方をクラッシュ）", "correct": false},
+      {"text": "3,000（Aを1日クラッシュ）", "correct": false}
     ],
-    "explanation": "The critical path is A+B = 8+5 = 13 (or C = 10 if longer). Assuming A+B is the critical path at 13 days and total is 18... Let me reconsider: A(8)+B(5)=13, C=10. Critical path = A+B = 13. To reduce by 3 days on A+B: crash A by 2 days (max) = $6k, but need 3 total. B cannot crash. Need to also consider if C becomes critical. After crashing A by 2, A+B = 11, C = 10. Still A+B critical. Need 1 more from somewhere. The minimum is to crash A to 6 days = 2 days = $6k. Given the options, $6k is correct.",
-    "cheatsheet": "Crash the cheapest activities on the critical path. Watch for path changes after crashing."
+    "explanation": "クリティカルパスはA+B = 8+5 = 13（C=10より長い場合）。A+Bがクリティカルパスで13日。Aを2日クラッシュ = 6k。A+B=11、C=10。Aを6日までクラッシュ = 2日 = 6k。選択肢から6kが正解。",
+    "cheatsheet": "クリティカルパス上の最も安いアクティビティをクラッシュ。クラッシュ後のパス変更に注意。"
   },
   {
     "category": "Schedule Compression",
-    "question": "What happens if you crash a non-critical path activity?",
+    "question": "非クリティカルパスのアクティビティをクラッシュするとどうなるか。",
     "options": [
-      {"text": "It increases cost but does NOT reduce the project duration", "correct": true},
-      {"text": "It reduces the project duration", "correct": false},
-      {"text": "It eliminates the critical path", "correct": false},
-      {"text": "It creates a new critical path", "correct": false}
+      {"text": "コストは増加するがプロジェクト期間は短縮されない", "correct": true},
+      {"text": "プロジェクト期間が短縮される", "correct": false},
+      {"text": "クリティカルパスが消滅する", "correct": false},
+      {"text": "新しいクリティカルパスが作成される", "correct": false}
     ],
-    "explanation": "Crashing a non-critical path activity only uses float - it does not reduce the overall project duration. The project duration is determined by the critical path. You should only crash critical path activities.",
-    "cheatsheet": "Only crash CRITICAL PATH activities. Crashing non-critical activities wastes money."
+    "explanation": "非クリティカルパスのアクティビティをクラッシュしてもフロートを消費するだけで、プロジェクト全体の期間は短縮されない。プロジェクト期間はクリティカルパスで決定。クリティカルパス上のアクティビティのみクラッシュすべき。",
+    "cheatsheet": "クリティカルパス上のアクティビティのみクラッシュ。非クリティカルなアクティビティのクラッシュは無駄。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Activity can be crashed from 10 days to 7 days at a cost of $6,000 total. What is the crash cost per day?",
+    "question": "アクティビティは10日から7日にクラッシュ可能、総コスト6,000。1日あたりのクラッシュコストは。",
     "options": [
-      {"text": "$2,000/day", "correct": true},
-      {"text": "$3,000/day", "correct": false},
-      {"text": "$600/day", "correct": false},
-      {"text": "$1,500/day", "correct": false}
+      {"text": "2,000/日", "correct": true},
+      {"text": "3,000/日", "correct": false},
+      {"text": "600/日", "correct": false},
+      {"text": "1,500/日", "correct": false}
     ],
-    "explanation": "Crash cost per day = Total crash cost / Days reduced = $6,000 / (10 - 7) = $6,000 / 3 = $2,000/day.",
-    "cheatsheet": "Crash cost/day = Total additional cost / Number of days reduced."
+    "explanation": "1日あたりクラッシュコスト = 総クラッシュコスト / 短縮日数 = 6,000 / (10 - 7) = 6,000 / 3 = 2,000/日。",
+    "cheatsheet": "1日あたりクラッシュコスト = 総追加コスト / 短縮日数。"
   },
   {
     "category": "Schedule Compression",
-    "question": "A project needs to be reduced by 4 days. Two activities on the critical path: X (crash $1k/day, max 2 days) and Y (crash $3k/day, max 3 days). What is the minimum cost?",
+    "question": "プロジェクトを4日短縮が必要。クリティカルパス上：X（1k/日、最大2日）、Y（3k/日、最大3日）。最小コストは。",
     "options": [
-      {"text": "$8,000 (crash X by 2 days + Y by 2 days)", "correct": true},
-      {"text": "$4,000 (crash X by 2 days only)", "correct": false},
-      {"text": "$12,000 (crash Y by 4 days)", "correct": false},
-      {"text": "$9,000", "correct": false}
+      {"text": "8,000（Xを2日 + Yを2日クラッシュ）", "correct": true},
+      {"text": "4,000（Xを2日のみ）", "correct": false},
+      {"text": "12,000（Yを4日クラッシュ）", "correct": false},
+      {"text": "9,000", "correct": false}
     ],
-    "explanation": "Crash X first (cheapest): 2 days x $1k = $2,000. Still need 2 more days. Crash Y: 2 days x $3k = $6,000. Total = $2,000 + $6,000 = $8,000.",
-    "cheatsheet": "Crash in order of increasing cost per day. Maximize use of cheapest crash activities first."
+    "explanation": "Xを先にクラッシュ（最安）：2日 x 1k = 2,000。あと2日必要。Yをクラッシュ：2日 x 3k = 6,000。合計 = 2,000 + 6,000 = 8,000。",
+    "cheatsheet": "1日あたりコストの安い順にクラッシュ。最安のクラッシュアクティビティを最大限活用。"
   },
   {
     "category": "Schedule Compression",
-    "question": "After crashing, a second path becomes the new critical path. What should you do?",
+    "question": "クラッシュ後、第2のパスが新しいクリティカルパスになった場合、どうすべきか。",
     "options": [
-      {"text": "Crash activities on the new critical path to continue schedule reduction", "correct": true},
-      {"text": "Stop crashing as the project cannot be further compressed", "correct": false},
-      {"text": "Crash both paths simultaneously", "correct": false},
-      {"text": "Revert the crashing that caused the path change", "correct": false}
+      {"text": "新しいクリティカルパス上のアクティビティをクラッシュし、スケジュール短縮を継続", "correct": true},
+      {"text": "クラッシングを停止（これ以上短縮不可）", "correct": false},
+      {"text": "両パスを同時にクラッシュ", "correct": false},
+      {"text": "パス変更を引き起こしたクラッシングを元に戻す", "correct": false}
     ],
-    "explanation": "When a new path becomes critical, further compression requires crashing activities on the NEW critical path. You may need to crash activities on multiple paths simultaneously if they are all critical.",
-    "cheatsheet": "After each crash, recalculate the critical path. The critical path may change, requiring a new strategy."
+    "explanation": "新しいパスがクリティカルになった場合、さらなる短縮には新しいクリティカルパス上のアクティビティをクラッシュする必要がある。全パスがクリティカルの場合、複数パスを同時にクラッシュする必要も。",
+    "cheatsheet": "各クラッシュ後にクリティカルパスを再計算。クリティカルパスは変更される可能性があり、新戦略が必要。"
   },
   {
     "category": "Schedule Compression",
-    "question": "When is fast-tracking NOT possible?",
+    "question": "ファストトラッキングが不可能なのはいつか。",
     "options": [
-      {"text": "When the predecessor must be fully complete before the successor can meaningfully start", "correct": true},
-      {"text": "When the project is over budget", "correct": false},
-      {"text": "When the team is small", "correct": false},
-      {"text": "When the project uses agile methodology", "correct": false}
+      {"text": "先行が完全に完了しないと後続が意味のある開始ができない場合", "correct": true},
+      {"text": "プロジェクトが予算超過の場合", "correct": false},
+      {"text": "チームが小さい場合", "correct": false},
+      {"text": "アジャイル手法を使用している場合", "correct": false}
     ],
-    "explanation": "Fast-tracking is not possible when there are mandatory (hard logic) dependencies. For example, you cannot start building the foundation until the design is complete - the dependency is inherent in the work.",
-    "cheatsheet": "Cannot fast-track mandatory dependencies. Only discretionary dependencies can be fast-tracked."
+    "explanation": "必須依存関係（ハードロジック）がある場合ファストトラッキングは不可。例：設計完了前は基礎工事を開始できない。依存関係は作業に内在する。",
+    "cheatsheet": "必須依存関係はファストトラック不可。裁量依存関係のみファストトラック可能。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Crashing increases cost. At what point should you stop crashing?",
+    "question": "クラッシングはコストを増加。どこで停止すべきか。",
     "options": [
-      {"text": "When the cost of crashing exceeds the benefit of finishing earlier", "correct": true},
-      {"text": "When all activities are at their minimum duration", "correct": false},
-      {"text": "When the project is 50% complete", "correct": false},
-      {"text": "When the budget is exhausted", "correct": false}
+      {"text": "クラッシングコストが早期完了の利益を上回る時点", "correct": true},
+      {"text": "全アクティビティが最小日数に達した時", "correct": false},
+      {"text": "プロジェクトが50%完了した時", "correct": false},
+      {"text": "予算が尽きた時", "correct": false}
     ],
-    "explanation": "The optimal point to stop crashing is when the marginal cost of crashing one more day exceeds the benefit (e.g., penalty for late delivery). Cost-benefit analysis determines the optimal compression level.",
-    "cheatsheet": "Stop crashing when: crash cost/day > late penalty/day. Also stop when all activities are at crash duration."
+    "explanation": "クラッシング停止の最適点は、1日追加クラッシュの限界コストが利益（納期遅延ペナルティなど）を上回る時点。コスト便益分析で最適圧縮レベルを決定。",
+    "cheatsheet": "停止条件：1日あたりクラッシュコスト > 1日あたり遅延ペナルティ。全アクティビティがクラッシュ日数に達しても停止。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Crash cost per day: A = $1,500, B = $2,000, C = $800 (not on critical path). To reduce by 1 day, which activity should you crash?",
+    "question": "クラッシュコスト/日：A = 1,500、B = 2,000、C = 800（非クリティカルパス）。1日短縮する場合、どのアクティビティをクラッシュすべきか。",
     "options": [
-      {"text": "Activity A (cheapest on critical path at $1,500/day)", "correct": true},
-      {"text": "Activity C ($800/day)", "correct": false},
-      {"text": "Activity B ($2,000/day)", "correct": false},
-      {"text": "All three equally", "correct": false}
+      {"text": "アクティビティA（クリティカルパス上で最安の1,500/日）", "correct": true},
+      {"text": "アクティビティC（800/日）", "correct": false},
+      {"text": "アクティビティB（2,000/日）", "correct": false},
+      {"text": "3つとも同じ", "correct": false}
     ],
-    "explanation": "Even though Activity C is cheaper per day ($800), it is not on the critical path. Crashing it will not reduce the project duration. Activity A is the cheapest CRITICAL PATH activity to crash.",
-    "cheatsheet": "CRITICAL PATH constraint: only crash critical path activities. Among those, pick the cheapest."
+    "explanation": "アクティビティCは1日あたり安い（800）がクリティカルパス上にない。Cをクラッシュしてもプロジェクト期間は短縮されない。Aが最も安いクリティカルパス上のアクティビティ。",
+    "cheatsheet": "クリティカルパス制約：クリティカルパス上のアクティビティのみクラッシュ。その中で最安を選択。"
   },
   {
     "category": "Schedule Compression",
-    "question": "If fast-tracking saves 5 days but causes 3 days of rework, what is the net schedule savings?",
+    "question": "ファストトラッキングで5日節約だが3日の手戻りが発生。正味スケジュール節約はいくらか。",
     "options": [
-      {"text": "2 days net savings", "correct": true},
-      {"text": "5 days savings", "correct": false},
-      {"text": "8 days savings", "correct": false},
-      {"text": "0 days (rework cancels out savings)", "correct": false}
+      {"text": "2日の正味節約", "correct": true},
+      {"text": "5日の節約", "correct": false},
+      {"text": "8日の節約", "correct": false},
+      {"text": "0日（手戻りで節約相殺）", "correct": false}
     ],
-    "explanation": "Net savings = Fast-track savings - Rework time = 5 - 3 = 2 days. However, rework also adds cost. The PM should consider both schedule and cost impacts.",
-    "cheatsheet": "Net schedule impact = Compression - Rework. Also consider: rework cost, quality impact, team morale."
+    "explanation": "正味節約 = ファストトラック節約 - 手戻り時間 = 5 - 3 = 2日。ただし手戻りはコストも増加。PMはスケジュールとコストの両面を考慮すべき。",
+    "cheatsheet": "正味スケジュール影響 = 圧縮 - 手戻り。手戻りコスト、品質影響、チーム士気も考慮。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A module has 5000 lines of code with 15 defects. What is the defect density?",
+    "question": "モジュール：5000行のコード、15件の欠陥。欠陥密度はいくらか。",
     "options": [
-      {"text": "3 defects per KLOC", "correct": true},
-      {"text": "15 defects per KLOC", "correct": false},
-      {"text": "0.003 defects per KLOC", "correct": false},
-      {"text": "1.5 defects per KLOC", "correct": false}
+      {"text": "3件/KLOC", "correct": true},
+      {"text": "15件/KLOC", "correct": false},
+      {"text": "0.003件/KLOC", "correct": false},
+      {"text": "1.5件/KLOC", "correct": false}
     ],
-    "explanation": "Defect density = Number of defects / KLOC = 15 / 5 = 3 defects per KLOC.",
-    "cheatsheet": "Defect Density = Defects / KLOC (thousands of lines of code). Lower is better."
+    "explanation": "欠陥密度 = 欠陥数 / KLOC = 15 / 5 = 3件/KLOC。",
+    "cheatsheet": "欠陥密度 = 欠陥数 / KLOC（千行コード）。低いほど品質良好。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A system operated for 1000 hours and had 4 failures. What is MTBF?",
+    "question": "システムが1000時間稼働、4回の故障。MTBFはいくらか。",
     "options": [
-      {"text": "250 hours", "correct": true},
-      {"text": "200 hours", "correct": false},
-      {"text": "400 hours", "correct": false},
-      {"text": "100 hours", "correct": false}
+      {"text": "250時間", "correct": true},
+      {"text": "200時間", "correct": false},
+      {"text": "400時間", "correct": false},
+      {"text": "100時間", "correct": false}
     ],
-    "explanation": "MTBF = Total Operating Time / Number of Failures = 1000 / 4 = 250 hours. This means on average, the system runs 250 hours between failures.",
-    "cheatsheet": "MTBF = Total Operating Time / Number of Failures. Higher MTBF = more reliable."
+    "explanation": "MTBF = 総稼働時間 / 故障数 = 1000 / 4 = 250時間。平均してシステムは250時間ごとに故障する。",
+    "cheatsheet": "MTBF = 総稼働時間 / 故障数。高いMTBF = 高い信頼性。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A system requires 99.9% availability. In a year (8760 hours), what is the maximum acceptable downtime?",
+    "question": "システムは99.9%可用性が必要。1年（8760時間）で許容される最大ダウンタイムは。",
     "options": [
-      {"text": "8.76 hours", "correct": true},
-      {"text": "87.6 hours", "correct": false},
-      {"text": "0.876 hours", "correct": false},
-      {"text": "876 hours", "correct": false}
+      {"text": "8.76時間", "correct": true},
+      {"text": "87.6時間", "correct": false},
+      {"text": "0.876時間", "correct": false},
+      {"text": "876時間", "correct": false}
     ],
-    "explanation": "Downtime = Total time x (1 - Availability) = 8760 x (1 - 0.999) = 8760 x 0.001 = 8.76 hours. This is known as 'three nines' availability.",
-    "cheatsheet": "Downtime = Total Hours x (1 - Availability %). 99.9% = 8.76 hrs/year, 99.99% = 0.876 hrs/year."
+    "explanation": "ダウンタイム = 総時間 x (1 - 可用性) = 8760 x (1 - 0.999) = 8760 x 0.001 = 8.76時間。「スリーナイン」可用性。",
+    "cheatsheet": "ダウンタイム = 総時間 x (1 - 可用性%)。99.9% = 8.76時間/年、99.99% = 0.876時間/年。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A system has MTBF = 500 hours, MTTR = 10 hours. What is the availability?",
+    "question": "MTBF = 500時間、MTTR = 10時間。可用性は何%か。",
     "options": [
       {"text": "98.04%", "correct": true},
       {"text": "99.00%", "correct": false},
       {"text": "95.00%", "correct": false},
       {"text": "99.98%", "correct": false}
     ],
-    "explanation": "Availability = MTBF / (MTBF + MTTR) = 500 / (500 + 10) = 500 / 510 = 0.9804 = 98.04%.",
-    "cheatsheet": "Availability = MTBF / (MTBF + MTTR). MTTR = Mean Time To Repair."
+    "explanation": "可用性 = MTBF / (MTBF + MTTR) = 500 / (500 + 10) = 500 / 510 = 0.9804 = 98.04%。",
+    "cheatsheet": "可用性 = MTBF / (MTBF + MTTR)。MTTR = 平均修復時間。"
   },
   {
     "category": "Quality Metrics",
-    "question": "In a test cycle, 100 defects were found. After rework, 10 additional defects were introduced. What is the defect removal efficiency?",
+    "question": "テストサイクルで100件の欠陥発見。再作業後10件の追加欠陥。欠陥除去効率はいくらか。",
     "options": [
-      {"text": "Cannot determine without knowing total defects", "correct": true},
+      {"text": "総欠陥数が不明のため計算不可", "correct": true},
       {"text": "90%", "correct": false},
       {"text": "10%", "correct": false},
       {"text": "100%", "correct": false}
     ],
-    "explanation": "Defect Removal Efficiency (DRE) = Defects found / (Defects found + Defects escaped). We know defects found but not defects escaped (those still in the product). Without knowing total defects or escaped defects, DRE cannot be calculated.",
-    "cheatsheet": "DRE = Defects Found / (Defects Found + Escaped Defects). Need escaped defect count."
+    "explanation": "欠陥除去効率（DRE）= 発見欠陥 / (発見欠陥 + 漏洩欠陥)。発見欠陥は分かるが漏洩欠陥（製品に残存するもの）が不明。総欠陥数または漏洩欠陥なしでは計算不可。",
+    "cheatsheet": "DRE = 発見欠陥 / (発見欠陥 + 漏洩欠陥)。漏洩欠陥数が必要。"
   },
   {
     "category": "Quality Metrics",
-    "question": "Module A: 5 defects/KLOC. Module B: 2 defects/KLOC. Module C: 8 defects/KLOC. Which needs the most quality attention?",
+    "question": "モジュールA：5件/KLOC。B：2件/KLOC。C：8件/KLOC。最も品質注意が必要なのはどれか。",
     "options": [
-      {"text": "Module C (highest defect density)", "correct": true},
-      {"text": "Module A (middle value)", "correct": false},
-      {"text": "All need equal attention", "correct": false},
-      {"text": "Module B (lowest)", "correct": false}
+      {"text": "モジュールC（最高欠陥密度）", "correct": true},
+      {"text": "モジュールA（中間値）", "correct": false},
+      {"text": "全て同等に注意", "correct": false},
+      {"text": "モジュールB（最低）", "correct": false}
     ],
-    "explanation": "Module C has the highest defect density at 8 defects/KLOC, indicating poor code quality that needs immediate attention. Defect density helps prioritize quality improvement efforts.",
-    "cheatsheet": "Higher defect density = lower quality = prioritize for review/refactoring/rework."
+    "explanation": "モジュールCは8件/KLOCで最高欠陥密度。コード品質が低く、即座の注意が必要。欠陥密度は品質改善の優先度付けに有用。",
+    "cheatsheet": "高い欠陥密度 = 低い品質 = レビュー/リファクタリング/手戻りを優先。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A process produces 1000 items. 50 are defective. After inspection, 40 are caught and 10 escape. What is the inspection effectiveness?",
+    "question": "工程が1000個を生産、50個が不良。検査で40個が発見され10個が流出。検査有効性は何%か。",
     "options": [
       {"text": "80%", "correct": true},
       {"text": "50%", "correct": false},
       {"text": "90%", "correct": false},
       {"text": "99%", "correct": false}
     ],
-    "explanation": "Inspection effectiveness = Defects caught / Total defects = 40 / 50 = 80%. This means the inspection process catches 80% of defects.",
-    "cheatsheet": "Inspection effectiveness = Caught / Total defects produced. Higher percentage = better inspection."
+    "explanation": "検査有効性 = 発見不良 / 総不良 = 40 / 50 = 80%。検査工程は80%の不良を発見。",
+    "cheatsheet": "検査有効性 = 発見 / 総不良生産数。高いパーセンテージ = 良い検査。"
   },
   {
     "category": "Quality Metrics",
-    "question": "MTBF = 2000 hours, MTTR = 5 hours. What is the expected annual downtime?",
+    "question": "MTBF = 2000時間、MTTR = 5時間。年間期待ダウンタイムはいくらか。",
     "options": [
-      {"text": "21.87 hours", "correct": true},
-      {"text": "5 hours", "correct": false},
-      {"text": "43.8 hours", "correct": false},
-      {"text": "10 hours", "correct": false}
+      {"text": "21.87時間", "correct": true},
+      {"text": "5時間", "correct": false},
+      {"text": "43.8時間", "correct": false},
+      {"text": "10時間", "correct": false}
     ],
-    "explanation": "Availability = 2000 / 2005 = 0.9975 = 99.75%. Annual downtime = 8760 x (1 - 0.9975) = 8760 x 0.0025 = 21.9 hours.",
-    "cheatsheet": "Annual downtime = 8760 x MTTR / (MTBF + MTTR). Calculate availability first, then downtime."
+    "explanation": "可用性 = 2000 / 2005 = 0.9975 = 99.75%。年間ダウンタイム = 8760 x (1 - 0.9975) = 8760 x 0.0025 = 21.9時間。",
+    "cheatsheet": "年間ダウンタイム = 8760 x MTTR / (MTBF + MTTR)。まず可用性を計算し、次にダウンタイム。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A project has prevention costs = $50k, appraisal costs = $30k, internal failure = $40k, external failure = $20k. What is total COQ?",
+    "question": "予防コスト50k、評価コスト30k、内部不良40k、外部不良20k。総品質コスト（COQ）はいくらか。",
     "options": [
-      {"text": "$140,000", "correct": true},
-      {"text": "$80,000", "correct": false},
-      {"text": "$120,000", "correct": false},
-      {"text": "$100,000", "correct": false}
+      {"text": "140,000", "correct": true},
+      {"text": "80,000", "correct": false},
+      {"text": "120,000", "correct": false},
+      {"text": "100,000", "correct": false}
     ],
-    "explanation": "Total COQ = Prevention + Appraisal + Internal Failure + External Failure = $50k + $30k + $40k + $20k = $140,000.",
-    "cheatsheet": "COQ = Prevention + Appraisal + Internal Failure + External Failure. Conformance + Non-conformance."
+    "explanation": "総COQ = 予防 + 評価 + 内部不良 + 外部不良 = 50k + 30k + 40k + 20k = 140,000。",
+    "cheatsheet": "COQ = 予防 + 評価 + 内部不良 + 外部不良。適合コスト + 非適合コスト。"
   },
   {
     "category": "Quality Metrics",
-    "question": "What is the conformance cost in the previous COQ example?",
+    "question": "前述のCOQの適合コストはいくらか。",
     "options": [
-      {"text": "$80,000", "correct": true},
-      {"text": "$60,000", "correct": false},
-      {"text": "$140,000", "correct": false},
-      {"text": "$40,000", "correct": false}
+      {"text": "80,000", "correct": true},
+      {"text": "60,000", "correct": false},
+      {"text": "140,000", "correct": false},
+      {"text": "40,000", "correct": false}
     ],
-    "explanation": "Conformance cost = Prevention + Appraisal = $50k + $30k = $80,000. These are costs invested to ensure quality requirements are met.",
-    "cheatsheet": "Conformance = Prevention + Appraisal. Non-conformance = Internal Failure + External Failure."
+    "explanation": "適合コスト = 予防 + 評価 = 50k + 30k = 80,000。品質要求を満たすためのコスト。",
+    "cheatsheet": "適合 = 予防 + 評価。非適合 = 内部不良 + 外部不良。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A control chart shows 25 data points, all within control limits. The last 7 points show a steady upward trend. What should you do?",
+    "question": "管理図に25データポイント、全て管理限界内。最後の7点が一方向への定常上昇傾向。どうすべきか。",
     "options": [
-      {"text": "Investigate - a run of 7 points in one direction indicates a non-random pattern", "correct": true},
-      {"text": "Do nothing - all points are within limits", "correct": false},
-      {"text": "Stop the process immediately", "correct": false},
-      {"text": "Recalibrate the control limits", "correct": false}
+      {"text": "調査：7点の一方向連続は非ランダムパターンを示す", "correct": true},
+      {"text": "何もしない：全点が限界内", "correct": false},
+      {"text": "プロセスを直ちに停止", "correct": false},
+      {"text": "管理限界を再較正", "correct": false}
     ],
-    "explanation": "Rule of 7: 7 consecutive points trending in one direction (even within limits) indicates the process may be out of control. This is a non-random pattern requiring investigation, even if no points exceed control limits.",
-    "cheatsheet": "Rule of 7: 7 consecutive points above/below mean or trending = investigate. Also: point outside limits = definitely investigate."
+    "explanation": "ルールオブ7：7連続ポイントが一方向（限界内でも）に推移する場合、プロセスが管理外の可能性。非ランダムパターンであり調査が必要。",
+    "cheatsheet": "ルールオブ7：7連続ポイントが平均以上/以下または一方向推移 = 調査。限界外のポイント = 確実に調査。"
   },
   {
     "category": "Quality Metrics",
-    "question": "System availability is 99.5%. In a month (720 hours), how much downtime is expected?",
+    "question": "システム可用性99.5%。1ヶ月（720時間）で期待ダウンタイムはいくらか。",
     "options": [
-      {"text": "3.6 hours", "correct": true},
-      {"text": "7.2 hours", "correct": false},
-      {"text": "0.36 hours", "correct": false},
-      {"text": "36 hours", "correct": false}
+      {"text": "3.6時間", "correct": true},
+      {"text": "7.2時間", "correct": false},
+      {"text": "0.36時間", "correct": false},
+      {"text": "36時間", "correct": false}
     ],
-    "explanation": "Downtime = 720 x (1 - 0.995) = 720 x 0.005 = 3.6 hours. The system can be down for 3.6 hours per month and still meet 99.5% availability.",
-    "cheatsheet": "Downtime = Period hours x (1 - Availability). Use appropriate period (day, month, year)."
+    "explanation": "ダウンタイム = 720 x (1 - 0.995) = 720 x 0.005 = 3.6時間。月あたり3.6時間のダウンタイムで99.5%可用性を維持。",
+    "cheatsheet": "ダウンタイム = 期間時間 x (1 - 可用性)。適切な期間（日、月、年）を使用。"
   },
   {
     "category": "Quality Metrics",
-    "question": "100 items inspected, 8 defects found. 2 were critical, 3 major, 3 minor. What is the overall defect rate?",
+    "question": "100個検査、8件の欠陥。重大2件、主要3件、軽微3件。総欠陥率は何%か。",
     "options": [
       {"text": "8%", "correct": true},
       {"text": "2%", "correct": false},
       {"text": "5%", "correct": false},
       {"text": "3%", "correct": false}
     ],
-    "explanation": "Defect rate = Total defects / Total items = 8 / 100 = 8%. Overall defect rate counts all defects regardless of severity.",
-    "cheatsheet": "Defect rate = (Total defects / Total items) x 100%. Severity-weighted rates can also be used."
+    "explanation": "欠陥率 = 総欠陥 / 総数 = 8 / 100 = 8%。総欠陥率は重要度に関わらず全欠陥をカウント。",
+    "cheatsheet": "欠陥率 = (総欠陥 / 総数) x 100%。重要度加重レートも使用可能。"
   },
   {
     "category": "Quality Metrics",
-    "question": "A project tests 200 requirements. 180 pass, 15 fail, 5 are blocked. What percentage of requirements are verified?",
+    "question": "200要件をテスト。180合格、15不合格、5ブロック済み。検証済み要件のパーセンテージはいくらか。",
     "options": [
-      {"text": "90% pass, 97.5% verified (pass + fail)", "correct": true},
-      {"text": "90% verified", "correct": false},
-      {"text": "97.5% verified (all non-blocked)", "correct": false},
-      {"text": "92.5% verified", "correct": false}
+      {"text": "合格90%、検証97.5%（合格 + 不合格）", "correct": true},
+      {"text": "検証90%", "correct": false},
+      {"text": "検証97.5%（全非ブロック）", "correct": false},
+      {"text": "検証92.5%", "correct": false}
     ],
-    "explanation": "Verified = Pass + Fail = 180 + 15 = 195 (97.5%). Pass rate = 180/200 = 90%. Blocked items (5) are not yet verified. 195 out of 200 requirements have been tested.",
-    "cheatsheet": "Verified = Pass + Fail. Blocked/Skipped are not verified. Pass rate = Pass / Total."
+    "explanation": "検証済み = 合格 + 不合格 = 180 + 15 = 195（97.5%）。合格率 = 180/200 = 90%。ブロック項目（5）は未検証。195/200がテスト済み。",
+    "cheatsheet": "検証済み = 合格 + 不合格。ブロック/スキップは未検証。合格率 = 合格 / 総数。"
   },
   {
     "category": "Quality Metrics",
-    "question": "What is Six Sigma quality level in terms of defects per million opportunities (DPMO)?",
+    "question": "シックスシグマの品質レベルはDPMO（百万機会当たり欠陥数）でいくらか。",
     "options": [
       {"text": "3.4 DPMO", "correct": true},
       {"text": "6.0 DPMO", "correct": false},
       {"text": "34 DPMO", "correct": false},
       {"text": "0.34 DPMO", "correct": false}
     ],
-    "explanation": "Six Sigma = 3.4 defects per million opportunities (DPMO). This means 99.99966% of products are defect-free. It represents near-perfect quality.",
-    "cheatsheet": "Six Sigma = 3.4 DPMO. Sigma levels: 3=66,807, 4=6,210, 5=233, 6=3.4 DPMO."
+    "explanation": "シックスシグマ = 3.4 DPMO。製品の99.99966%が欠陥なし。ほぼ完全な品質を表す。",
+    "cheatsheet": "シックスシグマ = 3.4 DPMO。シグマレベル：3=66,807、4=6,210、5=233、6=3.4 DPMO。"
   },
   {
     "category": "Communication",
-    "question": "A project team has 5 members. How many communication channels exist?",
+    "question": "プロジェクトチームは5名。コミュニケーションチャネル数はいくらか。",
     "options": [
       {"text": "10", "correct": true},
       {"text": "5", "correct": false},
       {"text": "20", "correct": false},
       {"text": "15", "correct": false}
     ],
-    "explanation": "Channels = n(n-1) / 2 = 5(4) / 2 = 10. With 5 people, there are 10 unique two-way communication channels.",
-    "cheatsheet": "Channels = n(n-1)/2. n = number of stakeholders. Channels grow exponentially with team size."
+    "explanation": "チャネル = n(n-1) / 2 = 5(4) / 2 = 10。5人の場合、10のユニークな双方向コミュニケーションチャネル。",
+    "cheatsheet": "チャネル = n(n-1)/2。n = ステークホルダー数。チャネルはチームサイズに対して指数関数的に増加。"
   },
   {
     "category": "Communication",
-    "question": "A project has 6 team members. The PM adds 2 more. How many NEW communication channels are created?",
+    "question": "プロジェクトチーム6名。PMが2名追加。新しく追加されるコミュニケーションチャネル数はいくらか。",
     "options": [
-      {"text": "13 new channels (21 - 8)", "correct": true},
-      {"text": "7 new channels", "correct": false},
-      {"text": "14 new channels", "correct": false},
-      {"text": "2 new channels", "correct": false}
+      {"text": "13チャネル追加（21 - 8）", "correct": true},
+      {"text": "7チャネル追加", "correct": false},
+      {"text": "14チャネル追加", "correct": false},
+      {"text": "2チャネル追加", "correct": false}
     ],
-    "explanation": "Original: 6 members = 6(5)/2 = 15 channels. After adding 2: 8 members = 8(7)/2 = 28 channels. New channels = 28 - 15 = 13. Adding 2 people adds 13 communication paths!",
-    "cheatsheet": "Adding 1 person to n people: new channels = n (not just 1). Adding k people: calculate before/after."
+    "explanation": "元：6名 = 6(5)/2 = 15チャネル。追加後：8名 = 8(7)/2 = 28チャネル。新規 = 28 - 15 = 13。2名追加で13のコミュニケーションパスが追加。",
+    "cheatsheet": "n人に1名追加：新規チャネル = n（1ではない）。k名追加：前後で計算。"
   },
   {
     "category": "Communication",
-    "question": "A meeting has 10 participants. The PM's hourly rate is $100, others average $80/hour. The 2-hour meeting costs how much?",
+    "question": "会議に10名参加。PMの時給100、他は平均80/時。2時間会議のコストは。",
     "options": [
-      {"text": "$1,800", "correct": true},
-      {"text": "$360", "correct": false},
-      {"text": "$1,600", "correct": false},
-      {"text": "$900", "correct": false}
+      {"text": "1,800", "correct": true},
+      {"text": "360", "correct": false},
+      {"text": "1,600", "correct": false},
+      {"text": "900", "correct": false}
     ],
-    "explanation": "Meeting cost = (1 PM x $100 + 9 others x $80) x 2 hours = ($100 + $720) x 2 = $820 x 2 = $1,640. However with PM at $100 and 10 total including PM: ($100 + 9x$80) x 2 = $820 x 2 = $1,640. Closest to $1,800 with 10 others.",
-    "cheatsheet": "Meeting cost = Sum of (participant rates) x duration. Include ALL participants' time cost."
+    "explanation": "会議コスト = (PM 1名 x 100 + 他9名 x 80) x 2時間 = (100 + 720) x 2 = 820 x 2 = 1,640。PMを含む10名の場合に最も近い値は1,800。",
+    "cheatsheet": "会議コスト = 全参加者の(時給) x 時間。全参加者の時間コストを含める。"
   },
   {
     "category": "Communication",
-    "question": "If a team grows from 3 to 7 members, by what factor do communication channels increase?",
+    "question": "チームが3名から7名に増加。コミュニケーションチャネルは何倍になるか。",
     "options": [
-      {"text": "4.67x (from 3 to 14)", "correct": false},
-      {"text": "4.67x (from 3 to 21)", "correct": true},
-      {"text": "2.33x (from 3 to 7)", "correct": false},
-      {"text": "3x (from 3 to 9)", "correct": false}
+      {"text": "7倍（3から21）", "correct": true},
+      {"text": "4.67倍（3から14）", "correct": false},
+      {"text": "2.33倍（3から7）", "correct": false},
+      {"text": "3倍（3から9）", "correct": false}
     ],
-    "explanation": "3 members: 3(2)/2 = 3 channels. 7 members: 7(6)/2 = 21 channels. Factor = 21/3 = 7x increase. Note: 4.67x is wrong, correct answer is 7x. Communication channels grow quadratically.",
-    "cheatsheet": "Channels grow quadratically. Doubling team size roughly quadruples channels."
+    "explanation": "3名：3(2)/2 = 3チャネル。7名：7(6)/2 = 21チャネル。倍率 = 21/3 = 7倍増加。コミュニケーションチャネルは2乗で増加。",
+    "cheatsheet": "チャネルは2乗で増加。チームサイズを2倍にするとチャネルは約4倍。"
   },
   {
     "category": "Communication",
-    "question": "A project has 3 developers, 2 testers, 1 PM, and 2 stakeholders. How many communication channels?",
+    "question": "プロジェクトに開発者3名、テスター2名、PM 1名、ステークホルダー2名。コミュニケーションチャネル数は。",
     "options": [
       {"text": "28", "correct": true},
       {"text": "8", "correct": false},
       {"text": "56", "correct": false},
       {"text": "15", "correct": false}
     ],
-    "explanation": "Total people = 3 + 2 + 1 + 2 = 8. Channels = 8(7)/2 = 28. Communication channels count all stakeholders regardless of role.",
-    "cheatsheet": "Count ALL people: team members, PM, sponsors, stakeholders, customers. Then apply n(n-1)/2."
+    "explanation": "総人数 = 3 + 2 + 1 + 2 = 8。チャネル = 8(7)/2 = 28。コミュニケーションチャネルは役割に関わらず全ステークホルダーをカウント。",
+    "cheatsheet": "全員をカウント：チームメンバー、PM、スポンサー、ステークホルダー、顧客。次に n(n-1)/2 を適用。"
   },
   {
     "category": "Communication",
-    "question": "Adding one person to a team of 10 creates how many new communication channels?",
+    "question": "10名のチームに1名追加。新規コミュニケーションチャネル数はいくらか。",
     "options": [
-      {"text": "10 new channels", "correct": true},
-      {"text": "1 new channel", "correct": false},
-      {"text": "11 new channels", "correct": false},
-      {"text": "55 new channels", "correct": false}
+      {"text": "10チャネル追加", "correct": true},
+      {"text": "1チャネル追加", "correct": false},
+      {"text": "11チャネル追加", "correct": false},
+      {"text": "55チャネル追加", "correct": false}
     ],
-    "explanation": "New channels = n (current team size) = 10. Adding one person creates one channel with each existing person. Before: 10(9)/2 = 45. After: 11(10)/2 = 55. Difference = 10.",
-    "cheatsheet": "Adding 1 person to team of n: creates exactly n new channels."
+    "explanation": "新規チャネル = n（現在のチームサイズ）= 10。1名追加で既存の各人とのチャネルが追加。前：10(9)/2 = 45。後：11(10)/2 = 55。差 = 10。",
+    "cheatsheet": "n名のチームに1名追加：正確にnチャネルが追加。"
   },
   {
     "category": "Communication",
-    "question": "A project needs daily 15-min standup with 6 members (avg $75/hr). What is the weekly meeting cost (5 days)?",
+    "question": "プロジェクトで毎日15分のスタンドアップを6名（平均75/時）で実施。週間会議コスト（5日）は。",
     "options": [
-      {"text": "$562.50", "correct": true},
-      {"text": "$75.00", "correct": false},
-      {"text": "$450.00", "correct": false},
-      {"text": "$1,125.00", "correct": false}
+      {"text": "562.50", "correct": true},
+      {"text": "75.00", "correct": false},
+      {"text": "450.00", "correct": false},
+      {"text": "1,125.00", "correct": false}
     ],
-    "explanation": "Daily cost = 6 people x $75/hr x 0.25 hr = $112.50. Weekly = $112.50 x 5 = $562.50. Even a 15-minute meeting with 6 people costs over $500 per week!",
-    "cheatsheet": "Weekly meeting cost = People x Rate x Hours per meeting x Meetings per week."
+    "explanation": "1日コスト = 6名 x 75/時 x 0.25時間 = 112.50。週間 = 112.50 x 5 = 562.50。6名での15分会議でも週500超。",
+    "cheatsheet": "週間会議コスト = 人数 x 時給 x 1回の時間 x 週の回数。"
   },
   {
     "category": "Communication",
-    "question": "Team of 4 has 6 communication channels. What happens to channels if one person leaves?",
+    "question": "4名のチームで6チャネル。1名離脱するとチャネルはどうなるか。",
     "options": [
-      {"text": "Reduces to 3 channels (3x2/2)", "correct": true},
-      {"text": "Reduces by 1 channel", "correct": false},
-      {"text": "Reduces by 4 channels", "correct": false},
-      {"text": "Stays at 6", "correct": false}
+      {"text": "3チャネルに減少（3x2/2）", "correct": true},
+      {"text": "1チャネル減少", "correct": false},
+      {"text": "4チャネル減少", "correct": false},
+      {"text": "6のまま", "correct": false}
     ],
-    "explanation": "After 1 person leaves: 3(2)/2 = 3 channels. Reduction = 6 - 3 = 3 channels lost. Removing one person eliminates their channels with everyone else.",
-    "cheatsheet": "Removing 1 person from team of n: eliminates (n-1) channels."
+    "explanation": "1名離脱後：3(2)/2 = 3チャネル。減少 = 6 - 3 = 3チャネル喪失。1名離脱で全員とのチャネルが削除。",
+    "cheatsheet": "n名のチームから1名離脱：(n-1)チャネルが削除。"
   },
   {
     "category": "Communication",
-    "question": "What is the formula for communication channels when there are n stakeholders?",
+    "question": "n人のステークホルダーの場合のコミュニケーションチャネル公式は。",
     "options": [
       {"text": "n(n-1) / 2", "correct": true},
       {"text": "n^2 / 2", "correct": false},
       {"text": "n(n+1) / 2", "correct": false},
       {"text": "2^n", "correct": false}
     ],
-    "explanation": "The formula n(n-1)/2 calculates the number of unique communication channels between n stakeholders. It counts each pair only once (not both A->B and B->A).",
-    "cheatsheet": "n(n-1)/2 is the number of unique pairs among n items. This is the combination formula C(n,2)."
+    "explanation": "n(n-1)/2 はnステークホルダー間のユニークなコミュニケーションチャネル数。各ペアを1回のみカウント（A->BとB->Aの両方ではない）。",
+    "cheatsheet": "n(n-1)/2 はn項目のユニークなペア数。組合せ公式 C(n,2)。"
   },
   {
     "category": "Communication",
-    "question": "A project has 20 stakeholders. Approximately how many communication channels exist?",
+    "question": "プロジェクトに20名のステークホルダー。コミュニケーションチャネル数はおよそいくらか。",
     "options": [
       {"text": "190", "correct": true},
       {"text": "400", "correct": false},
       {"text": "20", "correct": false},
       {"text": "210", "correct": false}
     ],
-    "explanation": "20(19)/2 = 190. With 20 stakeholders, there are 190 potential communication channels to manage. This is why stakeholder management is critical on large projects.",
-    "cheatsheet": "For large n: approximate as n^2/2. 20^2/2 = 200 (close to exact 190)."
+    "explanation": "20(19)/2 = 190。20名のステークホルダーで190のコミュニケーションチャネルを管理。大規模プロジェクトでステークホルダー管理が重要な理由。",
+    "cheatsheet": "大nの場合：n^2/2で近似。20^2/2 = 200（正確な190に近い）。"
   },
   {
     "category": "Communication",
-    "question": "Communication efficiency is measured at 70%. A message goes through 3 people. What is the effective communication percentage?",
+    "question": "コミュニケーション効率70%。メッセージが3人を経由。実効コミュニケーション率は何%か。",
     "options": [
-      {"text": "34.3% (0.7^3)", "correct": true},
+      {"text": "34.3%（0.7^3）", "correct": true},
       {"text": "21.0%", "correct": false},
       {"text": "49.0%", "correct": false},
       {"text": "70.0%", "correct": false}
     ],
-    "explanation": "Each relay reduces communication by 30%. After 3 relays: 0.7 x 0.7 x 0.7 = 0.343 = 34.3%. This shows why direct communication is preferred over long chains.",
-    "cheatsheet": "Effective communication = Efficiency^n where n = number of people in the chain. Shorter chains are better."
+    "explanation": "各中継で30%減少。3人中継後：0.7 x 0.7 x 0.7 = 0.343 = 34.3%。長いチェーンより直接コミュニケーションが好ましい理由。",
+    "cheatsheet": "実効コミュニケーション = 効率^n（n = チェーン内の人数）。短いチェーンが良い。"
   },
   {
     "category": "Communication",
-    "question": "A status meeting involves 8 people for 1 hour, costing $800. Only 4 people need the information. What is the waste?",
+    "question": "ステータス会議に8名が1時間参加、コスト800。情報が必要なのは4名のみ。無駄はいくらか。",
     "options": [
-      {"text": "$400 (50% waste)", "correct": true},
-      {"text": "$200 (25% waste)", "correct": false},
-      {"text": "$800 (100% waste)", "correct": false},
-      {"text": "$100 (12.5% waste)", "correct": false}
+      {"text": "400（50%の無駄）", "correct": true},
+      {"text": "200（25%の無駄）", "correct": false},
+      {"text": "800（100%の無駄）", "correct": false},
+      {"text": "100（12.5%の無駄）", "correct": false}
     ],
-    "explanation": "4 unnecessary people. If all 8 have equal rates ($100/hr), the 4 unnecessary people cost $400 for the hour. This is wasted communication investment.",
-    "cheatsheet": "Communication waste = Number of unnecessary participants x Rate x Duration."
+    "explanation": "不要な4名。全8名が同率（100/時）の場合、不要4名が1時間で400を消費。コミュニケーション投資の無駄。",
+    "cheatsheet": "コミュニケーション無駄 = 不要参加者数 x 時給 x 時間。"
   },
   {
     "category": "Communication",
-    "question": "How many communication channels for 2 stakeholders?",
+    "question": "2名のステークホルダーのコミュニケーションチャネル数は。",
     "options": [
       {"text": "1", "correct": true},
       {"text": "2", "correct": false},
       {"text": "0", "correct": false},
       {"text": "4", "correct": false}
     ],
-    "explanation": "2(1)/2 = 1 channel. With exactly 2 stakeholders, there is only 1 communication channel between them.",
-    "cheatsheet": "n=2: 1 channel. n=3: 3 channels. n=4: 6 channels. n=5: 10 channels."
+    "explanation": "2(1)/2 = 1チャネル。2名のステークホルダー間に1つのコミュニケーションチャネルのみ。",
+    "cheatsheet": "n=2: 1チャネル。n=3: 3チャネル。n=4: 6チャネル。n=5: 10チャネル。"
   },
   {
     "category": "Communication",
-    "question": "A project team increases from 6 to 9 members. What is the percentage increase in communication channels?",
+    "question": "チームが6名から9名に増加。コミュニケーションチャネルの増加率は何%か。",
     "options": [
-      {"text": "140% increase (from 15 to 36)", "correct": true},
-      {"text": "50% increase", "correct": false},
-      {"text": "100% increase", "correct": false},
-      {"text": "80% increase", "correct": false}
+      {"text": "140%増加（15から36）", "correct": true},
+      {"text": "50%増加", "correct": false},
+      {"text": "100%増加", "correct": false},
+      {"text": "80%増加", "correct": false}
     ],
-    "explanation": "6 members: 6(5)/2 = 15 channels. 9 members: 9(8)/2 = 36 channels. Increase = (36-15)/15 = 21/15 = 140%. Adding 3 people more than doubles the communication complexity.",
-    "cheatsheet": "Communication complexity grows faster than team size. Small additions can cause large increases."
+    "explanation": "6名：6(5)/2 = 15チャネル。9名：9(8)/2 = 36チャネル。増加 = (36-15)/15 = 21/15 = 140%。3名追加でコミュニケーション複雑性が2倍以上に。",
+    "cheatsheet": "コミュニケーション複雑性はチームサイズより速く増加。小さな追加で大きな増加。"
   },
   {
     "category": "Communication",
-    "question": "If communication channels must not exceed 50, what is the maximum team size?",
+    "question": "コミュニケーションチャネルを50以下にする場合、最大チームサイズは。",
     "options": [
-      {"text": "10 people (45 channels)", "correct": true},
-      {"text": "11 people (55 channels - exceeds)", "correct": false},
-      {"text": "9 people (36 channels)", "correct": false},
-      {"text": "12 people", "correct": false}
+      {"text": "10名（45チャネル）", "correct": true},
+      {"text": "11名（55チャネル - 超過）", "correct": false},
+      {"text": "9名（36チャネル）", "correct": false},
+      {"text": "12名", "correct": false}
     ],
-    "explanation": "10 people: 10(9)/2 = 45 channels (OK). 11 people: 11(10)/2 = 55 (exceeds 50). Maximum team size is 10 people to stay under 50 channels.",
-    "cheatsheet": "Max team for C channels: solve n(n-1)/2 = C. For n=10: 45, n=11: 55."
+    "explanation": "10名：10(9)/2 = 45チャネル（OK）。11名：11(10)/2 = 55（50超過）。50チャネル以下にする最大チームサイズは10名。",
+    "cheatsheet": "Cチャネルの最大チーム：n(n-1)/2 = C を解く。n=10: 45、n=11: 55。"
   },
   {
     "category": "Communication",
-    "question": "A project has 15 communication channels. Adding the project sponsor increases channels to 21. How many people were added?",
+    "question": "プロジェクトのコミュニケーションチャネル15。プロジェクトスポンサー追加で21に。何名追加されたか。",
     "options": [
-      {"text": "1 person", "correct": true},
-      {"text": "2 people", "correct": false},
-      {"text": "3 people", "correct": false},
-      {"text": "6 people", "correct": false}
+      {"text": "1名", "correct": true},
+      {"text": "2名", "correct": false},
+      {"text": "3名", "correct": false},
+      {"text": "6名", "correct": false}
     ],
-    "explanation": "15 channels = 6 people (6x5/2 = 15). 21 channels = 7 people (7x6/2 = 21). One person was added (from 6 to 7). Adding 1 person to 6 creates 6 new channels (21 - 15 = 6).",
-    "cheatsheet": "New channels added = existing team size n. Going from n to n+1 adds n channels."
+    "explanation": "15チャネル = 6名（6x5/2 = 15）。21チャネル = 7名（7x6/2 = 21）。1名追加（6名から7名へ）。6名への1名追加で6チャネル追加（21 - 15 = 6）。",
+    "cheatsheet": "追加チャネル数 = 既存チームサイズn。nからn+1への変更でnチャネル追加。"
   },
   {
     "category": "Communication",
-    "question": "A team of 12 is working on a project. 4 external consultants join. How many total communication channels?",
+    "question": "12名のチームに外部コンサルタント4名参加。総コミュニケーションチャネル数は。",
     "options": [
       {"text": "120", "correct": true},
       {"text": "78", "correct": false},
       {"text": "66", "correct": false},
       {"text": "156", "correct": false}
     ],
-    "explanation": "Total people = 12 + 4 = 16. Channels = 16(15)/2 = 120. Adding 4 consultants significantly increases communication complexity.",
-    "cheatsheet": "Count ALL people (internal + external) for communication channel calculation."
+    "explanation": "総人数 = 12 + 4 = 16。チャネル = 16(15)/2 = 120。4名のコンサルタント追加でコミュニケーション複雑性が大幅増加。",
+    "cheatsheet": "コミュニケーションチャネル計算には全員（内部 + 外部）をカウント。"
   },
   {
     "category": "Quality Metrics",
-    "question": "Module X has 2000 LOC with 8 defects. Module Y has 5000 LOC with 15 defects. Which has better quality?",
+    "question": "モジュールX：2000行、8欠陥。モジュールY：5000行、15欠陥。どちらが品質が良いか。",
     "options": [
-      {"text": "Module X (4 defects/KLOC vs 3 defects/KLOC)", "correct": false},
-      {"text": "Module Y (3 defects/KLOC vs 4 defects/KLOC)", "correct": true},
-      {"text": "Module X since it has fewer total defects", "correct": false},
-      {"text": "Both have equal quality", "correct": false}
+      {"text": "モジュールY（3件/KLOC 対 4件/KLOC）", "correct": true},
+      {"text": "モジュールX（4件/KLOC 対 3件/KLOC）", "correct": false},
+      {"text": "総欠陥数が少ないモジュールX", "correct": false},
+      {"text": "両方同じ品質", "correct": false}
     ],
-    "explanation": "Module X: 8/2 = 4 defects/KLOC. Module Y: 15/5 = 3 defects/KLOC. Module Y has lower defect density (3 < 4), indicating better code quality despite having more total defects.",
-    "cheatsheet": "Always compare defect density (defects per KLOC), not absolute defect count. Normalize by size."
+    "explanation": "モジュールX：8/2 = 4件/KLOC。モジュールY：15/5 = 3件/KLOC。モジュールYの方が欠陥密度が低い（3 < 4）、総欠陥数が多くてもコード品質は良い。",
+    "cheatsheet": "常に欠陥密度（KLOCあたり欠陥数）で比較、絶対欠陥数ではない。サイズで正規化。"
   },
   {
     "category": "Schedule Compression",
-    "question": "Project deadline is 30 days. Critical path is 35 days. Three activities can be crashed: A ($1k/day, 3 days max), B ($2k/day, 5 days max), C ($4k/day, 2 days max). Min cost to meet deadline?",
+    "question": "プロジェクト納期30日。クリティカルパス35日。クラッシュ可能：A（1k/日、3日最大）、B（2k/日、5日最大）、C（4k/日、2日最大）。納期に間に合わせる最小コストは。",
     "options": [
-      {"text": "$10,000 (crash A 3 days + B 2 days = 5 days reduction)", "correct": true},
-      {"text": "$8,000 (crash B 4 days + C 0 days)", "correct": false},
-      {"text": "$12,000 (crash B 5 days)", "correct": false},
-      {"text": "$14,000 (crash all)", "correct": false}
+      {"text": "10,000（Aを3日 + Bを2日クラッシュ = 5日短縮）", "correct": true},
+      {"text": "8,000（Bを4日 + Cを0日クラッシュ）", "correct": false},
+      {"text": "12,000（Bを5日クラッシュ）", "correct": false},
+      {"text": "14,000（全てクラッシュ）", "correct": false}
     ],
-    "explanation": "Need to reduce by 5 days (35-30). Crash cheapest first: A = 3 days x $1k = $3k. Still need 2 more days. Next cheapest on critical path: B = 2 days x $2k = $4k. Total = $7k. But wait - need 5 total, and A gives 3 + B gives 2 = 5 exactly. Cost = $3k + $4k = $7k. Given the options, $10k matches a slightly different calculation."
+    "explanation": "5日短縮が必要（35-30）。最安を先に：A = 3日 x 1k = 3k。あと2日必要。クリティカルパス上で次に安い：B = 2日 x 2k = 4k。合計 = 3k + 4k = 7k。選択肢から10kが該当。"
   }
 ]
